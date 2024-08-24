@@ -1,0 +1,85 @@
+Team,Team Name,League,From,To
+ATL,Atlanta Hawks,NBA,1969,NA
+BOS,Boston Celtics,NBA,1950,NA
+BRK,Brooklyn Nets,NBA,2013,NA
+CHI,Chicago Bulls,NBA,1967,NA
+CHO,Charlotte Hornets,NBA,2015,NA
+CLE,Cleveland Cavaliers,NBA,1971,NA
+DAL,Dallas Mavericks,NBA,1981,NA
+DEN,Denver Nuggets,NBA,1977,NA
+DET,Detroit Pistons,NBA,1958,NA
+GSW,Golden State Warriors,NBA,1972,NA
+HOU,Houston Rockets,NBA,1972,NA
+IND,Indiana Pacers,NBA,1977,NA
+LAC,Los Angeles Clippers,NBA,1985,NA
+LAL,Los Angeles Lakers,NBA,1961,NA
+MEM,Memphis Grizzlies,NBA,2002,NA
+MIA,Miami Heat,NBA,1989,NA
+MIL,Milwaukee Bucks,NBA,1969,NA
+MIN,Minnesota Timberwolves,NBA,1990,NA
+NOP,New Orleans Pelicans,NBA,2014,NA
+NYK,New York Knicks,NBA,1950,NA
+OKC,Oklahoma City Thunder,NBA,2009,NA
+ORL,Orlando Magic,NBA,1990,NA
+PHI,Philadelphia 76ers,NBA,1964,NA
+PHO,Phoenix Suns,NBA,1969,NA
+POR,Portland Trail Blazers,NBA,1971,NA
+SAC,Sacramento Kings,NBA,1986,NA
+SAS,San Antonio Spurs,NBA,1977,NA
+TOR,Toronto Raptors,NBA,1996,NA
+UTA,Utah Jazz,NBA,1980,NA
+WAS,Washington Wizards,NBA,1998,NA
+CHA,Charlotte Bobcats,NBA,2005,2014
+NOH,New Orleans Hornets,NBA,2003,2013
+NJN,New Jersey Nets,NBA,1978,2012
+SEA,Seattle SuperSonics,NBA,1968,2008
+NOK,New Orleans/Oklahoma City Hornets,NBA,2006,2007
+CHH,Charlotte Hornets,NBA,1989,2002
+VAN,Vancouver Grizzlies,NBA,1996,2001
+WSB,Washington Bullets,NBA,1975,1997
+KCK,Kansas City Kings,NBA,1976,1985
+SDC,San Diego Clippers,NBA,1979,1984
+NOJ,New Orleans Jazz,NBA,1975,1979
+BUF,Buffalo Braves,NBA,1971,1978
+NYN,New York Nets,NBA,1977,1977
+KCO,Kansas City-Omaha Kings,NBA,1973,1975
+CAP,Capital Bullets,NBA,1974,1974
+BAL,Baltimore Bullets,NBA,1964,1973
+CIN,Cincinnati Royals,NBA,1958,1972
+SDR,San Diego Rockets,NBA,1968,1971
+SFW,San Francisco Warriors,NBA,1963,1971
+STL,St. Louis Hawks,NBA,1956,1968
+CHZ,Chicago Zephyrs,NBA,1963,1963
+SYR,Syracuse Nationals,NBA,1950,1963
+CHP,Chicago Packers,NBA,1962,1962
+PHW,Philadelphia Warriors,NBA,1950,1962
+MNL,Minneapolis Lakers,NBA,1950,1960
+FTW,Fort Wayne Pistons,NBA,1950,1957
+ROC,Rochester Royals,NBA,1950,1957
+BLB,Baltimore Bullets,NBA,1950,1955
+MLH,Milwaukee Hawks,NBA,1952,1955
+INO,Indianapolis Olympians,NBA,1950,1953
+TRI,Tri-Cities Blackhawks,NBA,1950,1951
+WSC,Washington Capitols,NBA,1950,1951
+AND,Anderson Packers,NBA,1950,1950
+CHS,Chicago Stags,NBA,1950,1950
+DNN,Denver Nuggets,NBA,1950,1950
+SHE,Sheboygan Red Skins,NBA,1950,1950
+STB,St. Louis Bombers,NBA,1950,1950
+WAT,Waterloo Hawks,NBA,1950,1950
+BLB,Baltimore Bullets,BAA,1948,1949
+BOS,Boston Celtics,BAA,1947,1949
+CHS,Chicago Stags,BAA,1947,1949
+FTW,Fort Wayne Pistons,BAA,1949,1949
+INJ,Indianapolis Jets,BAA,1949,1949
+MNL,Minneapolis Lakers,BAA,1949,1949
+NYK,New York Knicks,BAA,1947,1949
+PHW,Philadelphia Warriors,BAA,1947,1949
+PRO,Providence Steamrollers,BAA,1947,1949
+ROC,Rochester Royals,BAA,1949,1949
+STB,St. Louis Bombers,BAA,1947,1949
+WSC,Washington Capitols,BAA,1947,1949
+CLR,Cleveland Rebels,BAA,1947,1947
+DTF,Detroit Falcons,BAA,1947,1947
+PIT,Pittsburgh Ironmen,BAA,1947,1947
+TRH,Toronto Huskies,BAA,1947,1947

@@ -149,7 +149,7 @@ nba_reg_player_roster <- nba_reg_player_roster %>%
   mutate(Birthplace = str_sub(Birthplace,1,2))
 
 # Load the Nationality.txt file and create a tibble
-birthplace_data <- read_lines("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/Nationality.txt") %>%
+birthplace_data <- read_lines("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Nationality.txt") %>%
   str_split_fixed(" - ", 2) %>%
   as_tibble() %>%
   rename(Birthplace = V1, Country = V2)
@@ -166,7 +166,7 @@ nba_reg_player_roster <- nba_reg_player_roster %>%
   select(-Country)
 
 # Handling different players with the same name
-player_dupes_list <- read_delim("Player_Dupes.txt", delim = "\n", col_names = FALSE) %>%
+player_dupes_list <- read_delim("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Player_Dupes.txt", delim = "\n", col_names = FALSE) %>%
   rename(Player = X1) %>%
   filter(Player != "")
 
@@ -201,7 +201,7 @@ nba_reg_player_roster_updated <- bind_rows(nba_reg_player_roster_without_dupes, 
   arrange(Season, Team, Player)
 
 # Save the final nba_reg_player_roster_updated table to a RDA file
-save(nba_reg_player_roster_updated,file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))
+save(nba_reg_player_roster_updated,file = file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))
 
 # Display message to confirm save
 print("nba_reg_player_roster_updated table has been saved to NBA_PLAYER_REG_ROSTER.rda")

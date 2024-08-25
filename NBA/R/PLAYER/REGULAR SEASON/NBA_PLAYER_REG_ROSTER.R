@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 8/24/2024
-# Latest Update: 8/24/2024
+# Latest Update: 8/25/2024
 
 # This file will run scrape code to grab roster data from each season
 # This file is very important when running as it will separate duplicate players
@@ -198,7 +198,13 @@ nba_reg_player_roster_without_dupes <- nba_reg_player_roster %>%
 
 # Combine the updated player names back to the original data frame
 nba_reg_player_roster_updated <- bind_rows(nba_reg_player_roster_without_dupes, player_dupes_with_suffixes) %>%
-  arrange(Season, Team, Player)
+  arrange(Season, Team, Player) %>%
+  rename(`Team Abbr.` = Team)
+
+# Add the correct 'Team Name' and 'League' from the 'nba_urls' data frame
+nba_reg_player_roster_updated <- nba_reg_player_roster_updated %>%
+  left_join(nba_urls %>% select(URL, `Team Abbr.`, `Team Name`, League),
+            by = c("URL", "Team Abbr."))
 
 # Save the final nba_reg_player_roster_updated table to a RDA file
 save(nba_reg_player_roster_updated,file = file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))

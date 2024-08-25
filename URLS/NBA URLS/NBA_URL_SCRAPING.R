@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 8/23/2024
-# Latest Update: 8/23/2024
+# Latest Update: 8/24/2024
 
 # This file will be scraping for NBA URLs from Basketball-Reference.com including
   # Each league season, every NBA team from the inaugural 1947 season to today,
@@ -10,11 +10,7 @@
   # NBA_LEAGUE_INFO.csv & NBA_STANDINGS.csv
   # These files are hard-written and will be updated on a weekly-basis during the season
 
-# Install and library Packages
-# If you don't have these installed run these two codes below this line
-# install.packages("tidyverse")
-# install.packages("httr")
-# install.packages("hoopR")
+# Install and library Packages - refer to 'PACKAGES' file for installation
 
 library(tidyverse)
 library(httr)

@@ -1,0 +1,92 @@
+ag - Antigua and Barbuda
+ao - Angola
+ar - Argentina
+at - Austria
+au - Australia
+ba - Bosnia and Herzegovina
+be - Belgium
+bg - Bulgaria
+br - Brazil
+bs - Bahamas
+ca - Canada
+cd - Democratic Republic of the Congo
+cg - Republic of the Congo
+ch - Switzerland
+cm - Cameroon
+cn - China
+co - Colombia
+cu - Cuba
+cv - Cabo Verde
+cy - Cyprus
+cz - Czechia
+de - Germany
+dk - Denmark
+dm - Dominica
+do - Dominican Republic
+ee - Estonia
+eg - Egypt
+es - Spain
+fi - Finland
+fr - France
+ga - Gabon
+gb - United Kingdom
+ge - Georgia
+gf - French Guiana
+gh - Ghana
+gn - Guinea
+gp - Guadeloupe
+gr - Greece
+gy - Guyana
+hr - Croatia
+ht - Haiti
+hu - Hungary
+ie - Ireland
+il - Israel
+ir - Iran
+is - Iceland
+it - Italy
+jm - Jamaica
+jp - Japan
+kr - South Korea
+lb - Lebanon
+lc - Saint Lucia
+lt - Lithuania
+lu - Luxembourg
+lv - Latvia
+ma - Morocco
+me - Montenegro
+mk - North Macedonia
+ml - Mali
+mq - Martinique
+mx - Mexico
+ng - Nigeria
+nl - Netherlands
+no - Norway
+nz - New Zealand
+pa - Panama
+pl - Poland
+pr - Puerto Rico
+pt - Portugal
+ro - Romania
+rs - Serbia
+ru - Russia
+sd - Sudan
+se - Sweden
+si - Slovenia
+sk - Slovakia
+sn - Senegal
+ss - South Sudan
+tn - Tunisia
+tr - Turkey
+tt - Trinidad and Tobago
+tw - Taiwan
+tz - Tanzania
+ua - Ukraine
+uk - United Kingdom
+us - United States
+uy - Uruguay
+vc - Saint Vincent and the Grenadines
+ve - Venezuela
+vg - British Virgin Islands
+vi - U.S. Virgin Islands
+za - South Africa

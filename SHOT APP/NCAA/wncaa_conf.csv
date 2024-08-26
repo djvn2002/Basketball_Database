@@ -1,0 +1,606 @@
+team_display_name,team_abbreviation,conference,join_season1,left_season1,join_season2,left_season2,join_season3,left_season3,current_member
+Davidson Wildcats,DAV,A-10,2015,NA,NA,NA,NA,NA,Y
+Dayton Flyers,DAY,A-10,1996,NA,NA,NA,NA,NA,Y
+Duquesne Dukes,DUQ,A-10,1984,NA,NA,NA,NA,NA,Y
+Fordham Rams,FOR,A-10,1996,NA,NA,NA,NA,NA,Y
+George Mason Patriots,GMU,A-10,2014,NA,NA,NA,NA,NA,Y
+George Washington Revolutionaries,GW,A-10,1983,NA,NA,NA,NA,NA,Y
+La Salle Explorers,LAS,A-10,1996,NA,NA,NA,NA,NA,Y
+Loyola Chicago Ramblers,LUC,A-10,2023,NA,NA,NA,NA,NA,Y
+Massachusetts Minutewomen,MASS,A-10,1983,NA,NA,NA,NA,NA,Y
+Rhode Island Rams,URI,A-10,1983,NA,NA,NA,NA,NA,Y
+Richmond Spiders,RICH,A-10,2002,NA,NA,NA,NA,NA,Y
+Saint Joseph's Hawks,JOES,A-10,1984,NA,NA,NA,NA,NA,Y
+Saint Louis Billikens,SLU,A-10,2006,NA,NA,NA,NA,NA,Y
+St. Bonaventure Bonnies,SBU,A-10,1987,NA,NA,NA,NA,NA,Y
+VCU Rams,VCU,A-10,2013,NA,NA,NA,NA,NA,Y
+Butler Bulldogs,BUT,A-10,2013,2014,NA,NA,NA,NA,N
+Charlotte 49ers,CHAR,A-10,2006,2014,NA,NA,NA,NA,N
+Temple Owls,TEM,A-10,1984,2014,NA,NA,NA,NA,N
+Virginia Tech Hokies,VT,A-10,1996,2001,NA,NA,NA,NA,N
+Xavier Musketeers,XAV,A-10,1996,2014,NA,NA,NA,NA,N
+Charlotte 49ers,CHAR,AAC,2024,NA,NA,NA,NA,NA,Y
+East Carolina Pirates,ECU,AAC,2015,NA,NA,NA,NA,NA,Y
+Florida Atlantic Owls,FAU,AAC,2024,NA,NA,NA,NA,NA,Y
+Memphis Tigers,MEM,AAC,2014,NA,NA,NA,NA,NA,Y
+North Texas Mean Green,UNT,AAC,2024,NA,NA,NA,NA,NA,Y
+Rice Owls,RICE,AAC,2024,NA,NA,NA,NA,NA,Y
+South Florida Bulls,USF,AAC,2014,NA,NA,NA,NA,NA,Y
+Temple Owls,TEM,AAC,2014,NA,NA,NA,NA,NA,Y
+Tulane Green Wave,TULN,AAC,2015,NA,NA,NA,NA,NA,Y
+Tulsa Golden Hurricane,TLSA,AAC,2015,NA,NA,NA,NA,NA,Y
+UAB Blazers,UAB,AAC,2024,NA,NA,NA,NA,NA,Y
+UTSA Roadrunners,UTSA,AAC,2024,NA,NA,NA,NA,NA,Y
+Wichita State Shockers,WICH,AAC,2018,NA,NA,NA,NA,NA,Y
+Cincinnati Bearcats,CIN,AAC,2014,2024,NA,NA,NA,NA,N
+Houston Cougars,HOU,AAC,2014,2024,NA,NA,NA,NA,N
+Louisville Cardinals,LOU,AAC,2014,2015,NA,NA,NA,NA,N
+Rutgers Scarlet Knights,RUTG,AAC,2014,2015,NA,NA,NA,NA,N
+SMU Mustangs,SMU,AAC,2014,2025,NA,NA,NA,NA,N
+UCF Knights,UCF,AAC,2014,2024,NA,NA,NA,NA,N
+UConn Huskies,CONN,AAC,2014,2021,NA,NA,NA,NA,N
+Boston College Eagles,BC,ACC,2006,NA,NA,NA,NA,NA,Y
+California Golden Bears,CAL,ACC,2025,NA,NA,NA,NA,NA,Y
+Clemson Tigers,CLEM,ACC,1982,NA,NA,NA,NA,NA,Y
+Duke Blue Devils,DUKE,ACC,1983,NA,NA,NA,NA,NA,Y
+Florida State Seminoles,FSU,ACC,1992,NA,NA,NA,NA,NA,Y
+Georgia Tech Yellow Jackets,GT,ACC,1982,NA,NA,NA,NA,NA,Y
+Louisville Cardinals,LOU,ACC,2015,NA,NA,NA,NA,NA,Y
+Miami Hurricanes,MIA,ACC,2005,NA,NA,NA,NA,NA,Y
+NC State Wolfpack,NCST,ACC,1982,NA,NA,NA,NA,NA,Y
+North Carolina Tar Heels,UNC,ACC,1982,NA,NA,NA,NA,NA,Y
+Notre Dame Fighting Irish,ND,ACC,2014,NA,NA,NA,NA,NA,Y
+Pittsburgh Panthers,PITT,ACC,2014,NA,NA,NA,NA,NA,Y
+SMU Mustangs,SMU,ACC,2025,NA,NA,NA,NA,NA,Y
+Stanford Cardinal,STAN,ACC,2025,NA,NA,NA,NA,NA,Y
+Syracuse Orange,SYR,ACC,2014,NA,NA,NA,NA,NA,Y
+Virginia Cavaliers,UVA,ACC,1982,NA,NA,NA,NA,NA,Y
+Virginia Tech Hokies,VT,ACC,2005,NA,NA,NA,NA,NA,Y
+Wake Forest Demon Deacons,WAKE,ACC,1982,NA,NA,NA,NA,NA,Y
+Maryland Terrapins,MD,ACC,1982,2015,NA,NA,NA,NA,N
+Albany Great Danes,ALB,AEC,2002,NA,NA,NA,NA,NA,Y
+Binghamton Bearcats,BING,AEC,2002,NA,NA,NA,NA,NA,Y
+Bryant Bulldogs,BRY,AEC,2023,NA,NA,NA,NA,NA,Y
+Maine Black Bears,ME,AEC,1990,NA,NA,NA,NA,NA,Y
+New Hampshire Wildcats,UNH,AEC,1990,NA,NA,NA,NA,NA,Y
+NJIT Highlanders,NJIT,AEC,2021,NA,NA,NA,NA,NA,Y
+UMass Lowell River Hawks,UML,AEC,2014,NA,NA,NA,NA,NA,Y
+UMBC Retrievers,UMBC,AEC,2004,NA,NA,NA,NA,NA,Y
+Vermont Catamounts,UVM,AEC,1990,NA,NA,NA,NA,NA,Y
+Boston University Terriers,BU,AEC,1983,2014,NA,NA,NA,NA,N
+Delaware Blue Hens,DEL,AEC,1992,2002,NA,NA,NA,NA,N
+Drexel Dragons,DREX,AEC,1992,2002,NA,NA,NA,NA,N
+Hartford Hawks,HART,AEC,1990,2023,NA,NA,NA,NA,N
+Hofstra Pride,HOF,AEC,1995,2002,NA,NA,NA,NA,N
+Northeastern Huskies,NE,AEC,1990,2006,NA,NA,NA,NA,N
+Stony Brook Seawolves,STBK,AEC,2002,2023,NA,NA,NA,NA,N
+Towson Tigers,TOW,AEC,1996,2002,NA,NA,NA,NA,N
+Austin Peay Governors,APSU,A-Sun,2023,NA,NA,NA,NA,NA,Y
+Bellarmine Knights,BELL,A-Sun,2021,NA,NA,NA,NA,NA,Y
+Central Arkansas Sugar Bears,CARK,A-Sun,2022,NA,NA,NA,NA,NA,Y
+Eastern Kentucky Colonels,EKU,A-Sun,2022,NA,NA,NA,NA,NA,Y
+Florida Gulf Coast Eagles,FGCU,A-Sun,2008,NA,NA,NA,NA,NA,Y
+Jacksonville Dolphins,JAX,A-Sun,2000,NA,NA,NA,NA,NA,Y
+Lipscomb Bisons,LIP,A-Sun,2004,NA,NA,NA,NA,NA,Y
+North Alabama Lions,UNA,A-Sun,2019,NA,NA,NA,NA,NA,Y
+North Florida Ospreys,UNF,A-Sun,2006,NA,NA,NA,NA,NA,Y
+Queens University Royals,QUOC,A-Sun,2023,NA,NA,NA,NA,NA,Y
+Stetson Hatters,STET,A-Sun,1992,NA,NA,NA,NA,NA,Y
+West Georgia Wolves,UWG,A-Sun,2025,NA,NA,NA,NA,NA,Y
+Belmont Bruins,BEL,A-Sun,2002,2013,NA,NA,NA,NA,N
+Campbell Fighting Camels,CAMP,A-Sun,1995,2012,NA,NA,NA,NA,N
+East Tennessee State Buccaneers,ETSU,A-Sun,2006,2015,NA,NA,NA,NA,N
+Florida Atlantic Owls,FAU,A-Sun,1994,2007,NA,NA,NA,NA,N
+Gardner-Webb Runnin' Bulldogs,GWEB,A-Sun,2003,2009,NA,NA,NA,NA,N
+Georgia State Panthers,GAST,A-Sun,1992,2006,NA,NA,NA,NA,N
+Jacksonville State Gamecocks,JVST,A-Sun,1996,2004,2022,2024,NA,NA,N
+Kennesaw State Owls,KENN,A-Sun,2006,2025,NA,NA,NA,NA,N
+Liberty Flames,LIB,A-Sun,2019,2024,NA,NA,NA,NA,N
+Mercer Bears,MER,A-Sun,1992,2015,NA,NA,NA,NA,N
+NJIT Highlanders,NJIT,A-Sun,2016,2021,NA,NA,NA,NA,N
+Northern Kentucky Norse,NKU,A-Sun,2013,2016,NA,NA,NA,NA,N
+Samford Bulldogs,SAM,A-Sun,1998,2004,NA,NA,NA,NA,N
+South Carolina Upstate Spartans,SCUP,A-Sun,2008,2019,NA,NA,NA,NA,N
+Troy Trojans,TROY,A-Sun,1998,2006,NA,NA,NA,NA,N
+UCF Knights,UCF,A-Sun,1993,2006,NA,NA,NA,NA,N
+Arizona State Sun Devils,ASU,Big 12,2025,NA,NA,NA,NA,NA,Y
+Arizona Wildcats,ARIZ,Big 12,2025,NA,NA,NA,NA,NA,Y
+Baylor Bears,BAY,Big 12,1997,NA,NA,NA,NA,NA,Y
+BYU Cougars,BYU,Big 12,2024,NA,NA,NA,NA,NA,Y
+Cincinnati Bearcats,CIN,Big 12,2024,NA,NA,NA,NA,NA,Y
+Colorado Buffaloes,COLO,Big 12,1997,2012,2025,NA,NA,NA,Y
+Houston Cougars,HOU,Big 12,2024,NA,NA,NA,NA,NA,Y
+Iowa State Cyclones,ISU,Big 12,1997,NA,NA,NA,NA,NA,Y
+Kansas Jayhawks,KU,Big 12,1997,NA,NA,NA,NA,NA,Y
+Kansas State Wildcats,KSU,Big 12,1997,NA,NA,NA,NA,NA,Y
+Oklahoma State Cowgirls,OKST,Big 12,1997,NA,NA,NA,NA,NA,Y
+TCU Horned Frogs,TCU,Big 12,2013,NA,NA,NA,NA,NA,Y
+Texas Tech Lady Raiders,TTU,Big 12,1997,NA,NA,NA,NA,NA,Y
+UCF Knights,UCF,Big 12,2024,NA,NA,NA,NA,NA,Y
+Utah Utes,UTAH,Big 12,2025,NA,NA,NA,NA,NA,Y
+West Virginia Mountaineers,WVU,Big 12,2013,NA,NA,NA,NA,NA,Y
+Missouri Tigers,MIZ,Big 12,1997,2013,NA,NA,NA,NA,N
+Nebraska Cornhuskers,NEB,Big 12,1997,2012,NA,NA,NA,NA,N
+Oklahoma Sooners,OU,Big 12,1997,2025,NA,NA,NA,NA,N
+Texas A&M Aggies,TA&M,Big 12,1997,2013,NA,NA,NA,NA,N
+Texas Longhorns,TEX,Big 12,1997,2025,NA,NA,NA,NA,N
+Butler Bulldogs,BUT,Big East,2014,NA,NA,NA,NA,NA,Y
+Creighton Bluejays,CREI,Big East,2014,NA,NA,NA,NA,NA,Y
+DePaul Blue Demons,DEP,Big East,2006,NA,NA,NA,NA,NA,Y
+Georgetown Hoyas,GTWN,Big East,1984,NA,NA,NA,NA,NA,Y
+Marquette Golden Eagles,MARQ,Big East,2006,NA,NA,NA,NA,NA,Y
+Providence Friars,PROV,Big East,1982,NA,NA,NA,NA,NA,Y
+Seton Hall Pirates,HALL,Big East,1983,NA,NA,NA,NA,NA,Y
+St. John's Red Storm,SJU,Big East,1983,NA,NA,NA,NA,NA,Y
+UConn Huskies,CONN,Big East,1983,2014,2021,NA,NA,NA,Y
+Villanova Wildcats,VILL,Big East,1983,NA,NA,NA,NA,NA,Y
+Xavier Musketeers,XAV,Big East,2014,NA,NA,NA,NA,NA,Y
+Boston College Eagles,BC,Big East,1983,2006,NA,NA,NA,NA,N
+Cincinnati Bearcats,CIN,Big East,2006,2014,NA,NA,NA,NA,N
+Louisville Cardinals,LOU,Big East,2006,2014,NA,NA,NA,NA,N
+Miami Hurricanes,MIA,Big East,1992,2005,NA,NA,NA,NA,N
+Notre Dame Fighting Irish,ND,Big East,1996,2014,NA,NA,NA,NA,N
+Pittsburgh Panthers,PITT,Big East,1983,2014,NA,NA,NA,NA,N
+Rutgers Scarlet Knights,RUTG,Big East,1996,2014,NA,NA,NA,NA,N
+South Florida Bulls,USF,Big East,2006,2014,NA,NA,NA,NA,N
+Syracuse Orange,SYR,Big East,1983,2014,NA,NA,NA,NA,N
+Virginia Tech Hokies,VT,Big East,2001,2005,NA,NA,NA,NA,N
+West Virginia Mountaineers,WVU,Big East,1996,2013,NA,NA,NA,NA,N
+Eastern Washington,EWU,Big Sky,1989,NA,NA,NA,NA,NA,Y
+Idaho State Bengals,IDST,Big Sky,1989,NA,NA,NA,NA,NA,Y
+Idaho Vandals,IDHO,Big Sky,1989,1997,2015,NA,NA,NA,Y
+Montana Lady Griz,MONT,Big Sky,1989,NA,NA,NA,NA,NA,Y
+Montana State Bobcats,MTST,Big Sky,1989,NA,NA,NA,NA,NA,Y
+Northern Arizona Lumberjacks,NAU,Big Sky,1989,NA,NA,NA,NA,NA,Y
+Northern Colorado Bears,UNCO,Big Sky,2007,NA,NA,NA,NA,NA,Y
+Portland State Vikings,PRST,Big Sky,1999,NA,NA,NA,NA,NA,Y
+Sacramento State Hornets,SAC,Big Sky,1997,NA,NA,NA,NA,NA,Y
+Weber State Wildcats,WEB,Big Sky,1989,NA,NA,NA,NA,NA,Y
+Cal State Northridge Matadors,CSUN,Big Sky,1997,2002,NA,NA,NA,NA,N
+North Dakota Fighting Hawks,UND,Big Sky,2013,2019,NA,NA,NA,NA,N
+Southern Utah Thunderbirds,SUU,Big Sky,2013,2023,NA,NA,NA,NA,N
+Charleston Southern Buccaneers,CHSO,Big South,1987,NA,NA,NA,NA,NA,Y
+Gardner-Webb Runnin' Bulldogs,GWEB,Big South,2009,NA,NA,NA,NA,NA,Y
+High Point Panthers,HPU,Big South,2000,NA,NA,NA,NA,NA,Y
+Longwood Lancers,LONG,Big South,2013,NA,NA,NA,NA,NA,Y
+Presbyterian Blue Hose,PRES,Big South,2009,NA,NA,NA,NA,NA,Y
+Radford Highlanders,RAD,Big South,1987,NA,NA,NA,NA,NA,Y
+South Carolina Upstate Spartans,SCUP,Big South,2019,NA,NA,NA,NA,NA,Y
+UNC Asheville Bulldogs,UNCA,Big South,1987,NA,NA,NA,NA,NA,Y
+Winthrop Eagles,WIN,Big South,1987,NA,NA,NA,NA,NA,Y
+Birmingham-Southern Panthers,BSC,Big South,2004,2008,NA,NA,NA,NA,N
+Campbell Fighting Camels,CAMP,Big South,1987,1995,2012,2024,NA,NA,N
+Coastal Carolina Chanticleers,CCU,Big South,1987,2017,NA,NA,NA,NA,N
+Elon Phoenix,ELON,Big South,2000,2004,NA,NA,NA,NA,N
+Hampton Lady Pirates,HAMP,Big South,2019,2023,NA,NA,NA,NA,N
+Liberty Flames,LIB,Big South,1992,2019,NA,NA,NA,NA,N
+North Carolina A&T Aggies,NCAT,Big South,2022,2023,NA,NA,NA,NA,N
+Illinois Fighting Illini,ILL,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Indiana Hoosiers,IU,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Iowa Hawkeyes,IOWA,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Maryland Terrapins,MD,Big Ten,2015,NA,NA,NA,NA,NA,Y
+Michigan State Spartans,MSU,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Michigan Wolverines,MICH,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Minnesota Golden Gophers,MINN,Big Ten,1983,NA,NA,NA,NA,NA,Y
+Nebraska Cornhuskers,NEB,Big Ten,2012,NA,NA,NA,NA,NA,Y
+Northwestern Wildcats,NU,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Ohio State Buckeyes,OSU,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Oregon Ducks,ORE,Big Ten,2025,NA,NA,NA,NA,NA,Y
+Penn State Lady Lions,PSU,Big Ten,1993,NA,NA,NA,NA,NA,Y
+Purdue Boilermakers,PUR,Big Ten,1982,NA,NA,NA,NA,NA,Y
+Rutgers Scarlet Knights,RUTG,Big Ten,2015,NA,NA,NA,NA,NA,Y
+UCLA Bruins,UCLA,Big Ten,2025,NA,NA,NA,NA,NA,Y
+USC Trojans,USC,Big Ten,2025,NA,NA,NA,NA,NA,Y
+Washington Huskies,WASH,Big Ten,2025,NA,NA,NA,NA,NA,Y
+Wisconsin Badgers,WIS,Big Ten,1983,NA,NA,NA,NA,NA,Y
+Cal Poly Mustangs,CP,Big West,1997,NA,NA,NA,NA,NA,Y
+Cal State Bakersfield Roadrunners,CSUB,Big West,2021,NA,NA,NA,NA,NA,Y
+Cal State Fullerton Titans,CSUF,Big West,1986,NA,NA,NA,NA,NA,Y
+Cal State Northridge Matadors,CSUN,Big West,2002,NA,NA,NA,NA,NA,Y
+Hawai'i Rainbow Wahine,HAW,Big West,1985,NA,NA,NA,NA,NA,Y
+Long Beach State Beach,LBSU,Big West,1986,NA,NA,NA,NA,NA,Y
+UC Davis Aggies,UCD,Big West,2008,NA,NA,NA,NA,NA,Y
+UC Irvine Anteaters,UCI,Big West,1988,NA,NA,NA,NA,NA,Y
+UC Riverside Highlanders,UCR,Big West,2002,NA,NA,NA,NA,NA,Y
+UC San Diego Tritons,UCSD,Big West,2021,NA,NA,NA,NA,NA,Y
+UC Santa Barbara Gauchos,UCSB,Big West,1984,NA,NA,NA,NA,NA,Y
+Boise State Broncos,BOIS,Big West,1997,2002,NA,NA,NA,NA,N
+Idaho Vandals,IDHO,Big West,1997,2006,NA,NA,NA,NA,N
+Nevada Wolf Pack,NEV,Big West,1993,2001,NA,NA,NA,NA,N
+New Mexico State Aggies,NMSU,Big West,1991,2001,NA,NA,NA,NA,N
+North Texas Mean Green,UNT,Big West,1997,2001,NA,NA,NA,NA,N
+Pacific Tigers,PAC,Big West,1985,2014,NA,NA,NA,NA,N
+Utah State Aggies,USU,Big West,2004,2006,NA,NA,NA,NA,N
+Campbell Fighting Camels,CAMP,CAA,2024,NA,NA,NA,NA,NA,Y
+Charleston Cougars,COFC,CAA,2014,NA,NA,NA,NA,NA,Y
+Delaware Blue Hens,DEL,CAA,2002,NA,NA,NA,NA,NA,Y
+Drexel Dragons,DREX,CAA,2002,NA,NA,NA,NA,NA,Y
+Elon Phoenix,ELON,CAA,2015,NA,NA,NA,NA,NA,Y
+Hampton Lady Pirates,HAMP,CAA,2023,NA,NA,NA,NA,NA,Y
+Hofstra Pride,HOF,CAA,2002,NA,NA,NA,NA,NA,Y
+Monmouth Hawks,MONM,CAA,2023,NA,NA,NA,NA,NA,Y
+North Carolina A&T Aggies,NCAT,CAA,2023,NA,NA,NA,NA,NA,Y
+Northeastern Huskies,NE,CAA,2006,NA,NA,NA,NA,NA,Y
+Stony Brook Seawolves,STBK,CAA,2023,NA,NA,NA,NA,NA,Y
+Towson Tigers,TOW,CAA,2002,NA,NA,NA,NA,NA,Y
+UNC Wilmington Seahawks,UNCW,CAA,1985,NA,NA,NA,NA,NA,Y
+William & Mary Tribe,W&M,CAA,1984,NA,NA,NA,NA,NA,Y
+American University Eagles,AMER,CAA,1985,2002,NA,NA,NA,NA,N
+East Carolina Pirates,ECU,CAA,1984,2002,NA,NA,NA,NA,N
+George Mason Patriots,GMU,CAA,1984,2014,NA,NA,NA,NA,N
+Georgia State Panthers,GAST,CAA,2006,2014,NA,NA,NA,NA,N
+James Madison Dukes,JMU,CAA,1984,2023,NA,NA,NA,NA,N
+Old Dominion Monarchs,ODU,CAA,1992,2014,NA,NA,NA,NA,N
+Richmond Spiders,RICH,CAA,1984,2002,NA,NA,NA,NA,N
+VCU Rams,VCU,CAA,1996,2013,NA,NA,NA,NA,N
+Florida International Panthers,FIU,CUSA,2014,NA,NA,NA,NA,NA,Y
+Jacksonville State Gamecocks,JVST,CUSA,2024,NA,NA,NA,NA,NA,Y
+Kennesaw State Owls,KENN,CUSA,2025,NA,NA,NA,NA,NA,Y
+Liberty Flames,LIB,CUSA,2024,NA,NA,NA,NA,NA,Y
+Louisiana Tech Lady Techsters,LT,CUSA,2014,NA,NA,NA,NA,NA,Y
+Middle Tennessee Blue Raiders,MTSU,CUSA,2014,NA,NA,NA,NA,NA,Y
+New Mexico State Aggies,NMSU,CUSA,2024,NA,NA,NA,NA,NA,Y
+Sam Houston Bearkats,SHSU,CUSA,2024,NA,NA,NA,NA,NA,Y
+UTEP Miners,UTEP,CUSA,2006,NA,NA,NA,NA,NA,Y
+Western Kentucky Lady Toppers,WKU,CUSA,2015,NA,NA,NA,NA,NA,Y
+Charlotte 49ers,CHAR,CUSA,1996,2024,NA,NA,NA,NA,N
+Cincinnati Bearcats,CIN,CUSA,1996,2006,NA,NA,NA,NA,N
+DePaul Blue Demons,DEP,CUSA,1996,2006,NA,NA,NA,NA,N
+East Carolina Pirates,ECU,CUSA,2002,2015,NA,NA,NA,NA,N
+Florida Atlantic Owls,FAU,CUSA,2014,2024,NA,NA,NA,NA,N
+Houston Cougars,HOU,CUSA,1997,2014,NA,NA,NA,NA,N
+Louisville Cardinals,LOU,CUSA,1996,2006,NA,NA,NA,NA,N
+Marquette Golden Eagles,MARQ,CUSA,1996,2006,NA,NA,NA,NA,N
+Marshall Thundering Herd,MRSH,CUSA,2006,2023,NA,NA,NA,NA,N
+Memphis Tigers,MEM,CUSA,1996,2014,NA,NA,NA,NA,N
+North Texas Mean Green,UNT,CUSA,2014,2024,NA,NA,NA,NA,N
+Old Dominion Monarchs,ODU,CUSA,2014,2023,NA,NA,NA,NA,N
+Rice Owls,RICE,CUSA,2006,2024,NA,NA,NA,NA,N
+Saint Louis Billikens,SLU,CUSA,1996,2006,NA,NA,NA,NA,N
+SMU Mustangs,SMU,CUSA,2006,2014,NA,NA,NA,NA,N
+South Florida Bulls,USF,CUSA,1996,2006,NA,NA,NA,NA,N
+Southern Miss Lady Eagles,USM,CUSA,1996,2023,NA,NA,NA,NA,N
+TCU Horned Frogs,TCU,CUSA,2002,2006,NA,NA,NA,NA,N
+Tulane Green Wave,TULN,CUSA,1996,2015,NA,NA,NA,NA,N
+Tulsa Golden Hurricane,TLSA,CUSA,2006,2015,NA,NA,NA,NA,N
+UAB Blazers,UAB,CUSA,1996,2024,NA,NA,NA,NA,N
+UCF Knights,UCF,CUSA,2006,2014,NA,NA,NA,NA,N
+UTSA Roadrunners,UTSA,CUSA,2014,2024,NA,NA,NA,NA,N
+Cleveland State Vikings,CLEV,Horizon,1995,NA,NA,NA,NA,NA,Y
+Detroit Mercy Titans,DETM,Horizon,1987,NA,NA,NA,NA,NA,Y
+Green Bay Phoenix,GB,Horizon,1995,NA,NA,NA,NA,NA,Y
+IUPUI Jaguars,IUPU,Horizon,2018,NA,NA,NA,NA,NA,Y
+Milwaukee Panthers,MILW,Horizon,1995,NA,NA,NA,NA,NA,Y
+Northern Kentucky Norse,NKU,Horizon,2016,NA,NA,NA,NA,NA,Y
+Oakland Golden Grizzlies,OAK,Horizon,2014,NA,NA,NA,NA,NA,Y
+Purdue Fort Wayne Mastodons,PFW,Horizon,2021,NA,NA,NA,NA,NA,Y
+Robert Morris Colonials,RMU,Horizon,2021,NA,NA,NA,NA,NA,Y
+Wright State Raiders,WRST,Horizon,1995,NA,NA,NA,NA,NA,Y
+Youngstown State Penguins,YSU,Horizon,2002,NA,NA,NA,NA,NA,Y
+Butler Bulldogs,BUT,Horizon,1987,2013,NA,NA,NA,NA,N
+Loyola Chicago Ramblers,LUC,Horizon,1987,2014,NA,NA,NA,NA,N
+UIC Flames,UIC,Horizon,2002,2023,NA,NA,NA,NA,N
+Valparaiso Beacons,VAL,Horizon,2008,2018,NA,NA,NA,NA,N
+Alabama A&M Bulldogs,AAMU,IND,2000,2001,NA,NA,NA,NA,N
+Albany Great Danes,ALB,IND,2000,2002,NA,NA,NA,NA,N
+Belmont Bruins,BEL,IND,2000,2002,NA,NA,NA,NA,N
+Birmingham-Southern Panthers,BSC,IND,2002,2004,NA,NA,NA,NA,N
+Bryant Bulldogs,BRY,IND,2009,2010,NA,NA,NA,NA,N
+Cal State Bakersfield Roadrunners,CSUB,IND,2008,2014,NA,NA,NA,NA,N
+Centenary (LA) Ladies,CENTLA,IND,2000,2004,NA,NA,NA,NA,N
+Chicago State Cougars,CHST,IND,2023,2025,NA,NA,NA,NA,N
+Gardner-Webb Runnin' Bulldogs,GWEB,IND,2001,2003,NA,NA,NA,NA,N
+Hartford Hawks,HART,IND,2023,NA,NA,NA,NA,NA,N
+Lipscomb Bisons,LIP,IND,2001,2004,NA,NA,NA,NA,N
+New Orleans Privateers,UNO,IND,1983,1988,2011,2014,NA,NA,N
+NJIT Highlanders,NJIT,IND,2014,2016,NA,NA,NA,NA,N
+North Carolina Central Eagles,NCCU,IND,2009,2011,NA,NA,NA,NA,N
+North Dakota Fighting Hawks,UND,IND,2009,2010,NA,NA,NA,NA,N
+North Dakota State Bison,NDSU,IND,2006,2008,NA,NA,NA,NA,N
+Omaha Mavericks,OMA,IND,2012,2013,NA,NA,NA,NA,N
+Presbyterian Blue Hose,PRES,IND,2008,2009,NA,NA,NA,NA,N
+Purdue Fort Wayne Mastodons,PFW,IND,2002,2008,NA,NA,NA,NA,N
+Savannah State Tigers,SAV,IND,2003,2012,NA,NA,NA,NA,N
+Seattle U Redhawks,SEA,IND,2009,2013,NA,NA,NA,NA,N
+SIU Edwardsville Cougars,SIUE,IND,2009,2012,NA,NA,NA,NA,N
+South Dakota Coyotes,SDAK,IND,2009,2010,NA,NA,NA,NA,N
+South Dakota State Jackrabbits,SDST,IND,2005,2008,NA,NA,NA,NA,N
+Stony Brook Seawolves,STBK,IND,2000,2002,NA,NA,NA,NA,N
+Texas A&M-Corpus Christi Islanders,AMCC,IND,2000,2007,NA,NA,NA,NA,N
+UC Davis Aggies,UCD,IND,2005,2008,NA,NA,NA,NA,N
+UT Rio Grande Valley Vaqueros,RGV,IND,1986,1988,1999,2010,NA,NA,N
+Utah Valley Wolverines,UVU,IND,2004,2010,NA,NA,NA,NA,N
+Brown Bears,BRWN,Ivy,1982,NA,NA,NA,NA,NA,Y
+Columbia Lions,COLU,Ivy,1987,NA,NA,NA,NA,NA,Y
+Cornell Big Red,COR,Ivy,1982,NA,NA,NA,NA,NA,Y
+Dartmouth Big Green,DART,Ivy,1982,NA,NA,NA,NA,NA,Y
+Harvard Crimson,HARV,Ivy,1982,NA,NA,NA,NA,NA,Y
+Pennsylvania Quakers,PENN,Ivy,1982,NA,NA,NA,NA,NA,Y
+Princeton Tigers,PRIN,Ivy,1982,NA,NA,NA,NA,NA,Y
+Yale Bulldogs,YALE,Ivy,1982,NA,NA,NA,NA,NA,Y
+Canisius Golden Griffins,CAN,MAAC,1990,NA,NA,NA,NA,NA,Y
+Fairfield Stags,FAIR,MAAC,1982,NA,NA,NA,NA,NA,Y
+Iona Gaels,IONA,MAAC,1984,NA,NA,NA,NA,NA,Y
+Manhattan Jaspers,MAN,MAAC,1982,NA,NA,NA,NA,NA,Y
+Marist Red Foxes,MRST,MAAC,1998,NA,NA,NA,NA,NA,Y
+Merrimack Warriors,MRMK,MAAC,2025,NA,NA,NA,NA,NA,Y
+Mount St. Mary's Mountaineers,MSM,MAAC,2023,NA,NA,NA,NA,NA,Y
+Niagara Purple Eagles,NIA,MAAC,1990,NA,NA,NA,NA,NA,Y
+Quinnipiac Bobcats,QUIN,MAAC,2014,NA,NA,NA,NA,NA,Y
+Rider Broncs,RID,MAAC,1998,NA,NA,NA,NA,NA,Y
+Sacred Heart Pioneers,SHU,MAAC,2025,NA,NA,NA,NA,NA,Y
+Saint Peter's Peacocks,SPU,MAAC,1982,NA,NA,NA,NA,NA,Y
+Siena Saints,SIE,MAAC,1990,NA,NA,NA,NA,NA,Y
+Loyola Maryland Greyhounds,L-MD,MAAC,1990,2014,NA,NA,NA,NA,N
+Monmouth Hawks,MONM,MAAC,2014,2023,NA,NA,NA,NA,N
+Akron Zips,AKR,MAC,1993,NA,NA,NA,NA,NA,Y
+Ball State Cardinals,BALL,MAC,1982,NA,NA,NA,NA,NA,Y
+Bowling Green Falcons,BGSU,MAC,1982,NA,NA,NA,NA,NA,Y
+Buffalo Bulls,BUFF,MAC,1999,NA,NA,NA,NA,NA,Y
+Central Michigan Chippewas,CMU,MAC,1982,NA,NA,NA,NA,NA,Y
+Eastern Michigan Eagles,EMU,MAC,1982,NA,NA,NA,NA,NA,Y
+Kent State Golden Flashes,KENT,MAC,1982,NA,NA,NA,NA,NA,Y
+Miami (OH) RedHawks,M-OH,MAC,1983,NA,NA,NA,NA,NA,Y
+Northern Illinois Huskies,NIU,MAC,1983,NA,NA,NA,NA,NA,Y
+Ohio Bobcats,OHIO,MAC,1982,NA,NA,NA,NA,NA,Y
+Toledo Rockets,TOL,MAC,1982,NA,NA,NA,NA,NA,Y
+Western Michigan Broncos,WMU,MAC,1982,NA,NA,NA,NA,NA,Y
+Marshall Thundering Herd,MRSH,MAC,1998,2006,NA,NA,NA,NA,N
+Coppin State Eagles,COPP,MEAC,1986,NA,NA,NA,NA,NA,Y
+Delaware State Lady Hornets,DSU,MEAC,1982,NA,NA,NA,NA,NA,Y
+Howard Bison,HOW,MEAC,1983,NA,NA,NA,NA,NA,Y
+Maryland-Eastern Shore Lady Hawks,UMES,MEAC,1982,NA,NA,NA,NA,NA,Y
+Morgan State Lady Bears,MORG,MEAC,1985,NA,NA,NA,NA,NA,Y
+Norfolk State Spartans,NORF,MEAC,1998,NA,NA,NA,NA,NA,Y
+North Carolina Central Eagles,NCCU,MEAC,2011,NA,NA,NA,NA,NA,Y
+South Carolina State Lady Bulldogs,SCST,MEAC,1982,NA,NA,NA,NA,NA,Y
+Bethune-Cookman Wildcats,BCU,MEAC,1983,2021,NA,NA,NA,NA,N
+Florida A&M Rattlers,FAMU,MEAC,1982,2021,NA,NA,NA,NA,N
+Hampton Lady Pirates,HAMP,MEAC,1996,2019,NA,NA,NA,NA,N
+North Carolina A&T Aggies,NCAT,MEAC,1983,2022,NA,NA,NA,NA,N
+Savannah State Tigers,SAV,MEAC,2012,2020,NA,NA,NA,NA,N
+Belmont Bruins,BEL,MVC,2023,NA,NA,NA,NA,NA,Y
+Bradley Braves,BRAD,MVC,1983,NA,NA,NA,NA,NA,Y
+Drake Bulldogs,DRKE,MVC,1982,NA,NA,NA,NA,NA,Y
+Evansville Purple Aces,EVAN,MVC,1995,NA,NA,NA,NA,NA,Y
+Illinois State Redbirds,ILST,MVC,1982,NA,NA,NA,NA,NA,Y
+Indiana State Sycamores,INST,MVC,1983,NA,NA,NA,NA,NA,Y
+Missouri State Lady Bears,MOST,MVC,1983,NA,NA,NA,NA,NA,Y
+Murray State Racers,MUR,MVC,2023,NA,NA,NA,NA,NA,Y
+Northern Iowa Panthers,UNI,MVC,1983,NA,NA,NA,NA,NA,Y
+Southern Illinois Salukis,SIU,MVC,1982,NA,NA,NA,NA,NA,Y
+UIC Flames,UIC,MVC,2023,NA,NA,NA,NA,NA,Y
+Valparaiso Beacons,VAL,MVC,2018,NA,NA,NA,NA,NA,Y
+Creighton Bluejays,CREI,MVC,1993,2014,NA,NA,NA,NA,N
+Loyola Chicago Ramblers,LUC,MVC,2014,2023,NA,NA,NA,NA,N
+Wichita State Shockers,WICH,MVC,1982,2018,NA,NA,NA,NA,N
+Air Force Falcons,AFA,MWC,2000,NA,NA,NA,NA,NA,Y
+Boise State Broncos,BOIS,MWC,2012,NA,NA,NA,NA,NA,Y
+Colorado State Rams,CSU,MWC,2000,NA,NA,NA,NA,NA,Y
+Fresno State Bulldogs,FRES,MWC,2013,NA,NA,NA,NA,NA,Y
+Nevada Wolf Pack,NEV,MWC,2013,NA,NA,NA,NA,NA,Y
+New Mexico Lobos,UNM,MWC,2000,NA,NA,NA,NA,NA,Y
+San Diego State Aztecs,SDSU,MWC,2000,NA,NA,NA,NA,NA,Y
+San José State Spartans,SJSU,MWC,2014,NA,NA,NA,NA,NA,Y
+UNLV Lady Rebels,UNLV,MWC,2000,NA,NA,NA,NA,NA,Y
+Utah State Aggies,USU,MWC,2014,NA,NA,NA,NA,NA,Y
+Wyoming Cowgirls,WYO,MWC,2000,NA,NA,NA,NA,NA,Y
+BYU Cougars,BYU,MWC,2000,2012,NA,NA,NA,NA,N
+TCU Horned Frogs,TCU,MWC,2006,2013,NA,NA,NA,NA,N
+Utah Utes,UTAH,MWC,2000,2012,NA,NA,NA,NA,N
+Central Connecticut Blue Devils,CCSU,NEC,1998,NA,NA,NA,NA,NA,Y
+Chicago State Cougars,CHST,NEC,2025,NA,NA,NA,NA,NA,Y
+Fairleigh Dickinson Knights,FDU,NEC,1987,NA,NA,NA,NA,NA,Y
+Le Moyne Dolphins,LEM,NEC,2024,NA,NA,NA,NA,NA,Y
+Long Island University Sharks,LIU,NEC,1987,NA,NA,NA,NA,NA,Y
+Mercyhurst Lakers,MRH,NEC,2025,NA,NA,NA,NA,NA,Y
+St. Francis (PA) Red Flash,SFPA,NEC,1987,NA,NA,NA,NA,NA,Y
+Stonehill Skyhawks,STO,NEC,2023,NA,NA,NA,NA,NA,Y
+Wagner Seahawks,WAG,NEC,1987,NA,NA,NA,NA,NA,Y
+Bryant Bulldogs,BRY,NEC,2010,2023,NA,NA,NA,NA,N
+Merrimack Warriors,MRMK,NEC,2020,2025,NA,NA,NA,NA,N
+Monmouth Hawks,MONM,NEC,1987,2014,NA,NA,NA,NA,N
+Mount St. Mary's Mountaineers,MSM,NEC,1990,2023,NA,NA,NA,NA,N
+Quinnipiac Bobcats,QUIN,NEC,1999,2014,NA,NA,NA,NA,N
+Robert Morris Colonials,RMU,NEC,1986,2021,NA,NA,NA,NA,N
+Sacred Heart Pioneers,SHU,NEC,2000,2025,NA,NA,NA,NA,N
+St. Francis Brooklyn Terriers,SFNY,NEC,1987,2024,NA,NA,NA,NA,N
+UMBC Retrievers,UMBC,NEC,1999,2004,NA,NA,NA,NA,N
+Eastern Illinois Panthers,EIU,OVC,1997,NA,NA,NA,NA,NA,Y
+Lindenwood Lions,LIN,OVC,2023,NA,NA,NA,NA,NA,Y
+Little Rock Trojans,LR,OVC,2023,NA,NA,NA,NA,NA,Y
+Morehead State Eagles,MORE,OVC,1982,NA,NA,NA,NA,NA,Y
+SIU Edwardsville Cougars,SIUE,OVC,2012,NA,NA,NA,NA,NA,Y
+Southeast Missouri State Redhawks,SEMO,OVC,1992,NA,NA,NA,NA,NA,Y
+Southern Indiana Screaming Eagles,USI,OVC,2023,NA,NA,NA,NA,NA,Y
+Tennessee State Lady Tigers,TNST,OVC,1988,NA,NA,NA,NA,NA,Y
+Tennessee Tech Golden Eagles,TNTC,OVC,1982,NA,NA,NA,NA,NA,Y
+UT Martin Skyhawks,UTM,OVC,1993,NA,NA,NA,NA,NA,Y
+Western Illinois Leathernecks,WIU,OVC,2024,NA,NA,NA,NA,NA,Y
+Austin Peay Governors,APSU,OVC,1982,2023,NA,NA,NA,NA,N
+Belmont Bruins,BEL,OVC,2013,2023,NA,NA,NA,NA,N
+Eastern Kentucky Colonels,EKU,OVC,1983,2022,NA,NA,NA,NA,N
+Jacksonville State Gamecocks,JVST,OVC,2004,2022,NA,NA,NA,NA,N
+Middle Tennessee Blue Raiders,MTSU,OVC,1982,2001,NA,NA,NA,NA,N
+Murray State Racers,MUR,OVC,1982,2023,NA,NA,NA,NA,N
+Samford Bulldogs,SAM,OVC,2004,2009,NA,NA,NA,NA,N
+Arizona State Sun Devils,ASU,Pac-12,1987,2025,NA,NA,NA,NA,N
+Arizona Wildcats,ARIZ,Pac-12,1987,2025,NA,NA,NA,NA,N
+California Golden Bears,CAL,Pac-12,1987,2025,NA,NA,NA,NA,N
+Colorado Buffaloes,COLO,Pac-12,2012,2025,NA,NA,NA,NA,N
+Oregon Ducks,ORE,Pac-12,1987,2025,NA,NA,NA,NA,N
+Oregon State Beavers,ORST,Pac-12,1987,2025,NA,NA,NA,NA,N
+Stanford Cardinal,STAN,Pac-12,1987,2025,NA,NA,NA,NA,N
+UCLA Bruins,UCLA,Pac-12,1987,2025,NA,NA,NA,NA,N
+USC Trojans,USC,Pac-12,1987,2025,NA,NA,NA,NA,N
+Utah Utes,UTAH,Pac-12,2012,2025,NA,NA,NA,NA,N
+Washington Huskies,WASH,Pac-12,1987,2025,NA,NA,NA,NA,N
+Washington State Cougars,WSU,Pac-12,1987,2025,NA,NA,NA,NA,N
+American University Eagles,AMER,Patriot,2002,NA,NA,NA,NA,NA,Y
+Army Black Knights,ARMY,Patriot,1991,NA,NA,NA,NA,NA,Y
+Boston University Terriers,BU,Patriot,2014,NA,NA,NA,NA,NA,Y
+Bucknell Bison,BUCK,Patriot,1991,NA,NA,NA,NA,NA,Y
+Colgate Raiders,COLG,Patriot,1991,NA,NA,NA,NA,NA,Y
+Holy Cross Crusaders,HC,Patriot,1991,NA,NA,NA,NA,NA,Y
+Lafayette Leopards,LAF,Patriot,1991,NA,NA,NA,NA,NA,Y
+Lehigh Mountain Hawks,LEH,Patriot,1991,NA,NA,NA,NA,NA,Y
+Loyola Maryland Greyhounds,L-MD,Patriot,2014,NA,NA,NA,NA,NA,Y
+Navy Midshipmen,NAVY,Patriot,1992,NA,NA,NA,NA,NA,Y
+Alabama Crimson Tide,ALA,SEC,1982,NA,NA,NA,NA,NA,Y
+Arkansas Razorbacks,ARK,SEC,1992,NA,NA,NA,NA,NA,Y
+Auburn Tigers,AUB,SEC,1982,NA,NA,NA,NA,NA,Y
+Florida Gators,FLA,SEC,1982,NA,NA,NA,NA,NA,Y
+Georgia Lady Bulldogs,UGA,SEC,1982,NA,NA,NA,NA,NA,Y
+Kentucky Wildcats,UK,SEC,1982,NA,NA,NA,NA,NA,Y
+LSU Tigers,LSU,SEC,1982,NA,NA,NA,NA,NA,Y
+Mississippi State Bulldogs,MSST,SEC,1982,NA,NA,NA,NA,NA,Y
+Missouri Tigers,MIZ,SEC,2013,NA,NA,NA,NA,NA,Y
+Oklahoma Sooners,OU,SEC,2025,NA,NA,NA,NA,NA,Y
+Ole Miss Rebels,MISS,SEC,1982,NA,NA,NA,NA,NA,Y
+South Carolina Gamecocks,SC,SEC,1992,NA,NA,NA,NA,NA,Y
+Tennessee Lady Volunteers,TENN,SEC,1982,NA,NA,NA,NA,NA,Y
+Texas A&M Aggies,TA&M,SEC,2013,NA,NA,NA,NA,NA,Y
+Texas Longhorns,TEX,SEC,2025,NA,NA,NA,NA,NA,Y
+Vanderbilt Commodores,VAN,SEC,1982,NA,NA,NA,NA,NA,Y
+Chattanooga Mocs,UTC,Southern,1983,NA,NA,NA,NA,NA,Y
+East Tennessee State Buccaneers,ETSU,Southern,1983,2006,2015,NA,NA,NA,Y
+Furman Paladins,FUR,Southern,1984,NA,NA,NA,NA,NA,Y
+Mercer Bears,MER,Southern,2015,NA,NA,NA,NA,NA,Y
+Samford Bulldogs,SAM,Southern,2009,NA,NA,NA,NA,NA,Y
+UNC Greensboro Spartans,UNCG,Southern,1998,NA,NA,NA,NA,NA,Y
+Western Carolina Catamounts,WCU,Southern,1983,NA,NA,NA,NA,NA,Y
+Wofford Terriers,WOF,Southern,1998,NA,NA,NA,NA,NA,Y
+Appalachian State Mountaineers,APP,Southern,1984,2015,NA,NA,NA,NA,N
+Charleston Cougars,COFC,Southern,1999,2014,NA,NA,NA,NA,N
+Davidson Wildcats,DAV,Southern,1986,2015,NA,NA,NA,NA,N
+Elon Phoenix,ELON,Southern,2004,2015,NA,NA,NA,NA,N
+Georgia Southern Eagles,GASO,Southern,1993,2015,NA,NA,NA,NA,N
+Houston Christian Huskies,HCU,Southland,2014,NA,NA,NA,NA,NA,Y
+Incarnate Word Cardinals,UIW,Southland,2014,NA,NA,NA,NA,NA,Y
+Lamar Cardinals,LAM,Southland,1983,1988,1999,2022,2023,NA,Y
+McNeese Cowgirls,MCN,Southland,1982,NA,NA,NA,NA,NA,Y
+New Orleans Privateers,UNO,Southland,2014,NA,NA,NA,NA,NA,Y
+Nicholls Colonels,NICH,Southland,1992,NA,NA,NA,NA,NA,Y
+Northwestern State Lady Demons,NWST,Southland,1988,NA,NA,NA,NA,NA,Y
+SE Louisiana Lady Lions,SELA,Southland,1998,NA,NA,NA,NA,NA,Y
+Stephen F. Austin Ladyjacks,SFA,Southland,1988,2022,2025,NA,NA,NA,Y
+Texas A&M-Commerce Lions,TAMC,Southland,2023,NA,NA,NA,NA,NA,Y
+Texas A&M-Corpus Christi Islanders,AMCC,Southland,2007,NA,NA,NA,NA,NA,Y
+UT Rio Grande Valley Vaqueros,RGV,Southland,2025,NA,NA,NA,NA,NA,Y
+Abilene Christian Wildcats,ACU,Southland,2014,2022,NA,NA,NA,NA,N
+Central Arkansas Sugar Bears,CARK,Southland,2007,2022,NA,NA,NA,NA,N
+Oral Roberts Golden Eagles,ORU,Southland,2013,2015,NA,NA,NA,NA,N
+Sam Houston Bearkats,SHSU,Southland,1988,2022,NA,NA,NA,NA,N
+Texas State Bobcats,TXST,Southland,1988,2013,NA,NA,NA,NA,N
+UL Monroe Warhawks,ULM,Southland,1983,2007,NA,NA,NA,NA,N
+UT Arlington Mavericks,UTA,Southland,1983,2013,NA,NA,NA,NA,N
+UTSA Roadrunners,UTSA,Southland,1993,2013,NA,NA,NA,NA,N
+Denver Pioneers,DEN,Summit,2014,NA,NA,NA,NA,NA,Y
+Kansas City Roos,KC,Summit,1995,2014,2021,NA,NA,NA,Y
+North Dakota Fighting Hawks,UND,Summit,2019,NA,NA,NA,NA,NA,Y
+North Dakota State Bison,NDSU,Summit,2008,NA,NA,NA,NA,NA,Y
+Omaha Mavericks,OMA,Summit,2013,NA,NA,NA,NA,NA,Y
+Oral Roberts Golden Eagles,ORU,Summit,1998,2013,2015,NA,NA,NA,Y
+South Dakota Coyotes,SDAK,Summit,2012,NA,NA,NA,NA,NA,Y
+South Dakota State Jackrabbits,SDST,Summit,2008,NA,NA,NA,NA,NA,Y
+St. Thomas - Minnesota Tommies,STMN,Summit,2022,NA,NA,NA,NA,NA,Y
+Centenary (LA) Ladies,CENTLA,Summit,2004,2012,NA,NA,NA,NA,N
+Chicago State Cougars,CHST,Summit,1995,2007,NA,NA,NA,NA,N
+IUPUI Jaguars,IUPU,Summit,1999,2018,NA,NA,NA,NA,N
+Oakland Golden Grizzlies,OAK,Summit,2000,2014,NA,NA,NA,NA,N
+Purdue Fort Wayne Mastodons,PFW,Summit,2008,2021,NA,NA,NA,NA,N
+Southern Utah Thunderbirds,SUU,Summit,1998,2013,NA,NA,NA,NA,N
+UIC Flames,UIC,Summit,1993,2002,NA,NA,NA,NA,N
+Valparaiso Beacons,VAL,Summit,1993,2008,NA,NA,NA,NA,N
+Western Illinois Leathernecks,WIU,Summit,1993,2024,NA,NA,NA,NA,N
+Youngstown State Penguins,YSU,Summit,1993,2002,NA,NA,NA,NA,N
+Appalachian State Mountaineers,APP,Sun Belt,2015,NA,NA,NA,NA,NA,Y
+Arkansas State Red Wolves,ARST,Sun Belt,1992,NA,NA,NA,NA,NA,Y
+Coastal Carolina Chanticleers,CCU,Sun Belt,2017,NA,NA,NA,NA,NA,Y
+Georgia Southern Eagles,GASO,Sun Belt,2015,NA,NA,NA,NA,NA,Y
+Georgia State Panthers,GAST,Sun Belt,1977,NA,NA,NA,NA,NA,Y
+James Madison Dukes,JMU,Sun Belt,2023,NA,NA,NA,NA,NA,Y
+Louisiana Ragin' Cajuns,UL,Sun Belt,1992,NA,NA,NA,NA,NA,Y
+Marshall Thundering Herd,MRSH,Sun Belt,2023,NA,NA,NA,NA,NA,Y
+Old Dominion Monarchs,ODU,Sun Belt,1983,1992,2023,NA,NA,NA,Y
+South Alabama Jaguars,USA,Sun Belt,1977,NA,NA,NA,NA,NA,Y
+Southern Miss Lady Eagles,USM,Sun Belt,2023,NA,NA,NA,NA,NA,Y
+Texas State Bobcats,TXST,Sun Belt,2014,NA,NA,NA,NA,NA,Y
+Troy Trojans,TROY,Sun Belt,2006,NA,NA,NA,NA,NA,Y
+UL Monroe Warhawks,ULM,Sun Belt,2007,NA,NA,NA,NA,NA,Y
+Denver Pioneers,DEN,Sun Belt,2000,2013,NA,NA,NA,NA,N
+Florida Atlantic Owls,FAU,Sun Belt,2007,2014,NA,NA,NA,NA,N
+Florida International Panthers,FIU,Sun Belt,1999,2014,NA,NA,NA,NA,N
+Little Rock Trojans,LR,Sun Belt,1992,2023,NA,NA,NA,NA,N
+Louisiana Tech Lady Techsters,LT,Sun Belt,1992,2002,NA,NA,NA,NA,N
+Middle Tennessee Blue Raiders,MTSU,Sun Belt,2001,2014,NA,NA,NA,NA,N
+New Mexico State Aggies,NMSU,Sun Belt,2001,2006,NA,NA,NA,NA,N
+New Orleans Privateers,UNO,Sun Belt,1977,2011,NA,NA,NA,NA,N
+North Texas Mean Green,UNT,Sun Belt,2001,2014,NA,NA,NA,NA,N
+UT Arlington Mavericks,UTA,Sun Belt,2014,2023,NA,NA,NA,NA,N
+Western Kentucky Lady Toppers,WKU,Sun Belt,1983,2015,NA,NA,NA,NA,N
+Alabama A&M Bulldogs,AAMU,SWAC,2001,NA,NA,NA,NA,NA,Y
+Alabama State Lady Hornets,ALST,SWAC,1984,NA,NA,NA,NA,NA,Y
+Alcorn State Lady Braves,ALCN,SWAC,1982,NA,NA,NA,NA,NA,Y
+Arkansas-Pine Bluff Golden Lions,UAPB,SWAC,2002,NA,NA,NA,NA,NA,Y
+Bethune-Cookman Wildcats,BCU,SWAC,2022,NA,NA,NA,NA,NA,Y
+Florida A&M Rattlers,FAMU,SWAC,2022,NA,NA,NA,NA,NA,Y
+Grambling Lady Tigers,GRAM,SWAC,1983,NA,NA,NA,NA,NA,Y
+Jackson State Lady Tigers,JKST,SWAC,1982,NA,NA,NA,NA,NA,Y
+Mississippi Valley State Devilettes,MVSU,SWAC,1982,NA,NA,NA,NA,NA,Y
+Prairie View A&M Lady Panthers,PV,SWAC,1982,NA,NA,NA,NA,NA,Y
+Southern Jaguars,SOU,SWAC,1984,NA,NA,NA,NA,NA,Y
+Texas Southern Tigers,TXSO,SWAC,1982,NA,NA,NA,NA,NA,Y
+Abilene Christian Wildcats,ACU,WAC,2022,NA,NA,NA,NA,NA,Y
+California Baptist Lancers,CBU,WAC,2019,NA,NA,NA,NA,NA,Y
+Grand Canyon Lopes,GCU,WAC,2014,NA,NA,NA,NA,NA,Y
+Seattle U Redhawks,SEA,WAC,2013,NA,NA,NA,NA,NA,Y
+Southern Utah Thunderbirds,SUU,WAC,2023,NA,NA,NA,NA,NA,Y
+Tarleton Texans,TAR,WAC,2021,NA,NA,NA,NA,NA,Y
+UT Arlington Mavericks,UTA,WAC,2013,2014,2023,NA,NA,NA,Y
+Utah Tech Trailblazers,UTU,WAC,2021,NA,NA,NA,NA,NA,Y
+Utah Valley Wolverines,UVU,WAC,2014,NA,NA,NA,NA,NA,Y
+Air Force Falcons,AFA,WAC,1997,2000,NA,NA,NA,NA,N
+Boise State Broncos,BOIS,WAC,2002,2012,NA,NA,NA,NA,N
+BYU Cougars,BYU,WAC,1991,2000,NA,NA,NA,NA,N
+Cal State Bakersfield Roadrunners,CSUB,WAC,2014,2021,NA,NA,NA,NA,N
+Chicago State Cougars,CHST,WAC,2014,2023,NA,NA,NA,NA,N
+Colorado State Rams,CSU,WAC,1991,2000,NA,NA,NA,NA,N
+Denver Pioneers,DEN,WAC,2013,2014,NA,NA,NA,NA,N
+Fresno State Bulldogs,FRES,WAC,1993,2013,NA,NA,NA,NA,N
+Hawai'i Rainbow Wahine,HAW,WAC,1997,2013,NA,NA,NA,NA,N
+Idaho Vandals,IDHO,WAC,2006,2015,NA,NA,NA,NA,N
+Kansas City Roos,KC,WAC,2014,2021,NA,NA,NA,NA,N
+Lamar Cardinals,LAM,WAC,2022,2023,NA,NA,NA,NA,N
+Louisiana Tech Lady Techsters,LT,WAC,2002,2014,NA,NA,NA,NA,N
+Nevada Wolf Pack,NEV,WAC,2001,2013,NA,NA,NA,NA,N
+New Mexico Lobos,UNM,WAC,1992,2000,NA,NA,NA,NA,N
+New Mexico State Aggies,NMSU,WAC,2006,2024,NA,NA,NA,NA,N
+Rice Owls,RICE,WAC,1997,2006,NA,NA,NA,NA,N
+Sam Houston Bearkats,SHSU,WAC,2022,2024,NA,NA,NA,NA,N
+San Diego State Aztecs,SDSU,WAC,1991,2000,NA,NA,NA,NA,N
+San José State Spartans,SJSU,WAC,1997,2014,NA,NA,NA,NA,N
+SMU Mustangs,SMU,WAC,1997,2006,NA,NA,NA,NA,N
+Stephen F. Austin Ladyjacks,SFA,WAC,2022,2025,NA,NA,NA,NA,N
+TCU Horned Frogs,TCU,WAC,1997,2002,NA,NA,NA,NA,N
+Texas State Bobcats,TXST,WAC,2013,2014,NA,NA,NA,NA,N
+Tulsa Golden Hurricane,TLSA,WAC,1997,2006,NA,NA,NA,NA,N
+UNLV Lady Rebels,UNLV,WAC,1997,2000,NA,NA,NA,NA,N
+UT Rio Grande Valley Vaqueros,RGV,WAC,2014,2025,NA,NA,NA,NA,N
+Utah State Aggies,USU,WAC,2006,2014,NA,NA,NA,NA,N
+Utah Utes,UTAH,WAC,1991,2000,NA,NA,NA,NA,N
+UTEP Miners,UTEP,WAC,1991,2006,NA,NA,NA,NA,N
+UTSA Roadrunners,UTSA,WAC,2013,2014,NA,NA,NA,NA,N
+Wyoming Cowgirls,WYO,WAC,1991,2000,NA,NA,NA,NA,N
+Gonzaga Bulldogs,GONZ,WCC,1988,NA,NA,NA,NA,NA,Y
+Loyola Marymount Lions,LMU,WCC,1986,NA,NA,NA,NA,NA,Y
+Oregon State Beavers,ORST,WCC,2025,NA,NA,NA,NA,NA,Y
+Pacific Tigers,PAC,WCC,2014,NA,NA,NA,NA,NA,Y
+Pepperdine Waves,PEPP,WCC,1988,NA,NA,NA,NA,NA,Y
+Portland Pilots,PORT,WCC,1988,NA,NA,NA,NA,NA,Y
+Saint Mary's Gaels,SMC,WCC,1988,NA,NA,NA,NA,NA,Y
+San Diego Toreros,USD,WCC,1986,NA,NA,NA,NA,NA,Y
+San Francisco Dons,SF,WCC,1986,NA,NA,NA,NA,NA,Y
+Santa Clara Broncos,SCU,WCC,1986,NA,NA,NA,NA,NA,Y
+Washington State Cougars,WSU,WCC,2025,NA,NA,NA,NA,NA,Y
+BYU Cougars,BYU,WCC,2012,2024,NA,NA,NA,NA,N

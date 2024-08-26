@@ -202,15 +202,15 @@ nba_reg_player_roster_updated <- bind_rows(nba_reg_player_roster_without_dupes, 
   rename(`Team Abbr.` = Team)
 
 # Add the correct 'Team Name' and 'League' from the 'nba_urls' data frame
-nba_reg_player_roster_updated <- nba_reg_player_roster_updated %>%
+nba_reg_roster <- nba_reg_player_roster_updated %>%
   left_join(nba_urls %>% select(URL, `Team Abbr.`, `Team Name`, League),
             by = c("URL", "Team Abbr."))
 
-# Save the final nba_reg_player_roster_updated table to a RDA file
-save(nba_reg_player_roster_updated,file = file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))
+# Save the final nba_reg_roster table to a RDA file
+save(nba_reg_roster,file = file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))
 
 # Display message to confirm save
-print("nba_reg_player_roster_updated table has been saved to NBA_PLAYER_REG_ROSTER.rda")
+print("nba_reg_roster table has been saved to NBA_PLAYER_REG_ROSTER.rda")
 
 # Delete the partial RDA file
 file.remove(file.path(player_fp,"NBA_REG_PLAYER_ROSTER_partial.csv"))

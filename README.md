@@ -15,6 +15,11 @@ G-League - coming soon
 
 RECOMMENDATION!!
 
-  If you are interested in running the code yourself, keep reading or if you just want to grab the loaded .rda files of data then go ahead and do so. For those that are reading, please run the Library packages in the 'PACKAGES' file. Then run the URL files in the 'URLS' folder before running any other code. This will allow use to find valid URLs so that we can then scrape later on.
+  If you are interested in running the code yourself, keep reading or if you just want to grab the loaded .RDA files of data then go ahead and do so. For those that are reading, please run the Library packages in the 'PACKAGES' file. Then run the URL files in the 'URLS' folder before running any other code. This will allow use to find valid URLs so that we can then scrape later on.
+  
+Sources:
+
+  Basketball-Reference.com - Database
+  ESPN.com - PBP Shot Data
 
 

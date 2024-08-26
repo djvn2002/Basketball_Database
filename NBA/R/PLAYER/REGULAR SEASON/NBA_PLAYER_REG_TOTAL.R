@@ -215,15 +215,16 @@ nba_reg_total_updated <- bind_rows(nba_reg_total_without_dupes, player_dupes_wit
   rename(`Team Abbr.` = Team)
 
 # Add the correct 'Team Name' and 'League' from the 'nba_urls' data frame
-nba_reg_total_updated <- nba_reg_total_updated %>%
+nba_reg_total <- nba_reg_total_updated %>%
   left_join(nba_urls %>% select(URL, `Team Abbr.`, `Team Name`, League),
-            by = c("URL", "Team Abbr."))
+            by = c("URL", "Team Abbr.")) %>%
+  select(-Rk)
 
-# Save the final nba_reg_total_updated table to a RDA file
-save(nba_reg_total_updated,file = file.path(player_fp,"NBA_PLAYER_REG_TOTAL.rda"))
+# Save the final nba_reg_total table to a RDA file
+save(nba_reg_total,file = file.path(player_fp,"NBA_PLAYER_REG_TOTAL.rda"))
 
 # Display message to confirm save
-print("nba_reg_total_updated table has been saved to NBA_PLAYER_REG_TOTAL.rda")
+print("nba_reg_total table has been saved to NBA_PLAYER_REG_TOTAL.rda")
 
 # Delete the partial RDA file
 file.remove(file.path(player_fp,"NBA_PLAYER_REG_TOTAL_partial.csv"))

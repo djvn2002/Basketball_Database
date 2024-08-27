@@ -1,0 +1,341 @@
+﻿Team Name,Team Abbr.,G,W,L,W/L%,GB,PW,PL,League,Season,Conference,Conference Rank,Made Playoffs,First Round Wins,First Round Losses,First Round Opp.,Won First Round,Second Round Wins,Second Round Losses,Second Round Opp.,Won Second Round,Semifinals Wins,Semifinals Losses,Semifinals Opp.,Won Semifinals,Finals Wins,Finals Losses,Finals Opp.,Won Finals
+Houston Comets,HOU,28,18,10,0.643,0,22,6,WNBA,1997,Eastern,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,1,0,Charlotte Sting,Yes,1,0,New York Liberty,Yes
+New York Liberty,NYL,28,17,11,0.607,1,17,11,WNBA,1997,Eastern,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,1,0,Phoenix Mercury,Yes,0,1,Houston Comets,No
+Charlotte Sting,CHA,28,15,13,0.536,3,16,12,WNBA,1997,Eastern,3,Yes,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Houston Comets,No,NA,NA,NA,NA
+Cleveland Rockers,CLE,28,15,13,0.536,3,16,12,WNBA,1997,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,28,16,12,0.571,0,20,8,WNBA,1997,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,0,1,New York Liberty,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,28,14,14,0.5,2,17,11,WNBA,1997,Western,2,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,28,10,18,0.357,6,5,23,WNBA,1997,Western,3,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,28,7,21,0.25,9,3,25,WNBA,1997,Western,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,30,20,10,0.667,0,19,11,WNBA,1998,Eastern,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,1,2,Phoenix Mercury,No,NA,NA,NA,NA
+Charlotte Sting,CHA,30,18,12,0.6,2,19,11,WNBA,1998,Eastern,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,0,2,Houston Comets,No,NA,NA,NA,NA
+New York Liberty,NYL,30,18,12,0.6,2,20,10,WNBA,1998,Eastern,3,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,30,17,13,0.567,3,15,15,WNBA,1998,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,30,3,27,0.1,17,1,29,WNBA,1998,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,30,27,3,0.9,0,28,2,WNBA,1998,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,2,0,Charlotte Sting,Yes,2,1,Phoenix Mercury,Yes
+Phoenix Mercury,PHO,30,19,11,0.633,8,23,7,WNBA,1998,Western,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,2,1,Cleveland Rockers,Yes,1,2,Houston Comets,No
+Los Angeles Sparks,LAS,30,12,18,0.4,15,14,16,WNBA,1998,Western,3,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,30,8,22,0.267,19,7,23,WNBA,1998,Western,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,30,8,22,0.267,19,7,23,WNBA,1998,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,32,18,14,0.563,0,20,12,WNBA,1999,Eastern,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,2,1,Charlotte Sting,Yes,1,2,Houston Comets,No
+Charlotte Sting,CHA,32,15,17,0.469,3,14,18,WNBA,1999,Eastern,2,Yes,1,0,Detroit Shock,Yes,NA,NA,NA,NA,1,2,New York Liberty,No,NA,NA,NA,NA
+Detroit Shock,DET,32,15,17,0.469,3,13,19,WNBA,1999,Eastern,3,Yes,0,1,Charlotte Sting,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Orlando Miracle,ORL,32,15,17,0.469,3,15,17,WNBA,1999,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,32,12,20,0.375,6,9,23,WNBA,1999,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,32,7,25,0.219,11,7,25,WNBA,1999,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,32,26,6,0.813,0,28,4,WNBA,1999,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,2,1,New York Liberty,Yes
+Los Angeles Sparks,LAS,32,20,12,0.625,6,22,10,WNBA,1999,Western,2,Yes,1,0,Sacramento Monarchs,Yes,NA,NA,NA,NA,0,2,Houston Comets,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,32,19,13,0.594,7,22,10,WNBA,1999,Western,3,Yes,0,1,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,32,15,17,0.469,11,12,20,WNBA,1999,Western,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,32,15,17,0.469,11,16,16,WNBA,1999,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,32,15,17,0.469,11,11,21,WNBA,1999,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,32,20,12,0.625,0,22,10,WNBA,2000,Eastern,1,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,2,1,Cleveland Rockers,Yes,0,2,Houston Comets,No
+Cleveland Rockers,CLE,32,17,15,0.531,3,19,13,WNBA,2000,Eastern,2,Yes,2,1,Orlando Miracle,Yes,NA,NA,NA,NA,1,2,New York Liberty,No,NA,NA,NA,NA
+Orlando Miracle,ORL,32,16,16,0.5,4,15,17,WNBA,2000,Eastern,3,Yes,1,2,Cleveland Rockers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,32,14,18,0.438,6,14,18,WNBA,2000,Eastern,4,Yes,0,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,32,14,18,0.438,6,12,20,WNBA,2000,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Miami Sol,MIA,32,13,19,0.406,7,7,25,WNBA,2000,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,32,9,23,0.281,11,12,20,WNBA,2000,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,32,8,24,0.25,12,6,26,WNBA,2000,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,32,28,4,0.875,0,26,6,WNBA,2000,Western,1,Yes,2,0,Phoenix Mercury,Yes,NA,NA,NA,NA,0,2,Houston Comets,No,NA,NA,NA,NA
+Houston Comets,HOU,32,27,5,0.844,1,30,2,WNBA,2000,Western,2,Yes,2,0,Sacramento Monarchs,Yes,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,2,0,New York Liberty,Yes
+Sacramento Monarchs,SAC,32,21,11,0.656,7,24,8,WNBA,2000,Western,3,Yes,0,2,Houston Comets,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,32,20,12,0.625,8,23,9,WNBA,2000,Western,4,Yes,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,32,18,14,0.563,10,16,16,WNBA,2000,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,32,15,17,0.469,13,16,16,WNBA,2000,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portland Fire,POR,32,10,22,0.313,18,9,23,WNBA,2000,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,32,6,26,0.188,22,3,29,WNBA,2000,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,32,22,10,0.688,0,27,5,WNBA,2001,Eastern,1,Yes,1,2,Charlotte Sting,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,32,21,11,0.656,1,20,12,WNBA,2001,Eastern,2,Yes,2,1,Miami Sol,Yes,NA,NA,NA,NA,1,2,Charlotte Sting,No,NA,NA,NA,NA
+Miami Sol,MIA,32,20,12,0.625,2,19,13,WNBA,2001,Eastern,3,Yes,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,32,18,14,0.563,4,19,13,WNBA,2001,Eastern,4,Yes,2,1,Cleveland Rockers,Yes,NA,NA,NA,NA,2,1,New York Liberty,Yes,0,2,Los Angeles Sparks,No
+Orlando Miracle,ORL,32,13,19,0.406,9,13,19,WNBA,2001,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,32,10,22,0.313,12,8,24,WNBA,2001,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,32,10,22,0.313,12,11,21,WNBA,2001,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,32,10,22,0.313,12,8,24,WNBA,2001,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,32,28,4,0.875,0,27,5,WNBA,2001,Western,1,Yes,2,0,Houston Comets,Yes,NA,NA,NA,NA,2,1,Sacramento Monarchs,Yes,2,0,Charlotte Sting,Yes
+Sacramento Monarchs,SAC,32,20,12,0.625,8,23,9,WNBA,2001,Western,2,Yes,2,0,Utah Starzz,Yes,NA,NA,NA,NA,1,2,Los Angeles Sparks,No,NA,NA,NA,NA
+Houston Comets,HOU,32,19,13,0.594,9,19,13,WNBA,2001,Western,3,Yes,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,32,19,13,0.594,9,17,15,WNBA,2001,Western,4,Yes,0,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,32,13,19,0.406,15,11,21,WNBA,2001,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,32,12,20,0.375,16,12,20,WNBA,2001,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portland Fire,POR,32,11,21,0.344,17,10,22,WNBA,2001,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,32,10,22,0.313,18,9,23,WNBA,2001,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,32,18,14,0.563,0,21,11,WNBA,2002,Eastern,1,Yes,0,2,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,32,18,14,0.563,0,20,12,WNBA,2002,Eastern,2,Yes,2,1,Indiana Fever,Yes,NA,NA,NA,NA,2,1,Washington Mystics,Yes,0,2,Los Angeles Sparks,No
+Washington Mystics,WAS,32,17,15,0.531,1,17,15,WNBA,2002,Eastern,3,Yes,2,0,Charlotte Sting,Yes,NA,NA,NA,NA,1,2,New York Liberty,No,NA,NA,NA,NA
+Indiana Fever,IND,32,16,16,0.5,2,14,18,WNBA,2002,Eastern,4,Yes,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Orlando Miracle,ORL,32,16,16,0.5,2,16,16,WNBA,2002,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Miami Sol,MIA,32,15,17,0.469,3,14,18,WNBA,2002,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,32,10,22,0.313,8,12,20,WNBA,2002,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,32,9,23,0.281,9,9,23,WNBA,2002,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,32,25,7,0.781,0,25,7,WNBA,2002,Western,1,Yes,2,0,Seattle Storm,Yes,NA,NA,NA,NA,2,0,Utah Starzz,Yes,2,0,New York Liberty,Yes
+Houston Comets,HOU,32,24,8,0.75,1,25,7,WNBA,2002,Western,2,Yes,1,2,Utah Starzz,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,32,20,12,0.625,5,19,13,WNBA,2002,Western,3,Yes,2,1,Houston Comets,Yes,NA,NA,NA,NA,0,2,Los Angeles Sparks,No,NA,NA,NA,NA
+Seattle Storm,SEA,32,17,15,0.531,8,20,12,WNBA,2002,Western,4,Yes,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portland Fire,POR,32,16,16,0.5,9,14,18,WNBA,2002,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,32,14,18,0.438,11,10,22,WNBA,2002,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,32,11,21,0.344,14,7,25,WNBA,2002,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,32,10,22,0.313,15,11,21,WNBA,2002,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,34,25,9,0.735,0,24,10,WNBA,2003,Eastern,1,Yes,2,1,Cleveland Rockers,Yes,NA,NA,NA,NA,2,0,Connecticut Sun,Yes,2,1,Los Angeles Sparks,Yes
+Charlotte Sting,CHA,34,18,16,0.529,7,18,16,WNBA,2003,Eastern,2,Yes,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,18,16,0.529,7,16,18,WNBA,2003,Eastern,3,Yes,2,0,Charlotte Sting,Yes,NA,NA,NA,NA,0,2,Detroit Shock,No,NA,NA,NA,NA
+Cleveland Rockers,CLE,34,17,17,0.5,8,18,16,WNBA,2003,Eastern,4,Yes,1,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,16,18,0.471,9,18,16,WNBA,2003,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,16,18,0.471,9,16,18,WNBA,2003,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,9,25,0.265,16,9,25,WNBA,2003,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,24,10,0.706,0,20,14,WNBA,2003,Western,1,Yes,2,1,Minnesota Lynx,Yes,NA,NA,NA,NA,2,1,Sacramento Monarchs,Yes,1,2,Detroit Shock,No
+Houston Comets,HOU,34,20,14,0.588,4,22,12,WNBA,2003,Western,2,Yes,1,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,19,15,0.559,5,21,13,WNBA,2003,Western,3,Yes,2,1,Houston Comets,Yes,NA,NA,NA,NA,1,2,Los Angeles Sparks,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,18,16,0.529,6,18,16,WNBA,2003,Western,4,Yes,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,18,16,0.529,6,23,11,WNBA,2003,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,12,22,0.353,12,7,27,WNBA,2003,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,8,26,0.235,16,8,26,WNBA,2003,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,18,16,0.529,0,19,15,WNBA,2004,Eastern,1,Yes,2,1,Washington Mystics,Yes,NA,NA,NA,NA,2,0,New York Liberty,Yes,1,2,Seattle Storm,No
+New York Liberty,NYL,34,18,16,0.529,0,15,19,WNBA,2004,Eastern,2,Yes,2,1,Detroit Shock,Yes,NA,NA,NA,NA,0,2,Connecticut Sun,No,NA,NA,NA,NA
+Detroit Shock,DET,34,17,17,0.5,1,16,18,WNBA,2004,Eastern,3,Yes,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,17,17,0.5,1,14,20,WNBA,2004,Eastern,4,Yes,1,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,34,16,18,0.471,2,13,21,WNBA,2004,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,15,19,0.441,3,15,19,WNBA,2004,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,25,9,0.735,0,23,11,WNBA,2004,Western,1,Yes,1,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,20,14,0.588,5,25,9,WNBA,2004,Western,2,Yes,2,0,Minnesota Lynx,Yes,NA,NA,NA,NA,2,1,Sacramento Monarchs,Yes,2,1,Connecticut Sun,Yes
+Minnesota Lynx,MIN,34,18,16,0.529,7,16,18,WNBA,2004,Western,3,Yes,0,2,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,18,16,0.529,7,21,13,WNBA,2004,Western,4,Yes,2,1,Los Angeles Sparks,Yes,NA,NA,NA,NA,1,2,Seattle Storm,No,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,17,17,0.5,8,20,14,WNBA,2004,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,34,13,21,0.382,12,15,19,WNBA,2004,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,9,25,0.265,16,9,25,WNBA,2004,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,26,8,0.765,0,27,7,WNBA,2005,Eastern,1,Yes,2,0,Detroit Shock,Yes,NA,NA,NA,NA,2,0,Indiana Fever,Yes,1,3,Sacramento Monarchs,No
+Indiana Fever,IND,34,21,13,0.618,5,19,15,WNBA,2005,Eastern,2,Yes,2,0,New York Liberty,Yes,NA,NA,NA,NA,0,2,Connecticut Sun,No,NA,NA,NA,NA
+New York Liberty,NYL,34,18,16,0.529,8,19,15,WNBA,2005,Eastern,3,Yes,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,34,16,18,0.471,10,15,19,WNBA,2005,Eastern,4,Yes,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,16,18,0.471,10,15,19,WNBA,2005,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,34,6,28,0.176,20,6,28,WNBA,2005,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,25,9,0.735,0,28,6,WNBA,2005,Western,1,Yes,2,0,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,0,Houston Comets,Yes,3,1,Connecticut Sun,Yes
+Seattle Storm,SEA,34,20,14,0.588,5,21,13,WNBA,2005,Western,2,Yes,1,2,Houston Comets,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,34,19,15,0.559,6,19,15,WNBA,2005,Western,3,Yes,2,1,Seattle Storm,Yes,NA,NA,NA,NA,0,2,Sacramento Monarchs,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,17,17,0.5,8,16,18,WNBA,2005,Western,4,Yes,0,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,16,18,0.471,9,17,17,WNBA,2005,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,14,20,0.412,11,13,21,WNBA,2005,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,7,27,0.206,18,6,28,WNBA,2005,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,26,8,0.765,0,28,6,WNBA,2006,Eastern,1,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,1,2,Detroit Shock,No,NA,NA,NA,NA
+Detroit Shock,DET,34,23,11,0.676,3,24,10,WNBA,2006,Eastern,2,Yes,2,0,Indiana Fever,Yes,NA,NA,NA,NA,2,1,Connecticut Sun,Yes,3,2,Sacramento Monarchs,Yes
+Indiana Fever,IND,34,21,13,0.618,5,23,11,WNBA,2006,Eastern,3,Yes,0,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,18,16,0.529,8,21,13,WNBA,2006,Eastern,4,Yes,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,34,11,23,0.324,15,12,22,WNBA,2006,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,11,23,0.324,15,6,28,WNBA,2006,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,5,29,0.147,21,4,30,WNBA,2006,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,25,9,0.735,0,22,12,WNBA,2006,Western,1,Yes,2,1,Seattle Storm,Yes,NA,NA,NA,NA,0,2,Sacramento Monarchs,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,21,13,0.618,4,23,11,WNBA,2006,Western,2,Yes,2,0,Houston Comets,Yes,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,2,3,Detroit Shock,No
+Houston Comets,HOU,34,18,16,0.529,7,20,14,WNBA,2006,Western,3,Yes,0,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,18,16,0.529,7,20,14,WNBA,2006,Western,4,Yes,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,18,16,0.529,7,20,14,WNBA,2006,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,13,21,0.382,12,13,21,WNBA,2006,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,10,24,0.294,15,8,26,WNBA,2006,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,34,24,10,0.706,0,24,10,WNBA,2007,Eastern,1,Yes,2,1,New York Liberty,Yes,NA,NA,NA,NA,2,1,Indiana Fever,Yes,2,3,Phoenix Mercury,No
+Indiana Fever,IND,34,21,13,0.618,3,22,12,WNBA,2007,Eastern,2,Yes,2,1,Connecticut Sun,Yes,NA,NA,NA,NA,1,2,Detroit Shock,No,NA,NA,NA,NA
+Connecticut Sun,CON,34,18,16,0.529,6,21,13,WNBA,2007,Eastern,3,Yes,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,16,18,0.471,8,13,21,WNBA,2007,Eastern,4,Yes,1,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,16,18,0.471,8,15,19,WNBA,2007,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,14,20,0.412,10,13,21,WNBA,2007,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,23,11,0.676,0,22,12,WNBA,2007,Western,1,Yes,2,0,Seattle Storm,Yes,NA,NA,NA,NA,2,0,San Antonio Silver Stars,Yes,3,2,Detroit Shock,Yes
+San Antonio Silver Stars,SAS,34,20,14,0.588,3,19,15,WNBA,2007,Western,2,Yes,2,1,Sacramento Monarchs,Yes,NA,NA,NA,NA,0,2,Phoenix Mercury,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,19,15,0.559,4,19,15,WNBA,2007,Western,3,Yes,1,2,San Antonio Silver Stars,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,17,17,0.5,6,21,13,WNBA,2007,Western,4,Yes,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,34,13,21,0.382,10,12,22,WNBA,2007,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,10,24,0.294,13,10,24,WNBA,2007,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,10,24,0.294,13,12,22,WNBA,2007,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,34,22,12,0.647,0,24,10,WNBA,2008,Eastern,1,Yes,2,1,Indiana Fever,Yes,NA,NA,NA,NA,2,1,New York Liberty,Yes,3,0,San Antonio Silver Stars,Yes
+Connecticut Sun,CON,34,21,13,0.618,1,23,11,WNBA,2008,Eastern,2,Yes,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,19,15,0.559,3,19,15,WNBA,2008,Eastern,3,Yes,2,1,Connecticut Sun,Yes,NA,NA,NA,NA,1,2,Detroit Shock,No,NA,NA,NA,NA
+Indiana Fever,IND,34,17,17,0.5,5,18,16,WNBA,2008,Eastern,4,Yes,1,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,12,22,0.353,10,15,19,WNBA,2008,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,10,24,0.294,12,7,27,WNBA,2008,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,4,30,0.118,18,5,29,WNBA,2008,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,24,10,0.706,0,23,11,WNBA,2008,Western,1,Yes,2,1,Sacramento Monarchs,Yes,NA,NA,NA,NA,2,1,Los Angeles Sparks,Yes,0,3,Detroit Shock,No
+Seattle Storm,SEA,34,22,12,0.647,2,21,13,WNBA,2008,Western,2,Yes,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,20,14,0.588,4,20,14,WNBA,2008,Western,3,Yes,2,1,Seattle Storm,Yes,NA,NA,NA,NA,1,2,San Antonio Silver Stars,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,18,16,0.529,6,16,18,WNBA,2008,Western,4,Yes,1,2,San Antonio Silver Stars,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,34,17,17,0.5,7,15,19,WNBA,2008,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,16,18,0.471,8,19,15,WNBA,2008,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,16,18,0.471,8,17,17,WNBA,2008,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,22,12,0.647,0,22,12,WNBA,2009,Eastern,1,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,2,1,Detroit Shock,Yes,2,3,Phoenix Mercury,No
+Atlanta Dream,ATL,34,18,16,0.529,4,20,14,WNBA,2009,Eastern,2,Yes,0,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,34,18,16,0.529,4,17,17,WNBA,2009,Eastern,3,Yes,2,0,Atlanta Dream,Yes,NA,NA,NA,NA,1,2,Indiana Fever,No,NA,NA,NA,NA
+Washington Mystics,WAS,34,16,18,0.471,6,15,19,WNBA,2009,Eastern,4,Yes,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,16,18,0.471,6,12,22,WNBA,2009,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,16,18,0.471,6,17,17,WNBA,2009,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,13,21,0.382,9,16,18,WNBA,2009,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,23,11,0.676,0,22,12,WNBA,2009,Western,1,Yes,2,1,San Antonio Silver Stars,Yes,NA,NA,NA,NA,2,1,Los Angeles Sparks,Yes,3,2,Indiana Fever,Yes
+Seattle Storm,SEA,34,20,14,0.588,3,20,14,WNBA,2009,Western,2,Yes,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,18,16,0.529,5,18,16,WNBA,2009,Western,3,Yes,2,1,Seattle Storm,Yes,NA,NA,NA,NA,1,2,Phoenix Mercury,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,15,19,0.441,8,15,19,WNBA,2009,Western,4,Yes,1,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,14,20,0.412,9,13,21,WNBA,2009,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,34,12,22,0.353,11,13,21,WNBA,2009,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,22,12,0.647,0,22,12,WNBA,2010,Eastern,1,Yes,2,1,Indiana Fever,Yes,NA,NA,NA,NA,0,2,Atlanta Dream,No,NA,NA,NA,NA
+Washington Mystics,WAS,34,22,12,0.647,0,23,11,WNBA,2010,Eastern,2,Yes,0,2,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,21,13,0.618,1,23,11,WNBA,2010,Eastern,3,Yes,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,19,15,0.559,3,20,14,WNBA,2010,Eastern,4,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,2,0,New York Liberty,Yes,0,3,Seattle Storm,No
+Connecticut Sun,CON,34,17,17,0.5,5,19,15,WNBA,2010,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,14,20,0.412,8,16,18,WNBA,2010,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,28,6,0.824,0,27,7,WNBA,2010,Western,1,Yes,2,0,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,0,Atlanta Dream,Yes
+Phoenix Mercury,PHO,34,15,19,0.441,13,17,17,WNBA,2010,Western,2,Yes,2,0,San Antonio Silver Stars,Yes,NA,NA,NA,NA,0,2,Seattle Storm,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,14,20,0.412,14,12,22,WNBA,2010,Western,3,Yes,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,13,21,0.382,15,12,22,WNBA,2010,Western,4,Yes,0,2,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,13,21,0.382,15,12,22,WNBA,2010,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,34,6,28,0.176,22,4,30,WNBA,2010,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,21,13,0.618,0,22,12,WNBA,2011,Eastern,1,Yes,0,2,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,21,13,0.618,0,23,11,WNBA,2011,Eastern,2,Yes,2,1,New York Liberty,Yes,NA,NA,NA,NA,1,2,Atlanta Dream,No,NA,NA,NA,NA
+Atlanta Dream,ATL,34,20,14,0.588,1,19,15,WNBA,2011,Eastern,3,Yes,2,0,Connecticut Sun,Yes,NA,NA,NA,NA,2,1,Indiana Fever,Yes,0,3,Minnesota Lynx,No
+New York Liberty,NYL,34,19,15,0.559,2,19,15,WNBA,2011,Eastern,4,Yes,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,14,20,0.412,7,16,18,WNBA,2011,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,6,28,0.176,15,6,28,WNBA,2011,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,27,7,0.794,0,27,7,WNBA,2011,Western,1,Yes,2,1,San Antonio Silver Stars,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,0,Atlanta Dream,Yes
+Seattle Storm,SEA,34,21,13,0.618,6,20,14,WNBA,2011,Western,2,Yes,1,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,19,15,0.559,8,21,13,WNBA,2011,Western,3,Yes,2,1,Seattle Storm,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,18,16,0.529,9,20,14,WNBA,2011,Western,4,Yes,1,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,15,19,0.441,12,12,22,WNBA,2011,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,34,3,31,0.088,24,3,31,WNBA,2011,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,25,9,0.735,0,23,11,WNBA,2012,Eastern,1,Yes,2,0,New York Liberty,Yes,NA,NA,NA,NA,1,2,Indiana Fever,No,NA,NA,NA,NA
+Indiana Fever,IND,34,22,12,0.647,3,26,8,WNBA,2012,Eastern,2,Yes,2,1,Atlanta Dream,Yes,NA,NA,NA,NA,2,1,Connecticut Sun,Yes,3,1,Minnesota Lynx,Yes
+Atlanta Dream,ATL,34,19,15,0.559,6,21,13,WNBA,2012,Eastern,3,Yes,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,15,19,0.441,10,11,23,WNBA,2012,Eastern,4,Yes,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,14,20,0.412,11,17,17,WNBA,2012,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,5,29,0.147,20,5,29,WNBA,2012,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,27,7,0.794,0,29,5,WNBA,2012,Western,1,Yes,2,1,Seattle Storm,Yes,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,1,3,Indiana Fever,No
+Los Angeles Sparks,LAS,34,24,10,0.706,3,25,9,WNBA,2012,Western,2,Yes,2,0,San Antonio Silver Stars,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,21,13,0.618,6,24,10,WNBA,2012,Western,3,Yes,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,16,18,0.471,11,16,18,WNBA,2012,Western,4,Yes,1,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,34,9,25,0.265,18,8,26,WNBA,2012,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,7,27,0.206,20,4,30,WNBA,2012,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,24,10,0.706,0,25,9,WNBA,2013,Eastern,1,Yes,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,17,17,0.5,7,19,15,WNBA,2013,Eastern,2,Yes,2,1,Washington Mystics,Yes,NA,NA,NA,NA,2,0,Indiana Fever,Yes,0,3,Minnesota Lynx,No
+Washington Mystics,WAS,34,17,17,0.5,7,17,17,WNBA,2013,Eastern,3,Yes,1,2,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,16,18,0.471,8,18,16,WNBA,2013,Eastern,4,Yes,2,0,Chicago Sky,Yes,NA,NA,NA,NA,0,2,Atlanta Dream,No,NA,NA,NA,NA
+New York Liberty,NYL,34,11,23,0.324,13,7,27,WNBA,2013,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,10,24,0.294,14,8,26,WNBA,2013,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,26,8,0.765,0,29,5,WNBA,2013,Western,1,Yes,2,0,Seattle Storm,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,0,Atlanta Dream,Yes
+Los Angeles Sparks,LAS,34,24,10,0.706,2,26,8,WNBA,2013,Western,2,Yes,1,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,19,15,0.559,7,16,18,WNBA,2013,Western,3,Yes,2,1,Los Angeles Sparks,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+Seattle Storm,SEA,34,17,17,0.5,9,13,21,WNBA,2013,Western,4,Yes,0,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,34,12,22,0.353,14,9,25,WNBA,2013,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,34,11,23,0.324,15,14,20,WNBA,2013,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,19,15,0.559,0,20,14,WNBA,2014,Eastern,1,Yes,1,2,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,16,18,0.471,3,15,19,WNBA,2014,Eastern,2,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,1,2,Chicago Sky,No,NA,NA,NA,NA
+Washington Mystics,WAS,34,16,18,0.471,3,18,16,WNBA,2014,Eastern,3,Yes,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,15,19,0.441,4,14,20,WNBA,2014,Eastern,4,Yes,2,1,Atlanta Dream,Yes,NA,NA,NA,NA,2,1,Indiana Fever,Yes,0,3,Phoenix Mercury,No
+New York Liberty,NYL,34,15,19,0.441,4,12,22,WNBA,2014,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,13,21,0.382,6,14,20,WNBA,2014,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,29,5,0.853,0,29,5,WNBA,2014,Western,1,Yes,2,0,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,1,Minnesota Lynx,Yes,3,0,Chicago Sky,Yes
+Minnesota Lynx,MIN,34,25,9,0.735,4,23,11,WNBA,2014,Western,2,Yes,2,0,San Antonio Stars,Yes,NA,NA,NA,NA,1,2,Phoenix Mercury,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,16,18,0.471,13,17,17,WNBA,2014,Western,3,Yes,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,34,16,18,0.471,13,14,20,WNBA,2014,Western,4,Yes,0,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,12,22,0.353,17,10,24,WNBA,2014,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,34,12,22,0.353,17,14,20,WNBA,2014,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,23,11,0.676,0,22,12,WNBA,2015,Eastern,1,Yes,2,1,Washington Mystics,Yes,NA,NA,NA,NA,1,2,Indiana Fever,No,NA,NA,NA,NA
+Chicago Sky,CHI,34,21,13,0.618,2,23,11,WNBA,2015,Eastern,2,Yes,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,20,14,0.588,3,20,14,WNBA,2015,Eastern,3,Yes,2,1,Chicago Sky,Yes,NA,NA,NA,NA,2,1,New York Liberty,Yes,2,3,Minnesota Lynx,No
+Washington Mystics,WAS,34,18,16,0.529,5,21,13,WNBA,2015,Eastern,4,Yes,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,15,19,0.441,8,14,20,WNBA,2015,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,15,19,0.441,8,14,20,WNBA,2015,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,22,12,0.647,0,23,11,WNBA,2015,Western,1,Yes,2,1,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,2,Indiana Fever,Yes
+Phoenix Mercury,PHO,34,20,14,0.588,2,21,13,WNBA,2015,Western,2,Yes,2,0,Tulsa Shock,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+Tulsa Shock,TUL,34,18,16,0.529,4,18,16,WNBA,2015,Western,3,Yes,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,14,20,0.412,8,15,19,WNBA,2015,Western,4,Yes,1,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,10,24,0.294,12,9,25,WNBA,2015,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,34,8,26,0.235,14,5,29,WNBA,2015,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,21,13,0.618,0,18,16,WNBA,2016,Eastern,1,Yes,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,18,16,0.529,3,18,16,WNBA,2016,Eastern,2,Yes,NA,NA,NA,NA,1,0,Atlanta Dream,Yes,1,3,Los Angeles Sparks,No,NA,NA,NA,NA
+Atlanta Dream,ATL,34,17,17,0.5,4,14,20,WNBA,2016,Eastern,3,Yes,1,0,Seattle Storm,Yes,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,17,17,0.5,4,16,18,WNBA,2016,Eastern,4,Yes,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,14,20,0.412,7,15,19,WNBA,2016,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,13,21,0.382,8,15,19,WNBA,2016,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,28,6,0.824,0,28,6,WNBA,2016,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Phoenix Mercury,Yes,2,3,Los Angeles Sparks,No
+Los Angeles Sparks,LAS,34,26,8,0.765,2,26,8,WNBA,2016,Western,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,1,Chicago Sky,Yes,3,2,Minnesota Lynx,Yes
+Phoenix Mercury,PHO,34,16,18,0.471,12,19,15,WNBA,2016,Western,3,Yes,1,0,Indiana Fever,Yes,1,0,New York Liberty,Yes,0,3,Minnesota Lynx,No,NA,NA,NA,NA
+Seattle Storm,SEA,34,16,18,0.471,12,18,16,WNBA,2016,Western,4,Yes,0,1,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,34,11,23,0.324,17,10,24,WNBA,2016,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,34,7,27,0.206,21,6,28,WNBA,2016,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,22,12,0.647,0,22,12,WNBA,2017,Eastern,1,Yes,NA,NA,NA,NA,0,1,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,34,21,13,0.618,1,23,11,WNBA,2017,Eastern,2,Yes,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,18,16,0.529,4,18,16,WNBA,2017,Eastern,3,Yes,1,0,Dallas Wings,Yes,1,0,New York Liberty,Yes,0,3,Minnesota Lynx,No,NA,NA,NA,NA
+Atlanta Dream,ATL,34,12,22,0.353,10,12,22,WNBA,2017,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,12,22,0.353,10,10,24,WNBA,2017,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,9,25,0.265,13,6,28,WNBA,2017,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,27,7,0.794,0,30,4,WNBA,2017,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Washington Mystics,Yes,3,2,Los Angeles Sparks,Yes
+Los Angeles Sparks,LAS,34,26,8,0.765,1,28,6,WNBA,2017,Western,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Phoenix Mercury,Yes,2,3,Minnesota Lynx,No
+Phoenix Mercury,PHO,34,18,16,0.529,9,17,17,WNBA,2017,Western,3,Yes,1,0,Seattle Storm,Yes,1,0,Connecticut Sun,Yes,0,3,Minnesota Lynx,No,NA,NA,NA,NA
+Dallas Wings,DAL,34,16,18,0.471,11,13,21,WNBA,2017,Western,4,Yes,0,1,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,15,19,0.441,12,17,17,WNBA,2017,Western,5,Yes,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,34,8,26,0.235,19,8,26,WNBA,2017,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,23,11,0.676,0,20,14,WNBA,2018,Eastern,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,2,3,Washington Mystics,No,NA,NA,NA,NA
+Washington Mystics,WAS,34,22,12,0.647,1.5,21,13,WNBA,2018,Eastern,2,Yes,NA,NA,NA,NA,1,0,Los Angeles Sparks,Yes,3,2,Atlanta Dream,Yes,0,3,Seattle Storm,No
+Connecticut Sun,CON,34,21,13,0.618,2,25,9,WNBA,2018,Eastern,3,Yes,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,34,13,21,0.382,10,9,25,WNBA,2018,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,7,27,0.206,16,8,26,WNBA,2018,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,6,28,0.176,17,6,28,WNBA,2018,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,26,8,0.765,0,27,7,WNBA,2018,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,2,Phoenix Mercury,Yes,3,0,Washington Mystics,Yes
+Phoenix Mercury,PHO,34,20,14,0.588,6,21,13,WNBA,2018,Western,2,Yes,1,0,Dallas Wings,Yes,1,0,Connecticut Sun,Yes,2,3,Seattle Storm,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,19,15,0.559,7,20,14,WNBA,2018,Western,3,Yes,1,0,Minnesota Lynx,Yes,0,1,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,18,16,0.529,8,18,16,WNBA,2018,Western,4,Yes,0,1,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,34,15,19,0.441,11,19,15,WNBA,2018,Western,5,Yes,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,34,14,20,0.412,11.5,13,21,WNBA,2018,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,34,26,8,0.765,0,30,4,WNBA,2019,Eastern,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,1,Las Vegas Aces,Yes,3,2,Connecticut Sun,Yes
+Connecticut Sun,CON,34,23,11,0.676,3,21,13,WNBA,2019,Eastern,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Los Angeles Sparks,Yes,2,3,Washington Mystics,No
+Chicago Sky,CHI,34,20,14,0.588,6,19,15,WNBA,2019,Eastern,3,Yes,1,0,Phoenix Mercury,Yes,0,1,Las Vegas Aces,No,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,34,13,21,0.382,13,13,21,WNBA,2019,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,34,10,24,0.294,16,7,27,WNBA,2019,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,34,8,26,0.235,18,7,27,WNBA,2019,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,34,22,12,0.647,0,21,13,WNBA,2019,Western,1,Yes,NA,NA,NA,NA,1,0,Seattle Storm,Yes,0,3,Connecticut Sun,No,NA,NA,NA,NA
+Las Vegas Aces,LVA,34,21,13,0.618,1,22,12,WNBA,2019,Western,2,Yes,NA,NA,NA,NA,1,0,Chicago Sky,Yes,1,3,Washington Mystics,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,34,18,16,0.529,4,21,13,WNBA,2019,Western,3,Yes,0,1,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,34,18,16,0.529,4,17,17,WNBA,2019,Western,4,Yes,1,0,Minnesota Lynx,Yes,0,1,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,34,15,19,0.441,7,15,19,WNBA,2019,Western,5,Yes,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,34,10,24,0.294,12,9,25,WNBA,2019,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,22,12,10,0.545,0,13,9,WNBA,2020,Eastern,1,Yes,0,1,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,22,10,12,0.455,2,11,11,WNBA,2020,Eastern,2,Yes,1,0,Chicago Sky,Yes,1,0,Los Angeles Sparks,Yes,2,3,Las Vegas Aces,No,NA,NA,NA,NA
+Washington Mystics,WAS,22,9,13,0.409,3,10,12,WNBA,2020,Eastern,3,Yes,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,22,7,15,0.318,5,5,17,WNBA,2020,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,22,6,16,0.273,6,5,17,WNBA,2020,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,22,2,20,0.091,10,2,20,WNBA,2020,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,22,18,4,0.818,0,18,4,WNBA,2020,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,2,Connecticut Sun,Yes,0,3,Seattle Storm,No
+Seattle Storm,SEA,22,18,4,0.818,0,19,3,WNBA,2020,Western,2,Yes,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Minnesota Lynx,Yes,3,0,Las Vegas Aces,Yes
+Los Angeles Sparks,LAS,22,15,7,0.682,3,15,7,WNBA,2020,Western,3,Yes,NA,NA,NA,NA,0,1,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,22,14,8,0.636,4,14,8,WNBA,2020,Western,4,Yes,NA,NA,NA,NA,1,0,Phoenix Mercury,Yes,0,3,Seattle Storm,No,NA,NA,NA,NA
+Phoenix Mercury,PHO,22,13,9,0.591,5,13,9,WNBA,2020,Western,5,Yes,1,0,Washington Mystics,Yes,0,1,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,22,8,14,0.364,10,8,14,WNBA,2020,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,32,26,6,0.813,0,28,4,WNBA,2021,Eastern,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,1,3,Chicago Sky,No,NA,NA,NA,NA
+Chicago Sky,CHI,32,16,16,0.5,10,18,14,WNBA,2021,Eastern,2,Yes,1,0,Dallas Wings,Yes,1,0,Minnesota Lynx,Yes,3,1,Connecticut Sun,Yes,3,1,Phoenix Mercury,Yes
+New York Liberty,NYL,32,12,20,0.375,14,7,25,WNBA,2021,Eastern,3,Yes,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,32,12,20,0.375,14,11,21,WNBA,2021,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,32,8,24,0.25,18,9,23,WNBA,2021,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,32,6,26,0.188,20,5,27,WNBA,2021,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,32,24,8,0.75,0,26,6,WNBA,2021,Western,1,Yes,NA,NA,NA,NA,NA,NA,NA,NA,2,3,Phoenix Mercury,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,32,22,10,0.688,2,21,11,WNBA,2021,Western,2,Yes,NA,NA,NA,NA,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,32,21,11,0.656,3,22,10,WNBA,2021,Western,3,Yes,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,32,19,13,0.594,5,19,13,WNBA,2021,Western,4,Yes,1,0,New York Liberty,Yes,1,0,Seattle Storm,Yes,3,2,Las Vegas Aces,Yes,1,3,Chicago Sky,No
+Dallas Wings,DAL,32,14,18,0.438,10,15,17,WNBA,2021,Western,5,Yes,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,32,12,20,0.375,12,10,22,WNBA,2021,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,36,26,10,0.722,0,25,11,WNBA,2022,Eastern,1,Yes,2,1,New York Liberty,Yes,NA,NA,NA,NA,2,3,Connecticut Sun,No,NA,NA,NA,NA
+Connecticut Sun,CON,36,25,11,0.694,1,29,7,WNBA,2022,Eastern,2,Yes,2,1,Dallas Wings,Yes,NA,NA,NA,NA,3,2,Chicago Sky,Yes,1,3,Las Vegas Aces,No
+Washington Mystics,WAS,36,22,14,0.611,4,25,11,WNBA,2022,Eastern,3,Yes,0,2,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,36,16,20,0.444,10,14,22,WNBA,2022,Eastern,4,Yes,1,2,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,36,14,22,0.389,12,13,23,WNBA,2022,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,36,5,31,0.139,21,5,31,WNBA,2022,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,36,26,10,0.722,0,26,10,WNBA,2022,Western,1,Yes,2,0,Phoenix Mercury,Yes,NA,NA,NA,NA,3,1,Seattle Storm,Yes,3,1,Connecticut Sun,Yes
+Seattle Storm,SEA,36,22,14,0.611,4,24,12,WNBA,2022,Western,2,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,1,3,Las Vegas Aces,No,NA,NA,NA,NA
+Dallas Wings,DAL,36,18,18,0.5,8,18,18,WNBA,2022,Western,3,Yes,1,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,36,15,21,0.417,11,14,22,WNBA,2022,Western,4,Yes,0,2,Las Vegas Aces,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,36,14,22,0.389,12,16,20,WNBA,2022,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,36,13,23,0.361,13,8,28,WNBA,2022,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,40,32,8,0.8,0,32,8,WNBA,2023,Eastern,1,Yes,2,0,Washington Mystics,Yes,NA,NA,NA,NA,3,1,Connecticut Sun,Yes,1,3,Las Vegas Aces,No
+Connecticut Sun,CON,40,27,13,0.675,5,26,14,WNBA,2023,Eastern,2,Yes,2,1,Minnesota Lynx,Yes,NA,NA,NA,NA,1,3,New York Liberty,No,NA,NA,NA,NA
+Atlanta Dream,ATL,40,19,21,0.475,13,18,22,WNBA,2023,Eastern,3,Yes,0,2,Dallas Wings,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,40,19,21,0.475,13,19,21,WNBA,2023,Eastern,4,Yes,0,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,40,18,22,0.45,14,17,23,WNBA,2023,Eastern,5,Yes,0,2,Las Vegas Aces,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,40,13,27,0.325,19,13,27,WNBA,2023,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,40,34,6,0.85,0,35,5,WNBA,2023,Western,1,Yes,2,0,Chicago Sky,Yes,NA,NA,NA,NA,3,0,Dallas Wings,Yes,3,1,New York Liberty,Yes
+Dallas Wings,DAL,40,22,18,0.55,12,25,15,WNBA,2023,Western,2,Yes,2,0,Atlanta Dream,Yes,NA,NA,NA,NA,0,3,Las Vegas Aces,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,40,19,21,0.475,15,12,28,WNBA,2023,Western,3,Yes,1,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,40,17,23,0.425,17,17,23,WNBA,2023,Western,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,40,11,29,0.275,23,11,29,WNBA,2023,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,40,9,31,0.225,25,8,32,WNBA,2023,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

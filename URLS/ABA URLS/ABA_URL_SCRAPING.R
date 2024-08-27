@@ -4,7 +4,7 @@
 
 # This file will be scraping for ABA URLs from Basketball-Reference.com including
 # Each league season, every ABA team from the inaugural 1947 season to today,
-# And every playoff team from 1947 to today.
+# And every playoff team from 1968 to 1976.
 
 # NOTE: You will need to manually download 2 CSVs to run everything
 # ABA_LEAGUE_INFO.csv & ABA_STANDINGS.csv
@@ -36,7 +36,7 @@ team_urls <- generate_team_urls(teams, seasons)
 aba_league_path <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/ABA/LEAGUE/"
 league_his <- read_csv(file.path(aba_league_path,"ABA_LEAGUE_INFO.csv"))
 
-# Function to filter URLs based on the CSV data
+# Function to filter URLs based on the CSV data, considering 'From' and 'To' years
 filter_valid_urls <- function(team, season, league_info) {
   team_info <- league_info %>% filter(Team == team)
   
@@ -44,7 +44,7 @@ filter_valid_urls <- function(team, season, league_info) {
     return(FALSE)
   }
   
-  # If the team has multiple rows (e.g., different periods), check all of them
+  # Check each period for the team
   for (i in 1:nrow(team_info)) {
     from <- team_info$From[i]
     to <- ifelse(is.na(team_info$To[i]), most_recent_nba_season(), team_info$To[i])
@@ -66,15 +66,14 @@ valid_team_urls <- team_urls %>%
   rename(`Team Abbr.` = team,
          Season = season,
          URL = url) %>%
-  select( `Team Name`,`Team Abbr.`,Season, League, URL) %>%
-  filter(!(`Team Abbr.` == "DLC" & Season %in% c(1971)))
+  select( `Team Name`,`Team Abbr.`,Season, League, URL)
 
 # URL path to write CSVs (Change the directory accordingly)
 url_path <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/ABA URLS/"
 write_csv(valid_team_urls,file.path(url_path,"ABA_TEAM_URLS.csv"))
 
 # League Urls
-# This portion will grab valid urls that are based around each season of the NBA
+# This portion will grab valid urls that are based around each season of the ABA
 
 # Function to generate URLs based on the league and year
 generate_league_urls <- function(start_year, end_year) {
@@ -94,7 +93,7 @@ aba_league_urls <- generate_league_urls(1968, 1976)
 write_csv(aba_league_urls,file.path(url_path,"ABA_LEAGUE_URLS.csv"))
 
 # Playoff URLs
-# This is separate from the NBA Team URLs as these URLs are exclusive to only teams that have'
+# This is separate from the ABA Team URLs as these URLs are exclusive to only teams that have'
 # made the playoffs, we are going to take advantage of the valid_team_urls we made
 
 # Read in standings csv
@@ -115,4 +114,4 @@ playoff_urls <- generate_playoff_urls(standings) %>%
 # Creating a csv for all playoff teams
 write_csv(aba_league_urls,file.path(url_path,"ABA_PLAYOFFS_URLS.csv"))
 
-# Now you are able to scrape nba data from Basketball-Reference.com
+# Now you are able to scrape aba data from Basketball-Reference.com

@@ -1,79 +1,961 @@
-year,league,url
-1947,BAA,https://www.basketball-reference.com/leagues/BAA_1947.html
-1948,BAA,https://www.basketball-reference.com/leagues/BAA_1948.html
-1949,BAA,https://www.basketball-reference.com/leagues/BAA_1949.html
-1950,NBA,https://www.basketball-reference.com/leagues/NBA_1950.html
-1951,NBA,https://www.basketball-reference.com/leagues/NBA_1951.html
-1952,NBA,https://www.basketball-reference.com/leagues/NBA_1952.html
-1953,NBA,https://www.basketball-reference.com/leagues/NBA_1953.html
-1954,NBA,https://www.basketball-reference.com/leagues/NBA_1954.html
-1955,NBA,https://www.basketball-reference.com/leagues/NBA_1955.html
-1956,NBA,https://www.basketball-reference.com/leagues/NBA_1956.html
-1957,NBA,https://www.basketball-reference.com/leagues/NBA_1957.html
-1958,NBA,https://www.basketball-reference.com/leagues/NBA_1958.html
-1959,NBA,https://www.basketball-reference.com/leagues/NBA_1959.html
-1960,NBA,https://www.basketball-reference.com/leagues/NBA_1960.html
-1961,NBA,https://www.basketball-reference.com/leagues/NBA_1961.html
-1962,NBA,https://www.basketball-reference.com/leagues/NBA_1962.html
-1963,NBA,https://www.basketball-reference.com/leagues/NBA_1963.html
-1964,NBA,https://www.basketball-reference.com/leagues/NBA_1964.html
-1965,NBA,https://www.basketball-reference.com/leagues/NBA_1965.html
-1966,NBA,https://www.basketball-reference.com/leagues/NBA_1966.html
-1967,NBA,https://www.basketball-reference.com/leagues/NBA_1967.html
-1968,NBA,https://www.basketball-reference.com/leagues/NBA_1968.html
-1969,NBA,https://www.basketball-reference.com/leagues/NBA_1969.html
-1970,NBA,https://www.basketball-reference.com/leagues/NBA_1970.html
-1971,NBA,https://www.basketball-reference.com/leagues/NBA_1971.html
-1972,NBA,https://www.basketball-reference.com/leagues/NBA_1972.html
-1973,NBA,https://www.basketball-reference.com/leagues/NBA_1973.html
-1974,NBA,https://www.basketball-reference.com/leagues/NBA_1974.html
-1975,NBA,https://www.basketball-reference.com/leagues/NBA_1975.html
-1976,NBA,https://www.basketball-reference.com/leagues/NBA_1976.html
-1977,NBA,https://www.basketball-reference.com/leagues/NBA_1977.html
-1978,NBA,https://www.basketball-reference.com/leagues/NBA_1978.html
-1979,NBA,https://www.basketball-reference.com/leagues/NBA_1979.html
-1980,NBA,https://www.basketball-reference.com/leagues/NBA_1980.html
-1981,NBA,https://www.basketball-reference.com/leagues/NBA_1981.html
-1982,NBA,https://www.basketball-reference.com/leagues/NBA_1982.html
-1983,NBA,https://www.basketball-reference.com/leagues/NBA_1983.html
-1984,NBA,https://www.basketball-reference.com/leagues/NBA_1984.html
-1985,NBA,https://www.basketball-reference.com/leagues/NBA_1985.html
-1986,NBA,https://www.basketball-reference.com/leagues/NBA_1986.html
-1987,NBA,https://www.basketball-reference.com/leagues/NBA_1987.html
-1988,NBA,https://www.basketball-reference.com/leagues/NBA_1988.html
-1989,NBA,https://www.basketball-reference.com/leagues/NBA_1989.html
-1990,NBA,https://www.basketball-reference.com/leagues/NBA_1990.html
-1991,NBA,https://www.basketball-reference.com/leagues/NBA_1991.html
-1992,NBA,https://www.basketball-reference.com/leagues/NBA_1992.html
-1993,NBA,https://www.basketball-reference.com/leagues/NBA_1993.html
-1994,NBA,https://www.basketball-reference.com/leagues/NBA_1994.html
-1995,NBA,https://www.basketball-reference.com/leagues/NBA_1995.html
-1996,NBA,https://www.basketball-reference.com/leagues/NBA_1996.html
-1997,NBA,https://www.basketball-reference.com/leagues/NBA_1997.html
-1998,NBA,https://www.basketball-reference.com/leagues/NBA_1998.html
-1999,NBA,https://www.basketball-reference.com/leagues/NBA_1999.html
-2000,NBA,https://www.basketball-reference.com/leagues/NBA_2000.html
-2001,NBA,https://www.basketball-reference.com/leagues/NBA_2001.html
-2002,NBA,https://www.basketball-reference.com/leagues/NBA_2002.html
-2003,NBA,https://www.basketball-reference.com/leagues/NBA_2003.html
-2004,NBA,https://www.basketball-reference.com/leagues/NBA_2004.html
-2005,NBA,https://www.basketball-reference.com/leagues/NBA_2005.html
-2006,NBA,https://www.basketball-reference.com/leagues/NBA_2006.html
-2007,NBA,https://www.basketball-reference.com/leagues/NBA_2007.html
-2008,NBA,https://www.basketball-reference.com/leagues/NBA_2008.html
-2009,NBA,https://www.basketball-reference.com/leagues/NBA_2009.html
-2010,NBA,https://www.basketball-reference.com/leagues/NBA_2010.html
-2011,NBA,https://www.basketball-reference.com/leagues/NBA_2011.html
-2012,NBA,https://www.basketball-reference.com/leagues/NBA_2012.html
-2013,NBA,https://www.basketball-reference.com/leagues/NBA_2013.html
-2014,NBA,https://www.basketball-reference.com/leagues/NBA_2014.html
-2015,NBA,https://www.basketball-reference.com/leagues/NBA_2015.html
-2016,NBA,https://www.basketball-reference.com/leagues/NBA_2016.html
-2017,NBA,https://www.basketball-reference.com/leagues/NBA_2017.html
-2018,NBA,https://www.basketball-reference.com/leagues/NBA_2018.html
-2019,NBA,https://www.basketball-reference.com/leagues/NBA_2019.html
-2020,NBA,https://www.basketball-reference.com/leagues/NBA_2020.html
-2021,NBA,https://www.basketball-reference.com/leagues/NBA_2021.html
-2022,NBA,https://www.basketball-reference.com/leagues/NBA_2022.html
-2023,NBA,https://www.basketball-reference.com/leagues/NBA_2023.html
-2024,NBA,https://www.basketball-reference.com/leagues/NBA_2024.html
+Team Name,Team Abbr.,Season,League,URL
+Washington Capitols,WSC,1947,BAA,https://www.basketball-reference.com/teams/WSC/1947.html
+Philadelphia Warriors,PHW,1947,BAA,https://www.basketball-reference.com/teams/PHW/1947.html
+New York Knicks,NYK,1947,BAA,https://www.basketball-reference.com/teams/NYK/1947.html
+Chicago Stags,CHS,1947,BAA,https://www.basketball-reference.com/teams/CHS/1947.html
+St. Louis Bombers,STB,1947,BAA,https://www.basketball-reference.com/teams/STB/1947.html
+Cleveland Rebels,CLR,1947,BAA,https://www.basketball-reference.com/teams/CLR/1947.html
+Philadelphia Warriors,PHW,1948,BAA,https://www.basketball-reference.com/teams/PHW/1948.html
+New York Knicks,NYK,1948,BAA,https://www.basketball-reference.com/teams/NYK/1948.html
+Boston Celtics,BOS,1948,BAA,https://www.basketball-reference.com/teams/BOS/1948.html
+St. Louis Bombers,STB,1948,BAA,https://www.basketball-reference.com/teams/STB/1948.html
+Baltimore Bullets,BLB,1948,BAA,https://www.basketball-reference.com/teams/BLB/1948.html
+Chicago Stags,CHS,1948,BAA,https://www.basketball-reference.com/teams/CHS/1948.html
+Washington Capitols,WSC,1948,BAA,https://www.basketball-reference.com/teams/WSC/1948.html
+Washington Capitols,WSC,1949,BAA,https://www.basketball-reference.com/teams/WSC/1949.html
+New York Knicks,NYK,1949,BAA,https://www.basketball-reference.com/teams/NYK/1949.html
+Baltimore Bullets,BLB,1949,BAA,https://www.basketball-reference.com/teams/BLB/1949.html
+Philadelphia Warriors,PHW,1949,BAA,https://www.basketball-reference.com/teams/PHW/1949.html
+Rochester Royals,ROC,1949,BAA,https://www.basketball-reference.com/teams/ROC/1949.html
+Minneapolis Lakers,MNL,1949,BAA,https://www.basketball-reference.com/teams/MNL/1949.html
+Chicago Stags,CHS,1949,BAA,https://www.basketball-reference.com/teams/CHS/1949.html
+St. Louis Bombers,STB,1949,BAA,https://www.basketball-reference.com/teams/STB/1949.html
+Minneapolis Lakers,MNL,1950,NBA,https://www.basketball-reference.com/teams/MNL/1950.html
+Rochester Royals,ROC,1950,NBA,https://www.basketball-reference.com/teams/ROC/1950.html
+Fort Wayne Pistons,FTW,1950,NBA,https://www.basketball-reference.com/teams/FTW/1950.html
+Chicago Stags,CHS,1950,NBA,https://www.basketball-reference.com/teams/CHS/1950.html
+Syracuse Nationals,SYR,1950,NBA,https://www.basketball-reference.com/teams/SYR/1950.html
+New York Knicks,NYK,1950,NBA,https://www.basketball-reference.com/teams/NYK/1950.html
+Washington Capitols,WSC,1950,NBA,https://www.basketball-reference.com/teams/WSC/1950.html
+Philadelphia Warriors,PHW,1950,NBA,https://www.basketball-reference.com/teams/PHW/1950.html
+Indianapolis Olympians,INO,1950,NBA,https://www.basketball-reference.com/teams/INO/1950.html
+Anderson Packers,AND,1950,NBA,https://www.basketball-reference.com/teams/AND/1950.html
+Tri-Cities Blackhawks,TRI,1950,NBA,https://www.basketball-reference.com/teams/TRI/1950.html
+Sheboygan Red Skins,SHE,1950,NBA,https://www.basketball-reference.com/teams/SHE/1950.html
+Philadelphia Warriors,PHW,1951,NBA,https://www.basketball-reference.com/teams/PHW/1951.html
+Boston Celtics,BOS,1951,NBA,https://www.basketball-reference.com/teams/BOS/1951.html
+New York Knicks,NYK,1951,NBA,https://www.basketball-reference.com/teams/NYK/1951.html
+Syracuse Nationals,SYR,1951,NBA,https://www.basketball-reference.com/teams/SYR/1951.html
+Minneapolis Lakers,MNL,1951,NBA,https://www.basketball-reference.com/teams/MNL/1951.html
+Rochester Royals,ROC,1951,NBA,https://www.basketball-reference.com/teams/ROC/1951.html
+Fort Wayne Pistons,FTW,1951,NBA,https://www.basketball-reference.com/teams/FTW/1951.html
+Indianapolis Olympians,INO,1951,NBA,https://www.basketball-reference.com/teams/INO/1951.html
+Syracuse Nationals,SYR,1952,NBA,https://www.basketball-reference.com/teams/SYR/1952.html
+Boston Celtics,BOS,1952,NBA,https://www.basketball-reference.com/teams/BOS/1952.html
+New York Knicks,NYK,1952,NBA,https://www.basketball-reference.com/teams/NYK/1952.html
+Philadelphia Warriors,PHW,1952,NBA,https://www.basketball-reference.com/teams/PHW/1952.html
+Rochester Royals,ROC,1952,NBA,https://www.basketball-reference.com/teams/ROC/1952.html
+Minneapolis Lakers,MNL,1952,NBA,https://www.basketball-reference.com/teams/MNL/1952.html
+Indianapolis Olympians,INO,1952,NBA,https://www.basketball-reference.com/teams/INO/1952.html
+Fort Wayne Pistons,FTW,1952,NBA,https://www.basketball-reference.com/teams/FTW/1952.html
+New York Knicks,NYK,1953,NBA,https://www.basketball-reference.com/teams/NYK/1953.html
+Syracuse Nationals,SYR,1953,NBA,https://www.basketball-reference.com/teams/SYR/1953.html
+Boston Celtics,BOS,1953,NBA,https://www.basketball-reference.com/teams/BOS/1953.html
+Baltimore Bullets,BLB,1953,NBA,https://www.basketball-reference.com/teams/BLB/1953.html
+Minneapolis Lakers,MNL,1953,NBA,https://www.basketball-reference.com/teams/MNL/1953.html
+Rochester Royals,ROC,1953,NBA,https://www.basketball-reference.com/teams/ROC/1953.html
+Fort Wayne Pistons,FTW,1953,NBA,https://www.basketball-reference.com/teams/FTW/1953.html
+Indianapolis Olympians,INO,1953,NBA,https://www.basketball-reference.com/teams/INO/1953.html
+New York Knicks,NYK,1954,NBA,https://www.basketball-reference.com/teams/NYK/1954.html
+Syracuse Nationals,SYR,1954,NBA,https://www.basketball-reference.com/teams/SYR/1954.html
+Boston Celtics,BOS,1954,NBA,https://www.basketball-reference.com/teams/BOS/1954.html
+Minneapolis Lakers,MNL,1954,NBA,https://www.basketball-reference.com/teams/MNL/1954.html
+Rochester Royals,ROC,1954,NBA,https://www.basketball-reference.com/teams/ROC/1954.html
+Fort Wayne Pistons,FTW,1954,NBA,https://www.basketball-reference.com/teams/FTW/1954.html
+Syracuse Nationals,SYR,1955,NBA,https://www.basketball-reference.com/teams/SYR/1955.html
+New York Knicks,NYK,1955,NBA,https://www.basketball-reference.com/teams/NYK/1955.html
+Boston Celtics,BOS,1955,NBA,https://www.basketball-reference.com/teams/BOS/1955.html
+Fort Wayne Pistons,FTW,1955,NBA,https://www.basketball-reference.com/teams/FTW/1955.html
+Minneapolis Lakers,MNL,1955,NBA,https://www.basketball-reference.com/teams/MNL/1955.html
+Rochester Royals,ROC,1955,NBA,https://www.basketball-reference.com/teams/ROC/1955.html
+Philadelphia Warriors,PHW,1956,NBA,https://www.basketball-reference.com/teams/PHW/1956.html
+Boston Celtics,BOS,1956,NBA,https://www.basketball-reference.com/teams/BOS/1956.html
+Syracuse Nationals,SYR,1956,NBA,https://www.basketball-reference.com/teams/SYR/1956.html
+New York Knicks,NYK,1956,NBA,https://www.basketball-reference.com/teams/NYK/1956.html
+Fort Wayne Pistons,FTW,1956,NBA,https://www.basketball-reference.com/teams/FTW/1956.html
+Minneapolis Lakers,MNL,1956,NBA,https://www.basketball-reference.com/teams/MNL/1956.html
+St. Louis Hawks,STL,1956,NBA,https://www.basketball-reference.com/teams/STL/1956.html
+Boston Celtics,BOS,1957,NBA,https://www.basketball-reference.com/teams/BOS/1957.html
+Syracuse Nationals,SYR,1957,NBA,https://www.basketball-reference.com/teams/SYR/1957.html
+Philadelphia Warriors,PHW,1957,NBA,https://www.basketball-reference.com/teams/PHW/1957.html
+St. Louis Hawks,STL,1957,NBA,https://www.basketball-reference.com/teams/STL/1957.html
+Minneapolis Lakers,MNL,1957,NBA,https://www.basketball-reference.com/teams/MNL/1957.html
+Fort Wayne Pistons,FTW,1957,NBA,https://www.basketball-reference.com/teams/FTW/1957.html
+Boston Celtics,BOS,1958,NBA,https://www.basketball-reference.com/teams/BOS/1958.html
+Syracuse Nationals,SYR,1958,NBA,https://www.basketball-reference.com/teams/SYR/1958.html
+Philadelphia Warriors,PHW,1958,NBA,https://www.basketball-reference.com/teams/PHW/1958.html
+St. Louis Hawks,STL,1958,NBA,https://www.basketball-reference.com/teams/STL/1958.html
+Detroit Pistons,DET,1958,NBA,https://www.basketball-reference.com/teams/DET/1958.html
+Cincinnati Royals,CIN,1958,NBA,https://www.basketball-reference.com/teams/CIN/1958.html
+Boston Celtics,BOS,1959,NBA,https://www.basketball-reference.com/teams/BOS/1959.html
+New York Knicks,NYK,1959,NBA,https://www.basketball-reference.com/teams/NYK/1959.html
+Syracuse Nationals,SYR,1959,NBA,https://www.basketball-reference.com/teams/SYR/1959.html
+St. Louis Hawks,STL,1959,NBA,https://www.basketball-reference.com/teams/STL/1959.html
+Minneapolis Lakers,MNL,1959,NBA,https://www.basketball-reference.com/teams/MNL/1959.html
+Detroit Pistons,DET,1959,NBA,https://www.basketball-reference.com/teams/DET/1959.html
+Boston Celtics,BOS,1960,NBA,https://www.basketball-reference.com/teams/BOS/1960.html
+Philadelphia Warriors,PHW,1960,NBA,https://www.basketball-reference.com/teams/PHW/1960.html
+Syracuse Nationals,SYR,1960,NBA,https://www.basketball-reference.com/teams/SYR/1960.html
+St. Louis Hawks,STL,1960,NBA,https://www.basketball-reference.com/teams/STL/1960.html
+Detroit Pistons,DET,1960,NBA,https://www.basketball-reference.com/teams/DET/1960.html
+Minneapolis Lakers,MNL,1960,NBA,https://www.basketball-reference.com/teams/MNL/1960.html
+Boston Celtics,BOS,1961,NBA,https://www.basketball-reference.com/teams/BOS/1961.html
+Philadelphia Warriors,PHW,1961,NBA,https://www.basketball-reference.com/teams/PHW/1961.html
+Syracuse Nationals,SYR,1961,NBA,https://www.basketball-reference.com/teams/SYR/1961.html
+St. Louis Hawks,STL,1961,NBA,https://www.basketball-reference.com/teams/STL/1961.html
+Los Angeles Lakers,LAL,1961,NBA,https://www.basketball-reference.com/teams/LAL/1961.html
+Detroit Pistons,DET,1961,NBA,https://www.basketball-reference.com/teams/DET/1961.html
+Boston Celtics,BOS,1962,NBA,https://www.basketball-reference.com/teams/BOS/1962.html
+Philadelphia Warriors,PHW,1962,NBA,https://www.basketball-reference.com/teams/PHW/1962.html
+Syracuse Nationals,SYR,1962,NBA,https://www.basketball-reference.com/teams/SYR/1962.html
+Los Angeles Lakers,LAL,1962,NBA,https://www.basketball-reference.com/teams/LAL/1962.html
+Cincinnati Royals,CIN,1962,NBA,https://www.basketball-reference.com/teams/CIN/1962.html
+Detroit Pistons,DET,1962,NBA,https://www.basketball-reference.com/teams/DET/1962.html
+Boston Celtics,BOS,1963,NBA,https://www.basketball-reference.com/teams/BOS/1963.html
+Syracuse Nationals,SYR,1963,NBA,https://www.basketball-reference.com/teams/SYR/1963.html
+Cincinnati Royals,CIN,1963,NBA,https://www.basketball-reference.com/teams/CIN/1963.html
+Los Angeles Lakers,LAL,1963,NBA,https://www.basketball-reference.com/teams/LAL/1963.html
+St. Louis Hawks,STL,1963,NBA,https://www.basketball-reference.com/teams/STL/1963.html
+Detroit Pistons,DET,1963,NBA,https://www.basketball-reference.com/teams/DET/1963.html
+Boston Celtics,BOS,1964,NBA,https://www.basketball-reference.com/teams/BOS/1964.html
+Cincinnati Royals,CIN,1964,NBA,https://www.basketball-reference.com/teams/CIN/1964.html
+Philadelphia 76ers,PHI,1964,NBA,https://www.basketball-reference.com/teams/PHI/1964.html
+San Francisco Warriors,SFW,1964,NBA,https://www.basketball-reference.com/teams/SFW/1964.html
+St. Louis Hawks,STL,1964,NBA,https://www.basketball-reference.com/teams/STL/1964.html
+Los Angeles Lakers,LAL,1964,NBA,https://www.basketball-reference.com/teams/LAL/1964.html
+Boston Celtics,BOS,1965,NBA,https://www.basketball-reference.com/teams/BOS/1965.html
+Cincinnati Royals,CIN,1965,NBA,https://www.basketball-reference.com/teams/CIN/1965.html
+Philadelphia 76ers,PHI,1965,NBA,https://www.basketball-reference.com/teams/PHI/1965.html
+Los Angeles Lakers,LAL,1965,NBA,https://www.basketball-reference.com/teams/LAL/1965.html
+St. Louis Hawks,STL,1965,NBA,https://www.basketball-reference.com/teams/STL/1965.html
+Baltimore Bullets,BAL,1965,NBA,https://www.basketball-reference.com/teams/BAL/1965.html
+Philadelphia 76ers,PHI,1966,NBA,https://www.basketball-reference.com/teams/PHI/1966.html
+Boston Celtics,BOS,1966,NBA,https://www.basketball-reference.com/teams/BOS/1966.html
+Cincinnati Royals,CIN,1966,NBA,https://www.basketball-reference.com/teams/CIN/1966.html
+Los Angeles Lakers,LAL,1966,NBA,https://www.basketball-reference.com/teams/LAL/1966.html
+Baltimore Bullets,BAL,1966,NBA,https://www.basketball-reference.com/teams/BAL/1966.html
+St. Louis Hawks,STL,1966,NBA,https://www.basketball-reference.com/teams/STL/1966.html
+Philadelphia 76ers,PHI,1967,NBA,https://www.basketball-reference.com/teams/PHI/1967.html
+Boston Celtics,BOS,1967,NBA,https://www.basketball-reference.com/teams/BOS/1967.html
+Cincinnati Royals,CIN,1967,NBA,https://www.basketball-reference.com/teams/CIN/1967.html
+New York Knicks,NYK,1967,NBA,https://www.basketball-reference.com/teams/NYK/1967.html
+San Francisco Warriors,SFW,1967,NBA,https://www.basketball-reference.com/teams/SFW/1967.html
+St. Louis Hawks,STL,1967,NBA,https://www.basketball-reference.com/teams/STL/1967.html
+Los Angeles Lakers,LAL,1967,NBA,https://www.basketball-reference.com/teams/LAL/1967.html
+Chicago Bulls,CHI,1967,NBA,https://www.basketball-reference.com/teams/CHI/1967.html
+Philadelphia 76ers,PHI,1968,NBA,https://www.basketball-reference.com/teams/PHI/1968.html
+Boston Celtics,BOS,1968,NBA,https://www.basketball-reference.com/teams/BOS/1968.html
+New York Knicks,NYK,1968,NBA,https://www.basketball-reference.com/teams/NYK/1968.html
+Detroit Pistons,DET,1968,NBA,https://www.basketball-reference.com/teams/DET/1968.html
+St. Louis Hawks,STL,1968,NBA,https://www.basketball-reference.com/teams/STL/1968.html
+Los Angeles Lakers,LAL,1968,NBA,https://www.basketball-reference.com/teams/LAL/1968.html
+San Francisco Warriors,SFW,1968,NBA,https://www.basketball-reference.com/teams/SFW/1968.html
+Chicago Bulls,CHI,1968,NBA,https://www.basketball-reference.com/teams/CHI/1968.html
+Baltimore Bullets,BAL,1969,NBA,https://www.basketball-reference.com/teams/BAL/1969.html
+Philadelphia 76ers,PHI,1969,NBA,https://www.basketball-reference.com/teams/PHI/1969.html
+New York Knicks,NYK,1969,NBA,https://www.basketball-reference.com/teams/NYK/1969.html
+Boston Celtics,BOS,1969,NBA,https://www.basketball-reference.com/teams/BOS/1969.html
+Los Angeles Lakers,LAL,1969,NBA,https://www.basketball-reference.com/teams/LAL/1969.html
+Atlanta Hawks,ATL,1969,NBA,https://www.basketball-reference.com/teams/ATL/1969.html
+San Francisco Warriors,SFW,1969,NBA,https://www.basketball-reference.com/teams/SFW/1969.html
+San Diego Rockets,SDR,1969,NBA,https://www.basketball-reference.com/teams/SDR/1969.html
+New York Knicks,NYK,1970,NBA,https://www.basketball-reference.com/teams/NYK/1970.html
+Milwaukee Bucks,MIL,1970,NBA,https://www.basketball-reference.com/teams/MIL/1970.html
+Baltimore Bullets,BAL,1970,NBA,https://www.basketball-reference.com/teams/BAL/1970.html
+Philadelphia 76ers,PHI,1970,NBA,https://www.basketball-reference.com/teams/PHI/1970.html
+Atlanta Hawks,ATL,1970,NBA,https://www.basketball-reference.com/teams/ATL/1970.html
+Los Angeles Lakers,LAL,1970,NBA,https://www.basketball-reference.com/teams/LAL/1970.html
+Chicago Bulls,CHI,1970,NBA,https://www.basketball-reference.com/teams/CHI/1970.html
+Phoenix Suns,PHO,1970,NBA,https://www.basketball-reference.com/teams/PHO/1970.html
+New York Knicks,NYK,1971,NBA,https://www.basketball-reference.com/teams/NYK/1971.html
+Philadelphia 76ers,PHI,1971,NBA,https://www.basketball-reference.com/teams/PHI/1971.html
+Baltimore Bullets,BAL,1971,NBA,https://www.basketball-reference.com/teams/BAL/1971.html
+Atlanta Hawks,ATL,1971,NBA,https://www.basketball-reference.com/teams/ATL/1971.html
+Milwaukee Bucks,MIL,1971,NBA,https://www.basketball-reference.com/teams/MIL/1971.html
+Chicago Bulls,CHI,1971,NBA,https://www.basketball-reference.com/teams/CHI/1971.html
+Los Angeles Lakers,LAL,1971,NBA,https://www.basketball-reference.com/teams/LAL/1971.html
+San Francisco Warriors,SFW,1971,NBA,https://www.basketball-reference.com/teams/SFW/1971.html
+Boston Celtics,BOS,1972,NBA,https://www.basketball-reference.com/teams/BOS/1972.html
+New York Knicks,NYK,1972,NBA,https://www.basketball-reference.com/teams/NYK/1972.html
+Baltimore Bullets,BAL,1972,NBA,https://www.basketball-reference.com/teams/BAL/1972.html
+Atlanta Hawks,ATL,1972,NBA,https://www.basketball-reference.com/teams/ATL/1972.html
+Los Angeles Lakers,LAL,1972,NBA,https://www.basketball-reference.com/teams/LAL/1972.html
+Milwaukee Bucks,MIL,1972,NBA,https://www.basketball-reference.com/teams/MIL/1972.html
+Chicago Bulls,CHI,1972,NBA,https://www.basketball-reference.com/teams/CHI/1972.html
+Golden State Warriors,GSW,1972,NBA,https://www.basketball-reference.com/teams/GSW/1972.html
+Boston Celtics,BOS,1973,NBA,https://www.basketball-reference.com/teams/BOS/1973.html
+New York Knicks,NYK,1973,NBA,https://www.basketball-reference.com/teams/NYK/1973.html
+Baltimore Bullets,BAL,1973,NBA,https://www.basketball-reference.com/teams/BAL/1973.html
+Atlanta Hawks,ATL,1973,NBA,https://www.basketball-reference.com/teams/ATL/1973.html
+Milwaukee Bucks,MIL,1973,NBA,https://www.basketball-reference.com/teams/MIL/1973.html
+Los Angeles Lakers,LAL,1973,NBA,https://www.basketball-reference.com/teams/LAL/1973.html
+Chicago Bulls,CHI,1973,NBA,https://www.basketball-reference.com/teams/CHI/1973.html
+Golden State Warriors,GSW,1973,NBA,https://www.basketball-reference.com/teams/GSW/1973.html
+Boston Celtics,BOS,1974,NBA,https://www.basketball-reference.com/teams/BOS/1974.html
+New York Knicks,NYK,1974,NBA,https://www.basketball-reference.com/teams/NYK/1974.html
+Capital Bullets,CAP,1974,NBA,https://www.basketball-reference.com/teams/CAP/1974.html
+Buffalo Braves,BUF,1974,NBA,https://www.basketball-reference.com/teams/BUF/1974.html
+Milwaukee Bucks,MIL,1974,NBA,https://www.basketball-reference.com/teams/MIL/1974.html
+Chicago Bulls,CHI,1974,NBA,https://www.basketball-reference.com/teams/CHI/1974.html
+Detroit Pistons,DET,1974,NBA,https://www.basketball-reference.com/teams/DET/1974.html
+Los Angeles Lakers,LAL,1974,NBA,https://www.basketball-reference.com/teams/LAL/1974.html
+Boston Celtics,BOS,1975,NBA,https://www.basketball-reference.com/teams/BOS/1975.html
+Washington Bullets,WSB,1975,NBA,https://www.basketball-reference.com/teams/WSB/1975.html
+Buffalo Braves,BUF,1975,NBA,https://www.basketball-reference.com/teams/BUF/1975.html
+Houston Rockets,HOU,1975,NBA,https://www.basketball-reference.com/teams/HOU/1975.html
+New York Knicks,NYK,1975,NBA,https://www.basketball-reference.com/teams/NYK/1975.html
+Golden State Warriors,GSW,1975,NBA,https://www.basketball-reference.com/teams/GSW/1975.html
+Chicago Bulls,CHI,1975,NBA,https://www.basketball-reference.com/teams/CHI/1975.html
+Kansas City-Omaha Kings,KCO,1975,NBA,https://www.basketball-reference.com/teams/KCO/1975.html
+Seattle SuperSonics,SEA,1975,NBA,https://www.basketball-reference.com/teams/SEA/1975.html
+Detroit Pistons,DET,1975,NBA,https://www.basketball-reference.com/teams/DET/1975.html
+Boston Celtics,BOS,1976,NBA,https://www.basketball-reference.com/teams/BOS/1976.html
+Cleveland Cavaliers,CLE,1976,NBA,https://www.basketball-reference.com/teams/CLE/1976.html
+Washington Bullets,WSB,1976,NBA,https://www.basketball-reference.com/teams/WSB/1976.html
+Philadelphia 76ers,PHI,1976,NBA,https://www.basketball-reference.com/teams/PHI/1976.html
+Buffalo Braves,BUF,1976,NBA,https://www.basketball-reference.com/teams/BUF/1976.html
+Golden State Warriors,GSW,1976,NBA,https://www.basketball-reference.com/teams/GSW/1976.html
+Seattle SuperSonics,SEA,1976,NBA,https://www.basketball-reference.com/teams/SEA/1976.html
+Phoenix Suns,PHO,1976,NBA,https://www.basketball-reference.com/teams/PHO/1976.html
+Milwaukee Bucks,MIL,1976,NBA,https://www.basketball-reference.com/teams/MIL/1976.html
+Detroit Pistons,DET,1976,NBA,https://www.basketball-reference.com/teams/DET/1976.html
+Philadelphia 76ers,PHI,1977,NBA,https://www.basketball-reference.com/teams/PHI/1977.html
+Houston Rockets,HOU,1977,NBA,https://www.basketball-reference.com/teams/HOU/1977.html
+Washington Bullets,WSB,1977,NBA,https://www.basketball-reference.com/teams/WSB/1977.html
+Boston Celtics,BOS,1977,NBA,https://www.basketball-reference.com/teams/BOS/1977.html
+San Antonio Spurs,SAS,1977,NBA,https://www.basketball-reference.com/teams/SAS/1977.html
+Cleveland Cavaliers,CLE,1977,NBA,https://www.basketball-reference.com/teams/CLE/1977.html
+Los Angeles Lakers,LAL,1977,NBA,https://www.basketball-reference.com/teams/LAL/1977.html
+Denver Nuggets,DEN,1977,NBA,https://www.basketball-reference.com/teams/DEN/1977.html
+Portland Trail Blazers,POR,1977,NBA,https://www.basketball-reference.com/teams/POR/1977.html
+Golden State Warriors,GSW,1977,NBA,https://www.basketball-reference.com/teams/GSW/1977.html
+Detroit Pistons,DET,1977,NBA,https://www.basketball-reference.com/teams/DET/1977.html
+Chicago Bulls,CHI,1977,NBA,https://www.basketball-reference.com/teams/CHI/1977.html
+Philadelphia 76ers,PHI,1978,NBA,https://www.basketball-reference.com/teams/PHI/1978.html
+San Antonio Spurs,SAS,1978,NBA,https://www.basketball-reference.com/teams/SAS/1978.html
+Washington Bullets,WSB,1978,NBA,https://www.basketball-reference.com/teams/WSB/1978.html
+Cleveland Cavaliers,CLE,1978,NBA,https://www.basketball-reference.com/teams/CLE/1978.html
+New York Knicks,NYK,1978,NBA,https://www.basketball-reference.com/teams/NYK/1978.html
+Atlanta Hawks,ATL,1978,NBA,https://www.basketball-reference.com/teams/ATL/1978.html
+Portland Trail Blazers,POR,1978,NBA,https://www.basketball-reference.com/teams/POR/1978.html
+Denver Nuggets,DEN,1978,NBA,https://www.basketball-reference.com/teams/DEN/1978.html
+Phoenix Suns,PHO,1978,NBA,https://www.basketball-reference.com/teams/PHO/1978.html
+Seattle SuperSonics,SEA,1978,NBA,https://www.basketball-reference.com/teams/SEA/1978.html
+Los Angeles Lakers,LAL,1978,NBA,https://www.basketball-reference.com/teams/LAL/1978.html
+Milwaukee Bucks,MIL,1978,NBA,https://www.basketball-reference.com/teams/MIL/1978.html
+Washington Bullets,WSB,1979,NBA,https://www.basketball-reference.com/teams/WSB/1979.html
+San Antonio Spurs,SAS,1979,NBA,https://www.basketball-reference.com/teams/SAS/1979.html
+Philadelphia 76ers,PHI,1979,NBA,https://www.basketball-reference.com/teams/PHI/1979.html
+Houston Rockets,HOU,1979,NBA,https://www.basketball-reference.com/teams/HOU/1979.html
+Atlanta Hawks,ATL,1979,NBA,https://www.basketball-reference.com/teams/ATL/1979.html
+New Jersey Nets,NJN,1979,NBA,https://www.basketball-reference.com/teams/NJN/1979.html
+Seattle SuperSonics,SEA,1979,NBA,https://www.basketball-reference.com/teams/SEA/1979.html
+Kansas City Kings,KCK,1979,NBA,https://www.basketball-reference.com/teams/KCK/1979.html
+Phoenix Suns,PHO,1979,NBA,https://www.basketball-reference.com/teams/PHO/1979.html
+Denver Nuggets,DEN,1979,NBA,https://www.basketball-reference.com/teams/DEN/1979.html
+Los Angeles Lakers,LAL,1979,NBA,https://www.basketball-reference.com/teams/LAL/1979.html
+Portland Trail Blazers,POR,1979,NBA,https://www.basketball-reference.com/teams/POR/1979.html
+Boston Celtics,BOS,1980,NBA,https://www.basketball-reference.com/teams/BOS/1980.html
+Atlanta Hawks,ATL,1980,NBA,https://www.basketball-reference.com/teams/ATL/1980.html
+Philadelphia 76ers,PHI,1980,NBA,https://www.basketball-reference.com/teams/PHI/1980.html
+Houston Rockets,HOU,1980,NBA,https://www.basketball-reference.com/teams/HOU/1980.html
+San Antonio Spurs,SAS,1980,NBA,https://www.basketball-reference.com/teams/SAS/1980.html
+Washington Bullets,WSB,1980,NBA,https://www.basketball-reference.com/teams/WSB/1980.html
+Los Angeles Lakers,LAL,1980,NBA,https://www.basketball-reference.com/teams/LAL/1980.html
+Milwaukee Bucks,MIL,1980,NBA,https://www.basketball-reference.com/teams/MIL/1980.html
+Seattle SuperSonics,SEA,1980,NBA,https://www.basketball-reference.com/teams/SEA/1980.html
+Phoenix Suns,PHO,1980,NBA,https://www.basketball-reference.com/teams/PHO/1980.html
+Kansas City Kings,KCK,1980,NBA,https://www.basketball-reference.com/teams/KCK/1980.html
+Portland Trail Blazers,POR,1980,NBA,https://www.basketball-reference.com/teams/POR/1980.html
+Boston Celtics,BOS,1981,NBA,https://www.basketball-reference.com/teams/BOS/1981.html
+Milwaukee Bucks,MIL,1981,NBA,https://www.basketball-reference.com/teams/MIL/1981.html
+Philadelphia 76ers,PHI,1981,NBA,https://www.basketball-reference.com/teams/PHI/1981.html
+New York Knicks,NYK,1981,NBA,https://www.basketball-reference.com/teams/NYK/1981.html
+Chicago Bulls,CHI,1981,NBA,https://www.basketball-reference.com/teams/CHI/1981.html
+Indiana Pacers,IND,1981,NBA,https://www.basketball-reference.com/teams/IND/1981.html
+Phoenix Suns,PHO,1981,NBA,https://www.basketball-reference.com/teams/PHO/1981.html
+San Antonio Spurs,SAS,1981,NBA,https://www.basketball-reference.com/teams/SAS/1981.html
+Los Angeles Lakers,LAL,1981,NBA,https://www.basketball-reference.com/teams/LAL/1981.html
+Portland Trail Blazers,POR,1981,NBA,https://www.basketball-reference.com/teams/POR/1981.html
+Kansas City Kings,KCK,1981,NBA,https://www.basketball-reference.com/teams/KCK/1981.html
+Houston Rockets,HOU,1981,NBA,https://www.basketball-reference.com/teams/HOU/1981.html
+Boston Celtics,BOS,1982,NBA,https://www.basketball-reference.com/teams/BOS/1982.html
+Milwaukee Bucks,MIL,1982,NBA,https://www.basketball-reference.com/teams/MIL/1982.html
+Philadelphia 76ers,PHI,1982,NBA,https://www.basketball-reference.com/teams/PHI/1982.html
+New Jersey Nets,NJN,1982,NBA,https://www.basketball-reference.com/teams/NJN/1982.html
+Washington Bullets,WSB,1982,NBA,https://www.basketball-reference.com/teams/WSB/1982.html
+Atlanta Hawks,ATL,1982,NBA,https://www.basketball-reference.com/teams/ATL/1982.html
+Los Angeles Lakers,LAL,1982,NBA,https://www.basketball-reference.com/teams/LAL/1982.html
+San Antonio Spurs,SAS,1982,NBA,https://www.basketball-reference.com/teams/SAS/1982.html
+Seattle SuperSonics,SEA,1982,NBA,https://www.basketball-reference.com/teams/SEA/1982.html
+Denver Nuggets,DEN,1982,NBA,https://www.basketball-reference.com/teams/DEN/1982.html
+Phoenix Suns,PHO,1982,NBA,https://www.basketball-reference.com/teams/PHO/1982.html
+Houston Rockets,HOU,1982,NBA,https://www.basketball-reference.com/teams/HOU/1982.html
+Philadelphia 76ers,PHI,1983,NBA,https://www.basketball-reference.com/teams/PHI/1983.html
+Milwaukee Bucks,MIL,1983,NBA,https://www.basketball-reference.com/teams/MIL/1983.html
+Boston Celtics,BOS,1983,NBA,https://www.basketball-reference.com/teams/BOS/1983.html
+New Jersey Nets,NJN,1983,NBA,https://www.basketball-reference.com/teams/NJN/1983.html
+New York Knicks,NYK,1983,NBA,https://www.basketball-reference.com/teams/NYK/1983.html
+Atlanta Hawks,ATL,1983,NBA,https://www.basketball-reference.com/teams/ATL/1983.html
+Los Angeles Lakers,LAL,1983,NBA,https://www.basketball-reference.com/teams/LAL/1983.html
+San Antonio Spurs,SAS,1983,NBA,https://www.basketball-reference.com/teams/SAS/1983.html
+Phoenix Suns,PHO,1983,NBA,https://www.basketball-reference.com/teams/PHO/1983.html
+Seattle SuperSonics,SEA,1983,NBA,https://www.basketball-reference.com/teams/SEA/1983.html
+Portland Trail Blazers,POR,1983,NBA,https://www.basketball-reference.com/teams/POR/1983.html
+Denver Nuggets,DEN,1983,NBA,https://www.basketball-reference.com/teams/DEN/1983.html
+Boston Celtics,BOS,1984,NBA,https://www.basketball-reference.com/teams/BOS/1984.html
+Milwaukee Bucks,MIL,1984,NBA,https://www.basketball-reference.com/teams/MIL/1984.html
+Philadelphia 76ers,PHI,1984,NBA,https://www.basketball-reference.com/teams/PHI/1984.html
+Detroit Pistons,DET,1984,NBA,https://www.basketball-reference.com/teams/DET/1984.html
+New York Knicks,NYK,1984,NBA,https://www.basketball-reference.com/teams/NYK/1984.html
+New Jersey Nets,NJN,1984,NBA,https://www.basketball-reference.com/teams/NJN/1984.html
+Atlanta Hawks,ATL,1984,NBA,https://www.basketball-reference.com/teams/ATL/1984.html
+Washington Bullets,WSB,1984,NBA,https://www.basketball-reference.com/teams/WSB/1984.html
+Los Angeles Lakers,LAL,1984,NBA,https://www.basketball-reference.com/teams/LAL/1984.html
+Utah Jazz,UTA,1984,NBA,https://www.basketball-reference.com/teams/UTA/1984.html
+Portland Trail Blazers,POR,1984,NBA,https://www.basketball-reference.com/teams/POR/1984.html
+Dallas Mavericks,DAL,1984,NBA,https://www.basketball-reference.com/teams/DAL/1984.html
+Seattle SuperSonics,SEA,1984,NBA,https://www.basketball-reference.com/teams/SEA/1984.html
+Phoenix Suns,PHO,1984,NBA,https://www.basketball-reference.com/teams/PHO/1984.html
+Denver Nuggets,DEN,1984,NBA,https://www.basketball-reference.com/teams/DEN/1984.html
+Kansas City Kings,KCK,1984,NBA,https://www.basketball-reference.com/teams/KCK/1984.html
+Boston Celtics,BOS,1985,NBA,https://www.basketball-reference.com/teams/BOS/1985.html
+Milwaukee Bucks,MIL,1985,NBA,https://www.basketball-reference.com/teams/MIL/1985.html
+Philadelphia 76ers,PHI,1985,NBA,https://www.basketball-reference.com/teams/PHI/1985.html
+Detroit Pistons,DET,1985,NBA,https://www.basketball-reference.com/teams/DET/1985.html
+New Jersey Nets,NJN,1985,NBA,https://www.basketball-reference.com/teams/NJN/1985.html
+Washington Bullets,WSB,1985,NBA,https://www.basketball-reference.com/teams/WSB/1985.html
+Chicago Bulls,CHI,1985,NBA,https://www.basketball-reference.com/teams/CHI/1985.html
+Cleveland Cavaliers,CLE,1985,NBA,https://www.basketball-reference.com/teams/CLE/1985.html
+Los Angeles Lakers,LAL,1985,NBA,https://www.basketball-reference.com/teams/LAL/1985.html
+Denver Nuggets,DEN,1985,NBA,https://www.basketball-reference.com/teams/DEN/1985.html
+Houston Rockets,HOU,1985,NBA,https://www.basketball-reference.com/teams/HOU/1985.html
+Dallas Mavericks,DAL,1985,NBA,https://www.basketball-reference.com/teams/DAL/1985.html
+Portland Trail Blazers,POR,1985,NBA,https://www.basketball-reference.com/teams/POR/1985.html
+Utah Jazz,UTA,1985,NBA,https://www.basketball-reference.com/teams/UTA/1985.html
+San Antonio Spurs,SAS,1985,NBA,https://www.basketball-reference.com/teams/SAS/1985.html
+Phoenix Suns,PHO,1985,NBA,https://www.basketball-reference.com/teams/PHO/1985.html
+Boston Celtics,BOS,1986,NBA,https://www.basketball-reference.com/teams/BOS/1986.html
+Milwaukee Bucks,MIL,1986,NBA,https://www.basketball-reference.com/teams/MIL/1986.html
+Philadelphia 76ers,PHI,1986,NBA,https://www.basketball-reference.com/teams/PHI/1986.html
+Atlanta Hawks,ATL,1986,NBA,https://www.basketball-reference.com/teams/ATL/1986.html
+Detroit Pistons,DET,1986,NBA,https://www.basketball-reference.com/teams/DET/1986.html
+Washington Bullets,WSB,1986,NBA,https://www.basketball-reference.com/teams/WSB/1986.html
+New Jersey Nets,NJN,1986,NBA,https://www.basketball-reference.com/teams/NJN/1986.html
+Chicago Bulls,CHI,1986,NBA,https://www.basketball-reference.com/teams/CHI/1986.html
+Los Angeles Lakers,LAL,1986,NBA,https://www.basketball-reference.com/teams/LAL/1986.html
+Houston Rockets,HOU,1986,NBA,https://www.basketball-reference.com/teams/HOU/1986.html
+Denver Nuggets,DEN,1986,NBA,https://www.basketball-reference.com/teams/DEN/1986.html
+Dallas Mavericks,DAL,1986,NBA,https://www.basketball-reference.com/teams/DAL/1986.html
+Utah Jazz,UTA,1986,NBA,https://www.basketball-reference.com/teams/UTA/1986.html
+Portland Trail Blazers,POR,1986,NBA,https://www.basketball-reference.com/teams/POR/1986.html
+Sacramento Kings,SAC,1986,NBA,https://www.basketball-reference.com/teams/SAC/1986.html
+San Antonio Spurs,SAS,1986,NBA,https://www.basketball-reference.com/teams/SAS/1986.html
+Boston Celtics,BOS,1987,NBA,https://www.basketball-reference.com/teams/BOS/1987.html
+Atlanta Hawks,ATL,1987,NBA,https://www.basketball-reference.com/teams/ATL/1987.html
+Detroit Pistons,DET,1987,NBA,https://www.basketball-reference.com/teams/DET/1987.html
+Milwaukee Bucks,MIL,1987,NBA,https://www.basketball-reference.com/teams/MIL/1987.html
+Philadelphia 76ers,PHI,1987,NBA,https://www.basketball-reference.com/teams/PHI/1987.html
+Washington Bullets,WSB,1987,NBA,https://www.basketball-reference.com/teams/WSB/1987.html
+Indiana Pacers,IND,1987,NBA,https://www.basketball-reference.com/teams/IND/1987.html
+Chicago Bulls,CHI,1987,NBA,https://www.basketball-reference.com/teams/CHI/1987.html
+Los Angeles Lakers,LAL,1987,NBA,https://www.basketball-reference.com/teams/LAL/1987.html
+Dallas Mavericks,DAL,1987,NBA,https://www.basketball-reference.com/teams/DAL/1987.html
+Portland Trail Blazers,POR,1987,NBA,https://www.basketball-reference.com/teams/POR/1987.html
+Utah Jazz,UTA,1987,NBA,https://www.basketball-reference.com/teams/UTA/1987.html
+Golden State Warriors,GSW,1987,NBA,https://www.basketball-reference.com/teams/GSW/1987.html
+Houston Rockets,HOU,1987,NBA,https://www.basketball-reference.com/teams/HOU/1987.html
+Seattle SuperSonics,SEA,1987,NBA,https://www.basketball-reference.com/teams/SEA/1987.html
+Denver Nuggets,DEN,1987,NBA,https://www.basketball-reference.com/teams/DEN/1987.html
+Boston Celtics,BOS,1988,NBA,https://www.basketball-reference.com/teams/BOS/1988.html
+Detroit Pistons,DET,1988,NBA,https://www.basketball-reference.com/teams/DET/1988.html
+Chicago Bulls,CHI,1988,NBA,https://www.basketball-reference.com/teams/CHI/1988.html
+Atlanta Hawks,ATL,1988,NBA,https://www.basketball-reference.com/teams/ATL/1988.html
+Milwaukee Bucks,MIL,1988,NBA,https://www.basketball-reference.com/teams/MIL/1988.html
+Cleveland Cavaliers,CLE,1988,NBA,https://www.basketball-reference.com/teams/CLE/1988.html
+Washington Bullets,WSB,1988,NBA,https://www.basketball-reference.com/teams/WSB/1988.html
+New York Knicks,NYK,1988,NBA,https://www.basketball-reference.com/teams/NYK/1988.html
+Los Angeles Lakers,LAL,1988,NBA,https://www.basketball-reference.com/teams/LAL/1988.html
+Denver Nuggets,DEN,1988,NBA,https://www.basketball-reference.com/teams/DEN/1988.html
+Dallas Mavericks,DAL,1988,NBA,https://www.basketball-reference.com/teams/DAL/1988.html
+Portland Trail Blazers,POR,1988,NBA,https://www.basketball-reference.com/teams/POR/1988.html
+Utah Jazz,UTA,1988,NBA,https://www.basketball-reference.com/teams/UTA/1988.html
+Houston Rockets,HOU,1988,NBA,https://www.basketball-reference.com/teams/HOU/1988.html
+Seattle SuperSonics,SEA,1988,NBA,https://www.basketball-reference.com/teams/SEA/1988.html
+San Antonio Spurs,SAS,1988,NBA,https://www.basketball-reference.com/teams/SAS/1988.html
+Detroit Pistons,DET,1989,NBA,https://www.basketball-reference.com/teams/DET/1989.html
+New York Knicks,NYK,1989,NBA,https://www.basketball-reference.com/teams/NYK/1989.html
+Cleveland Cavaliers,CLE,1989,NBA,https://www.basketball-reference.com/teams/CLE/1989.html
+Atlanta Hawks,ATL,1989,NBA,https://www.basketball-reference.com/teams/ATL/1989.html
+Milwaukee Bucks,MIL,1989,NBA,https://www.basketball-reference.com/teams/MIL/1989.html
+Chicago Bulls,CHI,1989,NBA,https://www.basketball-reference.com/teams/CHI/1989.html
+Philadelphia 76ers,PHI,1989,NBA,https://www.basketball-reference.com/teams/PHI/1989.html
+Boston Celtics,BOS,1989,NBA,https://www.basketball-reference.com/teams/BOS/1989.html
+Los Angeles Lakers,LAL,1989,NBA,https://www.basketball-reference.com/teams/LAL/1989.html
+Utah Jazz,UTA,1989,NBA,https://www.basketball-reference.com/teams/UTA/1989.html
+Phoenix Suns,PHO,1989,NBA,https://www.basketball-reference.com/teams/PHO/1989.html
+Seattle SuperSonics,SEA,1989,NBA,https://www.basketball-reference.com/teams/SEA/1989.html
+Houston Rockets,HOU,1989,NBA,https://www.basketball-reference.com/teams/HOU/1989.html
+Denver Nuggets,DEN,1989,NBA,https://www.basketball-reference.com/teams/DEN/1989.html
+Golden State Warriors,GSW,1989,NBA,https://www.basketball-reference.com/teams/GSW/1989.html
+Portland Trail Blazers,POR,1989,NBA,https://www.basketball-reference.com/teams/POR/1989.html
+Detroit Pistons,DET,1990,NBA,https://www.basketball-reference.com/teams/DET/1990.html
+Philadelphia 76ers,PHI,1990,NBA,https://www.basketball-reference.com/teams/PHI/1990.html
+Chicago Bulls,CHI,1990,NBA,https://www.basketball-reference.com/teams/CHI/1990.html
+Boston Celtics,BOS,1990,NBA,https://www.basketball-reference.com/teams/BOS/1990.html
+New York Knicks,NYK,1990,NBA,https://www.basketball-reference.com/teams/NYK/1990.html
+Milwaukee Bucks,MIL,1990,NBA,https://www.basketball-reference.com/teams/MIL/1990.html
+Cleveland Cavaliers,CLE,1990,NBA,https://www.basketball-reference.com/teams/CLE/1990.html
+Indiana Pacers,IND,1990,NBA,https://www.basketball-reference.com/teams/IND/1990.html
+Los Angeles Lakers,LAL,1990,NBA,https://www.basketball-reference.com/teams/LAL/1990.html
+San Antonio Spurs,SAS,1990,NBA,https://www.basketball-reference.com/teams/SAS/1990.html
+Portland Trail Blazers,POR,1990,NBA,https://www.basketball-reference.com/teams/POR/1990.html
+Utah Jazz,UTA,1990,NBA,https://www.basketball-reference.com/teams/UTA/1990.html
+Phoenix Suns,PHO,1990,NBA,https://www.basketball-reference.com/teams/PHO/1990.html
+Dallas Mavericks,DAL,1990,NBA,https://www.basketball-reference.com/teams/DAL/1990.html
+Denver Nuggets,DEN,1990,NBA,https://www.basketball-reference.com/teams/DEN/1990.html
+Houston Rockets,HOU,1990,NBA,https://www.basketball-reference.com/teams/HOU/1990.html
+Chicago Bulls,CHI,1991,NBA,https://www.basketball-reference.com/teams/CHI/1991.html
+Boston Celtics,BOS,1991,NBA,https://www.basketball-reference.com/teams/BOS/1991.html
+Detroit Pistons,DET,1991,NBA,https://www.basketball-reference.com/teams/DET/1991.html
+Milwaukee Bucks,MIL,1991,NBA,https://www.basketball-reference.com/teams/MIL/1991.html
+Philadelphia 76ers,PHI,1991,NBA,https://www.basketball-reference.com/teams/PHI/1991.html
+Atlanta Hawks,ATL,1991,NBA,https://www.basketball-reference.com/teams/ATL/1991.html
+Indiana Pacers,IND,1991,NBA,https://www.basketball-reference.com/teams/IND/1991.html
+New York Knicks,NYK,1991,NBA,https://www.basketball-reference.com/teams/NYK/1991.html
+Portland Trail Blazers,POR,1991,NBA,https://www.basketball-reference.com/teams/POR/1991.html
+San Antonio Spurs,SAS,1991,NBA,https://www.basketball-reference.com/teams/SAS/1991.html
+Los Angeles Lakers,LAL,1991,NBA,https://www.basketball-reference.com/teams/LAL/1991.html
+Phoenix Suns,PHO,1991,NBA,https://www.basketball-reference.com/teams/PHO/1991.html
+Utah Jazz,UTA,1991,NBA,https://www.basketball-reference.com/teams/UTA/1991.html
+Houston Rockets,HOU,1991,NBA,https://www.basketball-reference.com/teams/HOU/1991.html
+Golden State Warriors,GSW,1991,NBA,https://www.basketball-reference.com/teams/GSW/1991.html
+Seattle SuperSonics,SEA,1991,NBA,https://www.basketball-reference.com/teams/SEA/1991.html
+Chicago Bulls,CHI,1992,NBA,https://www.basketball-reference.com/teams/CHI/1992.html
+Boston Celtics,BOS,1992,NBA,https://www.basketball-reference.com/teams/BOS/1992.html
+Cleveland Cavaliers,CLE,1992,NBA,https://www.basketball-reference.com/teams/CLE/1992.html
+New York Knicks,NYK,1992,NBA,https://www.basketball-reference.com/teams/NYK/1992.html
+Detroit Pistons,DET,1992,NBA,https://www.basketball-reference.com/teams/DET/1992.html
+New Jersey Nets,NJN,1992,NBA,https://www.basketball-reference.com/teams/NJN/1992.html
+Indiana Pacers,IND,1992,NBA,https://www.basketball-reference.com/teams/IND/1992.html
+Miami Heat,MIA,1992,NBA,https://www.basketball-reference.com/teams/MIA/1992.html
+Portland Trail Blazers,POR,1992,NBA,https://www.basketball-reference.com/teams/POR/1992.html
+Utah Jazz,UTA,1992,NBA,https://www.basketball-reference.com/teams/UTA/1992.html
+Golden State Warriors,GSW,1992,NBA,https://www.basketball-reference.com/teams/GSW/1992.html
+Phoenix Suns,PHO,1992,NBA,https://www.basketball-reference.com/teams/PHO/1992.html
+San Antonio Spurs,SAS,1992,NBA,https://www.basketball-reference.com/teams/SAS/1992.html
+Seattle SuperSonics,SEA,1992,NBA,https://www.basketball-reference.com/teams/SEA/1992.html
+Los Angeles Clippers,LAC,1992,NBA,https://www.basketball-reference.com/teams/LAC/1992.html
+Los Angeles Lakers,LAL,1992,NBA,https://www.basketball-reference.com/teams/LAL/1992.html
+New York Knicks,NYK,1993,NBA,https://www.basketball-reference.com/teams/NYK/1993.html
+Chicago Bulls,CHI,1993,NBA,https://www.basketball-reference.com/teams/CHI/1993.html
+Cleveland Cavaliers,CLE,1993,NBA,https://www.basketball-reference.com/teams/CLE/1993.html
+Boston Celtics,BOS,1993,NBA,https://www.basketball-reference.com/teams/BOS/1993.html
+Charlotte Hornets,CHH,1993,NBA,https://www.basketball-reference.com/teams/CHH/1993.html
+New Jersey Nets,NJN,1993,NBA,https://www.basketball-reference.com/teams/NJN/1993.html
+Atlanta Hawks,ATL,1993,NBA,https://www.basketball-reference.com/teams/ATL/1993.html
+Indiana Pacers,IND,1993,NBA,https://www.basketball-reference.com/teams/IND/1993.html
+Phoenix Suns,PHO,1993,NBA,https://www.basketball-reference.com/teams/PHO/1993.html
+Houston Rockets,HOU,1993,NBA,https://www.basketball-reference.com/teams/HOU/1993.html
+Seattle SuperSonics,SEA,1993,NBA,https://www.basketball-reference.com/teams/SEA/1993.html
+Portland Trail Blazers,POR,1993,NBA,https://www.basketball-reference.com/teams/POR/1993.html
+San Antonio Spurs,SAS,1993,NBA,https://www.basketball-reference.com/teams/SAS/1993.html
+Utah Jazz,UTA,1993,NBA,https://www.basketball-reference.com/teams/UTA/1993.html
+Los Angeles Clippers,LAC,1993,NBA,https://www.basketball-reference.com/teams/LAC/1993.html
+Los Angeles Lakers,LAL,1993,NBA,https://www.basketball-reference.com/teams/LAL/1993.html
+Atlanta Hawks,ATL,1994,NBA,https://www.basketball-reference.com/teams/ATL/1994.html
+New York Knicks,NYK,1994,NBA,https://www.basketball-reference.com/teams/NYK/1994.html
+Chicago Bulls,CHI,1994,NBA,https://www.basketball-reference.com/teams/CHI/1994.html
+Orlando Magic,ORL,1994,NBA,https://www.basketball-reference.com/teams/ORL/1994.html
+Indiana Pacers,IND,1994,NBA,https://www.basketball-reference.com/teams/IND/1994.html
+Cleveland Cavaliers,CLE,1994,NBA,https://www.basketball-reference.com/teams/CLE/1994.html
+New Jersey Nets,NJN,1994,NBA,https://www.basketball-reference.com/teams/NJN/1994.html
+Miami Heat,MIA,1994,NBA,https://www.basketball-reference.com/teams/MIA/1994.html
+Seattle SuperSonics,SEA,1994,NBA,https://www.basketball-reference.com/teams/SEA/1994.html
+Houston Rockets,HOU,1994,NBA,https://www.basketball-reference.com/teams/HOU/1994.html
+Phoenix Suns,PHO,1994,NBA,https://www.basketball-reference.com/teams/PHO/1994.html
+San Antonio Spurs,SAS,1994,NBA,https://www.basketball-reference.com/teams/SAS/1994.html
+Utah Jazz,UTA,1994,NBA,https://www.basketball-reference.com/teams/UTA/1994.html
+Golden State Warriors,GSW,1994,NBA,https://www.basketball-reference.com/teams/GSW/1994.html
+Portland Trail Blazers,POR,1994,NBA,https://www.basketball-reference.com/teams/POR/1994.html
+Denver Nuggets,DEN,1994,NBA,https://www.basketball-reference.com/teams/DEN/1994.html
+Orlando Magic,ORL,1995,NBA,https://www.basketball-reference.com/teams/ORL/1995.html
+Indiana Pacers,IND,1995,NBA,https://www.basketball-reference.com/teams/IND/1995.html
+New York Knicks,NYK,1995,NBA,https://www.basketball-reference.com/teams/NYK/1995.html
+Charlotte Hornets,CHH,1995,NBA,https://www.basketball-reference.com/teams/CHH/1995.html
+Chicago Bulls,CHI,1995,NBA,https://www.basketball-reference.com/teams/CHI/1995.html
+Cleveland Cavaliers,CLE,1995,NBA,https://www.basketball-reference.com/teams/CLE/1995.html
+Atlanta Hawks,ATL,1995,NBA,https://www.basketball-reference.com/teams/ATL/1995.html
+Boston Celtics,BOS,1995,NBA,https://www.basketball-reference.com/teams/BOS/1995.html
+San Antonio Spurs,SAS,1995,NBA,https://www.basketball-reference.com/teams/SAS/1995.html
+Phoenix Suns,PHO,1995,NBA,https://www.basketball-reference.com/teams/PHO/1995.html
+Utah Jazz,UTA,1995,NBA,https://www.basketball-reference.com/teams/UTA/1995.html
+Seattle SuperSonics,SEA,1995,NBA,https://www.basketball-reference.com/teams/SEA/1995.html
+Los Angeles Lakers,LAL,1995,NBA,https://www.basketball-reference.com/teams/LAL/1995.html
+Houston Rockets,HOU,1995,NBA,https://www.basketball-reference.com/teams/HOU/1995.html
+Portland Trail Blazers,POR,1995,NBA,https://www.basketball-reference.com/teams/POR/1995.html
+Denver Nuggets,DEN,1995,NBA,https://www.basketball-reference.com/teams/DEN/1995.html
+Chicago Bulls,CHI,1996,NBA,https://www.basketball-reference.com/teams/CHI/1996.html
+Orlando Magic,ORL,1996,NBA,https://www.basketball-reference.com/teams/ORL/1996.html
+Indiana Pacers,IND,1996,NBA,https://www.basketball-reference.com/teams/IND/1996.html
+Cleveland Cavaliers,CLE,1996,NBA,https://www.basketball-reference.com/teams/CLE/1996.html
+New York Knicks,NYK,1996,NBA,https://www.basketball-reference.com/teams/NYK/1996.html
+Atlanta Hawks,ATL,1996,NBA,https://www.basketball-reference.com/teams/ATL/1996.html
+Detroit Pistons,DET,1996,NBA,https://www.basketball-reference.com/teams/DET/1996.html
+Miami Heat,MIA,1996,NBA,https://www.basketball-reference.com/teams/MIA/1996.html
+Seattle SuperSonics,SEA,1996,NBA,https://www.basketball-reference.com/teams/SEA/1996.html
+San Antonio Spurs,SAS,1996,NBA,https://www.basketball-reference.com/teams/SAS/1996.html
+Utah Jazz,UTA,1996,NBA,https://www.basketball-reference.com/teams/UTA/1996.html
+Los Angeles Lakers,LAL,1996,NBA,https://www.basketball-reference.com/teams/LAL/1996.html
+Houston Rockets,HOU,1996,NBA,https://www.basketball-reference.com/teams/HOU/1996.html
+Portland Trail Blazers,POR,1996,NBA,https://www.basketball-reference.com/teams/POR/1996.html
+Phoenix Suns,PHO,1996,NBA,https://www.basketball-reference.com/teams/PHO/1996.html
+Sacramento Kings,SAC,1996,NBA,https://www.basketball-reference.com/teams/SAC/1996.html
+Chicago Bulls,CHI,1997,NBA,https://www.basketball-reference.com/teams/CHI/1997.html
+Miami Heat,MIA,1997,NBA,https://www.basketball-reference.com/teams/MIA/1997.html
+New York Knicks,NYK,1997,NBA,https://www.basketball-reference.com/teams/NYK/1997.html
+Atlanta Hawks,ATL,1997,NBA,https://www.basketball-reference.com/teams/ATL/1997.html
+Detroit Pistons,DET,1997,NBA,https://www.basketball-reference.com/teams/DET/1997.html
+Charlotte Hornets,CHH,1997,NBA,https://www.basketball-reference.com/teams/CHH/1997.html
+Orlando Magic,ORL,1997,NBA,https://www.basketball-reference.com/teams/ORL/1997.html
+Washington Bullets,WSB,1997,NBA,https://www.basketball-reference.com/teams/WSB/1997.html
+Utah Jazz,UTA,1997,NBA,https://www.basketball-reference.com/teams/UTA/1997.html
+Seattle SuperSonics,SEA,1997,NBA,https://www.basketball-reference.com/teams/SEA/1997.html
+Houston Rockets,HOU,1997,NBA,https://www.basketball-reference.com/teams/HOU/1997.html
+Los Angeles Lakers,LAL,1997,NBA,https://www.basketball-reference.com/teams/LAL/1997.html
+Portland Trail Blazers,POR,1997,NBA,https://www.basketball-reference.com/teams/POR/1997.html
+Minnesota Timberwolves,MIN,1997,NBA,https://www.basketball-reference.com/teams/MIN/1997.html
+Phoenix Suns,PHO,1997,NBA,https://www.basketball-reference.com/teams/PHO/1997.html
+Los Angeles Clippers,LAC,1997,NBA,https://www.basketball-reference.com/teams/LAC/1997.html
+Chicago Bulls,CHI,1998,NBA,https://www.basketball-reference.com/teams/CHI/1998.html
+Miami Heat,MIA,1998,NBA,https://www.basketball-reference.com/teams/MIA/1998.html
+Indiana Pacers,IND,1998,NBA,https://www.basketball-reference.com/teams/IND/1998.html
+Charlotte Hornets,CHH,1998,NBA,https://www.basketball-reference.com/teams/CHH/1998.html
+Atlanta Hawks,ATL,1998,NBA,https://www.basketball-reference.com/teams/ATL/1998.html
+Cleveland Cavaliers,CLE,1998,NBA,https://www.basketball-reference.com/teams/CLE/1998.html
+New York Knicks,NYK,1998,NBA,https://www.basketball-reference.com/teams/NYK/1998.html
+New Jersey Nets,NJN,1998,NBA,https://www.basketball-reference.com/teams/NJN/1998.html
+Utah Jazz,UTA,1998,NBA,https://www.basketball-reference.com/teams/UTA/1998.html
+Seattle SuperSonics,SEA,1998,NBA,https://www.basketball-reference.com/teams/SEA/1998.html
+Los Angeles Lakers,LAL,1998,NBA,https://www.basketball-reference.com/teams/LAL/1998.html
+Phoenix Suns,PHO,1998,NBA,https://www.basketball-reference.com/teams/PHO/1998.html
+San Antonio Spurs,SAS,1998,NBA,https://www.basketball-reference.com/teams/SAS/1998.html
+Portland Trail Blazers,POR,1998,NBA,https://www.basketball-reference.com/teams/POR/1998.html
+Minnesota Timberwolves,MIN,1998,NBA,https://www.basketball-reference.com/teams/MIN/1998.html
+Houston Rockets,HOU,1998,NBA,https://www.basketball-reference.com/teams/HOU/1998.html
+Miami Heat,MIA,1999,NBA,https://www.basketball-reference.com/teams/MIA/1999.html
+Indiana Pacers,IND,1999,NBA,https://www.basketball-reference.com/teams/IND/1999.html
+Orlando Magic,ORL,1999,NBA,https://www.basketball-reference.com/teams/ORL/1999.html
+Atlanta Hawks,ATL,1999,NBA,https://www.basketball-reference.com/teams/ATL/1999.html
+Detroit Pistons,DET,1999,NBA,https://www.basketball-reference.com/teams/DET/1999.html
+Philadelphia 76ers,PHI,1999,NBA,https://www.basketball-reference.com/teams/PHI/1999.html
+Milwaukee Bucks,MIL,1999,NBA,https://www.basketball-reference.com/teams/MIL/1999.html
+New York Knicks,NYK,1999,NBA,https://www.basketball-reference.com/teams/NYK/1999.html
+San Antonio Spurs,SAS,1999,NBA,https://www.basketball-reference.com/teams/SAS/1999.html
+Utah Jazz,UTA,1999,NBA,https://www.basketball-reference.com/teams/UTA/1999.html
+Portland Trail Blazers,POR,1999,NBA,https://www.basketball-reference.com/teams/POR/1999.html
+Houston Rockets,HOU,1999,NBA,https://www.basketball-reference.com/teams/HOU/1999.html
+Los Angeles Lakers,LAL,1999,NBA,https://www.basketball-reference.com/teams/LAL/1999.html
+Phoenix Suns,PHO,1999,NBA,https://www.basketball-reference.com/teams/PHO/1999.html
+Sacramento Kings,SAC,1999,NBA,https://www.basketball-reference.com/teams/SAC/1999.html
+Minnesota Timberwolves,MIN,1999,NBA,https://www.basketball-reference.com/teams/MIN/1999.html
+Indiana Pacers,IND,2000,NBA,https://www.basketball-reference.com/teams/IND/2000.html
+Miami Heat,MIA,2000,NBA,https://www.basketball-reference.com/teams/MIA/2000.html
+New York Knicks,NYK,2000,NBA,https://www.basketball-reference.com/teams/NYK/2000.html
+Philadelphia 76ers,PHI,2000,NBA,https://www.basketball-reference.com/teams/PHI/2000.html
+Charlotte Hornets,CHH,2000,NBA,https://www.basketball-reference.com/teams/CHH/2000.html
+Toronto Raptors,TOR,2000,NBA,https://www.basketball-reference.com/teams/TOR/2000.html
+Detroit Pistons,DET,2000,NBA,https://www.basketball-reference.com/teams/DET/2000.html
+Milwaukee Bucks,MIL,2000,NBA,https://www.basketball-reference.com/teams/MIL/2000.html
+Los Angeles Lakers,LAL,2000,NBA,https://www.basketball-reference.com/teams/LAL/2000.html
+Utah Jazz,UTA,2000,NBA,https://www.basketball-reference.com/teams/UTA/2000.html
+Portland Trail Blazers,POR,2000,NBA,https://www.basketball-reference.com/teams/POR/2000.html
+San Antonio Spurs,SAS,2000,NBA,https://www.basketball-reference.com/teams/SAS/2000.html
+Phoenix Suns,PHO,2000,NBA,https://www.basketball-reference.com/teams/PHO/2000.html
+Minnesota Timberwolves,MIN,2000,NBA,https://www.basketball-reference.com/teams/MIN/2000.html
+Seattle SuperSonics,SEA,2000,NBA,https://www.basketball-reference.com/teams/SEA/2000.html
+Sacramento Kings,SAC,2000,NBA,https://www.basketball-reference.com/teams/SAC/2000.html
+Philadelphia 76ers,PHI,2001,NBA,https://www.basketball-reference.com/teams/PHI/2001.html
+Milwaukee Bucks,MIL,2001,NBA,https://www.basketball-reference.com/teams/MIL/2001.html
+Miami Heat,MIA,2001,NBA,https://www.basketball-reference.com/teams/MIA/2001.html
+New York Knicks,NYK,2001,NBA,https://www.basketball-reference.com/teams/NYK/2001.html
+Toronto Raptors,TOR,2001,NBA,https://www.basketball-reference.com/teams/TOR/2001.html
+Charlotte Hornets,CHH,2001,NBA,https://www.basketball-reference.com/teams/CHH/2001.html
+Orlando Magic,ORL,2001,NBA,https://www.basketball-reference.com/teams/ORL/2001.html
+Indiana Pacers,IND,2001,NBA,https://www.basketball-reference.com/teams/IND/2001.html
+San Antonio Spurs,SAS,2001,NBA,https://www.basketball-reference.com/teams/SAS/2001.html
+Los Angeles Lakers,LAL,2001,NBA,https://www.basketball-reference.com/teams/LAL/2001.html
+Sacramento Kings,SAC,2001,NBA,https://www.basketball-reference.com/teams/SAC/2001.html
+Utah Jazz,UTA,2001,NBA,https://www.basketball-reference.com/teams/UTA/2001.html
+Dallas Mavericks,DAL,2001,NBA,https://www.basketball-reference.com/teams/DAL/2001.html
+Phoenix Suns,PHO,2001,NBA,https://www.basketball-reference.com/teams/PHO/2001.html
+Portland Trail Blazers,POR,2001,NBA,https://www.basketball-reference.com/teams/POR/2001.html
+Minnesota Timberwolves,MIN,2001,NBA,https://www.basketball-reference.com/teams/MIN/2001.html
+New Jersey Nets,NJN,2002,NBA,https://www.basketball-reference.com/teams/NJN/2002.html
+Detroit Pistons,DET,2002,NBA,https://www.basketball-reference.com/teams/DET/2002.html
+Boston Celtics,BOS,2002,NBA,https://www.basketball-reference.com/teams/BOS/2002.html
+Charlotte Hornets,CHH,2002,NBA,https://www.basketball-reference.com/teams/CHH/2002.html
+Orlando Magic,ORL,2002,NBA,https://www.basketball-reference.com/teams/ORL/2002.html
+Philadelphia 76ers,PHI,2002,NBA,https://www.basketball-reference.com/teams/PHI/2002.html
+Toronto Raptors,TOR,2002,NBA,https://www.basketball-reference.com/teams/TOR/2002.html
+Indiana Pacers,IND,2002,NBA,https://www.basketball-reference.com/teams/IND/2002.html
+Sacramento Kings,SAC,2002,NBA,https://www.basketball-reference.com/teams/SAC/2002.html
+San Antonio Spurs,SAS,2002,NBA,https://www.basketball-reference.com/teams/SAS/2002.html
+Los Angeles Lakers,LAL,2002,NBA,https://www.basketball-reference.com/teams/LAL/2002.html
+Dallas Mavericks,DAL,2002,NBA,https://www.basketball-reference.com/teams/DAL/2002.html
+Minnesota Timberwolves,MIN,2002,NBA,https://www.basketball-reference.com/teams/MIN/2002.html
+Portland Trail Blazers,POR,2002,NBA,https://www.basketball-reference.com/teams/POR/2002.html
+Seattle SuperSonics,SEA,2002,NBA,https://www.basketball-reference.com/teams/SEA/2002.html
+Utah Jazz,UTA,2002,NBA,https://www.basketball-reference.com/teams/UTA/2002.html
+Detroit Pistons,DET,2003,NBA,https://www.basketball-reference.com/teams/DET/2003.html
+New Jersey Nets,NJN,2003,NBA,https://www.basketball-reference.com/teams/NJN/2003.html
+Indiana Pacers,IND,2003,NBA,https://www.basketball-reference.com/teams/IND/2003.html
+Philadelphia 76ers,PHI,2003,NBA,https://www.basketball-reference.com/teams/PHI/2003.html
+New Orleans Hornets,NOH,2003,NBA,https://www.basketball-reference.com/teams/NOH/2003.html
+Boston Celtics,BOS,2003,NBA,https://www.basketball-reference.com/teams/BOS/2003.html
+Milwaukee Bucks,MIL,2003,NBA,https://www.basketball-reference.com/teams/MIL/2003.html
+Orlando Magic,ORL,2003,NBA,https://www.basketball-reference.com/teams/ORL/2003.html
+San Antonio Spurs,SAS,2003,NBA,https://www.basketball-reference.com/teams/SAS/2003.html
+Sacramento Kings,SAC,2003,NBA,https://www.basketball-reference.com/teams/SAC/2003.html
+Dallas Mavericks,DAL,2003,NBA,https://www.basketball-reference.com/teams/DAL/2003.html
+Minnesota Timberwolves,MIN,2003,NBA,https://www.basketball-reference.com/teams/MIN/2003.html
+Los Angeles Lakers,LAL,2003,NBA,https://www.basketball-reference.com/teams/LAL/2003.html
+Portland Trail Blazers,POR,2003,NBA,https://www.basketball-reference.com/teams/POR/2003.html
+Utah Jazz,UTA,2003,NBA,https://www.basketball-reference.com/teams/UTA/2003.html
+Phoenix Suns,PHO,2003,NBA,https://www.basketball-reference.com/teams/PHO/2003.html
+Indiana Pacers,IND,2004,NBA,https://www.basketball-reference.com/teams/IND/2004.html
+New Jersey Nets,NJN,2004,NBA,https://www.basketball-reference.com/teams/NJN/2004.html
+Detroit Pistons,DET,2004,NBA,https://www.basketball-reference.com/teams/DET/2004.html
+Miami Heat,MIA,2004,NBA,https://www.basketball-reference.com/teams/MIA/2004.html
+New Orleans Hornets,NOH,2004,NBA,https://www.basketball-reference.com/teams/NOH/2004.html
+Milwaukee Bucks,MIL,2004,NBA,https://www.basketball-reference.com/teams/MIL/2004.html
+New York Knicks,NYK,2004,NBA,https://www.basketball-reference.com/teams/NYK/2004.html
+Boston Celtics,BOS,2004,NBA,https://www.basketball-reference.com/teams/BOS/2004.html
+Minnesota Timberwolves,MIN,2004,NBA,https://www.basketball-reference.com/teams/MIN/2004.html
+Los Angeles Lakers,LAL,2004,NBA,https://www.basketball-reference.com/teams/LAL/2004.html
+San Antonio Spurs,SAS,2004,NBA,https://www.basketball-reference.com/teams/SAS/2004.html
+Sacramento Kings,SAC,2004,NBA,https://www.basketball-reference.com/teams/SAC/2004.html
+Dallas Mavericks,DAL,2004,NBA,https://www.basketball-reference.com/teams/DAL/2004.html
+Memphis Grizzlies,MEM,2004,NBA,https://www.basketball-reference.com/teams/MEM/2004.html
+Houston Rockets,HOU,2004,NBA,https://www.basketball-reference.com/teams/HOU/2004.html
+Denver Nuggets,DEN,2004,NBA,https://www.basketball-reference.com/teams/DEN/2004.html
+Miami Heat,MIA,2005,NBA,https://www.basketball-reference.com/teams/MIA/2005.html
+Detroit Pistons,DET,2005,NBA,https://www.basketball-reference.com/teams/DET/2005.html
+Boston Celtics,BOS,2005,NBA,https://www.basketball-reference.com/teams/BOS/2005.html
+Chicago Bulls,CHI,2005,NBA,https://www.basketball-reference.com/teams/CHI/2005.html
+Washington Wizards,WAS,2005,NBA,https://www.basketball-reference.com/teams/WAS/2005.html
+Indiana Pacers,IND,2005,NBA,https://www.basketball-reference.com/teams/IND/2005.html
+Philadelphia 76ers,PHI,2005,NBA,https://www.basketball-reference.com/teams/PHI/2005.html
+New Jersey Nets,NJN,2005,NBA,https://www.basketball-reference.com/teams/NJN/2005.html
+Phoenix Suns,PHO,2005,NBA,https://www.basketball-reference.com/teams/PHO/2005.html
+San Antonio Spurs,SAS,2005,NBA,https://www.basketball-reference.com/teams/SAS/2005.html
+Seattle SuperSonics,SEA,2005,NBA,https://www.basketball-reference.com/teams/SEA/2005.html
+Dallas Mavericks,DAL,2005,NBA,https://www.basketball-reference.com/teams/DAL/2005.html
+Houston Rockets,HOU,2005,NBA,https://www.basketball-reference.com/teams/HOU/2005.html
+Sacramento Kings,SAC,2005,NBA,https://www.basketball-reference.com/teams/SAC/2005.html
+Denver Nuggets,DEN,2005,NBA,https://www.basketball-reference.com/teams/DEN/2005.html
+Memphis Grizzlies,MEM,2005,NBA,https://www.basketball-reference.com/teams/MEM/2005.html
+Detroit Pistons,DET,2006,NBA,https://www.basketball-reference.com/teams/DET/2006.html
+Miami Heat,MIA,2006,NBA,https://www.basketball-reference.com/teams/MIA/2006.html
+New Jersey Nets,NJN,2006,NBA,https://www.basketball-reference.com/teams/NJN/2006.html
+Cleveland Cavaliers,CLE,2006,NBA,https://www.basketball-reference.com/teams/CLE/2006.html
+Washington Wizards,WAS,2006,NBA,https://www.basketball-reference.com/teams/WAS/2006.html
+Indiana Pacers,IND,2006,NBA,https://www.basketball-reference.com/teams/IND/2006.html
+Chicago Bulls,CHI,2006,NBA,https://www.basketball-reference.com/teams/CHI/2006.html
+Milwaukee Bucks,MIL,2006,NBA,https://www.basketball-reference.com/teams/MIL/2006.html
+San Antonio Spurs,SAS,2006,NBA,https://www.basketball-reference.com/teams/SAS/2006.html
+Phoenix Suns,PHO,2006,NBA,https://www.basketball-reference.com/teams/PHO/2006.html
+Denver Nuggets,DEN,2006,NBA,https://www.basketball-reference.com/teams/DEN/2006.html
+Dallas Mavericks,DAL,2006,NBA,https://www.basketball-reference.com/teams/DAL/2006.html
+Memphis Grizzlies,MEM,2006,NBA,https://www.basketball-reference.com/teams/MEM/2006.html
+Los Angeles Clippers,LAC,2006,NBA,https://www.basketball-reference.com/teams/LAC/2006.html
+Los Angeles Lakers,LAL,2006,NBA,https://www.basketball-reference.com/teams/LAL/2006.html
+Sacramento Kings,SAC,2006,NBA,https://www.basketball-reference.com/teams/SAC/2006.html
+Detroit Pistons,DET,2007,NBA,https://www.basketball-reference.com/teams/DET/2007.html
+Cleveland Cavaliers,CLE,2007,NBA,https://www.basketball-reference.com/teams/CLE/2007.html
+Toronto Raptors,TOR,2007,NBA,https://www.basketball-reference.com/teams/TOR/2007.html
+Miami Heat,MIA,2007,NBA,https://www.basketball-reference.com/teams/MIA/2007.html
+Chicago Bulls,CHI,2007,NBA,https://www.basketball-reference.com/teams/CHI/2007.html
+New Jersey Nets,NJN,2007,NBA,https://www.basketball-reference.com/teams/NJN/2007.html
+Washington Wizards,WAS,2007,NBA,https://www.basketball-reference.com/teams/WAS/2007.html
+Orlando Magic,ORL,2007,NBA,https://www.basketball-reference.com/teams/ORL/2007.html
+Dallas Mavericks,DAL,2007,NBA,https://www.basketball-reference.com/teams/DAL/2007.html
+Phoenix Suns,PHO,2007,NBA,https://www.basketball-reference.com/teams/PHO/2007.html
+San Antonio Spurs,SAS,2007,NBA,https://www.basketball-reference.com/teams/SAS/2007.html
+Utah Jazz,UTA,2007,NBA,https://www.basketball-reference.com/teams/UTA/2007.html
+Houston Rockets,HOU,2007,NBA,https://www.basketball-reference.com/teams/HOU/2007.html
+Denver Nuggets,DEN,2007,NBA,https://www.basketball-reference.com/teams/DEN/2007.html
+Los Angeles Lakers,LAL,2007,NBA,https://www.basketball-reference.com/teams/LAL/2007.html
+Golden State Warriors,GSW,2007,NBA,https://www.basketball-reference.com/teams/GSW/2007.html
+Boston Celtics,BOS,2008,NBA,https://www.basketball-reference.com/teams/BOS/2008.html
+Detroit Pistons,DET,2008,NBA,https://www.basketball-reference.com/teams/DET/2008.html
+Orlando Magic,ORL,2008,NBA,https://www.basketball-reference.com/teams/ORL/2008.html
+Cleveland Cavaliers,CLE,2008,NBA,https://www.basketball-reference.com/teams/CLE/2008.html
+Washington Wizards,WAS,2008,NBA,https://www.basketball-reference.com/teams/WAS/2008.html
+Toronto Raptors,TOR,2008,NBA,https://www.basketball-reference.com/teams/TOR/2008.html
+Philadelphia 76ers,PHI,2008,NBA,https://www.basketball-reference.com/teams/PHI/2008.html
+Atlanta Hawks,ATL,2008,NBA,https://www.basketball-reference.com/teams/ATL/2008.html
+Los Angeles Lakers,LAL,2008,NBA,https://www.basketball-reference.com/teams/LAL/2008.html
+New Orleans Hornets,NOH,2008,NBA,https://www.basketball-reference.com/teams/NOH/2008.html
+San Antonio Spurs,SAS,2008,NBA,https://www.basketball-reference.com/teams/SAS/2008.html
+Utah Jazz,UTA,2008,NBA,https://www.basketball-reference.com/teams/UTA/2008.html
+Houston Rockets,HOU,2008,NBA,https://www.basketball-reference.com/teams/HOU/2008.html
+Phoenix Suns,PHO,2008,NBA,https://www.basketball-reference.com/teams/PHO/2008.html
+Dallas Mavericks,DAL,2008,NBA,https://www.basketball-reference.com/teams/DAL/2008.html
+Denver Nuggets,DEN,2008,NBA,https://www.basketball-reference.com/teams/DEN/2008.html
+Cleveland Cavaliers,CLE,2009,NBA,https://www.basketball-reference.com/teams/CLE/2009.html
+Boston Celtics,BOS,2009,NBA,https://www.basketball-reference.com/teams/BOS/2009.html
+Orlando Magic,ORL,2009,NBA,https://www.basketball-reference.com/teams/ORL/2009.html
+Atlanta Hawks,ATL,2009,NBA,https://www.basketball-reference.com/teams/ATL/2009.html
+Miami Heat,MIA,2009,NBA,https://www.basketball-reference.com/teams/MIA/2009.html
+Philadelphia 76ers,PHI,2009,NBA,https://www.basketball-reference.com/teams/PHI/2009.html
+Chicago Bulls,CHI,2009,NBA,https://www.basketball-reference.com/teams/CHI/2009.html
+Detroit Pistons,DET,2009,NBA,https://www.basketball-reference.com/teams/DET/2009.html
+Los Angeles Lakers,LAL,2009,NBA,https://www.basketball-reference.com/teams/LAL/2009.html
+Denver Nuggets,DEN,2009,NBA,https://www.basketball-reference.com/teams/DEN/2009.html
+San Antonio Spurs,SAS,2009,NBA,https://www.basketball-reference.com/teams/SAS/2009.html
+Portland Trail Blazers,POR,2009,NBA,https://www.basketball-reference.com/teams/POR/2009.html
+Houston Rockets,HOU,2009,NBA,https://www.basketball-reference.com/teams/HOU/2009.html
+Dallas Mavericks,DAL,2009,NBA,https://www.basketball-reference.com/teams/DAL/2009.html
+New Orleans Hornets,NOH,2009,NBA,https://www.basketball-reference.com/teams/NOH/2009.html
+Utah Jazz,UTA,2009,NBA,https://www.basketball-reference.com/teams/UTA/2009.html
+Cleveland Cavaliers,CLE,2010,NBA,https://www.basketball-reference.com/teams/CLE/2010.html
+Orlando Magic,ORL,2010,NBA,https://www.basketball-reference.com/teams/ORL/2010.html
+Atlanta Hawks,ATL,2010,NBA,https://www.basketball-reference.com/teams/ATL/2010.html
+Boston Celtics,BOS,2010,NBA,https://www.basketball-reference.com/teams/BOS/2010.html
+Miami Heat,MIA,2010,NBA,https://www.basketball-reference.com/teams/MIA/2010.html
+Milwaukee Bucks,MIL,2010,NBA,https://www.basketball-reference.com/teams/MIL/2010.html
+Charlotte Bobcats,CHA,2010,NBA,https://www.basketball-reference.com/teams/CHA/2010.html
+Chicago Bulls,CHI,2010,NBA,https://www.basketball-reference.com/teams/CHI/2010.html
+Los Angeles Lakers,LAL,2010,NBA,https://www.basketball-reference.com/teams/LAL/2010.html
+Dallas Mavericks,DAL,2010,NBA,https://www.basketball-reference.com/teams/DAL/2010.html
+Phoenix Suns,PHO,2010,NBA,https://www.basketball-reference.com/teams/PHO/2010.html
+Denver Nuggets,DEN,2010,NBA,https://www.basketball-reference.com/teams/DEN/2010.html
+Utah Jazz,UTA,2010,NBA,https://www.basketball-reference.com/teams/UTA/2010.html
+Portland Trail Blazers,POR,2010,NBA,https://www.basketball-reference.com/teams/POR/2010.html
+San Antonio Spurs,SAS,2010,NBA,https://www.basketball-reference.com/teams/SAS/2010.html
+Oklahoma City Thunder,OKC,2010,NBA,https://www.basketball-reference.com/teams/OKC/2010.html
+Chicago Bulls,CHI,2011,NBA,https://www.basketball-reference.com/teams/CHI/2011.html
+Miami Heat,MIA,2011,NBA,https://www.basketball-reference.com/teams/MIA/2011.html
+Boston Celtics,BOS,2011,NBA,https://www.basketball-reference.com/teams/BOS/2011.html
+Orlando Magic,ORL,2011,NBA,https://www.basketball-reference.com/teams/ORL/2011.html
+Atlanta Hawks,ATL,2011,NBA,https://www.basketball-reference.com/teams/ATL/2011.html
+New York Knicks,NYK,2011,NBA,https://www.basketball-reference.com/teams/NYK/2011.html
+Philadelphia 76ers,PHI,2011,NBA,https://www.basketball-reference.com/teams/PHI/2011.html
+Indiana Pacers,IND,2011,NBA,https://www.basketball-reference.com/teams/IND/2011.html
+San Antonio Spurs,SAS,2011,NBA,https://www.basketball-reference.com/teams/SAS/2011.html
+Los Angeles Lakers,LAL,2011,NBA,https://www.basketball-reference.com/teams/LAL/2011.html
+Dallas Mavericks,DAL,2011,NBA,https://www.basketball-reference.com/teams/DAL/2011.html
+Oklahoma City Thunder,OKC,2011,NBA,https://www.basketball-reference.com/teams/OKC/2011.html
+Denver Nuggets,DEN,2011,NBA,https://www.basketball-reference.com/teams/DEN/2011.html
+Portland Trail Blazers,POR,2011,NBA,https://www.basketball-reference.com/teams/POR/2011.html
+New Orleans Hornets,NOH,2011,NBA,https://www.basketball-reference.com/teams/NOH/2011.html
+Memphis Grizzlies,MEM,2011,NBA,https://www.basketball-reference.com/teams/MEM/2011.html
+Chicago Bulls,CHI,2012,NBA,https://www.basketball-reference.com/teams/CHI/2012.html
+Miami Heat,MIA,2012,NBA,https://www.basketball-reference.com/teams/MIA/2012.html
+Indiana Pacers,IND,2012,NBA,https://www.basketball-reference.com/teams/IND/2012.html
+Boston Celtics,BOS,2012,NBA,https://www.basketball-reference.com/teams/BOS/2012.html
+Atlanta Hawks,ATL,2012,NBA,https://www.basketball-reference.com/teams/ATL/2012.html
+Orlando Magic,ORL,2012,NBA,https://www.basketball-reference.com/teams/ORL/2012.html
+New York Knicks,NYK,2012,NBA,https://www.basketball-reference.com/teams/NYK/2012.html
+Philadelphia 76ers,PHI,2012,NBA,https://www.basketball-reference.com/teams/PHI/2012.html
+San Antonio Spurs,SAS,2012,NBA,https://www.basketball-reference.com/teams/SAS/2012.html
+Oklahoma City Thunder,OKC,2012,NBA,https://www.basketball-reference.com/teams/OKC/2012.html
+Los Angeles Lakers,LAL,2012,NBA,https://www.basketball-reference.com/teams/LAL/2012.html
+Memphis Grizzlies,MEM,2012,NBA,https://www.basketball-reference.com/teams/MEM/2012.html
+Los Angeles Clippers,LAC,2012,NBA,https://www.basketball-reference.com/teams/LAC/2012.html
+Denver Nuggets,DEN,2012,NBA,https://www.basketball-reference.com/teams/DEN/2012.html
+Dallas Mavericks,DAL,2012,NBA,https://www.basketball-reference.com/teams/DAL/2012.html
+Utah Jazz,UTA,2012,NBA,https://www.basketball-reference.com/teams/UTA/2012.html
+Miami Heat,MIA,2013,NBA,https://www.basketball-reference.com/teams/MIA/2013.html
+New York Knicks,NYK,2013,NBA,https://www.basketball-reference.com/teams/NYK/2013.html
+Indiana Pacers,IND,2013,NBA,https://www.basketball-reference.com/teams/IND/2013.html
+Brooklyn Nets,BRK,2013,NBA,https://www.basketball-reference.com/teams/BRK/2013.html
+Chicago Bulls,CHI,2013,NBA,https://www.basketball-reference.com/teams/CHI/2013.html
+Atlanta Hawks,ATL,2013,NBA,https://www.basketball-reference.com/teams/ATL/2013.html
+Boston Celtics,BOS,2013,NBA,https://www.basketball-reference.com/teams/BOS/2013.html
+Milwaukee Bucks,MIL,2013,NBA,https://www.basketball-reference.com/teams/MIL/2013.html
+Oklahoma City Thunder,OKC,2013,NBA,https://www.basketball-reference.com/teams/OKC/2013.html
+San Antonio Spurs,SAS,2013,NBA,https://www.basketball-reference.com/teams/SAS/2013.html
+Denver Nuggets,DEN,2013,NBA,https://www.basketball-reference.com/teams/DEN/2013.html
+Los Angeles Clippers,LAC,2013,NBA,https://www.basketball-reference.com/teams/LAC/2013.html
+Memphis Grizzlies,MEM,2013,NBA,https://www.basketball-reference.com/teams/MEM/2013.html
+Golden State Warriors,GSW,2013,NBA,https://www.basketball-reference.com/teams/GSW/2013.html
+Los Angeles Lakers,LAL,2013,NBA,https://www.basketball-reference.com/teams/LAL/2013.html
+Houston Rockets,HOU,2013,NBA,https://www.basketball-reference.com/teams/HOU/2013.html
+Indiana Pacers,IND,2014,NBA,https://www.basketball-reference.com/teams/IND/2014.html
+Miami Heat,MIA,2014,NBA,https://www.basketball-reference.com/teams/MIA/2014.html
+Toronto Raptors,TOR,2014,NBA,https://www.basketball-reference.com/teams/TOR/2014.html
+Chicago Bulls,CHI,2014,NBA,https://www.basketball-reference.com/teams/CHI/2014.html
+Washington Wizards,WAS,2014,NBA,https://www.basketball-reference.com/teams/WAS/2014.html
+Brooklyn Nets,BRK,2014,NBA,https://www.basketball-reference.com/teams/BRK/2014.html
+Charlotte Bobcats,CHA,2014,NBA,https://www.basketball-reference.com/teams/CHA/2014.html
+Atlanta Hawks,ATL,2014,NBA,https://www.basketball-reference.com/teams/ATL/2014.html
+San Antonio Spurs,SAS,2014,NBA,https://www.basketball-reference.com/teams/SAS/2014.html
+Oklahoma City Thunder,OKC,2014,NBA,https://www.basketball-reference.com/teams/OKC/2014.html
+Los Angeles Clippers,LAC,2014,NBA,https://www.basketball-reference.com/teams/LAC/2014.html
+Houston Rockets,HOU,2014,NBA,https://www.basketball-reference.com/teams/HOU/2014.html
+Portland Trail Blazers,POR,2014,NBA,https://www.basketball-reference.com/teams/POR/2014.html
+Golden State Warriors,GSW,2014,NBA,https://www.basketball-reference.com/teams/GSW/2014.html
+Memphis Grizzlies,MEM,2014,NBA,https://www.basketball-reference.com/teams/MEM/2014.html
+Dallas Mavericks,DAL,2014,NBA,https://www.basketball-reference.com/teams/DAL/2014.html
+Atlanta Hawks,ATL,2015,NBA,https://www.basketball-reference.com/teams/ATL/2015.html
+Cleveland Cavaliers,CLE,2015,NBA,https://www.basketball-reference.com/teams/CLE/2015.html
+Chicago Bulls,CHI,2015,NBA,https://www.basketball-reference.com/teams/CHI/2015.html
+Toronto Raptors,TOR,2015,NBA,https://www.basketball-reference.com/teams/TOR/2015.html
+Washington Wizards,WAS,2015,NBA,https://www.basketball-reference.com/teams/WAS/2015.html
+Milwaukee Bucks,MIL,2015,NBA,https://www.basketball-reference.com/teams/MIL/2015.html
+Boston Celtics,BOS,2015,NBA,https://www.basketball-reference.com/teams/BOS/2015.html
+Brooklyn Nets,BRK,2015,NBA,https://www.basketball-reference.com/teams/BRK/2015.html
+Golden State Warriors,GSW,2015,NBA,https://www.basketball-reference.com/teams/GSW/2015.html
+Houston Rockets,HOU,2015,NBA,https://www.basketball-reference.com/teams/HOU/2015.html
+Los Angeles Clippers,LAC,2015,NBA,https://www.basketball-reference.com/teams/LAC/2015.html
+Portland Trail Blazers,POR,2015,NBA,https://www.basketball-reference.com/teams/POR/2015.html
+Memphis Grizzlies,MEM,2015,NBA,https://www.basketball-reference.com/teams/MEM/2015.html
+San Antonio Spurs,SAS,2015,NBA,https://www.basketball-reference.com/teams/SAS/2015.html
+Dallas Mavericks,DAL,2015,NBA,https://www.basketball-reference.com/teams/DAL/2015.html
+New Orleans Pelicans,NOP,2015,NBA,https://www.basketball-reference.com/teams/NOP/2015.html
+Cleveland Cavaliers,CLE,2016,NBA,https://www.basketball-reference.com/teams/CLE/2016.html
+Toronto Raptors,TOR,2016,NBA,https://www.basketball-reference.com/teams/TOR/2016.html
+Miami Heat,MIA,2016,NBA,https://www.basketball-reference.com/teams/MIA/2016.html
+Atlanta Hawks,ATL,2016,NBA,https://www.basketball-reference.com/teams/ATL/2016.html
+Boston Celtics,BOS,2016,NBA,https://www.basketball-reference.com/teams/BOS/2016.html
+Charlotte Hornets,CHO,2016,NBA,https://www.basketball-reference.com/teams/CHO/2016.html
+Indiana Pacers,IND,2016,NBA,https://www.basketball-reference.com/teams/IND/2016.html
+Detroit Pistons,DET,2016,NBA,https://www.basketball-reference.com/teams/DET/2016.html
+Golden State Warriors,GSW,2016,NBA,https://www.basketball-reference.com/teams/GSW/2016.html
+San Antonio Spurs,SAS,2016,NBA,https://www.basketball-reference.com/teams/SAS/2016.html
+Oklahoma City Thunder,OKC,2016,NBA,https://www.basketball-reference.com/teams/OKC/2016.html
+Los Angeles Clippers,LAC,2016,NBA,https://www.basketball-reference.com/teams/LAC/2016.html
+Portland Trail Blazers,POR,2016,NBA,https://www.basketball-reference.com/teams/POR/2016.html
+Dallas Mavericks,DAL,2016,NBA,https://www.basketball-reference.com/teams/DAL/2016.html
+Memphis Grizzlies,MEM,2016,NBA,https://www.basketball-reference.com/teams/MEM/2016.html
+Houston Rockets,HOU,2016,NBA,https://www.basketball-reference.com/teams/HOU/2016.html
+Boston Celtics,BOS,2017,NBA,https://www.basketball-reference.com/teams/BOS/2017.html
+Cleveland Cavaliers,CLE,2017,NBA,https://www.basketball-reference.com/teams/CLE/2017.html
+Toronto Raptors,TOR,2017,NBA,https://www.basketball-reference.com/teams/TOR/2017.html
+Washington Wizards,WAS,2017,NBA,https://www.basketball-reference.com/teams/WAS/2017.html
+Atlanta Hawks,ATL,2017,NBA,https://www.basketball-reference.com/teams/ATL/2017.html
+Milwaukee Bucks,MIL,2017,NBA,https://www.basketball-reference.com/teams/MIL/2017.html
+Indiana Pacers,IND,2017,NBA,https://www.basketball-reference.com/teams/IND/2017.html
+Chicago Bulls,CHI,2017,NBA,https://www.basketball-reference.com/teams/CHI/2017.html
+Golden State Warriors,GSW,2017,NBA,https://www.basketball-reference.com/teams/GSW/2017.html
+San Antonio Spurs,SAS,2017,NBA,https://www.basketball-reference.com/teams/SAS/2017.html
+Houston Rockets,HOU,2017,NBA,https://www.basketball-reference.com/teams/HOU/2017.html
+Los Angeles Clippers,LAC,2017,NBA,https://www.basketball-reference.com/teams/LAC/2017.html
+Utah Jazz,UTA,2017,NBA,https://www.basketball-reference.com/teams/UTA/2017.html
+Oklahoma City Thunder,OKC,2017,NBA,https://www.basketball-reference.com/teams/OKC/2017.html
+Memphis Grizzlies,MEM,2017,NBA,https://www.basketball-reference.com/teams/MEM/2017.html
+Portland Trail Blazers,POR,2017,NBA,https://www.basketball-reference.com/teams/POR/2017.html
+Toronto Raptors,TOR,2018,NBA,https://www.basketball-reference.com/teams/TOR/2018.html
+Boston Celtics,BOS,2018,NBA,https://www.basketball-reference.com/teams/BOS/2018.html
+Philadelphia 76ers,PHI,2018,NBA,https://www.basketball-reference.com/teams/PHI/2018.html
+Cleveland Cavaliers,CLE,2018,NBA,https://www.basketball-reference.com/teams/CLE/2018.html
+Indiana Pacers,IND,2018,NBA,https://www.basketball-reference.com/teams/IND/2018.html
+Miami Heat,MIA,2018,NBA,https://www.basketball-reference.com/teams/MIA/2018.html
+Milwaukee Bucks,MIL,2018,NBA,https://www.basketball-reference.com/teams/MIL/2018.html
+Washington Wizards,WAS,2018,NBA,https://www.basketball-reference.com/teams/WAS/2018.html
+Houston Rockets,HOU,2018,NBA,https://www.basketball-reference.com/teams/HOU/2018.html
+Golden State Warriors,GSW,2018,NBA,https://www.basketball-reference.com/teams/GSW/2018.html
+Portland Trail Blazers,POR,2018,NBA,https://www.basketball-reference.com/teams/POR/2018.html
+Oklahoma City Thunder,OKC,2018,NBA,https://www.basketball-reference.com/teams/OKC/2018.html
+Utah Jazz,UTA,2018,NBA,https://www.basketball-reference.com/teams/UTA/2018.html
+New Orleans Pelicans,NOP,2018,NBA,https://www.basketball-reference.com/teams/NOP/2018.html
+San Antonio Spurs,SAS,2018,NBA,https://www.basketball-reference.com/teams/SAS/2018.html
+Minnesota Timberwolves,MIN,2018,NBA,https://www.basketball-reference.com/teams/MIN/2018.html
+Milwaukee Bucks,MIL,2019,NBA,https://www.basketball-reference.com/teams/MIL/2019.html
+Toronto Raptors,TOR,2019,NBA,https://www.basketball-reference.com/teams/TOR/2019.html
+Philadelphia 76ers,PHI,2019,NBA,https://www.basketball-reference.com/teams/PHI/2019.html
+Boston Celtics,BOS,2019,NBA,https://www.basketball-reference.com/teams/BOS/2019.html
+Indiana Pacers,IND,2019,NBA,https://www.basketball-reference.com/teams/IND/2019.html
+Brooklyn Nets,BRK,2019,NBA,https://www.basketball-reference.com/teams/BRK/2019.html
+Orlando Magic,ORL,2019,NBA,https://www.basketball-reference.com/teams/ORL/2019.html
+Detroit Pistons,DET,2019,NBA,https://www.basketball-reference.com/teams/DET/2019.html
+Golden State Warriors,GSW,2019,NBA,https://www.basketball-reference.com/teams/GSW/2019.html
+Denver Nuggets,DEN,2019,NBA,https://www.basketball-reference.com/teams/DEN/2019.html
+Portland Trail Blazers,POR,2019,NBA,https://www.basketball-reference.com/teams/POR/2019.html
+Houston Rockets,HOU,2019,NBA,https://www.basketball-reference.com/teams/HOU/2019.html
+Utah Jazz,UTA,2019,NBA,https://www.basketball-reference.com/teams/UTA/2019.html
+Oklahoma City Thunder,OKC,2019,NBA,https://www.basketball-reference.com/teams/OKC/2019.html
+San Antonio Spurs,SAS,2019,NBA,https://www.basketball-reference.com/teams/SAS/2019.html
+Los Angeles Clippers,LAC,2019,NBA,https://www.basketball-reference.com/teams/LAC/2019.html
+Milwaukee Bucks,MIL,2020,NBA,https://www.basketball-reference.com/teams/MIL/2020.html
+Toronto Raptors,TOR,2020,NBA,https://www.basketball-reference.com/teams/TOR/2020.html
+Boston Celtics,BOS,2020,NBA,https://www.basketball-reference.com/teams/BOS/2020.html
+Indiana Pacers,IND,2020,NBA,https://www.basketball-reference.com/teams/IND/2020.html
+Miami Heat,MIA,2020,NBA,https://www.basketball-reference.com/teams/MIA/2020.html
+Philadelphia 76ers,PHI,2020,NBA,https://www.basketball-reference.com/teams/PHI/2020.html
+Brooklyn Nets,BRK,2020,NBA,https://www.basketball-reference.com/teams/BRK/2020.html
+Orlando Magic,ORL,2020,NBA,https://www.basketball-reference.com/teams/ORL/2020.html
+Los Angeles Lakers,LAL,2020,NBA,https://www.basketball-reference.com/teams/LAL/2020.html
+Los Angeles Clippers,LAC,2020,NBA,https://www.basketball-reference.com/teams/LAC/2020.html
+Denver Nuggets,DEN,2020,NBA,https://www.basketball-reference.com/teams/DEN/2020.html
+Houston Rockets,HOU,2020,NBA,https://www.basketball-reference.com/teams/HOU/2020.html
+Oklahoma City Thunder,OKC,2020,NBA,https://www.basketball-reference.com/teams/OKC/2020.html
+Utah Jazz,UTA,2020,NBA,https://www.basketball-reference.com/teams/UTA/2020.html
+Dallas Mavericks,DAL,2020,NBA,https://www.basketball-reference.com/teams/DAL/2020.html
+Portland Trail Blazers,POR,2020,NBA,https://www.basketball-reference.com/teams/POR/2020.html
+Philadelphia 76ers,PHI,2021,NBA,https://www.basketball-reference.com/teams/PHI/2021.html
+Brooklyn Nets,BRK,2021,NBA,https://www.basketball-reference.com/teams/BRK/2021.html
+Milwaukee Bucks,MIL,2021,NBA,https://www.basketball-reference.com/teams/MIL/2021.html
+New York Knicks,NYK,2021,NBA,https://www.basketball-reference.com/teams/NYK/2021.html
+Atlanta Hawks,ATL,2021,NBA,https://www.basketball-reference.com/teams/ATL/2021.html
+Miami Heat,MIA,2021,NBA,https://www.basketball-reference.com/teams/MIA/2021.html
+Boston Celtics,BOS,2021,NBA,https://www.basketball-reference.com/teams/BOS/2021.html
+Washington Wizards,WAS,2021,NBA,https://www.basketball-reference.com/teams/WAS/2021.html
+Utah Jazz,UTA,2021,NBA,https://www.basketball-reference.com/teams/UTA/2021.html
+Phoenix Suns,PHO,2021,NBA,https://www.basketball-reference.com/teams/PHO/2021.html
+Denver Nuggets,DEN,2021,NBA,https://www.basketball-reference.com/teams/DEN/2021.html
+Los Angeles Clippers,LAC,2021,NBA,https://www.basketball-reference.com/teams/LAC/2021.html
+Dallas Mavericks,DAL,2021,NBA,https://www.basketball-reference.com/teams/DAL/2021.html
+Portland Trail Blazers,POR,2021,NBA,https://www.basketball-reference.com/teams/POR/2021.html
+Los Angeles Lakers,LAL,2021,NBA,https://www.basketball-reference.com/teams/LAL/2021.html
+Memphis Grizzlies,MEM,2021,NBA,https://www.basketball-reference.com/teams/MEM/2021.html
+Miami Heat,MIA,2022,NBA,https://www.basketball-reference.com/teams/MIA/2022.html
+Boston Celtics,BOS,2022,NBA,https://www.basketball-reference.com/teams/BOS/2022.html
+Milwaukee Bucks,MIL,2022,NBA,https://www.basketball-reference.com/teams/MIL/2022.html
+Philadelphia 76ers,PHI,2022,NBA,https://www.basketball-reference.com/teams/PHI/2022.html
+Toronto Raptors,TOR,2022,NBA,https://www.basketball-reference.com/teams/TOR/2022.html
+Chicago Bulls,CHI,2022,NBA,https://www.basketball-reference.com/teams/CHI/2022.html
+Brooklyn Nets,BRK,2022,NBA,https://www.basketball-reference.com/teams/BRK/2022.html
+Atlanta Hawks,ATL,2022,NBA,https://www.basketball-reference.com/teams/ATL/2022.html
+Phoenix Suns,PHO,2022,NBA,https://www.basketball-reference.com/teams/PHO/2022.html
+Memphis Grizzlies,MEM,2022,NBA,https://www.basketball-reference.com/teams/MEM/2022.html
+Golden State Warriors,GSW,2022,NBA,https://www.basketball-reference.com/teams/GSW/2022.html
+Dallas Mavericks,DAL,2022,NBA,https://www.basketball-reference.com/teams/DAL/2022.html
+Utah Jazz,UTA,2022,NBA,https://www.basketball-reference.com/teams/UTA/2022.html
+Denver Nuggets,DEN,2022,NBA,https://www.basketball-reference.com/teams/DEN/2022.html
+Minnesota Timberwolves,MIN,2022,NBA,https://www.basketball-reference.com/teams/MIN/2022.html
+New Orleans Pelicans,NOP,2022,NBA,https://www.basketball-reference.com/teams/NOP/2022.html
+Milwaukee Bucks,MIL,2023,NBA,https://www.basketball-reference.com/teams/MIL/2023.html
+Boston Celtics,BOS,2023,NBA,https://www.basketball-reference.com/teams/BOS/2023.html
+Philadelphia 76ers,PHI,2023,NBA,https://www.basketball-reference.com/teams/PHI/2023.html
+Cleveland Cavaliers,CLE,2023,NBA,https://www.basketball-reference.com/teams/CLE/2023.html
+New York Knicks,NYK,2023,NBA,https://www.basketball-reference.com/teams/NYK/2023.html
+Brooklyn Nets,BRK,2023,NBA,https://www.basketball-reference.com/teams/BRK/2023.html
+Atlanta Hawks,ATL,2023,NBA,https://www.basketball-reference.com/teams/ATL/2023.html
+Miami Heat,MIA,2023,NBA,https://www.basketball-reference.com/teams/MIA/2023.html
+Denver Nuggets,DEN,2023,NBA,https://www.basketball-reference.com/teams/DEN/2023.html
+Memphis Grizzlies,MEM,2023,NBA,https://www.basketball-reference.com/teams/MEM/2023.html
+Sacramento Kings,SAC,2023,NBA,https://www.basketball-reference.com/teams/SAC/2023.html
+Phoenix Suns,PHO,2023,NBA,https://www.basketball-reference.com/teams/PHO/2023.html
+Los Angeles Clippers,LAC,2023,NBA,https://www.basketball-reference.com/teams/LAC/2023.html
+Golden State Warriors,GSW,2023,NBA,https://www.basketball-reference.com/teams/GSW/2023.html
+Los Angeles Lakers,LAL,2023,NBA,https://www.basketball-reference.com/teams/LAL/2023.html
+Minnesota Timberwolves,MIN,2023,NBA,https://www.basketball-reference.com/teams/MIN/2023.html
+Boston Celtics,BOS,2024,NBA,https://www.basketball-reference.com/teams/BOS/2024.html
+New York Knicks,NYK,2024,NBA,https://www.basketball-reference.com/teams/NYK/2024.html
+Milwaukee Bucks,MIL,2024,NBA,https://www.basketball-reference.com/teams/MIL/2024.html
+Cleveland Cavaliers,CLE,2024,NBA,https://www.basketball-reference.com/teams/CLE/2024.html
+Orlando Magic,ORL,2024,NBA,https://www.basketball-reference.com/teams/ORL/2024.html
+Indiana Pacers,IND,2024,NBA,https://www.basketball-reference.com/teams/IND/2024.html
+Philadelphia 76ers,PHI,2024,NBA,https://www.basketball-reference.com/teams/PHI/2024.html
+Miami Heat,MIA,2024,NBA,https://www.basketball-reference.com/teams/MIA/2024.html
+Oklahoma City Thunder,OKC,2024,NBA,https://www.basketball-reference.com/teams/OKC/2024.html
+Denver Nuggets,DEN,2024,NBA,https://www.basketball-reference.com/teams/DEN/2024.html
+Minnesota Timberwolves,MIN,2024,NBA,https://www.basketball-reference.com/teams/MIN/2024.html
+Los Angeles Clippers,LAC,2024,NBA,https://www.basketball-reference.com/teams/LAC/2024.html
+Dallas Mavericks,DAL,2024,NBA,https://www.basketball-reference.com/teams/DAL/2024.html
+Phoenix Suns,PHO,2024,NBA,https://www.basketball-reference.com/teams/PHO/2024.html
+Los Angeles Lakers,LAL,2024,NBA,https://www.basketball-reference.com/teams/LAL/2024.html
+New Orleans Pelicans,NOP,2024,NBA,https://www.basketball-reference.com/teams/NOP/2024.html

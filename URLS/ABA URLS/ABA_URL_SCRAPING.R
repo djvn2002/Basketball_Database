@@ -79,9 +79,9 @@ write_csv(valid_team_urls,file.path(url_path,"ABA_TEAM_URLS.csv"))
 generate_league_urls <- function(start_year, end_year) {
   years <- start_year:end_year
   urls <- tibble(
-    year = years,
-    league = "ABA",
-    url = paste0("https://www.basketball-reference.com/leagues/", league ,"_", years, ".html")
+    Year = years,
+    League = "ABA",
+    URL = paste0("https://www.basketball-reference.com/leagues/", League ,"_", years, ".html")
   )
   return(urls)
 }
@@ -104,7 +104,7 @@ standings <- read_csv(file.path(aba_league_path,"ABA_STANDINGS.csv")) %>%
 # Generate playoff URLs
 generate_playoff_urls <- function(standings) {
   standings %>%
-    mutate(url = paste0("https://www.basketball-reference.com/teams/", `Team Abbr.`, "/", Season, ".html"))
+    mutate(URL = paste0("https://www.basketball-reference.com/teams/", `Team Abbr.`, "/", Season, ".html"))
 }
 
 # Get the playoff URLs
@@ -112,6 +112,6 @@ playoff_urls <- generate_playoff_urls(standings) %>%
   select(-`Made Playoffs`)
 
 # Creating a csv for all playoff teams
-write_csv(aba_league_urls,file.path(url_path,"ABA_PLAYOFFS_URLS.csv"))
+write_csv(playoff_urls,file.path(url_path,"ABA_PLAYOFFS_URLS.csv"))
 
 # Now you are able to scrape aba data from Basketball-Reference.com

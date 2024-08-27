@@ -85,9 +85,9 @@ write_csv(valid_team_urls,file.path(url_path,"NBA_TEAM_URLS.csv"))
 generate_league_urls <- function(start_year, end_year) {
   years <- start_year:end_year
   urls <- tibble(
-    year = years,
-    league = ifelse(years < 1950, "BAA", "NBA"),
-    url = paste0("https://www.basketball-reference.com/leagues/", ifelse(years < 1950, "BAA", "NBA"), "_", years, ".html")
+    Year = years,
+    League = ifelse(years < 1950, "BAA", "NBA"),
+    URL = paste0("https://www.basketball-reference.com/leagues/", ifelse(years < 1950, "BAA", "NBA"), "_", years, ".html")
   )
   return(urls)
 }
@@ -110,7 +110,7 @@ standings <- read_csv(file.path(nba_league_path,"NBA_STANDINGS.csv")) %>%
 # Generate playoff URLs
 generate_playoff_urls <- function(standings) {
   standings %>%
-    mutate(url = paste0("https://www.basketball-reference.com/teams/", `Team Abbr.`, "/", Season, ".html"))
+    mutate(URL = paste0("https://www.basketball-reference.com/teams/", `Team Abbr.`, "/", Season, ".html"))
 }
 
 # Get the playoff URLs
@@ -118,6 +118,6 @@ playoff_urls <- generate_playoff_urls(standings) %>%
   select(-`Made Playoffs`)
 
 # Creating a csv for all playoff teams
-write_csv(nba_league_urls,file.path(url_path,"NBA_PLAYOFFS_URLS.csv"))
+write_csv(playoff_urls,file.path(url_path,"NBA_PLAYOFFS_URLS.csv"))
 
 # Now you are able to scrape nba data from Basketball-Reference.com

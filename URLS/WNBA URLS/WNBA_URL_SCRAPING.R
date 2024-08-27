@@ -71,15 +71,16 @@ write_csv(valid_team_urls, file.path(url_path,"WNBA_TEAM_URLS.csv"))
 generate_league_urls <- function(start_year, end_year) {
   years <- start_year:end_year
   urls <- tibble(
-    year = years,
-    league = "wnba",
-    url = paste0("https://www.basketball-reference.com/",league,"/years/", years, ".html")
+    Year = years,
+    League = "wnba",
+    URL = paste0("https://www.basketball-reference.com/",League,"/years/", years, ".html")
   )
   return(urls)
 }
 
 # Generate URLs from 1997 to present day
-wnba_league_urls <- generate_league_urls(1997, most_recent_wnba_season())
+wnba_league_urls <- generate_league_urls(1997, most_recent_wnba_season()) %>%
+  mutate(League = "WNBA")
 
 # Creating a csv for league csvs
 write_csv(wnba_league_urls,file.path(url_path,"WNBA_LEAGUE_URLS.csv"))
@@ -96,7 +97,7 @@ standings <- read_csv(file.path(wnba_league_path,"WNBA_STANDINGS.csv")) %>%
 # Generate playoff URLs
 generate_playoff_urls <- function(standings) {
   standings %>%
-    mutate(url = paste0("https://www.basketball-reference.com/wnba/teams/",`Team Abbr.`, "/", Season, ".html"))
+    mutate(URL = paste0("https://www.basketball-reference.com/wnba/teams/",`Team Abbr.`, "/", Season, ".html"))
 }
 
 # Get the playoff URLs
@@ -104,6 +105,6 @@ playoff_urls <- generate_playoff_urls(standings) %>%
   select(-`Made Playoffs`)
 
 # Creating a csv for all playoff teams
-write_csv(wnba_league_urls,file.path(url_path,"WNBA_PLAYOFFS_URLS.csv"))
+write_csv(playoff_urls,file.path(url_path,"WNBA_PLAYOFFS_URLS.csv"))
 
 # Now you are able to scrape wnba data from Basketball-Reference.com

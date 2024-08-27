@@ -1,10 +1,72 @@
-year,league,url
-1968,ABA,https://www.basketball-reference.com/leagues/ABA_1968.html
-1969,ABA,https://www.basketball-reference.com/leagues/ABA_1969.html
-1970,ABA,https://www.basketball-reference.com/leagues/ABA_1970.html
-1971,ABA,https://www.basketball-reference.com/leagues/ABA_1971.html
-1972,ABA,https://www.basketball-reference.com/leagues/ABA_1972.html
-1973,ABA,https://www.basketball-reference.com/leagues/ABA_1973.html
-1974,ABA,https://www.basketball-reference.com/leagues/ABA_1974.html
-1975,ABA,https://www.basketball-reference.com/leagues/ABA_1975.html
-1976,ABA,https://www.basketball-reference.com/leagues/ABA_1976.html
+Team Name,Team Abbr.,Season,League,URL
+Pittsburgh Pipers,PTP,1968,ABA,https://www.basketball-reference.com/teams/PTP/1968.html
+Minnesota Muskies,MNM,1968,ABA,https://www.basketball-reference.com/teams/MNM/1968.html
+Indiana Pacers,INA,1968,ABA,https://www.basketball-reference.com/teams/INA/1968.html
+Kentucky Colonels,KEN,1968,ABA,https://www.basketball-reference.com/teams/KEN/1968.html
+New Orleans Buccaneers,NOB,1968,ABA,https://www.basketball-reference.com/teams/NOB/1968.html
+Dallas Chaparrals,DLC,1968,ABA,https://www.basketball-reference.com/teams/DLC/1968.html
+Denver Rockets,DNR,1968,ABA,https://www.basketball-reference.com/teams/DNR/1968.html
+Houston Mavericks,HSM,1968,ABA,https://www.basketball-reference.com/teams/HSM/1968.html
+Indiana Pacers,INA,1969,ABA,https://www.basketball-reference.com/teams/INA/1969.html
+Miami Floridians,MMF,1969,ABA,https://www.basketball-reference.com/teams/MMF/1969.html
+Kentucky Colonels,KEN,1969,ABA,https://www.basketball-reference.com/teams/KEN/1969.html
+Minnesota Pipers,MNP,1969,ABA,https://www.basketball-reference.com/teams/MNP/1969.html
+Oakland Oaks,OAK,1969,ABA,https://www.basketball-reference.com/teams/OAK/1969.html
+New Orleans Buccaneers,NOB,1969,ABA,https://www.basketball-reference.com/teams/NOB/1969.html
+Denver Rockets,DNR,1969,ABA,https://www.basketball-reference.com/teams/DNR/1969.html
+Dallas Chaparrals,DLC,1969,ABA,https://www.basketball-reference.com/teams/DLC/1969.html
+Indiana Pacers,INA,1970,ABA,https://www.basketball-reference.com/teams/INA/1970.html
+Kentucky Colonels,KEN,1970,ABA,https://www.basketball-reference.com/teams/KEN/1970.html
+Carolina Cougars,CAR,1970,ABA,https://www.basketball-reference.com/teams/CAR/1970.html
+New York Nets,NYA,1970,ABA,https://www.basketball-reference.com/teams/NYA/1970.html
+Denver Rockets,DNR,1970,ABA,https://www.basketball-reference.com/teams/DNR/1970.html
+Dallas Chaparrals,DLC,1970,ABA,https://www.basketball-reference.com/teams/DLC/1970.html
+Washington Capitols,WSA,1970,ABA,https://www.basketball-reference.com/teams/WSA/1970.html
+Los Angeles Stars,LAS,1970,ABA,https://www.basketball-reference.com/teams/LAS/1970.html
+Virginia Squires,VIR,1971,ABA,https://www.basketball-reference.com/teams/VIR/1971.html
+Kentucky Colonels,KEN,1971,ABA,https://www.basketball-reference.com/teams/KEN/1971.html
+New York Nets,NYA,1971,ABA,https://www.basketball-reference.com/teams/NYA/1971.html
+The Floridians,FLO,1971,ABA,https://www.basketball-reference.com/teams/FLO/1971.html
+Indiana Pacers,INA,1971,ABA,https://www.basketball-reference.com/teams/INA/1971.html
+Utah Stars,UTS,1971,ABA,https://www.basketball-reference.com/teams/UTS/1971.html
+Memphis Pros,MMP,1971,ABA,https://www.basketball-reference.com/teams/MMP/1971.html
+Texas Chaparrals,TEX,1971,ABA,https://www.basketball-reference.com/teams/TEX/1971.html
+Denver Rockets,DNR,1971,ABA,https://www.basketball-reference.com/teams/DNR/1971.html
+Kentucky Colonels,KEN,1972,ABA,https://www.basketball-reference.com/teams/KEN/1972.html
+Virginia Squires,VIR,1972,ABA,https://www.basketball-reference.com/teams/VIR/1972.html
+New York Nets,NYA,1972,ABA,https://www.basketball-reference.com/teams/NYA/1972.html
+The Floridians,FLO,1972,ABA,https://www.basketball-reference.com/teams/FLO/1972.html
+Utah Stars,UTS,1972,ABA,https://www.basketball-reference.com/teams/UTS/1972.html
+Indiana Pacers,INA,1972,ABA,https://www.basketball-reference.com/teams/INA/1972.html
+Dallas Chaparrals,DLC,1972,ABA,https://www.basketball-reference.com/teams/DLC/1972.html
+Denver Rockets,DNR,1972,ABA,https://www.basketball-reference.com/teams/DNR/1972.html
+Carolina Cougars,CAR,1973,ABA,https://www.basketball-reference.com/teams/CAR/1973.html
+Kentucky Colonels,KEN,1973,ABA,https://www.basketball-reference.com/teams/KEN/1973.html
+Virginia Squires,VIR,1973,ABA,https://www.basketball-reference.com/teams/VIR/1973.html
+New York Nets,NYA,1973,ABA,https://www.basketball-reference.com/teams/NYA/1973.html
+Utah Stars,UTS,1973,ABA,https://www.basketball-reference.com/teams/UTS/1973.html
+Indiana Pacers,INA,1973,ABA,https://www.basketball-reference.com/teams/INA/1973.html
+Denver Rockets,DNR,1973,ABA,https://www.basketball-reference.com/teams/DNR/1973.html
+San Diego Conquistadors,SDA,1973,ABA,https://www.basketball-reference.com/teams/SDA/1973.html
+New York Nets,NYA,1974,ABA,https://www.basketball-reference.com/teams/NYA/1974.html
+Kentucky Colonels,KEN,1974,ABA,https://www.basketball-reference.com/teams/KEN/1974.html
+Carolina Cougars,CAR,1974,ABA,https://www.basketball-reference.com/teams/CAR/1974.html
+Virginia Squires,VIR,1974,ABA,https://www.basketball-reference.com/teams/VIR/1974.html
+Utah Stars,UTS,1974,ABA,https://www.basketball-reference.com/teams/UTS/1974.html
+Indiana Pacers,INA,1974,ABA,https://www.basketball-reference.com/teams/INA/1974.html
+San Antonio Spurs,SAA,1974,ABA,https://www.basketball-reference.com/teams/SAA/1974.html
+San Diego Conquistadors,SDA,1974,ABA,https://www.basketball-reference.com/teams/SDA/1974.html
+Denver Rockets,DNR,1974,ABA,https://www.basketball-reference.com/teams/DNR/1974.html
+Kentucky Colonels,KEN,1975,ABA,https://www.basketball-reference.com/teams/KEN/1975.html
+New York Nets,NYA,1975,ABA,https://www.basketball-reference.com/teams/NYA/1975.html
+Spirits of St. Louis,SSL,1975,ABA,https://www.basketball-reference.com/teams/SSL/1975.html
+Memphis Sounds,MMS,1975,ABA,https://www.basketball-reference.com/teams/MMS/1975.html
+Denver Nuggets,DNA,1975,ABA,https://www.basketball-reference.com/teams/DNA/1975.html
+San Antonio Spurs,SAA,1975,ABA,https://www.basketball-reference.com/teams/SAA/1975.html
+Indiana Pacers,INA,1975,ABA,https://www.basketball-reference.com/teams/INA/1975.html
+Utah Stars,UTS,1975,ABA,https://www.basketball-reference.com/teams/UTS/1975.html
+Denver Nuggets,DNA,1976,ABA,https://www.basketball-reference.com/teams/DNA/1976.html
+New York Nets,NYA,1976,ABA,https://www.basketball-reference.com/teams/NYA/1976.html
+San Antonio Spurs,SAA,1976,ABA,https://www.basketball-reference.com/teams/SAA/1976.html
+Kentucky Colonels,KEN,1976,ABA,https://www.basketball-reference.com/teams/KEN/1976.html
+Indiana Pacers,INA,1976,ABA,https://www.basketball-reference.com/teams/INA/1976.html

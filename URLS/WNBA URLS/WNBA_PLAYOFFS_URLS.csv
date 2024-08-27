@@ -1,29 +1,207 @@
-year,league,url
-1997,wnba,https://www.basketball-reference.com/wnba/years/1997.html
-1998,wnba,https://www.basketball-reference.com/wnba/years/1998.html
-1999,wnba,https://www.basketball-reference.com/wnba/years/1999.html
-2000,wnba,https://www.basketball-reference.com/wnba/years/2000.html
-2001,wnba,https://www.basketball-reference.com/wnba/years/2001.html
-2002,wnba,https://www.basketball-reference.com/wnba/years/2002.html
-2003,wnba,https://www.basketball-reference.com/wnba/years/2003.html
-2004,wnba,https://www.basketball-reference.com/wnba/years/2004.html
-2005,wnba,https://www.basketball-reference.com/wnba/years/2005.html
-2006,wnba,https://www.basketball-reference.com/wnba/years/2006.html
-2007,wnba,https://www.basketball-reference.com/wnba/years/2007.html
-2008,wnba,https://www.basketball-reference.com/wnba/years/2008.html
-2009,wnba,https://www.basketball-reference.com/wnba/years/2009.html
-2010,wnba,https://www.basketball-reference.com/wnba/years/2010.html
-2011,wnba,https://www.basketball-reference.com/wnba/years/2011.html
-2012,wnba,https://www.basketball-reference.com/wnba/years/2012.html
-2013,wnba,https://www.basketball-reference.com/wnba/years/2013.html
-2014,wnba,https://www.basketball-reference.com/wnba/years/2014.html
-2015,wnba,https://www.basketball-reference.com/wnba/years/2015.html
-2016,wnba,https://www.basketball-reference.com/wnba/years/2016.html
-2017,wnba,https://www.basketball-reference.com/wnba/years/2017.html
-2018,wnba,https://www.basketball-reference.com/wnba/years/2018.html
-2019,wnba,https://www.basketball-reference.com/wnba/years/2019.html
-2020,wnba,https://www.basketball-reference.com/wnba/years/2020.html
-2021,wnba,https://www.basketball-reference.com/wnba/years/2021.html
-2022,wnba,https://www.basketball-reference.com/wnba/years/2022.html
-2023,wnba,https://www.basketball-reference.com/wnba/years/2023.html
-2024,wnba,https://www.basketball-reference.com/wnba/years/2024.html
+Team Name,Team Abbr.,Season,League,URL
+Houston Comets,HOU,1997,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/1997.html
+New York Liberty,NYL,1997,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/1997.html
+Charlotte Sting,CHA,1997,WNBA,https://www.basketball-reference.com/wnba/teams/CHA/1997.html
+Phoenix Mercury,PHO,1997,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/1997.html
+Cleveland Rockers,CLE,1998,WNBA,https://www.basketball-reference.com/wnba/teams/CLE/1998.html
+Charlotte Sting,CHA,1998,WNBA,https://www.basketball-reference.com/wnba/teams/CHA/1998.html
+Houston Comets,HOU,1998,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/1998.html
+Phoenix Mercury,PHO,1998,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/1998.html
+New York Liberty,NYL,1999,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/1999.html
+Charlotte Sting,CHA,1999,WNBA,https://www.basketball-reference.com/wnba/teams/CHA/1999.html
+Detroit Shock,DET,1999,WNBA,https://www.basketball-reference.com/wnba/teams/DET/1999.html
+Houston Comets,HOU,1999,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/1999.html
+Los Angeles Sparks,LAS,1999,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/1999.html
+Sacramento Monarchs,SAC,1999,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/1999.html
+New York Liberty,NYL,2000,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2000.html
+Cleveland Rockers,CLE,2000,WNBA,https://www.basketball-reference.com/wnba/teams/CLE/2000.html
+Orlando Miracle,ORL,2000,WNBA,https://www.basketball-reference.com/wnba/teams/ORL/2000.html
+Washington Mystics,WAS,2000,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2000.html
+Los Angeles Sparks,LAS,2000,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2000.html
+Houston Comets,HOU,2000,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/2000.html
+Sacramento Monarchs,SAC,2000,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2000.html
+Phoenix Mercury,PHO,2000,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2000.html
+Cleveland Rockers,CLE,2001,WNBA,https://www.basketball-reference.com/wnba/teams/CLE/2001.html
+New York Liberty,NYL,2001,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2001.html
+Miami Sol,MIA,2001,WNBA,https://www.basketball-reference.com/wnba/teams/MIA/2001.html
+Charlotte Sting,CHA,2001,WNBA,https://www.basketball-reference.com/wnba/teams/CHA/2001.html
+Los Angeles Sparks,LAS,2001,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2001.html
+Sacramento Monarchs,SAC,2001,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2001.html
+Houston Comets,HOU,2001,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/2001.html
+Utah Starzz,UTA,2001,WNBA,https://www.basketball-reference.com/wnba/teams/UTA/2001.html
+Charlotte Sting,CHA,2002,WNBA,https://www.basketball-reference.com/wnba/teams/CHA/2002.html
+New York Liberty,NYL,2002,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2002.html
+Washington Mystics,WAS,2002,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2002.html
+Indiana Fever,IND,2002,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2002.html
+Los Angeles Sparks,LAS,2002,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2002.html
+Houston Comets,HOU,2002,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/2002.html
+Utah Starzz,UTA,2002,WNBA,https://www.basketball-reference.com/wnba/teams/UTA/2002.html
+Seattle Storm,SEA,2002,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2002.html
+Detroit Shock,DET,2003,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2003.html
+Charlotte Sting,CHA,2003,WNBA,https://www.basketball-reference.com/wnba/teams/CHA/2003.html
+Connecticut Sun,CON,2003,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2003.html
+Cleveland Rockers,CLE,2003,WNBA,https://www.basketball-reference.com/wnba/teams/CLE/2003.html
+Los Angeles Sparks,LAS,2003,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2003.html
+Houston Comets,HOU,2003,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/2003.html
+Sacramento Monarchs,SAC,2003,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2003.html
+Minnesota Lynx,MIN,2003,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2003.html
+Connecticut Sun,CON,2004,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2004.html
+New York Liberty,NYL,2004,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2004.html
+Detroit Shock,DET,2004,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2004.html
+Washington Mystics,WAS,2004,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2004.html
+Los Angeles Sparks,LAS,2004,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2004.html
+Seattle Storm,SEA,2004,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2004.html
+Minnesota Lynx,MIN,2004,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2004.html
+Sacramento Monarchs,SAC,2004,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2004.html
+Connecticut Sun,CON,2005,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2005.html
+Indiana Fever,IND,2005,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2005.html
+New York Liberty,NYL,2005,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2005.html
+Detroit Shock,DET,2005,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2005.html
+Sacramento Monarchs,SAC,2005,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2005.html
+Seattle Storm,SEA,2005,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2005.html
+Houston Comets,HOU,2005,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/2005.html
+Los Angeles Sparks,LAS,2005,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2005.html
+Connecticut Sun,CON,2006,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2006.html
+Detroit Shock,DET,2006,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2006.html
+Indiana Fever,IND,2006,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2006.html
+Washington Mystics,WAS,2006,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2006.html
+Los Angeles Sparks,LAS,2006,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2006.html
+Sacramento Monarchs,SAC,2006,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2006.html
+Houston Comets,HOU,2006,WNBA,https://www.basketball-reference.com/wnba/teams/HOU/2006.html
+Seattle Storm,SEA,2006,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2006.html
+Detroit Shock,DET,2007,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2007.html
+Indiana Fever,IND,2007,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2007.html
+Connecticut Sun,CON,2007,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2007.html
+New York Liberty,NYL,2007,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2007.html
+Phoenix Mercury,PHO,2007,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2007.html
+San Antonio Silver Stars,SAS,2007,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2007.html
+Sacramento Monarchs,SAC,2007,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2007.html
+Seattle Storm,SEA,2007,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2007.html
+Detroit Shock,DET,2008,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2008.html
+Connecticut Sun,CON,2008,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2008.html
+New York Liberty,NYL,2008,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2008.html
+Indiana Fever,IND,2008,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2008.html
+San Antonio Silver Stars,SAS,2008,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2008.html
+Seattle Storm,SEA,2008,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2008.html
+Los Angeles Sparks,LAS,2008,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2008.html
+Sacramento Monarchs,SAC,2008,WNBA,https://www.basketball-reference.com/wnba/teams/SAC/2008.html
+Indiana Fever,IND,2009,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2009.html
+Atlanta Dream,ATL,2009,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2009.html
+Detroit Shock,DET,2009,WNBA,https://www.basketball-reference.com/wnba/teams/DET/2009.html
+Washington Mystics,WAS,2009,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2009.html
+Phoenix Mercury,PHO,2009,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2009.html
+Seattle Storm,SEA,2009,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2009.html
+Los Angeles Sparks,LAS,2009,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2009.html
+San Antonio Silver Stars,SAS,2009,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2009.html
+New York Liberty,NYL,2010,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2010.html
+Washington Mystics,WAS,2010,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2010.html
+Indiana Fever,IND,2010,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2010.html
+Atlanta Dream,ATL,2010,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2010.html
+Seattle Storm,SEA,2010,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2010.html
+Phoenix Mercury,PHO,2010,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2010.html
+San Antonio Silver Stars,SAS,2010,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2010.html
+Los Angeles Sparks,LAS,2010,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2010.html
+Connecticut Sun,CON,2011,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2011.html
+Indiana Fever,IND,2011,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2011.html
+Atlanta Dream,ATL,2011,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2011.html
+New York Liberty,NYL,2011,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2011.html
+Minnesota Lynx,MIN,2011,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2011.html
+Seattle Storm,SEA,2011,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2011.html
+Phoenix Mercury,PHO,2011,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2011.html
+San Antonio Silver Stars,SAS,2011,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2011.html
+Connecticut Sun,CON,2012,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2012.html
+Indiana Fever,IND,2012,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2012.html
+Atlanta Dream,ATL,2012,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2012.html
+New York Liberty,NYL,2012,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2012.html
+Minnesota Lynx,MIN,2012,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2012.html
+Los Angeles Sparks,LAS,2012,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2012.html
+San Antonio Silver Stars,SAS,2012,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2012.html
+Seattle Storm,SEA,2012,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2012.html
+Chicago Sky,CHI,2013,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2013.html
+Atlanta Dream,ATL,2013,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2013.html
+Washington Mystics,WAS,2013,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2013.html
+Indiana Fever,IND,2013,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2013.html
+Minnesota Lynx,MIN,2013,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2013.html
+Los Angeles Sparks,LAS,2013,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2013.html
+Phoenix Mercury,PHO,2013,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2013.html
+Seattle Storm,SEA,2013,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2013.html
+Atlanta Dream,ATL,2014,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2014.html
+Indiana Fever,IND,2014,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2014.html
+Washington Mystics,WAS,2014,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2014.html
+Chicago Sky,CHI,2014,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2014.html
+Phoenix Mercury,PHO,2014,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2014.html
+Minnesota Lynx,MIN,2014,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2014.html
+Los Angeles Sparks,LAS,2014,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2014.html
+San Antonio Stars,SAS,2014,WNBA,https://www.basketball-reference.com/wnba/teams/SAS/2014.html
+New York Liberty,NYL,2015,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2015.html
+Chicago Sky,CHI,2015,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2015.html
+Indiana Fever,IND,2015,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2015.html
+Washington Mystics,WAS,2015,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2015.html
+Minnesota Lynx,MIN,2015,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2015.html
+Phoenix Mercury,PHO,2015,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2015.html
+Tulsa Shock,TUL,2015,WNBA,https://www.basketball-reference.com/wnba/teams/TUL/2015.html
+Los Angeles Sparks,LAS,2015,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2015.html
+New York Liberty,NYL,2016,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2016.html
+Chicago Sky,CHI,2016,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2016.html
+Atlanta Dream,ATL,2016,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2016.html
+Indiana Fever,IND,2016,WNBA,https://www.basketball-reference.com/wnba/teams/IND/2016.html
+Minnesota Lynx,MIN,2016,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2016.html
+Los Angeles Sparks,LAS,2016,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2016.html
+Phoenix Mercury,PHO,2016,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2016.html
+Seattle Storm,SEA,2016,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2016.html
+New York Liberty,NYL,2017,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2017.html
+Connecticut Sun,CON,2017,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2017.html
+Washington Mystics,WAS,2017,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2017.html
+Minnesota Lynx,MIN,2017,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2017.html
+Los Angeles Sparks,LAS,2017,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2017.html
+Phoenix Mercury,PHO,2017,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2017.html
+Dallas Wings,DAL,2017,WNBA,https://www.basketball-reference.com/wnba/teams/DAL/2017.html
+Seattle Storm,SEA,2017,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2017.html
+Atlanta Dream,ATL,2018,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2018.html
+Washington Mystics,WAS,2018,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2018.html
+Connecticut Sun,CON,2018,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2018.html
+Seattle Storm,SEA,2018,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2018.html
+Phoenix Mercury,PHO,2018,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2018.html
+Los Angeles Sparks,LAS,2018,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2018.html
+Minnesota Lynx,MIN,2018,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2018.html
+Dallas Wings,DAL,2018,WNBA,https://www.basketball-reference.com/wnba/teams/DAL/2018.html
+Washington Mystics,WAS,2019,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2019.html
+Connecticut Sun,CON,2019,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2019.html
+Chicago Sky,CHI,2019,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2019.html
+Los Angeles Sparks,LAS,2019,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2019.html
+Las Vegas Aces,LVA,2019,WNBA,https://www.basketball-reference.com/wnba/teams/LVA/2019.html
+Minnesota Lynx,MIN,2019,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2019.html
+Seattle Storm,SEA,2019,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2019.html
+Phoenix Mercury,PHO,2019,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2019.html
+Chicago Sky,CHI,2020,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2020.html
+Connecticut Sun,CON,2020,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2020.html
+Washington Mystics,WAS,2020,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2020.html
+Las Vegas Aces,LVA,2020,WNBA,https://www.basketball-reference.com/wnba/teams/LVA/2020.html
+Seattle Storm,SEA,2020,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2020.html
+Los Angeles Sparks,LAS,2020,WNBA,https://www.basketball-reference.com/wnba/teams/LAS/2020.html
+Minnesota Lynx,MIN,2020,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2020.html
+Phoenix Mercury,PHO,2020,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2020.html
+Connecticut Sun,CON,2021,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2021.html
+Chicago Sky,CHI,2021,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2021.html
+New York Liberty,NYL,2021,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2021.html
+Las Vegas Aces,LVA,2021,WNBA,https://www.basketball-reference.com/wnba/teams/LVA/2021.html
+Minnesota Lynx,MIN,2021,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2021.html
+Seattle Storm,SEA,2021,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2021.html
+Phoenix Mercury,PHO,2021,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2021.html
+Dallas Wings,DAL,2021,WNBA,https://www.basketball-reference.com/wnba/teams/DAL/2021.html
+Chicago Sky,CHI,2022,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2022.html
+Connecticut Sun,CON,2022,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2022.html
+Washington Mystics,WAS,2022,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2022.html
+New York Liberty,NYL,2022,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2022.html
+Las Vegas Aces,LVA,2022,WNBA,https://www.basketball-reference.com/wnba/teams/LVA/2022.html
+Seattle Storm,SEA,2022,WNBA,https://www.basketball-reference.com/wnba/teams/SEA/2022.html
+Dallas Wings,DAL,2022,WNBA,https://www.basketball-reference.com/wnba/teams/DAL/2022.html
+Phoenix Mercury,PHO,2022,WNBA,https://www.basketball-reference.com/wnba/teams/PHO/2022.html
+New York Liberty,NYL,2023,WNBA,https://www.basketball-reference.com/wnba/teams/NYL/2023.html
+Connecticut Sun,CON,2023,WNBA,https://www.basketball-reference.com/wnba/teams/CON/2023.html
+Atlanta Dream,ATL,2023,WNBA,https://www.basketball-reference.com/wnba/teams/ATL/2023.html
+Washington Mystics,WAS,2023,WNBA,https://www.basketball-reference.com/wnba/teams/WAS/2023.html
+Chicago Sky,CHI,2023,WNBA,https://www.basketball-reference.com/wnba/teams/CHI/2023.html
+Las Vegas Aces,LVA,2023,WNBA,https://www.basketball-reference.com/wnba/teams/LVA/2023.html
+Dallas Wings,DAL,2023,WNBA,https://www.basketball-reference.com/wnba/teams/DAL/2023.html
+Minnesota Lynx,MIN,2023,WNBA,https://www.basketball-reference.com/wnba/teams/MIN/2023.html

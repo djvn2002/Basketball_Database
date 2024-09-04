@@ -155,7 +155,7 @@ parse_birth_date <- function(birth_date) {
 # Load the NBA roster data
 load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 
-nba_reg_player_roster_updated <- nba_reg_player_roster_updated %>%  
+nba_reg_roster <- nba_reg_roster %>%  
   mutate(Player = str_remove(Player, " \\(.*\\)"),
          Birth_Year = year(parse_birth_date(`Birth Date`)))
 

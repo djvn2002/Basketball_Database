@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 8/25/2024
-# Latest Update: 8/25/2024
+# Latest Update: 9/4/2024
 
 # This file is used to grab ESPN pbp data for shot attempts since 2014, you can grab more
 # years if you would like but I recommend keeping it at 2014 and later for performance.
@@ -265,12 +265,13 @@ nba_season_player_NA <- nba_season_player %>%
 
 # Final Set for NBA during 2014 season and after
 nba_shots <- nba_shots %>%
-  select(id,season,team_id,athlete_id_1,coordinate_x,coordinate_y,shooting_play,
+  select(id,season,season_type,team_id,athlete_id_1,coordinate_x,coordinate_y,shooting_play,
          scoring_play,score_value,shot_type) %>%
   rename(athlete_id = athlete_id_1) %>%
   right_join(players) %>%
   right_join(team_identity) %>%
-  mutate(League = "Professional",
+  mutate(season_type = if_else(season_type == 3, "Postseason", "Regular Season"),
+         League = "Professional",
          Gender = "Men",
          league_name = "NBA") %>%
   rename(athlete_name = athlete_display_name) %>%

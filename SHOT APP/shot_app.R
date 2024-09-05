@@ -33,8 +33,9 @@ mncaa_shots <- mncaa_shots %>%
 # Aggregating all shots across the 4 shot data frames
 all_shots <- nba_shots %>%
   bind_rows(wnba_shots,mncaa_shots,wncaa_shots) %>%
-  group_by(season, coordinate_x, coordinate_y, score_value, scoring_play, shot_type, League, 
-           Gender, league_name, conference, athlete_name, team_name) %>%
+  group_by(season, season_type, coordinate_x, coordinate_y, score_value, 
+           scoring_play, shot_type, League, Gender, league_name, conference, 
+           athlete_name, team_name) %>%
   summarise(count = n(), .groups = 'drop') %>%
   filter()
 

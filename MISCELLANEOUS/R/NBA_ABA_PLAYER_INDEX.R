@@ -1,9 +1,16 @@
+# Author: David Vialpando-Nielsen
+# Date Made: 9/5/2024
+# Latest Update: 9/6/2024
+
+# The usage of this file is to pinpoint players in the NBA and ABA with unqiue indexes
+
 # Load necessary libraries
 library(rvest)
 library(purrr)
 library(stringr)
 library(lubridate)
 library(tidyverse)
+library(hoopR)
 
 # Base URL structure
 base_url <- "https://www.basketball-reference.com/players/"
@@ -59,6 +66,7 @@ all_players_df <- all_players_df %>%
 all_players_df <- all_players_df %>%
   arrange(as.numeric(From, Player)) %>%
   mutate(`Player ID` = 1000 + row_number()) %>%
+  mutate(Active = if_else(To == most_recent_nba_season(), "Yes", "No")) %>%
   select(`Player ID`, everything(), -Letter)
 
 # View the first few rows of the combined dataframe

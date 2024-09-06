@@ -1,31 +1,31 @@
-﻿Team,Team Name,League,From,To
-ANA,Anaheim Amigos,ABA,1968,1968
-CAR,Carolina Cougars,ABA,1970,1974
-DLC,Dallas Chaparrals,ABA,1968,1973
-DNA,Denver Nuggets,ABA,1975,1976
-DNR,Denver Rockets,ABA,1968,1974
-HSM,Houston Mavericks,ABA,1968,1969
-INA,Indiana Pacers,ABA,1968,1976
-KEN,Kentucky Colonels,ABA,1968,1976
-LAS,Los Angeles Stars,ABA,1969,1970
-MMP,Memphis Pros,ABA,1971,1972
-MMS,Memphis Sounds,ABA,1975,1975
-MMT,Memphis Tams,ABA,1973,1974
-MMF,Miami Floridians,ABA,1969,1970
-MNM,Minnesota Muskies,ABA,1968,1968
-MNP,Minnesota Pipers,ABA,1969,1969
-NJA,New Jersey Americans,ABA,1968,1968
-NOB,New Orleans Buccaneers,ABA,1968,1970
-NYA,New York Nets,ABA,1969,1976
-OAK,Oakland Oaks,ABA,1968,1969
-PTC,Pittsburgh Condors,ABA,1971,1972
-PTP,Pittsburgh Pipers,ABA,1968,1970
-SAA,San Antonio Spurs,ABA,1974,1976
-SDA,San Diego Conquistadors,ABA,1973,1975
-SDS,San Diego Sails,ABA,1976,1976
-SSL,Spirits of St. Louis,ABA,1968,1976
-TEX,Texas Chaparrals,ABA,1971,1971
-FLO,The Floridians,ABA,1971,1972
-UTS,Utah Stars,ABA,1971,1976
-VIR,Virginia Squires,ABA,1971,1976
-WSA,Washington Capitols,ABA,1970,1970
+﻿Franchise ID,Team,Team Name,League,From,To
+3,NYA,New York Nets,ABA,1969,1976
+3,NJA,New Jersey Americans,ABA,1968,1968
+8,DNA,Denver Nuggets,ABA,1975,1976
+8,DNR,Denver Rockets,ABA,1968,1974
+12,INA,Indiana Pacers,ABA,1968,1976
+27,SAA,San Antonio Spurs,ABA,1974,1976
+27,DLC,Dallas Chaparrals,ABA,1968,1973
+27,TEX,Texas Chaparrals,ABA,1971,1971
+39,KEN,Kentucky Colonels,ABA,1968,1976
+40,MMS,Memphis Sounds,ABA,1975,1975
+40,MMT,Memphis Tams,ABA,1973,1974
+40,MMP,Memphis Pros,ABA,1971,1972
+40,NOB,New Orleans Buccaneers,ABA,1968,1970
+41,PTC,Pittsburgh Condors,ABA,1971,1972
+41,PTP,Pittsburgh Pipers,ABA,1968,1970
+41,MNP,Minnesota Pipers,ABA,1969,1969
+44,SDS,San Diego Sails,ABA,1976,1976
+44,SDA,San Diego Conquistadors,ABA,1973,1975
+46,SSL,Spirits of St. Louis,ABA,1968,1976
+46,CAR,Carolina Cougars,ABA,1970,1974
+46,HSM,Houston Mavericks,ABA,1968,1969
+48,FLO,The Floridians,ABA,1971,1972
+48,MMF,Miami Floridians,ABA,1969,1970
+48,MNM,Minnesota Muskies,ABA,1968,1968
+50,UTS,Utah Stars,ABA,1971,1976
+50,LAS,Los Angeles Stars,ABA,1969,1970
+50,ANA,Anaheim Amigos,ABA,1968,1968
+51,VIR,Virginia Squires,ABA,1971,1976
+51,WSA,Washington Capitols,ABA,1970,1970
+51,OAK,Oakland Oaks,ABA,1968,1969

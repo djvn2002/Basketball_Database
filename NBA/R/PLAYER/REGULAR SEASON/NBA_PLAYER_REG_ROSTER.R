@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 8/24/2024
-# Latest Update: 8/25/2024
+# Latest Update: 9/6/2024
 
 # This file will run scrape code to grab roster data from each season
 # This file is very important when running as it will separate duplicate players
@@ -158,53 +158,39 @@ birthplace_data <- read_lines("C:/Users/djvia/OneDrive/Documents/Blog Website/Ba
 print(birthplace_data)
 
 # Replace the abbreviations in the Nationality_Abbr column with the actual country names
+# Along with clearing empty columns to NA for relevant columns
 nba_reg_player_roster <- nba_reg_player_roster %>%
   left_join(birthplace_data) %>%
   mutate(Birthplace = ifelse(is.na(Country), Birthplace, Country),
          Birthplace = ifelse(is.na(Birthplace) | Birthplace == "", "United States", Birthplace),
-         College = ifelse(is.na(Birthplace) | College == "", "N/A", College)) %>%
+         College = ifelse(is.na(College) | College == "", NA, College),
+         `Birth Date` = if_else(is.na(`Birth Date`) | `Birth Date` == "", NA, `Birth Date`),
+         No. = if_else(is.na(No.) | No. == "", NA, No.)) %>%
   select(-Country)
 
-# Handling different players with the same name
-player_dupes_list <- read_delim("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Player_Dupes.txt", delim = "\n", col_names = FALSE) %>%
-  rename(Player = X1) %>%
-  filter(Player != "")
+# Read in player index and league info
+player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
+  rename(College = Colleges)
 
-player_dupes <- nba_reg_player_roster %>%
-  filter(Player %in% player_dupes_list$Player) %>%
-  arrange(Player)
+league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
-# Function to assign suffixes based on birth dates
-assign_suffixes <- function(df) {
-  df <- df %>%
-    group_by(Player, `Birth Date`) %>%
-    mutate(Suffix = "") %>%
-    ungroup() %>%
-    arrange(Player, desc(`Birth Date`)) %>%
-    group_by(Player) %>%
-    mutate(Suffix = paste0(" (", cumsum(!duplicated(`Birth Date`)), ")")) %>%
-    ungroup() %>%
-    mutate(Player = paste0(Player, Suffix)) %>%
-    select(-Suffix)
-  return(df)
-}
+# Assigning Player IDs to players
+nba_reg_roster <- nba_reg_player_roster %>%
+  left_join(player_index %>% select(`Player ID`, Player, College,`Birth Date`), 
+            by = c("Player", "College","Birth Date"))
 
-# Assign suffixes to players with duplicate names
-player_dupes_with_suffixes <- assign_suffixes(player_dupes)
-
-# Remove duplicate players from the original data frame
-nba_reg_player_roster_without_dupes <- nba_reg_player_roster %>%
-  filter(!Player %in% player_dupes_list$Player)
-
-# Combine the updated player names back to the original data frame
-nba_reg_player_roster_updated <- bind_rows(nba_reg_player_roster_without_dupes, player_dupes_with_suffixes) %>%
-  arrange(Season, Team, Player) %>%
+# Assigning Franchise IDs to teams
+nba_reg_roster <- nba_reg_roster %>%
+  left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
+            by = c("Team"), relationship = "many-to-many") %>%
+  distinct() %>%
   rename(`Team Abbr.` = Team)
 
-# Add the correct 'Team Name' and 'League' from the 'nba_urls' data frame
-nba_reg_roster <- nba_reg_player_roster_updated %>%
-  left_join(nba_urls %>% select(URL, `Team Abbr.`, `Team Name`, League),
-            by = c("URL", "Team Abbr."))
+# Reorganizing dataframe and dropping url columns
+nba_reg_roster <- nba_reg_roster %>%
+  select(`Player ID`, No., Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
+         Season, everything()) %>%
+  select(-URL)
 
 # Save the final nba_reg_roster table to a RDA file
 save(nba_reg_roster,file = file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))

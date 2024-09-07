@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 8/24/2024
-# Latest Update: 8/25/2024
+# Latest Update: 9/6/2024
 
 # This file will contain scrape code for player total traditional stats throughout NBA history
 
@@ -147,78 +147,54 @@ nba_reg_total <- scrape_data_in_batches(nba_urls)
 nba_reg_total <- nba_reg_total %>%
   filter(!is.na(Rk))
 
-# Define a function to parse dates robustly
-parse_birth_date <- function(birth_date) {
-  parse_date_time(birth_date, orders = c("mdy", "dmy", "ymd"))
-}
-
 # Load the NBA roster data
 load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 
-nba_reg_roster <- nba_reg_roster %>%  
-  mutate(Player = str_remove(Player, " \\(.*\\)"),
-         Birth_Year = year(parse_birth_date(`Birth Date`)))
-
-# Extract the start year from the season
+# Assigning Player IDs to players
 nba_reg_total <- nba_reg_total %>%
-  mutate(Start_Year = as.numeric(str_sub(Season, 1, 4)),
-         End_Year = as.numeric(str_sub(Season, 6, 9)))
+  rename(`Team Abbr.` = Team) %>%
+  left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
+            by = c("Player", "Team Abbr.", "Season"))
 
-# Left join nba_reg_total with nba_reg_player_roster_updated to get Birth Date
+# Handling duplicate players that have played on the same team in the same season
+player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
+  rename(College = Colleges)
+
+nba_duplicates <- nba_reg_total %>%
+  group_by(Player, `Team Abbr.`, Season) %>%
+  filter(n() > 1)
+
+nba_duplicates <- nba_duplicates %>%
+  left_join(player_index %>% select(`Player ID`,`Birth Date`, Player),
+            by = c("Player", "Player ID")) %>%
+  mutate(`Birth Date` = as.Date(`Birth Date`, format = "%B %d, %Y"),
+         Season_End_Year = as.numeric(str_sub(Season, 6, 9)),
+         Calculated_Age = Season_End_Year - year(as.Date(`Birth Date`, "%B %d, %Y")))
+
+nba_duplicates_filtered <- nba_duplicates %>%
+  filter(abs(Age - Calculated_Age) <= 1) %>%
+  distinct() %>%
+  select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
+
 nba_reg_total <- nba_reg_total %>%
-  left_join(nba_reg_player_roster_updated %>% select(Player, Birth_Year, URL, Team, Season, `Birth Date`),
-            by = c("Player", "Team", "Season", "URL"))
+  anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
+  bind_rows(nba_duplicates_filtered)
 
-# Calculate possible ages and verify
+# Assigning Franchise IDs to teams
 nba_reg_total <- nba_reg_total %>%
-  mutate(Calculated_Age_Start = Start_Year - Birth_Year,
-         Calculated_Age_End = End_Year - Birth_Year)
+  left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
+            by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
+  distinct()
 
-# Handling different players with the same name
-player_dupes_list <- read_delim("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Player_Dupes.txt", delim = "\n", col_names = FALSE) %>%
-  rename(Player = X1) %>%
-  filter(Player != "")
+# Arranging columns and dropping URL
+nba_reg_total <- nba_reg_total %>%
+  select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
+         Season, everything()) %>%
+  select(-URL,-Rk) %>%
+  arrange(`Team Name`,Player)
 
-player_dupes <- nba_reg_total %>%
-  filter(Player %in% player_dupes_list$Player) %>%
-  arrange(Player)
-
-player_dupes <- player_dupes %>%
-  filter(Calculated_Age_Start == Age | Calculated_Age_End == Age)
-
-# Function to assign suffixes based on calculated ages
-assign_suffixes <- function(df) {
-  df <- df %>%
-    group_by(Player, `Birth Date`) %>%
-    mutate(Suffix = "") %>%
-    ungroup() %>%
-    arrange(Player, desc(`Birth Date`)) %>%
-    group_by(Player) %>%
-    mutate(Suffix = paste0(" (", cumsum(!duplicated(`Birth Date`)), ")")) %>%
-    ungroup() %>%
-    mutate(Player = paste0(Player, Suffix)) %>%
-    select(-Suffix)
-  return(df)
-}
-
-# Assign suffixes to players with duplicate names
-player_dupes_with_suffixes <- assign_suffixes(player_dupes)
-
-# Remove duplicate players from the original dataframe
-nba_reg_total_without_dupes <- nba_reg_total %>%
-  filter(!Player %in% player_dupes_list$Player)
-
-# Combine the updated player names back to the original dataframe
-nba_reg_total_updated <- bind_rows(nba_reg_total_without_dupes, player_dupes_with_suffixes) %>%
-  arrange(Season, Team, Player) %>%
-  select(-Start_Year,-End_Year,-Birth_Year,-`Birth Date`,-Calculated_Age_Start,-Calculated_Age_End) %>%
-  rename(`Team Abbr.` = Team)
-
-# Add the correct 'Team Name' and 'League' from the 'nba_urls' data frame
-nba_reg_total <- nba_reg_total_updated %>%
-  left_join(nba_urls %>% select(URL, `Team Abbr.`, `Team Name`, League),
-            by = c("URL", "Team Abbr.")) %>%
-  select(-Rk)
+nba_reg_total <- nba_reg_total %>%
+  arrange(`Team Name`,desc(Season), Player)
 
 # Save the final nba_reg_total table to a RDA file
 save(nba_reg_total,file = file.path(player_fp,"NBA_PLAYER_REG_TOTAL.rda"))

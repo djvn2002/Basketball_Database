@@ -190,7 +190,8 @@ nba_reg_roster <- nba_reg_roster %>%
 nba_reg_roster <- nba_reg_roster %>%
   select(`Player ID`, No., Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
-  select(-URL)
+  select(-URL) %>%
+  arrange(`Team Name`,desc(Season), Player)
 
 # Save the final nba_reg_roster table to a RDA file
 save(nba_reg_roster,file = file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))

@@ -139,12 +139,10 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 # Scrape data in batches of 30 URLs
 nba_team_reg_total <- scrape_data_in_batches(nba_urls)
 
-# Drops rows that have Rk that contain NA
+# Drops rows that have Rk that contain NA and drop the entire column afterwards
 nba_team_reg_total <- nba_team_reg_total %>%
-  filter(!is.na(Rk))
-
-# Remove the 'Rk' column
-nba_team_reg_total <- nba_team_reg_total[, !(names(nba_team_reg_total) %in% 'Rk')]
+  filter(!is.na(Rk)) %>%
+  select(-Rk)
 
 # Remove '*' from the 'Team' column
 nba_team_reg_total$Team <- gsub("\\*", "", nba_team_reg_total$Team)
@@ -158,13 +156,14 @@ nba_team_reg_total <- nba_team_reg_total %>%
   mutate( From = as.numeric(substr(nba_team_reg_total$Season,1,4)),
           To = as.numeric(substr(nba_team_reg_total$Season,6,9))) %>%
   left_join(league_info %>%
-              select(Team, `Team Name`, From, To), by = c('Team Name'),
-            relationship = 'many-to-many') %>%
+              select(`Franchise ID`, Team, `Team Name`, From, To), 
+            by = c('Team Name'), relationship = 'many-to-many') %>%
   filter(To.x >= From.y & (is.na(To.y) | To.x <= To.y)) %>%
   select(-To.x, -To.y, -From.x,-From.y) %>%
   rename(`Team Abbr.` = Team) %>%
-  select(`Team Name`, `Team Abbr.`, Season, everything()) %>%
-  arrange(`Team Name`, Season)
+  select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, everything()) %>%
+  arrange(`Team Name`, desc(Season)) %>%
+  select(-URL)
 
 # Save per game data frame to a rda file
 save(nba_team_reg_total,file = file.path(team_fp,"NBA_TEAM_REG_TOTAL.rda"))

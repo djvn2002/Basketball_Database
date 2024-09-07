@@ -16,7 +16,7 @@ load(file = file.path(player_fp,"NBA_PLAYER_REG_TOTAL.rda"))
 
 # Aggregating based by dividing games played for each player by season
 nba_reg_per_game <- nba_reg_total %>%
-  group_by(Player, `Player ID`, `Franchise ID`, `Team Abbr.`, `Team Name`,Season, Age) %>%
+  group_by(`Player ID`, Player, `Franchise ID`, `Team Abbr.`, `Team Name`, Season, Age) %>%
   summarise( G = sum(G, na.rm = TRUE),
              GS = sum(GS, na.rm = TRUE),
              `MP/G` = round(sum(MP, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),

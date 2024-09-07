@@ -16,7 +16,7 @@ load(file = file.path(team_fp,"NBA_TEAM_REG_TOTAL.rda"))
 
 # Aggregating based by dividing games played for each player by season
 nba_team_reg_per_game <- nba_team_reg_total %>%
-  group_by( `Team Name`, `Team Abbr.`, Season, URL) %>%
+  group_by(`Franchise ID`, `Team Name` , `Team Abbr.`, Season) %>%
   summarise( G = sum(G, na.rm = TRUE),
              `MP/G` = round(sum(MP, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
              `FG/G` = round(sum(FG, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
@@ -41,10 +41,7 @@ nba_team_reg_per_game <- nba_team_reg_total %>%
              `TOV/G` = round(sum(TOV, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
              `PF/G` = round(sum(PF, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
              `PTS/G` = round(sum(PTS, na.rm = TRUE) / sum(G, na.rm = TRUE), 2)) %>%
-  select(`Team Name`, `Team Abbr.`, Season, G, `MP/G`, `FG/G`, `FGA/G`, `FG%`, 
-         `3P/G`, `3PA/G`, `3P%`, `2P/G`, `2PA/G`, `2P%`, `eFG%`,`FT/G`, `FTA/G`, 
-         `FT%`, `ORB/G`, `DRB/G`, `TRB/G`, `AST/G`, `STL/G`, `BLK/G`, `TOV/G`, 
-         `PF/G`, `PTS/G`)
+  arrange(`Team Name`,desc(Season))
 
 # Save per game data frame to a rda file
 save(nba_team_reg_per_game,file = file.path(team_fp,"NBA_TEAM_REG_PER_GAME.rda"))

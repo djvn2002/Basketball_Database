@@ -150,8 +150,10 @@ nba_reg_player_roster <- nba_reg_player_roster %>%
 
 # Load the Nationality.txt file and create a tibble
 birthplace_data <- read_lines("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Nationality.txt") %>%
+  str_trim() %>%
   str_split_fixed(" - ", 2) %>%
-  as_tibble() %>%
+  as.data.frame() %>%
+  as_tibble(.name_repair = "minimal") %>%
   rename(Birthplace = V1, Country = V2)
 
 # Display the nationality_data tibble to verify

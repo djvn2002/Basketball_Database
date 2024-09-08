@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 9/4/2024
-# Latest Update: 9/5/2024
+# Latest Update: 9/7/2024
 
 # This file will contain scrape code for team total traditional stats throughout NBA history
 
@@ -162,8 +162,25 @@ nba_team_reg_total <- nba_team_reg_total %>%
   select(-To.x, -To.y, -From.x,-From.y) %>%
   rename(`Team Abbr.` = Team) %>%
   select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, everything()) %>%
-  arrange(`Team Name`, desc(Season)) %>%
   select(-URL)
+
+# Read in standings data to join into nba_team_reg_total
+nba_standings <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_STANDINGS.csv")
+
+# Make Season End and joining to nba_standings
+nba_team_reg_total <- nba_team_reg_total %>%
+  mutate(Season_End = as.numeric(str_extract(Season, "\\d{4}$"))) %>%
+  left_join(nba_standings %>% select(`Team Abbr.`, Season, W, L, `W/L%`, GB, SRS, 
+                                     Division, `Division Rank`, Conference, 
+                                     `Conference Rank`, `Made Playoffs`),
+    by = c("Team Abbr.", "Season_End" = "Season")) %>%
+  select(-Season_End)
+
+# Rearrange columns for final dataframe %>%
+nba_team_reg_total <- nba_team_reg_total %>%
+  select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, G, W, L, `W/L%`, SRS,
+         Division, `Division Rank`, Conference, `Conference Rank`, everything()) %>%
+  arrange(`Team Name`, desc(Season))
 
 # Save per game data frame to a rda file
 save(nba_team_reg_total,file = file.path(team_fp,"NBA_TEAM_REG_TOTAL.rda"))

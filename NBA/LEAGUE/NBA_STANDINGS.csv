@@ -964,7 +964,7 @@ Washington Wizards,WAS,82,19,63,0.232,37,-6.75,NBA,2001,Atlantic,7,Eastern,14,No
 Chicago Bulls,CHI,82,15,67,0.183,37,-9.09,NBA,2001,Central,8,Eastern,15,No,No,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 San Antonio Spurs,SAS,82,58,24,0.707,0,7.92,NBA,2001,Midwest,1,Western,1,Yes,No,No,3,1,Minnesota Timberwolves,Yes,4,1,Dallas Mavericks,Yes,0,4,Los Angeles Lakers,No,NA,NA,NA,NA
 Los Angeles Lakers,LAL,82,56,26,0.683,0,3.74,NBA,2001,Pacific,1,Western,2,Yes,No,No,3,0,Portland Trail Blazers,Yes,4,0,Sacramento Kings,Yes,4,0,San Antonio Spurs,Yes,4,1,Philadelphia 76ers,Yes
-Sacramento Kings,SAC,82,55,27,0.671,1,6.07,NBA,2001,Pacific,2,Western,3,Yes,No,No,3,1,Phoenix Suns,Yes,1,4,Los Angeles Lakers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Kings,SAC,82,55,27,0.671,1,6.07,NBA,2001,Pacific,2,Western,3,Yes,No,No,3,1,Phoenix Suns,Yes,0,4,Los Angeles Lakers,No,NA,NA,NA,NA,NA,NA,NA,NA
 Utah Jazz,UTA,82,53,29,0.646,5,5,NBA,2001,Midwest,2,Western,4,Yes,No,No,2,3,Dallas Mavericks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Dallas Mavericks,DAL,82,53,29,0.646,5,4.61,NBA,2001,Midwest,3,Western,5,Yes,No,No,3,2,Utah Jazz,Yes,1,4,San Antonio Spurs,No,NA,NA,NA,NA,NA,NA,NA,NA
 Phoenix Suns,PHO,82,51,31,0.622,5,2.63,NBA,2001,Pacific,3,Western,6,Yes,No,No,1,3,Sacramento Kings,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

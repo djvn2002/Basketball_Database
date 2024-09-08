@@ -1,9 +1,9 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/5/2024
+# Date Made: 9/7/2024
 # Latest Update: 9/7/2024
 
 # This file will run based on the assumption that you have already ran this file:
-# NBA_TEAM_REG_TOTAL.R
+# NBA_TEAM_PLAYOFF_TOTAL.R
 
 # The purpose of this file is to grab an aggregate of seasonal per game data by team.
 
@@ -11,13 +11,17 @@
 library(tidyverse)
 
 # Load NBA_PLAYER_REG_TOTAL
-team_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/TEAM/REGULAR SEASON"
-load(file = file.path(team_fp,"NBA_TEAM_REG_TOTAL.rda"))
+team_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/TEAM/PLAYOFFS"
+load(file = file.path(team_fp,"NBA_TEAM_PLAYOFF_TOTAL.rda"))
 
 # Aggregating based by dividing games played for each player by season
-nba_team_reg_per_game <- nba_team_reg_total %>%
-  group_by(`Franchise ID`, `Team Name` , `Team Abbr.`, Season, G, W, L, `W/L%`, SRS,
-           Division, `Division Rank`, Conference, `Conference Rank`, `Made Playoffs`) %>%
+nba_team_ply_per_game <- nba_team_ply_total %>%
+  group_by(`Franchise ID`, `Team Name` , `Team Abbr.`, Season, G, W, L, `W/L%`,
+           Division, `Division Rank`, Conference, `Conference Rank`, `Play-In`, 
+           `Win Play-In`,`First Round Wins`, `First Round Losses`,`First Round Opp.`,
+           `Won First Round`,`Second Round Wins`,`Second Round Losses`,`Second Round Opp.`,
+           `Won Second Round`,`Semifinals Wins`,`Semifinals Losses`,`Semifinals Opp.`,
+           `Won Semifinals`,`Finals Wins`,`Finals Losses`,`Finals Opp.`,`Won Finals`) %>%
   summarise( G = sum(G, na.rm = TRUE),
              `MP/G` = round(sum(MP, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
              `FG/G` = round(sum(FG, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
@@ -43,7 +47,14 @@ nba_team_reg_per_game <- nba_team_reg_total %>%
              `PF/G` = round(sum(PF, na.rm = TRUE) / sum(G, na.rm = TRUE), 2),
              `PTS/G` = round(sum(PTS, na.rm = TRUE) / sum(G, na.rm = TRUE), 2)) %>%
   arrange(`Team Name`,desc(Season)) %>%
-  select(-`Made Playoffs`, everything(), `Made Playoffs`)
+  select(-`Play-In`, -`Win Play-In`,-`First Round Wins`, -`First Round Losses`,-`First Round Opp.`,
+         -`Won First Round`,-`Second Round Wins`,-`Second Round Losses`,-`Second Round Opp.`,
+         -`Won Second Round`,-`Semifinals Wins`,-`Semifinals Losses`,-`Semifinals Opp.`,
+         -`Won Semifinals`,-`Finals Wins`,-`Finals Losses`,-`Finals Opp.`,-`Won Finals`, 
+         everything(), `Play-In`, `Win Play-In`,`First Round Wins`, `First Round Losses`,`First Round Opp.`,
+         `Won First Round`,`Second Round Wins`,`Second Round Losses`,`Second Round Opp.`,
+         `Won Second Round`,`Semifinals Wins`,`Semifinals Losses`,`Semifinals Opp.`,
+         `Won Semifinals`,`Finals Wins`,`Finals Losses`,`Finals Opp.`,`Won Finals`)
 
 # Save per game data frame to a rda file
-save(nba_team_reg_per_game,file = file.path(team_fp,"NBA_TEAM_REG_PER_GAME.rda"))
+save(nba_team_ply_per_game,file = file.path(team_fp,"NBA_TEAM_PLAYOFF_PER_GAME.rda"))

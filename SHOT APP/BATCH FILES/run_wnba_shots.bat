@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\SHOT APP\WNBA\wnba_shots.R" >> "C:\Users\djvia\OneDrive\Documents\log.txt" 2>&1

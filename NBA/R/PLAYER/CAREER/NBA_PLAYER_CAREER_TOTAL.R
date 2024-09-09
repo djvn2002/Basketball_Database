@@ -48,7 +48,7 @@ nba_reg_career_total <- nba_reg_total %>%
              PTS = round(sum(PTS, na.rm = TRUE), 2)) %>%
 arrange(`Player ID`)
 
-# Save per game data frame to a rda file
+# Save career data frame to a rda file
 save(nba_reg_career_total,file = file.path(career_fp,"NBA_PLAYER_CAREER_REG_TOTAL.rda"))
 
 # PLAYOFFS
@@ -87,7 +87,7 @@ nba_playoff_career_total <- nba_playoff_total %>%
              PTS = round(sum(PTS, na.rm = TRUE), 2)) %>%
 arrange(`Player ID`)
 
-# Save per game data frame to a rda file
+# Save career data frame to a rda file
 save(nba_playoff_career_total,file = file.path(career_fp,"NBA_PLAYER_CAREER_PLAYOFF_TOTAL.rda"))
 
 # REGULAR SEASON AND PLAYOFFS
@@ -132,5 +132,5 @@ nba_career_total <- nba_career_total %>%
          FT, FTA, `FT%`, ORB, DRB, TRB, AST, STL, BLK, TOV, PF, PTS) %>%
   arrange(`Player ID`)
 
-# Save per game data frame to a rda file
+# Save career data frame to a rda file
 save(nba_career_total,file = file.path(career_fp,"NBA_PLAYER_CAREER_ALL_TOTAL.rda"))

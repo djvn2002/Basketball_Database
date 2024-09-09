@@ -144,10 +144,10 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-nba_ply_total <- scrape_data_in_batches(nba_urls)
+nba_playoff_total <- scrape_data_in_batches(nba_urls)
 
 # Filter out rows where Rk column is NA
-nba_playoff_total <- nba_ply_total %>%
+nba_playoff_total <- nba_playoff_total %>%
   filter(!is.na(Rk)) %>%
   select(-Rk, -URL)
 
@@ -159,7 +159,7 @@ league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketba
 # Assigning Player IDs to players
 nba_playoff_total <- nba_playoff_total %>%
   rename(`Team Abbr.` = Team) %>%
-  left_join(nba_reg_total %>% select(`Player ID`, Player, `Team Abbr.`, Season),
+  left_join(nba_playoff_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
             by = c("Player", "Team Abbr.", "Season"))
 
 # Assigning Franchise IDs to teams

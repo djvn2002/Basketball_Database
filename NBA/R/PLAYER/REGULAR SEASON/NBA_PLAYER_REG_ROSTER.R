@@ -141,10 +141,10 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-nba_reg_player_roster <- scrape_data_in_batches(nba_urls)
+nba_reg_roster <- scrape_data_in_batches(nba_urls)
 
 # Rename column V7 to Birthplace if it exists
-nba_reg_player_roster <- nba_reg_player_roster %>%
+nba_reg_player_roster <- nba_reg_roster %>%
   rename(Birthplace = Birth) %>%
   mutate(Birthplace = str_sub(Birthplace,1,2))
 

@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 9/5/2024
-# Latest Update: 9/6/2024
+# Latest Update: 9/7/2024
 
 # The usage of this file is to pinpoint players in the NBA and ABA with unqiue indexes
 
@@ -61,6 +61,20 @@ all_players_df <- all_players_df %>%
   mutate(Player = str_replace(Player,"\\*","")) %>%
   mutate(Colleges = na_if(Colleges,"")) %>%
   mutate(`Birth Date` = na_if(`Birth Date`,""))
+
+# Add Luca Vildoza - because he is a very special occasion
+all_players_df <- all_players_df %>%
+  add_row(
+    Player = "Luca Vildoza",
+    From = 2022,  # Year Luca Vildoza entered the NBA
+    To = 2022,  # Current season
+    Pos = "G",  # Position: Guard
+    Ht = "6-3",  # Height
+    Wt = 190,  # Weight (adjust as needed)
+    `Birth Date` = "August 11, 1995",  # Birth Date
+    Colleges = NA,  # Colleges information (if applicable, otherwise NA)
+    HOF = "No",  # Hall of Fame status
+  )
 
 # Resorting player df and applying an ID
 all_players_df <- all_players_df %>%

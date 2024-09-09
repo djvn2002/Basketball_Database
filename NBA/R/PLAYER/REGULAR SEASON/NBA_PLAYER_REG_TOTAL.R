@@ -150,7 +150,7 @@ nba_reg_total <- nba_reg_total %>%
 # Load the NBA roster data and league info
 load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 
-league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_STANDINGS.csv")
+league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
 nba_reg_total <- nba_reg_total %>%

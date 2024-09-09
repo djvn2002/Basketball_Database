@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 8/26/2024
-# Latest Update: 8/26/2024
+# Date Made: 9/5/2024
+# Latest Update: 9/7/2024
 
 # This file will run scrape code to grab roster data from each season
 # This file is very important when running as it will separate duplicate players
@@ -141,10 +141,10 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-nba_playoff_player_roster <- scrape_data_in_batches(nba_urls)
+nba_playoff_roster <- scrape_data_in_batches(nba_urls)
 
 # Rename column V7 to Birthplace if it exists
-nba_playoff_player_roster <- nba_playoff_player_roster %>%
+nba_playoff_player_roster <- nba_playoff_roster %>%
   rename(Birthplace = Birth) %>%
   mutate(Birthplace = str_sub(Birthplace,1,2))
 

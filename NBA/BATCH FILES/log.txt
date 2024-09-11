@@ -1,0 +1,64 @@
+ 
+Running NBA Roster Update Script 
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Rows: 1664 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): Team Name, Team Abbr., League, URL
+dbl (1): Season
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Processing batch 1 of 1 at 2024-09-10 23:10:02
+Total processing time: 2.22 minutes
+# A tibble: 92 × 2
+   Birthplace Country               
+   <chr>      <chr>                 
+ 1 ag         Antigua and Barbuda   
+ 2 ao         Angola                
+ 3 ar         Argentina             
+ 4 at         Austria               
+ 5 au         Australia             
+ 6 ba         Bosnia and Herzegovina
+ 7 be         Belgium               
+ 8 bg         Bulgaria              
+ 9 br         Brazil                
+10 bs         Bahamas               
+# ℹ 82 more rows
+Joining with `by = join_by(Birthplace)`
+Rows: 5210 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (7): Player, Pos, Ht, Birth Date, Colleges, HOF, Active
+dbl (4): Player ID, From, To, Wt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 84 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): Team, Team Name, League
+dbl (3): Franchise ID, From, To
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "nba_reg_roster has been updated and saved to NBA_PLAYER_REG_ROSTER.rda"
+[1] TRUE
+NBA Roster Update Script completed at 23:12:15.74 on Tue 09/10/2024 
+All scripts have completed successfully at 23:12:15.74 on Tue 09/10/2024 

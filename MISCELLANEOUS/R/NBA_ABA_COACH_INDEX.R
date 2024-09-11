@@ -1,3 +1,9 @@
+# Author: David Vialpando-Nielsen
+# Date Made: 9/8/2024
+# Latest Update: 9/8/2024
+
+# The usage of this file is to pinpoint coaches in the NBA and ABA with unqiue indexes
+
 # Load necessary libraries
 library(rvest)
 library(tidyverse)

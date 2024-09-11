@@ -33,6 +33,15 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Player Per Game Update Script completed at %time% on %date% >> %log_file%
 
+:: NBA Player Per 36 Minutes Update Script
+echo Running NBA Player Per 36 Minutes Update Script >> %log_file%
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\NBA_REG_PLAYER_PER_36_MIN_UPDATE.R" >> %log_file% 2>&1
+if %ERRORLEVEL% neq 0 (
+    echo NBA Player Per 36 Minutes Update Script failed at %time% on %date% >> %log_file%
+    exit /b 1
+)
+echo NBA Player Per 36 Minutes Update Script completed at %time% on %date% >> %log_file%
+
 echo All scripts have completed successfully at %time% on %date% >> %log_file%
 
 :: Git commands for commit and push

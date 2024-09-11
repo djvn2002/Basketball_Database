@@ -3,7 +3,7 @@
 # Latest Update: 9/11/2024
 
 # This is an update file!
-# This will update: NBA_PLAYER_REG_ROSTER.rda
+# This will update: NBA_PLAYER_REG_TOTAL.rda
 # Based on the most recent season
 
 # Install and Library Packages

@@ -2,8 +2,9 @@
 # Date Made: 8/25/2024
 # Latest Update: 8/26/2024
 
-# This file will run based on the assumption that you have already ran this file:
-# NBA_PLAYER_REG_TOTAL.R
+# This is an update file!
+# This will update: NBA_PLAYER_REG_PER_GAME.rda
+# Based on the most recent season
 
 # The purpose of this file is to grab an aggregate of seasonal per game data by player.
 

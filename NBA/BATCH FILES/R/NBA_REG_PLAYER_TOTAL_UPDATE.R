@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/10/2024
-# Latest Update: 9/10/2024
+# Date Made: 9/11/2024
+# Latest Update: 9/11/2024
 
 # This is an update file!
 # This will update: NBA_PLAYER_REG_ROSTER.rda
@@ -20,7 +20,7 @@ nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_
   filter(Season == most_recent_nba_season())
 
 # Load in regular season roster
-load(file.path(player_fp,"NBA_PLAYER_REG_ROSTER.rda"))
+load(file.path(player_fp,"NBA_PLAYER_REG_TOTAL.rda"))
 
 # Function to clean column names and ensure specific column types are consistent
 clean_colnames <- function(df) {
@@ -48,9 +48,9 @@ scrape_table <- function(url) {
     tryCatch({
       webpage <- read_html(url)
       
-      # Extract the table with ID #div_roster
+      # Extract the table with ID #div_totals
       table <- webpage %>%
-        html_node("#div_roster") %>%
+        html_node("#div_totals") %>%
         html_table()
       
       # Clean column names and ensure specific column types are consistent
@@ -128,7 +128,7 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
     }
     
     # Save progress after each batch
-    write_csv(bind_rows(results), file.path(player_fp,"NBA_REG_PLAYER_ROSTER_partial.csv"))
+    write_csv(bind_rows(results), file.path(player_fp,"NBA_PLAYER_REG_TOTAL_partial.csv"))
     
     # Pause before the next batch
     Sys.sleep(120)  # Wait for 2 minutes before the next batch
@@ -145,58 +145,58 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-latest_season_roster <- scrape_data_in_batches(nba_urls)
+latest_season_totals <- scrape_data_in_batches(nba_urls)
 
-# Rename column V7 to Birthplace if it exists
-latest_season_roster <- latest_season_roster %>%
-  rename(Birthplace = Birth) %>%
-  mutate(Birthplace = str_sub(Birthplace,1,2))
+# Filter out rows where Rk column is NA
+latest_season_totals <- latest_season_totals %>%
+  filter(!is.na(Rk))
 
-# Load the Nationality.txt file and create a tibble
-birthplace_data <- read_lines("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Nationality.txt") %>%
-  str_trim() %>%
-  str_split_fixed(" - ", 2) %>%
-  as.data.frame() %>%
-  as_tibble(.name_repair = "minimal") %>%
-  rename(Birthplace = V1, Country = V2)
-
-# Display the nationality_data tibble to verify
-print(birthplace_data)
-
-# Replace the abbreviations in the Nationality_Abbr column with the actual country names
-# Along with clearing empty columns to NA for relevant columns
-latest_season_roster <- latest_season_roster %>%
-  left_join(birthplace_data) %>%
-  mutate(Birthplace = ifelse(is.na(Country), Birthplace, Country),
-         Birthplace = ifelse(is.na(Birthplace) | Birthplace == "", "United States", Birthplace),
-         College = ifelse(is.na(College) | College == "", NA, College),
-         `Birth Date` = if_else(is.na(`Birth Date`) | `Birth Date` == "", NA, `Birth Date`),
-         No. = if_else(is.na(No.) | No. == "", NA, No.)) %>%
-  select(-Country)
-
-# Read in player index and league info
-player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
-  rename(College = Colleges)
+# Load the NBA roster data and league info
+load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
-latest_season_roster <- latest_season_roster %>%
-  left_join(player_index %>% select(`Player ID`, Player, College,`Birth Date`), 
-            by = c("Player", "College","Birth Date"))
+latest_season_totals <- latest_season_totals %>%
+  rename(`Team Abbr.` = Team) %>%
+  left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
+            by = c("Player", "Team Abbr.", "Season"))
+
+# Handling duplicate players that have played on the same team in the same season
+player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
+  rename(College = Colleges)
+
+nba_duplicates <- latest_season_totals %>%
+  group_by(Player, `Team Abbr.`, Season) %>%
+  filter(n() > 1)
+
+nba_duplicates <- nba_duplicates %>%
+  left_join(player_index %>% select(`Player ID`,`Birth Date`, Player),
+            by = c("Player", "Player ID")) %>%
+  mutate(`Birth Date` = as.Date(`Birth Date`, format = "%B %d, %Y"),
+         Season_End_Year = as.numeric(str_sub(Season, 6, 9)),
+         Calculated_Age = Season_End_Year - year(as.Date(`Birth Date`, "%B %d, %Y")))
+
+nba_duplicates_filtered <- nba_duplicates %>%
+  filter(abs(Age - Calculated_Age) <= 1) %>%
+  distinct() %>%
+  select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
+
+latest_season_totals <- latest_season_totals %>%
+  anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
+  bind_rows(nba_duplicates_filtered)
 
 # Assigning Franchise IDs to teams
-latest_season_roster <- latest_season_roster %>%
+latest_season_totals <- latest_season_totals %>%
   left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
-            by = c("Team"), relationship = "many-to-many") %>%
-  distinct() %>%
-  rename(`Team Abbr.` = Team)
+            by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
+  distinct()
 
-# Reorganizing dataframe and dropping url columns
-latest_season_roster <- latest_season_roster %>%
-  select(`Player ID`, No., Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
+# Arranging columns and dropping URL
+latest_season_totals <- latest_season_totals %>%
+  select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
-  select(-URL) %>%
+  select(-URL,-Rk) %>%
   arrange(`Team Name`,desc(Season), Player)
 
 # Get the most recent NBA season using hoopR as a number (e.g., 2024)
@@ -205,19 +205,19 @@ most_recent_season <- most_recent_nba_season()
 # Convert to "YYYY-YYYY" format for filtering
 most_recent_season_formatted <- paste(most_recent_season - 1, most_recent_season, sep = "-")
 
-# Filter out the most recent season's data from nba_reg_roster
-nba_reg_roster <- nba_reg_roster %>%
+# Filter out the most recent season's data from nba_reg_total
+nba_reg_total <- nba_reg_total %>%
   filter(Season != most_recent_season_formatted)
 
-# Bind the new latest season data with the filtered nba_reg_roster
-nba_reg_roster <- bind_rows(nba_reg_roster, latest_season_roster) %>%
+# Bind the new latest season data with the filtered nba_reg_total
+nba_reg_total <- bind_rows(nba_reg_total, latest_season_totals) %>%
   arrange(`Team Name`,desc(Season), Player)
 
 # Save the updated roster back to the RDA file
-save(nba_reg_roster, file = file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
+save(nba_reg_total, file = file.path(player_fp, "NBA_PLAYER_REG_TOTAL.rda"))
 
 # Display message to confirm save
-print("nba_reg_roster has been updated and saved to NBA_PLAYER_REG_ROSTER.rda")
+print("nba_reg_total has been updated and saved to NBA_PLAYER_REG_TOTAL.rda")
 
 # Delete the partial RDA file
-file.remove(file.path(player_fp,"NBA_REG_PLAYER_ROSTER_partial.csv"))
+file.remove(file.path(player_fp,"NBA_PLAYER_REG_TOTAL_partial.csv"))

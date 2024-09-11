@@ -25,7 +25,7 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-09-10 23:10:02
+Processing batch 1 of 1 at 2024-09-11 15:08:40
 Total processing time: 2.22 minutes
 # A tibble: 92 × 2
    Birthplace Country               
@@ -60,5 +60,68 @@ dbl (3): Franchise ID, From, To
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] "nba_reg_roster has been updated and saved to NBA_PLAYER_REG_ROSTER.rda"
 [1] TRUE
-NBA Roster Update Script completed at 23:12:15.74 on Tue 09/10/2024 
-All scripts have completed successfully at 23:12:15.74 on Tue 09/10/2024 
+NBA Roster Update Script completed at 15:10:54.43 on Wed 09/11/2024 
+Running NBA Player Total Update Script 
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Rows: 1664 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): Team Name, Team Abbr., League, URL
+dbl (1): Season
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Processing batch 1 of 1 at 2024-09-11 15:10:56
+Total processing time: 2.17 minutes
+Rows: 84 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): Team, Team Name, League
+dbl (3): Franchise ID, From, To
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 5210 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (7): Player, Pos, Ht, Birth Date, Colleges, HOF, Active
+dbl (4): Player ID, From, To, Wt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "nba_reg_total has been updated and saved to NBA_PLAYER_REG_TOTAL.rda"
+[1] TRUE
+NBA Player Total Update Script completed at 15:13:08.21 on Wed 09/11/2024 
+Running NBA Player Per Game Update Script 
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+`summarise()` has grouped output by 'Player ID', 'Player', 'Franchise ID',
+'Team Abbr.', 'Team Name', 'Season'. You can override using the `.groups`
+argument.
+[1] "nba_reg_per_game table has been saved to NBA_PLAYER_REG_PER_GAME.rda"
+NBA Player Per Game Update Script completed at 15:13:12.93 on Wed 09/11/2024 
+All scripts have completed successfully at 15:13:12.93 on Wed 09/11/2024 

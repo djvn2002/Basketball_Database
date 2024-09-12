@@ -2,7 +2,7 @@
 # Date Made: 8/27/2024
 # Latest Update: 9/8/2024
 
-# This file will contain scrape code for player total traditional stats throughout NBA history
+# This file will contain scrape code for player stats based by 36 minutes
 
 # Library and install necessary packages
 

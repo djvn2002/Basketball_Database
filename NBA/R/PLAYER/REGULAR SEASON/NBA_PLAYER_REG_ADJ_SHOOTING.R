@@ -1,6 +1,6 @@
 # Author: David Vialpando-Nielsen
 # Date Made: 9/12/2024
-# Latest Update: 9/12/2024
+# Latest Update: 9/13/2024
 
 # This file will contain scrape code for player stats based by adjusted shooting
 
@@ -168,7 +168,7 @@ rs_driver_object$server$stop()
 
 convert_to_numeric <- function(df) {
   # Specify columns to keep as character
-  character_cols <- c("Player", "URL", "Team", "Season")
+  character_cols <- c("Var.2", "URL", "Team", "Season")
   
   # Convert all other columns to numeric, leaving the specified columns as character
   df <- df %>% 
@@ -178,4 +178,91 @@ convert_to_numeric <- function(df) {
 }
 
 # Cleaning up tables
-nba_reg_adj_shooting <- convert_to_numeric(nba_reg_adj_shooting_parallel)
+nba_reg_adj_shooting <- convert_to_numeric(nba_reg_adj_shooting_parallel) %>%
+  select(-Var.6, -Var.15, -Var.24)
+
+# Rename columns and drop Rk
+nba_reg_adj_shooting <- nba_reg_adj_shooting %>%
+  rename(Rk = Var.1,
+         Player = Var.2,
+         Age = Var.3,
+         G = Var.4,
+         MP = Var.5,
+         `FG%` = Shooting..,
+         `2P%` = Shooting...8,
+         `3P%` = Shooting...9,
+         `eFG%` = Shooting...10,
+         `FT%` = Shooting...11,
+         `TS%` = Shooting...12,
+         FTr = Shooting...13,
+         `3PAr` = Shooting...14,
+         `FG+` = League.Adjusted,
+         `2P+` = League.Adjusted.1,
+         `3P+` = League.Adjusted.2,
+         `eFG+` = League.Adjusted.3,
+         `FT+` = League.Adjusted.4,
+         `TS+` = League.Adjusted.5,
+         `FTr+` = League.Adjusted.6,
+         `3PAr+` = League.Adjusted.7,
+         `FG Points Added` = Var.25,
+         `TS Points Added` = Var.26) %>%
+  filter(!is.na(Rk)) %>%
+  select(-Rk)
+
+# Load in player reg roster and league info for ids
+load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
+
+league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
+
+# Assigning Player IDs to players
+nba_reg_adj_shooting <- nba_reg_adj_shooting %>%
+  rename(`Team Abbr.` = Team) %>%
+  left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
+            by = c("Player", "Team Abbr.", "Season"),
+            relationship = "many-to-many")
+
+# Handling duplicate players that have played on the same team in the same season
+player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
+  rename(College = Colleges)
+
+nba_duplicates <- nba_reg_adj_shooting %>%
+  group_by(Player, `Team Abbr.`, Season) %>%
+  filter(n() > 1)
+
+nba_duplicates <- nba_duplicates %>%
+  left_join(player_index %>% select(`Player ID`,`Birth Date`, Player),
+            by = c("Player", "Player ID")) %>%
+  mutate(`Birth Date` = as.Date(`Birth Date`, format = "%B %d, %Y"),
+         Season_End_Year = as.numeric(str_sub(Season, 6, 9)),
+         Calculated_Age = Season_End_Year - year(as.Date(`Birth Date`, "%B %d, %Y")))
+
+nba_duplicates_filtered <- nba_duplicates %>%
+  filter(abs(Age - Calculated_Age) <= 1) %>%
+  distinct() %>%
+  select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
+
+nba_reg_adj_shooting <- nba_reg_adj_shooting %>%
+  anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
+  bind_rows(nba_duplicates_filtered)
+
+# Assigning Franchise IDs to teams
+nba_reg_adj_shooting <- nba_reg_adj_shooting %>%
+  left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
+            by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
+  distinct()
+
+# Arranging columns and dropping URL for final data frame
+nba_reg_adj_shooting <- nba_reg_adj_shooting %>%
+  select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
+         Season, everything()) %>%
+  select(-URL) %>%
+  arrange(`Team Name`,desc(Season), Player)
+
+# Save the final nba_reg_adj_shooting table to a RDA file
+save(nba_reg_adj_shooting,file = file.path(player_fp,"NBA_PLAYER_REG_ADJ_SHOOTING.rda"))
+
+# Display message to confirm save
+print("nba_reg_adj_shooting table has been saved to NBA_PLAYER_REG_ADJ_SHOOTING.rda")
+
+# Delete the partial RDA file
+file.remove(file.path(player_fp,"NBA_PLAYER_REG_ADJ_SHOOTING_partial.csv"))

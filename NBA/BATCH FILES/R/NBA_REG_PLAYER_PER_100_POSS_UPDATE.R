@@ -1,8 +1,10 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/11/2024
-# Latest Update: 9/11/2024
+# Date Made: 9/12/2024
+# Latest Update: 9/12/2024
 
-# This file will contain scrape code for player stats based by 100 possessions
+# This is an update file!
+# This will update: NBA_PLAYER_REG_PER_100_POSS.rda
+# Based on the most recent season
 
 # Library and install necessary packages
 
@@ -16,14 +18,17 @@ library(lubridate)
 library(readr)
 library(rvest)
 library(progressr)
-
-nba_reg_per_100_poss <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/REGULAR SEASON/NBA_PLAYER_REG_PER_100_POSS_partial.csv")
+library(hoopR)
 
 # Directory for the saved CSV file
 player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/REGULAR SEASON/"
 
 # Load the valid URLs from the CSV file
-nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_TEAM_URLS.csv")
+nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_TEAM_URLS.csv") %>%
+  filter(Season == most_recent_nba_season())
+
+# Load in regular season roster
+load(file.path(player_fp,"NBA_PLAYER_REG_PER_100_POSS.rda"))
 
 # Function to clean column names and ensure specific column types are consistent
 clean_colnames <- function(df) {
@@ -174,7 +179,7 @@ convert_to_numeric <- function(df) {
 }
 
 # Cleaning up tables
-nba_reg_per_100_poss <- convert_to_numeric(nba_reg_per_100_parallel) %>%
+latest_100_poss <- convert_to_numeric(nba_reg_per_100_parallel) %>%
   filter(Rk != "Rk") %>%
   select(-Rk)
 
@@ -184,7 +189,7 @@ load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+latest_100_poss <- latest_100_poss %>%
   rename(`Team Abbr.` = Team) %>%
   left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
             by = c("Player", "Team Abbr.", "Season"),
@@ -194,7 +199,7 @@ nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
 player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
   rename(College = Colleges)
 
-nba_duplicates <- nba_reg_per_100_poss %>%
+nba_duplicates <- latest_100_poss %>%
   group_by(Player, `Team Abbr.`, Season) %>%
   filter(n() > 1)
 
@@ -210,24 +215,38 @@ nba_duplicates_filtered <- nba_duplicates %>%
   distinct() %>%
   select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
 
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+latest_100_poss <- latest_100_poss %>%
   anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
   bind_rows(nba_duplicates_filtered)
 
 # Assigning Franchise IDs to teams
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+latest_100_poss <- latest_100_poss %>%
   left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
             by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
   distinct()
 
 # Arranging columns and dropping URL for final data frame
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+latest_100_poss <- latest_100_poss %>%
   select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
   select(-URL, -`Var.28`) %>%
   arrange(`Team Name`,desc(Season), Player) %>%
   rename(`FG%` = FG.,`3P` = `X3P`,`3PA` = `X3PA`,`3P%` = `X3P.`,`2P` = `X2P`,
          `2PA` = `X2PA`,`2P%` = `X2P.`,`FT%` = FT.)
+
+# Get the most recent NBA season using hoopR as a number (e.g., 2024)
+most_recent_season <- most_recent_nba_season()
+
+# Convert to "YYYY-YYYY" format for filtering
+most_recent_season_formatted <- paste(most_recent_season - 1, most_recent_season, sep = "-")
+
+# Filter out the most recent season's data from nba_reg_per_100_poss
+nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+  filter(Season != most_recent_season_formatted)
+
+# Bind the new latest season data with the filtered nba_reg_per_100_poss
+nba_reg_per_100_poss <- bind_rows(nba_reg_per_100_poss, latest_100_poss) %>%
+  arrange(`Team Name`,desc(Season), Player)
 
 # Save the final nba_reg_per_100_poss table to a RDA file
 save(nba_reg_per_100_poss,file = file.path(player_fp,"NBA_PLAYER_REG_PER_100_POSS.rda"))

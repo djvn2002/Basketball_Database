@@ -25,8 +25,8 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-09-11 15:39:12
-Total processing time: 2.19 minutes
+Processing batch 1 of 1 at 2024-09-12 18:19:09
+Total processing time: 2.3 minutes
 # A tibble: 92 × 2
    Birthplace Country               
    <chr>      <chr>                 
@@ -60,7 +60,7 @@ dbl (3): Franchise ID, From, To
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] "nba_reg_roster has been updated and saved to NBA_PLAYER_REG_ROSTER.rda"
 [1] TRUE
-NBA Roster Update Script completed at 15:41:24.46 on Wed 09/11/2024 
+NBA Roster Update Script completed at 18:21:28.59 on Thu 09/12/2024 
 Running NBA Player Total Update Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -87,7 +87,7 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-09-11 15:41:26
+Processing batch 1 of 1 at 2024-09-12 18:21:30
 Total processing time: 2.16 minutes
 Rows: 84 Columns: 6
 ── Column specification ────────────────────────────────────────────────────────
@@ -107,7 +107,7 @@ dbl (4): Player ID, From, To, Wt
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] "nba_reg_total has been updated and saved to NBA_PLAYER_REG_TOTAL.rda"
 [1] TRUE
-NBA Player Total Update Script completed at 15:43:36.80 on Wed 09/11/2024 
+NBA Player Total Update Script completed at 18:23:40.87 on Thu 09/12/2024 
 Running NBA Player Per Game Update Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -123,7 +123,7 @@ Running NBA Player Per Game Update Script
 'Team Abbr.', 'Team Name', 'Season'. You can override using the `.groups`
 argument.
 [1] "nba_reg_per_game table has been saved to NBA_PLAYER_REG_PER_GAME.rda"
-NBA Player Per Game Update Script completed at 15:43:41.51 on Wed 09/11/2024 
+NBA Player Per Game Update Script completed at 18:23:45.54 on Thu 09/12/2024 
 Running NBA Player Per 36 Minutes Update Script 
 Loading required package: future
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
@@ -151,7 +151,7 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Total scraping time: 7.5 minutes
+Total scraping time: 5.08 minutes
 [1] TRUE
 Rows: 84 Columns: 6
 ── Column specification ────────────────────────────────────────────────────────
@@ -171,5 +171,83 @@ dbl (4): Player ID, From, To, Wt
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] "nba_reg_per_36_min table has been saved to NBA_PLAYER_REG_PER_36_MIN.rda"
 [1] TRUE
-NBA Player Per 36 Minutes Update Script completed at 15:51:31.27 on Wed 09/11/2024 
-All scripts have completed successfully at 15:51:31.27 on Wed 09/11/2024 
+NBA Player Per 36 Minutes Update Script completed at 18:29:01.22 on Thu 09/12/2024 
+Running NBA Player Per 100 Possessions Update Script 
+Loading required package: future
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Rows: 1664 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): Team Name, Team Abbr., League, URL
+dbl (1): Season
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Total scraping time: 6.41 minutes
+[1] TRUE
+Rows: 84 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): Team, Team Name, League
+dbl (3): Franchise ID, From, To
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 5210 Columns: 11
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (7): Player, Pos, Ht, Birth Date, Colleges, HOF, Active
+dbl (4): Player ID, From, To, Wt
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "nba_reg_per_100_poss table has been saved to NBA_PLAYER_REG_PER_100_POSS.rda"
+[1] TRUE
+NBA Player Per 100 Possessions Update Script completed at 18:35:40.92 on Thu 09/12/2024 
+Running NBA Player Advanced Stats Update Script 
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Rows: 1664 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): Team Name, Team Abbr., League, URL
+dbl (1): Season
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Processing batch 1 of 1 at 2024-09-12 18:35:45
+Rate limited. Retrying in 32.7587039256468 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 42.0970792870503 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 36.7969646828715 seconds... (Attempt 3 of 5 )
+^C^C

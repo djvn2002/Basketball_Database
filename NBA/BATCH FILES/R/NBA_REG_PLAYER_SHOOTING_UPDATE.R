@@ -1,8 +1,10 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/12/2024
+# Date Made: 9/13/2024
 # Latest Update: 9/13/2024
 
-# This file will contain scrape code for player stats based by shooting statistics
+# This is an update file!
+# This will update: NBA_PLAYER_REG_SHOOTING.rda
+# Based on the most recent season
 
 # Library and install necessary packages
 
@@ -16,13 +18,17 @@ library(lubridate)
 library(readr)
 library(rvest)
 library(progressr)
+library(hoopR)
 
 # Directory for the saved CSV file
 player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/REGULAR SEASON/"
 
 # Load the valid URLs from the CSV file
 nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_TEAM_URLS.csv") %>%
-  filter(Season >= 1997)
+  filter(Season == most_recent_nba_season())
+
+# Load in regular season roster
+load(file.path(player_fp,"NBA_PLAYER_REG_SHOOTING.rda"))
 
 # Function to clean column names and ensure specific column types are consistent
 clean_colnames <- function(df) {
@@ -173,11 +179,11 @@ convert_to_numeric <- function(df) {
 }
 
 # Cleaning up tables
-nba_reg_shooting <- convert_to_numeric(nba_reg_shooting_parallel) %>%
+latest_shooting <- convert_to_numeric(nba_reg_shooting_parallel) %>%
   select(-Var.8, -Var.15, -Var.22, -Var.25, -Var.28, -Var.31)
 
 # Rename the columns and drop Rk
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_shooting <- latest_shooting %>%
   rename(Rk = Var.1,
          Player = Var.2,
          Age = Var.3,
@@ -214,7 +220,7 @@ load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_shooting <- latest_shooting %>%
   rename(`Team Abbr.` = Team) %>%
   left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
             by = c("Player", "Team Abbr.", "Season"),
@@ -224,7 +230,7 @@ nba_reg_shooting <- nba_reg_shooting %>%
 player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
   rename(College = Colleges)
 
-nba_duplicates <- nba_reg_shooting %>%
+nba_duplicates <- latest_shooting %>%
   group_by(Player, `Team Abbr.`, Season) %>%
   filter(n() > 1)
 
@@ -240,21 +246,35 @@ nba_duplicates_filtered <- nba_duplicates %>%
   distinct() %>%
   select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
 
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_shooting <- latest_shooting %>%
   anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
   bind_rows(nba_duplicates_filtered)
 
 # Assigning Franchise IDs to teams
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_shooting <- latest_shooting %>%
   left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
             by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
   distinct()
 
 # Arranging columns and dropping URL for final data frame
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_shooting <- latest_shooting %>%
   select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
   select(-URL) %>%
+  arrange(`Team Name`,desc(Season), Player)
+
+# Get the most recent NBA season using hoopR as a number (e.g., 2024)
+most_recent_season <- most_recent_nba_season()
+
+# Convert to "YYYY-YYYY" format for filtering
+most_recent_season_formatted <- paste(most_recent_season - 1, most_recent_season, sep = "-")
+
+# Filter out the most recent season's data from nba_reg_shooting
+nba_reg_shooting <- nba_reg_shooting %>%
+  filter(Season != most_recent_season_formatted)
+
+# Bind the new latest season data with the filtered nba_reg_shooting
+nba_reg_shooting <- bind_rows(nba_reg_shooting, latest_shooting) %>%
   arrange(`Team Name`,desc(Season), Player)
 
 # Save the final nba_reg_shooting table to a RDA file

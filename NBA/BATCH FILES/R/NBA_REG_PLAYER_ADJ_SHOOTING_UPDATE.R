@@ -1,8 +1,10 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/12/2024
+# Date Made: 9/13/2024
 # Latest Update: 9/13/2024
 
-# This file will contain scrape code for player stats based by shooting statistics
+# This is an update file!
+# This will update: NBA_PLAYER_REG_ADJ_SHOOTING.rda
+# Based on the most recent season
 
 # Library and install necessary packages
 
@@ -16,13 +18,17 @@ library(lubridate)
 library(readr)
 library(rvest)
 library(progressr)
+library(hoopR)
 
 # Directory for the saved CSV file
 player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/REGULAR SEASON/"
 
 # Load the valid URLs from the CSV file
 nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_TEAM_URLS.csv") %>%
-  filter(Season >= 1997)
+  filter(Season == most_recent_nba_season())
+
+# Load in regular season roster
+load(file.path(player_fp,"NBA_PLAYER_REG_ADJ_SHOOTING.rda"))
 
 # Function to clean column names and ensure specific column types are consistent
 clean_colnames <- function(df) {
@@ -52,13 +58,18 @@ scrape_table_selenium <- function(remDr, url, max_retries = 3) {
       Sys.sleep(3)  # Wait for the page to load
       
       # Find the table element
-      webElem <- remDr$findElement(using = "css", "#div_shooting")
+      webElem <- remDr$findElement(using = "css", "#div_adj_shooting")
       table_html <- webElem$getElementAttribute("outerHTML")[[1]]
       
-      # Parse the HTML table using rvest
-      table <- read_html(table_html) %>%
-        html_table(fill = TRUE) %>%
-        as.data.frame()
+      # Parse the HTML table using rvest and suppress messages
+      table <- suppressMessages(
+        read_html(table_html) %>%
+          html_table(fill = TRUE) %>%
+          as.data.frame()
+      )
+      
+      # Use vctrs::vec_as_names to repair column names, similar to .name_repair = "unique_quiet"
+      colnames(table) <- vctrs::vec_as_names(colnames(table), repair = "unique", quiet = TRUE)
       
       # Clean column names and ensure specific column types are consistent
       table <- clean_colnames(table)
@@ -128,7 +139,7 @@ scrape_all_urls_selenium <- function(nba_urls, remDr, batch_size = 100, restart_
   }
   
   # Save the final result after scraping all URLs
-  write_csv(bind_rows(results), file.path(player_fp, "NBA_PLAYER_REG_SHOOTING_partial.csv"))
+  write_csv(bind_rows(results), file.path(player_fp, "NBA_PLAYER_REG_ADJ_SHOOTING_partial.csv"))
   
   return(results)
 }
@@ -145,7 +156,7 @@ handlers(global = TRUE)  # Enable global progress handlers
 start_time <- Sys.time()
 
 # Run the scraping function with progress bar and batch processing
-nba_reg_shooting_parallel <- with_progress({
+nba_reg_adj_shooting_parallel <- with_progress({
   scrape_all_urls_selenium(nba_urls, remDr)
 })
 
@@ -173,38 +184,34 @@ convert_to_numeric <- function(df) {
 }
 
 # Cleaning up tables
-nba_reg_shooting <- convert_to_numeric(nba_reg_shooting_parallel) %>%
-  select(-Var.8, -Var.15, -Var.22, -Var.25, -Var.28, -Var.31)
+latest_adj_shooting <- convert_to_numeric(nba_reg_adj_shooting_parallel) %>%
+  select(-Var.6, -Var.15, -Var.24)
 
-# Rename the columns and drop Rk
-nba_reg_shooting <- nba_reg_shooting %>%
+# Rename columns and drop Rk
+latest_adj_shooting <- latest_adj_shooting %>%
   rename(Rk = Var.1,
          Player = Var.2,
          Age = Var.3,
          G = Var.4,
          MP = Var.5,
-         `FG%` = Var.6,
-         `Avg. Distance` = Var.7,
-         `% of FGA by Distance: 2P` = X..of.FGA.by.Distance,
-         `% of FGA by Distance: 0-3ft` = X..of.FGA.by.Distance.1,
-         `% of FGA by Distance: 3-10ft` = X..of.FGA.by.Distance.2,
-         `% of FGA by Distance: 10-16ft` = X..of.FGA.by.Distance.3,
-         `% of FGA by Distance: 16ft-3P` = X..of.FGA.by.Distance.4,
-         `% of FGA by Distance: 3P` = X..of.FGA.by.Distance.5,
-         `FG% by Distance: 2P` = FG..by.Distance,
-         `FG% by Distance: 0-3ft` = FG..by.Distance.1,
-         `FG% by Distance: 3-10ft` = FG..by.Distance.2,
-         `FG% by Distance: 10-16ft` = FG..by.Distance.3,
-         `FG% by Distance: 16ft-3P` = FG..by.Distance.4,
-         `FG% by Distance: 3P` = FG..by.Distance.5,
-         `% of FG Ast'd: 2P` = X..of.FG.Ast.d,
-         `% of FG Ast'd: 3P` = X..of.FG.Ast.d.1,
-         `%FGA of Dunks` = Dunks,
-         `Made Dunk Attempts` = Dunks.1,
-         `%3PA Corner 3s` = Corner.3s,
-         `3P% Corner 3s` = Corner.3s.1,
-         `Heaves Attempted` = Heaves,
-         `Heaves Made` = Heaves.1) %>%
+         `FG%` = Shooting..,
+         `2P%` = Shooting...8,
+         `3P%` = Shooting...9,
+         `eFG%` = Shooting...10,
+         `FT%` = Shooting...11,
+         `TS%` = Shooting...12,
+         FTr = Shooting...13,
+         `3PAr` = Shooting...14,
+         `FG+` = League.Adjusted,
+         `2P+` = League.Adjusted.1,
+         `3P+` = League.Adjusted.2,
+         `eFG+` = League.Adjusted.3,
+         `FT+` = League.Adjusted.4,
+         `TS+` = League.Adjusted.5,
+         `FTr+` = League.Adjusted.6,
+         `3PAr+` = League.Adjusted.7,
+         `FG Points Added` = Var.25,
+         `TS Points Added` = Var.26) %>%
   filter(!is.na(Rk)) %>%
   select(-Rk)
 
@@ -214,7 +221,7 @@ load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_adj_shooting <- latest_adj_shooting %>%
   rename(`Team Abbr.` = Team) %>%
   left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
             by = c("Player", "Team Abbr.", "Season"),
@@ -224,7 +231,7 @@ nba_reg_shooting <- nba_reg_shooting %>%
 player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
   rename(College = Colleges)
 
-nba_duplicates <- nba_reg_shooting %>%
+nba_duplicates <- latest_adj_shooting %>%
   group_by(Player, `Team Abbr.`, Season) %>%
   filter(n() > 1)
 
@@ -240,28 +247,42 @@ nba_duplicates_filtered <- nba_duplicates %>%
   distinct() %>%
   select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
 
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_adj_shooting <- latest_adj_shooting %>%
   anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
   bind_rows(nba_duplicates_filtered)
 
 # Assigning Franchise IDs to teams
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_adj_shooting <- latest_adj_shooting %>%
   left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
             by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
   distinct()
 
 # Arranging columns and dropping URL for final data frame
-nba_reg_shooting <- nba_reg_shooting %>%
+latest_adj_shooting <- latest_adj_shooting %>%
   select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
   select(-URL) %>%
   arrange(`Team Name`,desc(Season), Player)
 
-# Save the final nba_reg_shooting table to a RDA file
-save(nba_reg_shooting,file = file.path(player_fp,"NBA_PLAYER_REG_SHOOTING.rda"))
+# Get the most recent NBA season using hoopR as a number (e.g., 2024)
+most_recent_season <- most_recent_nba_season()
+
+# Convert to "YYYY-YYYY" format for filtering
+most_recent_season_formatted <- paste(most_recent_season - 1, most_recent_season, sep = "-")
+
+# Filter out the most recent season's data from nba_reg_adj_shooting
+nba_reg_adj_shooting <- nba_reg_adj_shooting %>%
+  filter(Season != most_recent_season_formatted)
+
+# Bind the new latest season data with the filtered nba_reg_adj_shooting
+nba_reg_adj_shooting <- bind_rows(nba_reg_adj_shooting, latest_adj_shooting) %>%
+  arrange(`Team Name`,desc(Season), Player)
+
+# Save the final nba_reg_adj_shooting table to a RDA file
+save(nba_reg_adj_shooting,file = file.path(player_fp,"NBA_PLAYER_REG_ADJ_SHOOTING.rda"))
 
 # Display message to confirm save
-print("nba_reg_shooting table has been saved to NBA_PLAYER_REG_SHOOTING.rda")
+print("nba_reg_adj_shooting table has been saved to NBA_PLAYER_REG_ADJ_SHOOTING.rda")
 
 # Delete the partial RDA file
-file.remove(file.path(player_fp,"NBA_PLAYER_REG_SHOOTING_partial.csv"))
+file.remove(file.path(player_fp,"NBA_PLAYER_REG_ADJ_SHOOTING_partial.csv"))

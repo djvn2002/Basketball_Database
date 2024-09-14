@@ -15,7 +15,7 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Roster Update Script completed at %time% on %date% >> %log_file%
 
-:: Wait for 2 minutes (120 seconds) before the next script
+:: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak
 
 :: NBA Player Total Update Script
@@ -27,7 +27,7 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Player Total Update Script completed at %time% on %date% >> %log_file%
 
-:: Wait for 2 minutes (120 seconds) before the next script
+:: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak
 
 :: NBA Player Per Game Update Script
@@ -39,7 +39,7 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Player Per Game Update Script completed at %time% on %date% >> %log_file%
 
-:: Wait for 2 minutes (120 seconds) before the next script
+:: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak
 
 :: NBA Player Per 36 Minutes Update Script
@@ -51,7 +51,7 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Player Per 36 Minutes Update Script completed at %time% on %date% >> %log_file%
 
-:: Wait for 2 minutes (120 seconds) before the next script
+:: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak
 
 :: NBA Player Per 100 Possessions Update Script
@@ -63,7 +63,7 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Player Per 100 Possessions Update Script completed at %time% on %date% >> %log_file%
 
-:: Wait for 2 minutes (120 seconds) before the next script
+:: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak
 
 :: NBA Player Advanced Stats Update Script
@@ -74,6 +74,42 @@ if %ERRORLEVEL% neq 0 (
     exit /b 1
 )
 echo NBA Player Advanced Stats Update Script completed at %time% on %date% >> %log_file%
+
+:: Wait for 2 minutes (120 seconds)
+timeout /t 120 /nobreak
+
+:: NBA Player Adjusted Shooting Update Script
+echo Running NBA Player Adjusted Shooting Update Script >> %log_file%
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\NBA_REG_PLAYER_ADJ_SHOOTING_UPDATE.R" >> %log_file% 2>&1
+if %ERRORLEVEL% neq 0 (
+    echo NBA Player Adjusted Shooting Update Script failed at %time% on %date% >> %log_file%
+    exit /b 1
+)
+echo NBA Player Adjusted Shooting Update Script completed at %time% on %date% >> %log_file%
+
+:: Wait for 2 minutes (120 seconds)
+timeout /t 120 /nobreak
+
+:: NBA Player Shooting Update Script
+echo Running NBA Player Shooting Update Script >> %log_file%
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\NBA_REG_PLAYER_SHOOTING_UPDATE.R" >> %log_file% 2>&1
+if %ERRORLEVEL% neq 0 (
+    echo NBA Player Shooting Update Script failed at %time% on %date% >> %log_file%
+    exit /b 1
+)
+echo NBA Player Shooting Update Script completed at %time% on %date% >> %log_file%
+
+:: Wait for 2 minutes (120 seconds)
+timeout /t 120 /nobreak
+
+:: NBA Player Play-by-Play Update Script
+echo Running NBA Player Play-by-Play Update Script >> %log_file%
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\NBA_REG_PLAYER_PBP_UPDATE.R" >> %log_file% 2>&1
+if %ERRORLEVEL% neq 0 (
+    echo NBA Player Play-by-Play Update Script failed at %time% on %date% >> %log_file%
+    exit /b 1
+)
+echo NBA Player Play-by-Play Update Script completed at %time% on %date% >> %log_file%
 
 echo All scripts have completed successfully at %time% on %date% >> %log_file%
 

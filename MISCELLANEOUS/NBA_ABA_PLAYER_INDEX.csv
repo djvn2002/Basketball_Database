@@ -1274,7 +1274,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 2273,George Irvine,1971,1976,F-G,6-6,200,"February 1, 1948",Washington,No,No
 2274,Dan Issel,1971,1985,C-F,6-9,235,"October 25, 1948",Kentucky,Yes,No
 2275,George Johnson,1971,1974,C,6-11,245,"June 19, 1947",Stephen F. Austin,No,No
-2276,John Johnson,1971,1982,F,6-7,200,"October 18, 1947",Iowa,No,No
+2276,John Johnson,1971,1982,F,6-7,200,"October 18, 1947","Northwest College, Iowa",No,No
 2277,Earnie Killum,1971,1971,G,6-3,180,"June 11, 1948",Stetson University,No,No
 2278,Lonnie Kluttz,1971,1971,F,6-7,220,"September 17, 1945",North Carolina A&T,No,No
 2279,Ron Knight,1971,1972,F,6-7,215,"August 4, 1947","California State University, Los Angeles",No,No
@@ -1337,7 +1337,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 2336,Willie Allen,1972,1972,F,6-6,230,"February 8, 1949",Miami (FL),No,No
 2337,Odis Allison,1972,1972,F,6-6,195,"October 2, 1949",UNLV,No,No
 2338,Vic Bartolome,1972,1972,C,7-0,230,"September 29, 1948",Oregon State,No,No
-2339,Fred Brown,1972,1984,G,6-3,182,"August 7, 1948",Iowa,No,No
+2339,Fred Brown,1972,1984,G,6-3,182,"August 7, 1948","Southeastern Iowa Community College, West Burlington Campus, Iowa",No,No
 2340,Austin Carr,1972,1981,G,6-4,200,"March 10, 1948",Notre Dame,No,No
 2341,Sid Catlett,1972,1972,F,6-6,230,"April 18, 1948",Notre Dame,No,No
 2342,Phil Chenier,1972,1981,G,6-3,180,"October 30, 1950",California,No,No
@@ -2454,7 +2454,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 3453,Tim Perry,1989,1996,F-C,6-9,200,"June 4, 1965",Temple,No,No
 3454,Dave Popson,1989,1992,F-C,6-10,220,"May 17, 1964",UNC,No,No
 3455,Dominic Pressley,1989,1989,G,6-2,170,"May 30, 1964",Boston College,No,No
-3456,Mitch Richmond,1989,2002,G,6-5,215,"June 30, 1965",Kansas State,Yes,No
+3456,Mitch Richmond,1989,2002,G,6-5,215,"June 30, 1965","Moberly Area Community College, Kansas State",Yes,No
 3457,Ramón Rivas,1989,1989,F-C,6-10,260,"June 3, 1966",Temple,No,No
 3458,David Rivers,1989,1992,G,6-0,170,"January 20, 1965",Notre Dame,No,No
 3459,Rob Rose,1989,1989,G,6-5,180,"December 27, 1964",George Mason,No,No

@@ -179,7 +179,7 @@ nba_team_ply <- nba_team_ply %>%
   select(-URL)
 
 # Read in standings data to join into nba_team_ply
-nba_standings <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_STANDINGS.csv")
+nba_standings <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_PLAYOFF_SERIES.csv")
 
 # Make Season End and joining to nba_standings
 nba_team_ply <- nba_team_ply %>%

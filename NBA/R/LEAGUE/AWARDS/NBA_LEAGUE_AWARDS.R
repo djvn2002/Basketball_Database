@@ -254,6 +254,27 @@ nba_awards_data <- nba_awards_data %>%
             by = c("Player ID", "Player", "Season"),
             relationship = "many-to-many")
 
+# Player to Team duplicates
+team_duplicates <- nba_awards_data %>%
+  group_by(Player, Season, Award) %>%
+  filter(n() > 1)
+
+# Team Duplicates filtered
+team_duplicates_filtered <- team_duplicates %>%
+  filter(!(Player == "Mike Conley" & `Team Abbr.` == "UTA" & Season == "2022-2023"),
+         !(Player == "Luol Deng" & `Team Abbr.` == "CHI" & Season == "2013-2014"),
+         !(Player == "Chauncey Billups" & `Team Abbr.` == "DET" & Season == "2008-2009"),
+         !(Player == "Ray Allen" & `Team Abbr.` == "MIL" & Season == "2002-2003"),
+         !(Player == "Dikembe Mutombo" & `Team Abbr.` == "ATL" & Season == "2000-2001"))
+
+# Filtering out team duplicates
+nba_awards_data <- nba_awards_data %>%
+  anti_join(team_duplicates, by = c("Player", "Season", "Award")) %>%
+  bind_rows(team_duplicates_filtered) %>%
+  mutate(Award = factor(Award, levels = award_order)) %>%
+  arrange(desc(Season), Award)
+
+
 # Save Player Awards
 save(nba_awards_data,file = file.path(award_fp,"NBA_LEAGUE_PLAYER_AWARDS.rda"))
 

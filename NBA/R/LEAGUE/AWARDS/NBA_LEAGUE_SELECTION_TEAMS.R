@@ -149,24 +149,69 @@ remDr$close()
 rs_driver_object$server$stop()
 
 # Load in files for IDs
-league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
-
 load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
 
 # Assign Player ID through roster data
-# Assigning Player IDs to players
-nba_selection_teams2 <- nba_selection_teams %>%
+nba_selection_teams <- nba_selection_teams %>%
   left_join(nba_reg_roster %>% select(`Player ID`, Player, `Franchise ID`, 
                                       `Team Abbr.`, `Team Name`, Season),
             by = c("Player", "Season"),
             relationship = "many-to-many") %>%
   distinct()
 
-nba_duplicates <- nba_selection_teams2 %>%
+nba_duplicates <- nba_selection_teams %>%
   group_by(Player, Season, Team) %>%
   filter(n() > 1)
 
 nba_duplicates_filtered <- nba_duplicates %>%
   filter(!(Player == "Andy Phillip" & `Team Abbr.` == "PHW"),
          !(Player == "Slater Martin" & `Team Abbr.` == "NYK"),
-         !(Player == "Wilt Chamberlain" & `Team Abbr.` == "SFW"))
+         !(Player == "Wilt Chamberlain" & `Team Abbr.` == "SFW"),
+         !(Player == "Dave DeBusschere" & `Team Abbr.` == "DET"),
+         !(Player == "Archie Clark" & `Team Abbr.` == "PHI"),
+         !(Player == "Norm Van Lier" & `Team Abbr.` == "CIN"),
+         !(Player == "John Shumate" & `Team Abbr.` == "PHO"),
+         !(Player == "Calvin Natt" & `Team Abbr.` == "NJN"),
+         !(Player == "George Johnson" & `Player ID` == 2817),
+         !(Player == "Dominique Wilkins" & `Team Abbr.` == "ATL"),
+         !(Player == "Clyde Drexler" & `Team Abbr.` == "POR"),
+         !(Player == "Donyell Marshall" & `Team Abbr.` == "MIN"),
+         !(Player == "Eddie Jones" & `Team Abbr.` == "LAL"),
+         !(Player == "Dikembe Mutombo" & `Team Abbr.` == "ATL"),
+         !(Player == "Courtney Alexander" & `Team Abbr.` == "DAL"),
+         !(Player == "Joe Johnson" & `Team Abbr.` == "BOS"),
+         !(Player == "Slater Martin" & `Team Abbr.` == "NYK"),
+         !(Player == "Drew Gooden" & `Team Abbr.` == "MEM"),
+         !(Player == "Gordan Giriček" & `Team Abbr.` == "MEM"),
+         !(Player == "Theo Ratliff" & `Team Abbr.` == "ATL"),
+         !(Player == "Metta World Peace" & `Team Abbr.` == "IND"),
+         !(Player == "Chauncey Billups" & `Team Abbr.` == "DET"),
+         !(Player == "Derrick Favors" & `Team Abbr.` == "NJN"),
+         !(Player == "Buddy Hield" & `Team Abbr.` == "NOP"),
+         !(Player == "Yogi Ferrell" & `Team Abbr.` == "BRK"),
+         !(Player == "Landry Shamet" & `Team Abbr.` == "PHI"))
+
+# Define the custom order for `Selection Team`
+selection_team_order <- c(
+  "All-NBA 1st Team", "All-NBA 2nd Team", "All-NBA 3rd Team",
+  "All-Defensive 1st Team", "All-Defensive 2nd Team",
+  "All-Rookie 1st Team", "All-Rookie 2nd Team"
+)
+
+
+# Remove the original duplicates and bind the filtered duplicates back
+nba_selection_teams <- nba_selection_teams %>%
+  anti_join(nba_duplicates, by = c("Player", "Season", "Team")) %>%
+  bind_rows(nba_duplicates_filtered) %>%
+  rename(`Selection Team` = Team) %>%
+  mutate(`Selection Team` = factor(`Selection Team`, levels = selection_team_order)) %>%
+  arrange(desc(Season), `Selection Team`, Player)
+
+# Save Player Selection Teams
+save(nba_selection_teams,file = file.path(award_fp,"NBA_LEAGUE_SELECTION_TEAMS.rda"))
+
+# Display message to confirm save
+print("nba_selection_teams table has been saved to NBA_LEAGUE_SELECTION_TEAMS.rda")
+
+# Delete the partial RDA file
+file.remove(file.path(award_fp,"nba_selection_teams_partial.csv"))

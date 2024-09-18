@@ -2,14 +2,20 @@
 # Date Made: 9/17/2024
 # Latest Update: 9/17/2024
 
-# This file will contain scrape code for team total traditional opponent stats throughout NBA history
+# This file will contain scrape code for team advanced stats
 
 # Library Packages
+library(furrr)
+library(RSelenium)
 library(tidyverse)
+library(netstat)
+library(wdman)
 library(stringr)
 library(lubridate)
 library(readr)
 library(rvest)
+library(progressr)
+library(scales)
 
 # File path for the team file
 team_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/TEAM/REGULAR SEASON"
@@ -17,9 +23,13 @@ team_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/N
 # Load the valid URLs from the CSV file
 nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_LEAGUE_URLS.csv")
 
-# Function to clean column names and ensure specific column types are consistent
+# Function to clean column names and handle duplicates
 clean_colnames <- function(df) {
+  # Ensure no empty or NA column names
   colnames(df) <- ifelse(colnames(df) == "" | is.na(colnames(df)), paste0("V", seq_along(colnames(df))), colnames(df))
+  
+  # Handle duplicate column names by appending unique suffix
+  colnames(df) <- make.names(colnames(df), unique = TRUE)
   
   # Convert No. column to character
   if ("No." %in% colnames(df)) {
@@ -43,9 +53,9 @@ scrape_table <- function(url) {
     tryCatch({
       webpage <- read_html(url)
       
-      # Extract the table with ID #div_totals-opponent
+      # Extract the table with ID #div_advanced-team
       table <- webpage %>%
-        html_node("#div_totals-opponent") %>%
+        html_node("#div_advanced-team") %>%
         html_table()
       
       # Clean column names and ensure specific column types are consistent
@@ -120,7 +130,7 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
     }
     
     # Save progress after each batch
-    write_csv(bind_rows(results), file.path(team_fp,"NBA_TEAM_REG_OPP_TOTAL_partial.csv"))
+    write_csv(bind_rows(results), file.path(team_fp,"NBA_TEAM_REG_ADVANCED_partial.csv"))
     
     # Pause before the next batch
     Sys.sleep(120)  # Wait for 2 minutes before the next batch
@@ -137,24 +147,58 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-nba_team_reg_opp_total <- scrape_data_in_batches(nba_urls)
+nba_team_reg_advanced <- scrape_data_in_batches(nba_urls)
 
-# Drops rows that have Rk that contain NA and drop the entire column afterwards
-nba_team_reg_opp_total <- nba_team_reg_opp_total %>%
-  filter(!is.na(Rk)) %>%
-  select(-Rk)
+# Cleaning scraped data frame to fit consistency
+nba_team_reg_advanced <- nba_team_reg_advanced %>%
+  rename(
+    Rk = V1,
+    Team = V2,
+    Age = V3,
+    W = V4,
+    L = V5,
+    PW = V6,
+    PL = V7,
+    MOV = V8,
+    SOS = V9,
+    SRS = V10,
+    ORtg = V11,
+    DRtg = V12,
+    NRtg = V13,
+    Pace = V14,
+    FTr = V15,
+    `3PAr` = V16,
+    `TS%` = V17,
+    `Off. Four Factors: eFG%` = Offense.Four.Factors,
+    `Off. Four Factors: TOV%` = Offense.Four.Factors.1,
+    `Off. Four Factors: ORB%` = Offense.Four.Factors.2,
+    `Off. Four Factors: FT/FGA` = Offense.Four.Factors.3,
+    `Def. Four Factors: eFG%` = Defense.Four.Factors,
+    `Def. Four Factors: TOV%` = Defense.Four.Factors.1,
+    `Def. Four Factors: DRB%` = Defense.Four.Factors.2,
+    `Def. Four Factors: FT/FGA` = Defense.Four.Factors.3,
+    Arena = V29,
+    Attend. = V30,
+    `Attend./G` = V31
+  ) %>%
+  select(-V18, -V23, -V28) %>%
+  filter(Rk != "Rk" & Team != "League Average") %>%
+  select(-Rk) %>%
+  mutate(Attend. = as.numeric(gsub(",", "", Attend.)),
+         `Attend./G` = as.numeric(gsub(",", "", `Attend./G`))) %>%
+  mutate(across(-c(Team, Arena, URL, Season), as.numeric))
 
 # Remove '*' from the 'Team' column
-nba_team_reg_opp_total$Team <- gsub("\\*", "", nba_team_reg_opp_total$Team)
+nba_team_reg_advanced$Team <- gsub("\\*", "", nba_team_reg_advanced$Team)
 
 # Read in csv for League Info
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Arrange by earliest season and joining to have Team Abbr.
-nba_team_reg_opp_total <- nba_team_reg_opp_total %>%
+nba_team_reg_advanced <- nba_team_reg_advanced %>%
   rename(`Team Name` = Team) %>%
-  mutate( From = as.numeric(substr(nba_team_reg_opp_total$Season,1,4)),
-          To = as.numeric(substr(nba_team_reg_opp_total$Season,6,9))) %>%
+  mutate( From = as.numeric(substr(nba_team_reg_advanced$Season,1,4)),
+          To = as.numeric(substr(nba_team_reg_advanced$Season,6,9))) %>%
   left_join(league_info %>%
               select(`Franchise ID`, Team, `Team Name`, From, To), 
             by = c('Team Name'), relationship = 'many-to-many') %>%
@@ -164,29 +208,29 @@ nba_team_reg_opp_total <- nba_team_reg_opp_total %>%
   select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, everything()) %>%
   select(-URL)                                    
 
-# Read in standings data to join into nba_team_reg_opp_total
+# Read in standings data to join into nba_team_reg_advanced
 nba_standings <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_STANDINGS.csv")
 
 # Make Season End and joining to nba_standings
-nba_team_reg_opp_total <- nba_team_reg_opp_total %>%
+nba_team_reg_advanced <- nba_team_reg_advanced %>%
   mutate(Season_End = as.numeric(str_extract(Season, "\\d{4}$"))) %>%
-  left_join(nba_standings %>% select(`Team Abbr.`, Season, W, L, `W/L%`, GB, SRS, 
+  left_join(nba_standings %>% select(`Team Abbr.`, Season, G, `W/L%`, GB, 
                                      Division, `Division Rank`, Conference, 
                                      `Conference Rank`, `Made Playoffs`),
             by = c("Team Abbr.", "Season_End" = "Season")) %>%
   select(-Season_End)
 
 # Rearrange columns for final dataframe %>%
-nba_team_reg_opp_total <- nba_team_reg_opp_total %>%
+nba_team_reg_advanced <- nba_team_reg_advanced %>%
   select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, G, W, L, `W/L%`, GB, SRS,
          Division, `Division Rank`, Conference, `Conference Rank`, everything()) %>%
   arrange(`Team Name`, desc(Season))
 
 # Save per game data frame to a rda file
-save(nba_team_reg_opp_total,file = file.path(team_fp,"NBA_TEAM_REG_OPP_TOTAL.rda"))
+save(nba_team_reg_advanced,file = file.path(team_fp,"NBA_TEAM_REG_ADVANCED.rda"))
 
 # Display message to confirm save
-print("nba_team_reg_opp_total table has been saved to NBA_TEAM_REG_OPP_TOTAL.rda")
+print("nba_team_reg_advanced table has been saved to NBA_TEAM_REG_ADVANCED.rda")
 
 # Delete the partial RDA file
-file.remove(file.path(team_fp,"NBA_TEAM_REG_OPP_TOTAL_partial.csv"))
+file.remove(file.path(team_fp,"NBA_TEAM_REG_ADVANCED_partial.csv"))

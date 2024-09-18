@@ -178,7 +178,7 @@ nba_team_reg_total <- nba_team_reg_total %>%
 
 # Rearrange columns for final dataframe %>%
 nba_team_reg_total <- nba_team_reg_total %>%
-  select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, G, W, L, `W/L%`, SRS,
+  select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, G, W, L, `W/L%`, GB, SRS,
          Division, `Division Rank`, Conference, `Conference Rank`, everything()) %>%
   arrange(`Team Name`, desc(Season))
 

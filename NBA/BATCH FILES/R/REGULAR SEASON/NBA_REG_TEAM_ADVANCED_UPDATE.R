@@ -2,20 +2,27 @@
 # Date Made: 9/17/2024
 # Latest Update: 9/17/2024
 
-# This file will contain scrape code for team advanced stats
+# This is an update file!
+# This will update: NBA_TEAM_REG_ADVANCED.rda
+# Based on the most recent season
 
-# Library Packages
+# Install and Library Packages
 library(tidyverse)
 library(stringr)
 library(lubridate)
 library(readr)
 library(rvest)
+library(hoopR)
 
 # File path for the team file
 team_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/TEAM/REGULAR SEASON"
 
 # Load the valid URLs from the CSV file
-nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_LEAGUE_URLS.csv")
+nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_LEAGUE_URLS.csv") %>%
+  filter(Year == most_recent_nba_season())
+
+# Load in regular season roster
+load(file.path(team_fp,"NBA_TEAM_REG_ADVANCED.rda"))
 
 # Function to clean column names and handle duplicates
 clean_colnames <- function(df) {
@@ -141,10 +148,10 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-nba_team_reg_advanced <- scrape_data_in_batches(nba_urls)
+latest_team_advanced <- scrape_data_in_batches(nba_urls)
 
 # Cleaning scraped data frame to fit consistency
-nba_team_reg_advanced <- nba_team_reg_advanced %>%
+latest_team_advanced <- latest_team_advanced %>%
   rename(
     Rk = V1,
     Team = V2,
@@ -183,16 +190,16 @@ nba_team_reg_advanced <- nba_team_reg_advanced %>%
   mutate(across(-c(Team, Arena, URL, Season), as.numeric))
 
 # Remove '*' from the 'Team' column
-nba_team_reg_advanced$Team <- gsub("\\*", "", nba_team_reg_advanced$Team)
+latest_team_advanced$Team <- gsub("\\*", "", latest_team_advanced$Team)
 
 # Read in csv for League Info
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Arrange by earliest season and joining to have Team Abbr.
-nba_team_reg_advanced <- nba_team_reg_advanced %>%
+latest_team_advanced <- latest_team_advanced %>%
   rename(`Team Name` = Team) %>%
-  mutate( From = as.numeric(substr(nba_team_reg_advanced$Season,1,4)),
-          To = as.numeric(substr(nba_team_reg_advanced$Season,6,9))) %>%
+  mutate( From = as.numeric(substr(latest_team_advanced$Season,1,4)),
+          To = as.numeric(substr(latest_team_advanced$Season,6,9))) %>%
   left_join(league_info %>%
               select(`Franchise ID`, Team, `Team Name`, From, To), 
             by = c('Team Name'), relationship = 'many-to-many') %>%
@@ -202,11 +209,11 @@ nba_team_reg_advanced <- nba_team_reg_advanced %>%
   select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, everything()) %>%
   select(-URL)                                    
 
-# Read in standings data to join into nba_team_reg_advanced
+# Read in standings data to join into latest_team_advanced
 nba_standings <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_STANDINGS.csv")
 
 # Make Season End and joining to nba_standings
-nba_team_reg_advanced <- nba_team_reg_advanced %>%
+latest_team_advanced <- latest_team_advanced %>%
   mutate(Season_End = as.numeric(str_extract(Season, "\\d{4}$"))) %>%
   left_join(nba_standings %>% select(`Team Abbr.`, Season, G, `W/L%`, GB, 
                                      Division, `Division Rank`, Conference, 
@@ -215,10 +222,24 @@ nba_team_reg_advanced <- nba_team_reg_advanced %>%
   select(-Season_End)
 
 # Rearrange columns for final dataframe %>%
-nba_team_reg_advanced <- nba_team_reg_advanced %>%
+latest_team_advanced <- latest_team_advanced %>%
   select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, G, W, L, `W/L%`, GB, SRS,
          Division, `Division Rank`, Conference, `Conference Rank`, everything()) %>%
   arrange(`Team Name`, desc(Season))
+
+# Get the most recent NBA season using hoopR as a number (e.g., 2024)
+most_recent_season <- most_recent_nba_season()
+
+# Convert to "YYYY-YYYY" format for filtering
+most_recent_season_formatted <- paste(most_recent_season - 1, most_recent_season, sep = "-")
+
+# Filter out the most recent season's data from nba_team_reg_advanced
+nba_team_reg_advanced <- nba_team_reg_advanced %>%
+  filter(Season != most_recent_season_formatted)
+
+# Bind the new latest season data with the filtered nba_team_reg_advanced
+nba_team_reg_advanced <- bind_rows(nba_team_reg_advanced, latest_team_advanced) %>%
+  arrange(`Team Name`,desc(Season))
 
 # Save per game data frame to a rda file
 save(nba_team_reg_advanced,file = file.path(team_fp,"NBA_TEAM_REG_ADVANCED.rda"))

@@ -1,0 +1,95 @@
+﻿Team Name,Team Abbr.,League,Season,Division,Division Rank,Div. Tiebreaker Winner,Div. Tiebreaker Opp.,Div. Semifinals Wins,Div. Semifinals Losses,Div. Semifinals Opp.,Won Div. Semifinals,Div. Finals Wins,Div. Finals Losses,Div. Finals Opp.,Won Div. Finals,Finals Wins,Finals Losses,Finals Opp.,Won Finals
+Pittsburgh Pipers,PTP,ABA,1968,Eastern,1,NA,NA,3,0,Indiana Pacers,Yes,4,1,Minnesota Muskies,Yes,4,3,New Orleans Buccaneers,Yes
+Minnesota Muskies,MNM,ABA,1968,Eastern,2,NA,NA,3,2,Kentucky Colonels,Yes,1,4,Pittsburgh Pipers,No,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1968,Eastern,3,NA,NA,0,3,Pittsburgh Pipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1968,Eastern,4,NA,NA,2,3,Minnesota Muskies,No,NA,NA,NA,NA,NA,NA,NA,NA
+New Jersey Americans,NJA,ABA,1968,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New Orleans Buccaneers,NOB,ABA,1968,Western,1,NA,NA,3,2,Denver Rockets,Yes,4,1,Dallas Chaparrals,Yes,3,4,Pittsburgh Pipers,No
+Dallas Chaparrals,DLC,ABA,1968,Western,2,NA,NA,3,0,Houston Mavericks,Yes,1,4,New Orleans Buccaneers,No,NA,NA,NA,NA
+Denver Rockets,DNR,ABA,1968,Western,3,NA,NA,2,3,New Orleans Buccaneers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Mavericks,HSM,ABA,1968,Western,4,NA,NA,0,3,Dallas Chaparrals,No,NA,NA,NA,NA,NA,NA,NA,NA
+Anaheim Amigos,ANA,ABA,1968,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oakland Oaks,OAK,ABA,1968,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1969,Eastern,1,NA,NA,4,3,Kentucky Colonels,Yes,4,1,Miami Floridians,Yes,1,4,Oakland Oaks,No
+Miami Floridians,MMF,ABA,1969,Eastern,2,NA,NA,4,3,Minnesota Pipers,Yes,1,4,Indiana Pacers,No,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1969,Eastern,3,NA,NA,3,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Pipers,MNP,ABA,1969,Eastern,4,NA,NA,3,4,Miami Floridians,No,NA,NA,NA,NA,NA,NA,NA,NA
+New York Nets,NYA,ABA,1969,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oakland Oaks,OAK,ABA,1969,Western,1,NA,NA,4,3,Denver Rockets,Yes,4,0,New Orleans Buccaneers,Yes,4,1,Indiana Pacers,Yes
+New Orleans Buccaneers,NOB,ABA,1969,Western,2,NA,NA,4,3,Dallas Chaparrals,Yes,0,4,Oakland Oaks,No,NA,NA,NA,NA
+Denver Rockets,DNR,ABA,1969,Western,3,NA,NA,3,4,Oakland Oaks,No,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Chaparrals,DLC,ABA,1969,Western,4,NA,NA,3,4,New Orleans Buccaneers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Stars,LAS,ABA,1969,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Mavericks,HSM,ABA,1969,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1970,Eastern,1,NA,NA,4,0,Carolina Cougars,Yes,4,1,Kentucky Colonels,Yes,4,2,Los Angeles Stars,Yes
+Kentucky Colonels,KEN,ABA,1970,Eastern,2,NA,NA,4,3,New York Nets,Yes,1,4,Indiana Pacers,No,NA,NA,NA,NA
+Carolina Cougars,CAR,ABA,1970,Eastern,3,NA,NA,0,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+New York Nets,NYA,ABA,1970,Eastern,4,NA,NA,3,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
+Pittsburgh Pipers,PTP,ABA,1970,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Miami Floridians,MMF,ABA,1970,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Denver Rockets,DNR,ABA,1970,Western,1,NA,NA,4,3,Washington Capitols,Yes,1,4,Los Angeles Stars,No,NA,NA,NA,NA
+Dallas Chaparrals,DLC,ABA,1970,Western,2,NA,NA,2,4,Los Angeles Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Capitols,WSA,ABA,1970,Western,3,NA,NA,3,4,Denver Rockets,No,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Stars,LAS,ABA,1970,Western,4,NA,NA,4,2,Dallas Chaparrals,Yes,4,1,Denver Rockets,Yes,2,4,Indiana Pacers,No
+New Orleans Buccaneers,NOB,ABA,1970,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Virginia Squires,VIR,ABA,1971,Eastern,1,NA,NA,4,2,New York Nets,Yes,2,4,Kentucky Colonels,No,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1971,Eastern,2,NA,NA,4,2,The Floridians,Yes,4,2,Virginia Squires,Yes,3,4,Utah Stars,No
+New York Nets,NYA,ABA,1971,Eastern,3,NA,NA,2,4,Virginia Squires,No,NA,NA,NA,NA,NA,NA,NA,NA
+The Floridians,FLO,ABA,1971,Eastern,4,NA,NA,2,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
+Pittsburgh Condors,PTC,ABA,1971,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Carolina Cougars,CAR,ABA,1971,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1971,Western,1,NA,NA,4,0,Memphis Pros,Yes,3,4,Utah Stars,No,NA,NA,NA,NA
+Utah Stars,UTS,ABA,1971,Western,2,NA,NA,4,0,Texas Chaparrals,Yes,4,3,Indiana Pacers,Yes,4,3,Kentucky Colonels,Yes
+Memphis Pros,MMP,ABA,1971,Western,3,NA,NA,0,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Chaparrals,TEX,ABA,1971,Western,4,Yes,Denver Rockets,0,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
+Denver Rockets,DNR,ABA,1971,Western,5,No,Texas Chaparrals,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1972,Eastern,1,NA,NA,2,4,New York Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
+Virginia Squires,VIR,ABA,1972,Eastern,2,NA,NA,4,0,The Floridians,Yes,3,4,New York Nets,No,NA,NA,NA,NA
+New York Nets,NYA,ABA,1972,Eastern,3,NA,NA,4,2,Kentucky Colonels,Yes,4,3,Virginia Squires,Yes,2,4,Indiana Pacers,No
+The Floridians,FLO,ABA,1972,Eastern,4,NA,NA,0,4,Virginia Squires,No,NA,NA,NA,NA,NA,NA,NA,NA
+Carolina Cougars,CAR,ABA,1972,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pittsburgh Condors,PTC,ABA,1972,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Stars,UTS,ABA,1972,Western,1,NA,NA,4,0,Dallas Chaparrals,Yes,3,4,Indiana Pacers,No,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1972,Western,2,NA,NA,4,3,Denver Rockets,Yes,4,3,Utah Stars,Yes,4,2,New York Nets,Yes
+Dallas Chaparrals,DLC,ABA,1972,Western,3,NA,NA,0,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
+Denver Rockets,DNR,ABA,1972,Western,4,NA,NA,3,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Pros,MMP,ABA,1972,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Carolina Cougars,CAR,ABA,1973,Eastern,1,NA,NA,4,1,New York Nets,Yes,3,4,Kentucky Colonels,No,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1973,Eastern,2,NA,NA,4,1,Virginia Squires,Yes,4,3,Carolina Cougars,Yes,3,4,Indiana Pacers,No
+Virginia Squires,VIR,ABA,1973,Eastern,3,NA,NA,1,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
+New York Nets,NYA,ABA,1973,Eastern,4,NA,NA,1,4,Carolina Cougars,No,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Tams,MMT,ABA,1973,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Stars,UTS,ABA,1973,Western,1,NA,NA,4,0,San Diego Conquistadors,Yes,2,4,Indiana Pacers,No,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1973,Western,2,NA,NA,4,1,Denver Rockets,Yes,4,2,Utah Stars,Yes,4,3,Kentucky Colonels,Yes
+Denver Rockets,DNR,ABA,1973,Western,3,NA,NA,1,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+San Diego Conquistadors,SDA,ABA,1973,Western,4,NA,NA,0,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Chaparrals,DLC,ABA,1973,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Nets,NYA,ABA,1974,Eastern,1,NA,NA,4,1,Virginia Squires,Yes,4,0,Kentucky Colonels,Yes,4,1,Utah Stars,Yes
+Kentucky Colonels,KEN,ABA,1974,Eastern,2,NA,NA,4,0,Carolina Cougars,Yes,0,4,New York Nets,No,NA,NA,NA,NA
+Carolina Cougars,CAR,ABA,1974,Eastern,3,NA,NA,0,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
+Virginia Squires,VIR,ABA,1974,Eastern,4,NA,NA,1,4,New York Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Tams,MMT,ABA,1974,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Stars,UTS,ABA,1974,Western,1,NA,NA,4,2,San Diego Conquistadors,Yes,4,3,Indiana Pacers,Yes,1,4,New York Nets,No
+Indiana Pacers,INA,ABA,1974,Western,2,NA,NA,4,3,San Antonio Spurs,Yes,3,4,Utah Stars,No,NA,NA,NA,NA
+San Antonio Spurs,SAA,ABA,1974,Western,3,NA,NA,3,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+San Diego Conquistadors,SDA,ABA,1974,Western,4,Yes,Denver Rockets,2,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
+Denver Rockets,DNR,ABA,1974,Western,5,No,San Diego Conquistadors,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1975,Eastern,1,Yes,New York Nets,4,1,Memphis Sounds,Yes,4,1,Spirits of St. Louis,Yes,4,1,Indiana Pacers,Yes
+New York Nets,NYA,ABA,1975,Eastern,2,No,Kentucky Colonels,1,4,Spirits of St. Louis,No,NA,NA,NA,NA,NA,NA,NA,NA
+Spirits of St. Louis,SSL,ABA,1975,Eastern,3,NA,NA,4,1,New York Nets,Yes,1,4,Kentucky Colonels,No,NA,NA,NA,NA
+Memphis Sounds,MMS,ABA,1975,Eastern,4,NA,NA,1,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
+Virginia Squires,VIR,ABA,1975,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Denver Nuggets,DNA,ABA,1975,Western,1,NA,NA,4,2,Utah Stars,Yes,3,4,Indiana Pacers,No,NA,NA,NA,NA
+San Antonio Spurs,SAA,ABA,1975,Western,2,NA,NA,2,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1975,Western,3,NA,NA,4,2,San Antonio Spurs,Yes,4,3,Denver Nuggets,Yes,1,4,Kentucky Colonels,No
+Utah Stars,UTS,ABA,1975,Western,4,NA,NA,2,4,Denver Nuggets,No,NA,NA,NA,NA,NA,NA,NA,NA
+San Diego Conquistadors,SDA,ABA,1975,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Denver Nuggets,DNA,ABA,1976,ABA,1,NA,NA,NA,NA,NA,NA,4,3,Kentucky Colonels,Yes,2,4,New York Nets,No
+New York Nets,NYA,ABA,1976,ABA,2,NA,NA,NA,NA,NA,NA,4,3,San Antonio Spurs,Yes,4,2,Denver Nuggets,Yes
+San Antonio Spurs,SAA,ABA,1976,ABA,3,NA,NA,NA,NA,NA,NA,3,4,New York Nets,No,NA,NA,NA,NA
+Kentucky Colonels,KEN,ABA,1976,ABA,4,NA,NA,2,1,Indiana Pacers,Yes,3,4,Denver Nuggets,No,NA,NA,NA,NA
+Indiana Pacers,INA,ABA,1976,ABA,5,NA,NA,1,2,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
+Spirits of St. Louis,SSL,ABA,1976,ABA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Virginia Squires,VIR,ABA,1976,ABA,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Diego Sails,SDS,ABA,1976,ABA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Stars,UTS,ABA,1976,ABA,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

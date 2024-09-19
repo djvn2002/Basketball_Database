@@ -93,7 +93,7 @@ generate_league_urls <- function(start_year, end_year) {
 }
 
 # Generate URLs from 1947 to 2024
-nba_league_urls <- generate_league_urls(1947, 2024)
+nba_league_urls <- generate_league_urls(1947, most_recent_nba_season())
 
 # Creating a csv for league csvs
 write_csv(nba_league_urls,file.path(url_path,"NBA_LEAGUE_URLS.csv"))

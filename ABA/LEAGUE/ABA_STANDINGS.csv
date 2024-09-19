@@ -1,95 +1,95 @@
-﻿Team Name,Team Abbr.,G,W,L,W/L%,GB,SRS,League,Season,Division,Division Rank,Made Playoffs,Div. Tiebreaker Winner,Div. Tiebreaker Opp.,Div. Semifinals Wins,Div. Semifinals Losses,Div. Semifinals Opp.,Won Div. Semifinals,Div. Finals Wins,Div. Finals Losses,Div. Finals Opp.,Won Div. Finals,Finals Wins,Finals Losses,Finals Opp.,Won Finals
-Pittsburgh Pipers,PTP,78,54,24,0.692,0,3.17,ABA,1968,Eastern,1,Yes,NA,NA,3,0,Indiana Pacers,Yes,4,1,Minnesota Muskies,Yes,4,3,New Orleans Buccaneers,Yes
-Minnesota Muskies,MNM,78,50,28,0.641,4,3.80,ABA,1968,Eastern,2,Yes,NA,NA,3,2,Kentucky Colonels,Yes,1,4,Pittsburgh Pipers,No,NA,NA,NA,NA
-Indiana Pacers,INA,78,38,40,0.487,16,0.50,ABA,1968,Eastern,3,Yes,NA,NA,0,3,Pittsburgh Pipers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Kentucky Colonels,KEN,78,36,42,0.462,18,-0.38,ABA,1968,Eastern,4,Yes,NA,NA,2,3,Minnesota Muskies,No,NA,NA,NA,NA,NA,NA,NA,NA
-New Jersey Americans,NJA,78,36,42,0.462,18,-1.13,ABA,1968,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-New Orleans Buccaneers,NOB,78,48,30,0.615,0,4.16,ABA,1968,Western,1,Yes,NA,NA,3,2,Denver Rockets,Yes,4,1,Dallas Chaparrals,Yes,3,4,Pittsburgh Pipers,No
-Dallas Chaparrals,DLC,78,46,32,0.590,2,0.98,ABA,1968,Western,2,Yes,NA,NA,3,0,Houston Mavericks,Yes,1,4,New Orleans Buccaneers,No,NA,NA,NA,NA
-Denver Rockets,DNR,78,45,33,0.577,3,3.53,ABA,1968,Western,3,Yes,NA,NA,2,3,New Orleans Buccaneers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Houston Mavericks,HSM,78,29,49,0.372,19,-4.04,ABA,1968,Western,4,Yes,NA,NA,0,3,Dallas Chaparrals,No,NA,NA,NA,NA,NA,NA,NA,NA
-Anaheim Amigos,ANA,78,25,53,0.321,23,-4.27,ABA,1968,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Oakland Oaks,OAK,78,22,56,0.282,26,-6.20,ABA,1968,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Indiana Pacers,INA,78,44,34,0.564,0,3.35,ABA,1969,Eastern,1,Yes,NA,NA,4,3,Kentucky Colonels,Yes,4,1,Miami Floridians,Yes,1,4,Oakland Oaks,No
-Miami Floridians,MMF,78,43,35,0.551,1,0.09,ABA,1969,Eastern,2,Yes,NA,NA,4,3,Minnesota Pipers,Yes,1,4,Indiana Pacers,No,NA,NA,NA,NA
-Kentucky Colonels,KEN,78,42,36,0.538,2,-0.06,ABA,1969,Eastern,3,Yes,NA,NA,3,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Minnesota Pipers,MNP,78,36,42,0.462,8,-0.05,ABA,1969,Eastern,4,Yes,NA,NA,3,4,Miami Floridians,No,NA,NA,NA,NA,NA,NA,NA,NA
-New York Nets,NYA,78,17,61,0.218,27,-7.89,ABA,1969,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Oakland Oaks,OAK,78,60,18,0.769,0,7.60,ABA,1969,Western,1,Yes,NA,NA,4,3,Denver Rockets,Yes,4,0,New Orleans Buccaneers,Yes,4,1,Indiana Pacers,Yes
-New Orleans Buccaneers,NOB,78,46,32,0.590,14,3.13,ABA,1969,Western,2,Yes,NA,NA,4,3,Dallas Chaparrals,Yes,0,4,Oakland Oaks,No,NA,NA,NA,NA
-Denver Rockets,DNR,78,44,34,0.564,16,1.41,ABA,1969,Western,3,Yes,NA,NA,3,4,Oakland Oaks,No,NA,NA,NA,NA,NA,NA,NA,NA
-Dallas Chaparrals,DLC,78,41,37,0.526,19,-0.31,ABA,1969,Western,4,Yes,NA,NA,3,4,New Orleans Buccaneers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Los Angeles Stars,LAS,78,33,45,0.423,27,-2.43,ABA,1969,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Houston Mavericks,HSM,78,23,55,0.295,37,-4.80,ABA,1969,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Indiana Pacers,INA,84,59,25,0.702,0,2.67,ABA,1970,Eastern,1,Yes,NA,NA,4,0,Carolina Cougars,Yes,4,1,Kentucky Colonels,Yes,4,2,Los Angeles Stars,Yes
-Kentucky Colonels,KEN,84,45,39,0.536,14,0.50,ABA,1970,Eastern,2,Yes,NA,NA,4,3,New York Nets,Yes,1,4,Indiana Pacers,No,NA,NA,NA,NA
-Carolina Cougars,CAR,84,42,42,0.500,17,-0.41,ABA,1970,Eastern,3,Yes,NA,NA,0,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-New York Nets,NYA,84,39,45,0.464,20,-1.02,ABA,1970,Eastern,4,Yes,NA,NA,3,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
-Pittsburgh Pipers,PTP,84,29,55,0.345,30,-4.37,ABA,1970,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Miami Floridians,MMF,84,23,61,0.274,36,-4.92,ABA,1970,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Denver Rockets,DNR,84,51,33,0.607,0,4.32,ABA,1970,Western,1,Yes,NA,NA,4,3,Washington Capitols,Yes,1,4,Los Angeles Stars,No,NA,NA,NA,NA
-Dallas Chaparrals,DLC,84,45,39,0.536,6,2.13,ABA,1970,Western,2,Yes,NA,NA,2,4,Los Angeles Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
-Washington Capitols,WSA,84,44,40,0.524,7,-0.29,ABA,1970,Western,3,Yes,NA,NA,3,4,Denver Rockets,No,NA,NA,NA,NA,NA,NA,NA,NA
-Los Angeles Stars,LAS,84,43,41,0.512,8,0.28,ABA,1970,Western,4,Yes,NA,NA,4,2,Dallas Chaparrals,Yes,4,1,Denver Rockets,Yes,2,4,Indiana Pacers,No
-New Orleans Buccaneers,NOB,84,42,42,0.500,9,1.16,ABA,1970,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Virginia Squires,VIR,84,55,29,0.655,0,2.79,ABA,1971,Eastern,1,Yes,NA,NA,4,2,New York Nets,Yes,2,4,Kentucky Colonels,No,NA,NA,NA,NA
-Kentucky Colonels,KEN,84,44,40,0.524,11,-0.17,ABA,1971,Eastern,2,Yes,NA,NA,4,2,The Floridians,Yes,4,2,Virginia Squires,Yes,3,4,Utah Stars,No
-New York Nets,NYA,84,40,44,0.476,15,-0.86,ABA,1971,Eastern,3,Yes,NA,NA,2,4,Virginia Squires,No,NA,NA,NA,NA,NA,NA,NA,NA
-The Floridians,FLO,84,37,47,0.440,18,-1.65,ABA,1971,Eastern,4,Yes,NA,NA,2,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
-Pittsburgh Condors,PTC,84,36,48,0.429,19,-2.74,ABA,1971,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Carolina Cougars,CAR,84,34,50,0.405,21,-3.88,ABA,1971,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Indiana Pacers,INA,84,58,26,0.690,0,5.63,ABA,1971,Western,1,Yes,NA,NA,4,0,Memphis Pros,Yes,3,4,Utah Stars,No,NA,NA,NA,NA
-Utah Stars,UTS,84,57,27,0.679,1,6.60,ABA,1971,Western,2,Yes,NA,NA,4,0,Texas Chaparrals,Yes,4,3,Indiana Pacers,Yes,4,3,Kentucky Colonels,Yes
-Memphis Pros,MMP,84,41,43,0.488,17,-0.36,ABA,1971,Western,3,Yes,NA,NA,0,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Texas Chaparrals,TEX,84,30,54,0.357,28,-2.21,ABA,1971,Western,4,Yes,Yes,Denver Rockets,0,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
-Denver Rockets,DNR,84,30,54,0.357,28,-3.15,ABA,1971,Western,5,Yes,No,Texas Chaparrals,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Kentucky Colonels,KEN,84,68,16,0.810,0,7.99,ABA,1972,Eastern,1,Yes,NA,NA,2,4,New York Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
-Virginia Squires,VIR,84,45,39,0.536,23,0.56,ABA,1972,Eastern,2,Yes,NA,NA,4,0,The Floridians,Yes,3,4,New York Nets,No,NA,NA,NA,NA
-New York Nets,NYA,84,44,40,0.524,24,0.21,ABA,1972,Eastern,3,Yes,NA,NA,4,2,Kentucky Colonels,Yes,4,3,Virginia Squires,Yes,2,4,Indiana Pacers,No
-The Floridians,FLO,84,36,48,0.429,32,-1.67,ABA,1972,Eastern,4,Yes,NA,NA,0,4,Virginia Squires,No,NA,NA,NA,NA,NA,NA,NA,NA
-Carolina Cougars,CAR,84,35,49,0.417,33,-3.03,ABA,1972,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Pittsburgh Condors,PTC,84,25,59,0.298,43,-6.54,ABA,1972,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Utah Stars,UTS,84,60,24,0.714,0,5.16,ABA,1972,Western,1,Yes,NA,NA,4,0,Dallas Chaparrals,Yes,3,4,Indiana Pacers,No,NA,NA,NA,NA
-Indiana Pacers,INA,84,47,37,0.560,13,2.72,ABA,1972,Western,2,Yes,NA,NA,4,3,Denver Rockets,Yes,4,3,Utah Stars,Yes,4,2,New York Nets,Yes
-Dallas Chaparrals,DLC,84,42,42,0.500,18,0.26,ABA,1972,Western,3,Yes,NA,NA,0,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
-Denver Rockets,DNR,84,34,50,0.405,26,-0.93,ABA,1972,Western,4,Yes,NA,NA,3,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Memphis Pros,MMP,84,26,58,0.310,34,-4.73,ABA,1972,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Carolina Cougars,CAR,84,57,27,0.679,0,4.26,ABA,1973,Eastern,1,Yes,NA,NA,4,1,New York Nets,Yes,3,4,Kentucky Colonels,No,NA,NA,NA,NA
-Kentucky Colonels,KEN,84,56,28,0.667,1,5.63,ABA,1973,Eastern,2,Yes,NA,NA,4,1,Virginia Squires,Yes,4,3,Carolina Cougars,Yes,3,4,Indiana Pacers,No
-Virginia Squires,VIR,84,42,42,0.500,15,-0.38,ABA,1973,Eastern,3,Yes,NA,NA,1,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
-New York Nets,NYA,84,30,54,0.357,27,-5.80,ABA,1973,Eastern,4,Yes,NA,NA,1,4,Carolina Cougars,No,NA,NA,NA,NA,NA,NA,NA,NA
-Memphis Tams,MMT,84,24,60,0.286,33,-5.96,ABA,1973,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Utah Stars,UTS,84,55,29,0.655,0,5.04,ABA,1973,Western,1,Yes,NA,NA,4,0,San Diego Conquistadors,Yes,2,4,Indiana Pacers,No,NA,NA,NA,NA
-Indiana Pacers,INA,84,51,33,0.607,4,1.97,ABA,1973,Western,2,Yes,NA,NA,4,1,Denver Rockets,Yes,4,2,Utah Stars,Yes,4,3,Kentucky Colonels,Yes
-Denver Rockets,DNR,84,47,37,0.560,8,2.80,ABA,1973,Western,3,Yes,NA,NA,1,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-San Diego Conquistadors,SDA,84,30,54,0.357,25,-3.71,ABA,1973,Western,4,Yes,NA,NA,0,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
-Dallas Chaparrals,DLC,84,28,56,0.333,27,-3.79,ABA,1973,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-New York Nets,NYA,84,55,29,0.655,0,4.80,ABA,1974,Eastern,1,Yes,NA,NA,4,1,Virginia Squires,Yes,4,0,Kentucky Colonels,Yes,4,1,Utah Stars,Yes
-Kentucky Colonels,KEN,84,53,31,0.631,2,3.71,ABA,1974,Eastern,2,Yes,NA,NA,4,0,Carolina Cougars,Yes,0,4,New York Nets,No,NA,NA,NA,NA
-Carolina Cougars,CAR,84,47,37,0.560,8,3.10,ABA,1974,Eastern,3,Yes,NA,NA,0,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
-Virginia Squires,VIR,84,28,56,0.333,27,-4.38,ABA,1974,Eastern,4,Yes,NA,NA,1,4,New York Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
-Memphis Tams,MMT,84,21,63,0.250,34,-6.17,ABA,1974,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Utah Stars,UTS,84,51,33,0.607,0,0.28,ABA,1974,Western,1,Yes,NA,NA,4,2,San Diego Conquistadors,Yes,4,3,Indiana Pacers,Yes,1,4,New York Nets,No
-Indiana Pacers,INA,84,46,38,0.548,5,0.68,ABA,1974,Western,2,Yes,NA,NA,4,3,San Antonio Spurs,Yes,3,4,Utah Stars,No,NA,NA,NA,NA
-San Antonio Spurs,SAA,84,45,39,0.536,6,0.74,ABA,1974,Western,3,Yes,NA,NA,3,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-San Diego Conquistadors,SDA,84,37,47,0.440,14,-2.28,ABA,1974,Western,4,Yes,Yes,Denver Rockets,2,4,Utah Stars,No,NA,NA,NA,NA,NA,NA,NA,NA
-Denver Rockets,DNR,84,37,47,0.440,14,-0.49,ABA,1974,Western,5,Yes,No,San Diego Conquistadors,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Kentucky Colonels,KEN,84,58,26,0.690,0,6.24,ABA,1975,Eastern,1,Yes,Yes,New York Nets,4,1,Memphis Sounds,Yes,4,1,Spirits of St. Louis,Yes,4,1,Indiana Pacers,Yes
-New York Nets,NYA,84,58,26,0.690,0,6.58,ABA,1975,Eastern,2,Yes,No,Kentucky Colonels,1,4,Spirits of St. Louis,No,NA,NA,NA,NA,NA,NA,NA,NA
-Spirits of St. Louis,SSL,84,32,52,0.381,26,-4.02,ABA,1975,Eastern,3,Yes,NA,NA,4,1,New York Nets,Yes,1,4,Kentucky Colonels,No,NA,NA,NA,NA
-Memphis Sounds,MMS,84,27,57,0.321,31,-4.92,ABA,1975,Eastern,4,Yes,NA,NA,1,4,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
-Virginia Squires,VIR,84,15,69,0.179,43,-9.46,ABA,1975,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Denver Nuggets,DNA,84,65,19,0.774,0,6.63,ABA,1975,Western,1,Yes,NA,NA,4,2,Utah Stars,Yes,3,4,Indiana Pacers,No,NA,NA,NA,NA
-San Antonio Spurs,SAA,84,51,33,0.607,14,3.89,ABA,1975,Western,2,Yes,NA,NA,2,4,Indiana Pacers,No,NA,NA,NA,NA,NA,NA,NA,NA
-Indiana Pacers,INA,84,45,39,0.536,20,1.14,ABA,1975,Western,3,Yes,NA,NA,4,2,San Antonio Spurs,Yes,4,3,Denver Nuggets,Yes,1,4,Kentucky Colonels,No
-Utah Stars,UTS,84,38,46,0.452,27,-1.24,ABA,1975,Western,4,Yes,NA,NA,2,4,Denver Nuggets,No,NA,NA,NA,NA,NA,NA,NA,NA
-San Diego Conquistadors,SDA,84,31,53,0.369,34,-4.74,ABA,1975,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Denver Nuggets,DNA,84,60,24,0.714,0,5.45,ABA,1976,ABA,1,Yes,NA,NA,NA,NA,NA,NA,4,3,Kentucky Colonels,Yes,2,4,New York Nets,No
-New York Nets,NYA,84,55,29,0.655,5,2.56,ABA,1976,ABA,2,Yes,NA,NA,NA,NA,NA,NA,4,3,San Antonio Spurs,Yes,4,2,Denver Nuggets,Yes
-San Antonio Spurs,SAA,84,50,34,0.595,10,3.82,ABA,1976,ABA,3,Yes,NA,NA,NA,NA,NA,NA,3,4,New York Nets,No,NA,NA,NA,NA
-Kentucky Colonels,KEN,84,46,38,0.548,14,0.50,ABA,1976,ABA,4,Yes,NA,NA,2,1,Indiana Pacers,Yes,3,4,Denver Nuggets,No,NA,NA,NA,NA
-Indiana Pacers,INA,84,39,45,0.464,21,0.29,ABA,1976,ABA,5,Yes,NA,NA,1,2,Kentucky Colonels,No,NA,NA,NA,NA,NA,NA,NA,NA
-Spirits of St. Louis,SSL,84,35,49,0.417,25,-3.10,ABA,1976,ABA,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Virginia Squires,VIR,83,15,68,0.181,44.5,-8.62,ABA,1976,ABA,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-San Diego Sails,SDS,11,3,8,0.273,20.5,-5.34,ABA,1976,ABA,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Utah Stars,UTS,16,4,12,0.250,22,-1.96,ABA,1976,ABA,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+﻿Team Name,Team Abbr.,G,W,L,W/L%,GB,SRS,League,Season,Division,Division Rank,Made Playoffs
+Pittsburgh Pipers,PTP,78,54,24,0.692,0,3.17,ABA,1968,Eastern,1,Yes
+Minnesota Muskies,MNM,78,50,28,0.641,4,3.8,ABA,1968,Eastern,2,Yes
+Indiana Pacers,INA,78,38,40,0.487,16,0.5,ABA,1968,Eastern,3,Yes
+Kentucky Colonels,KEN,78,36,42,0.462,18,-0.38,ABA,1968,Eastern,4,Yes
+New Jersey Americans,NJA,78,36,42,0.462,18,-1.13,ABA,1968,Eastern,5,No
+New Orleans Buccaneers,NOB,78,48,30,0.615,0,4.16,ABA,1968,Western,1,Yes
+Dallas Chaparrals,DLC,78,46,32,0.59,2,0.98,ABA,1968,Western,2,Yes
+Denver Rockets,DNR,78,45,33,0.577,3,3.53,ABA,1968,Western,3,Yes
+Houston Mavericks,HSM,78,29,49,0.372,19,-4.04,ABA,1968,Western,4,Yes
+Anaheim Amigos,ANA,78,25,53,0.321,23,-4.27,ABA,1968,Western,5,No
+Oakland Oaks,OAK,78,22,56,0.282,26,-6.2,ABA,1968,Western,6,No
+Indiana Pacers,INA,78,44,34,0.564,0,3.35,ABA,1969,Eastern,1,Yes
+Miami Floridians,MMF,78,43,35,0.551,1,0.09,ABA,1969,Eastern,2,Yes
+Kentucky Colonels,KEN,78,42,36,0.538,2,-0.06,ABA,1969,Eastern,3,Yes
+Minnesota Pipers,MNP,78,36,42,0.462,8,-0.05,ABA,1969,Eastern,4,Yes
+New York Nets,NYA,78,17,61,0.218,27,-7.89,ABA,1969,Eastern,5,No
+Oakland Oaks,OAK,78,60,18,0.769,0,7.6,ABA,1969,Western,1,Yes
+New Orleans Buccaneers,NOB,78,46,32,0.59,14,3.13,ABA,1969,Western,2,Yes
+Denver Rockets,DNR,78,44,34,0.564,16,1.41,ABA,1969,Western,3,Yes
+Dallas Chaparrals,DLC,78,41,37,0.526,19,-0.31,ABA,1969,Western,4,Yes
+Los Angeles Stars,LAS,78,33,45,0.423,27,-2.43,ABA,1969,Western,5,No
+Houston Mavericks,HSM,78,23,55,0.295,37,-4.8,ABA,1969,Western,6,No
+Indiana Pacers,INA,84,59,25,0.702,0,2.67,ABA,1970,Eastern,1,Yes
+Kentucky Colonels,KEN,84,45,39,0.536,14,0.5,ABA,1970,Eastern,2,Yes
+Carolina Cougars,CAR,84,42,42,0.5,17,-0.41,ABA,1970,Eastern,3,Yes
+New York Nets,NYA,84,39,45,0.464,20,-1.02,ABA,1970,Eastern,4,Yes
+Pittsburgh Pipers,PTP,84,29,55,0.345,30,-4.37,ABA,1970,Eastern,5,No
+Miami Floridians,MMF,84,23,61,0.274,36,-4.92,ABA,1970,Eastern,6,No
+Denver Rockets,DNR,84,51,33,0.607,0,4.32,ABA,1970,Western,1,Yes
+Dallas Chaparrals,DLC,84,45,39,0.536,6,2.13,ABA,1970,Western,2,Yes
+Washington Capitols,WSA,84,44,40,0.524,7,-0.29,ABA,1970,Western,3,Yes
+Los Angeles Stars,LAS,84,43,41,0.512,8,0.28,ABA,1970,Western,4,Yes
+New Orleans Buccaneers,NOB,84,42,42,0.5,9,1.16,ABA,1970,Western,5,No
+Virginia Squires,VIR,84,55,29,0.655,0,2.79,ABA,1971,Eastern,1,Yes
+Kentucky Colonels,KEN,84,44,40,0.524,11,-0.17,ABA,1971,Eastern,2,Yes
+New York Nets,NYA,84,40,44,0.476,15,-0.86,ABA,1971,Eastern,3,Yes
+The Floridians,FLO,84,37,47,0.44,18,-1.65,ABA,1971,Eastern,4,Yes
+Pittsburgh Condors,PTC,84,36,48,0.429,19,-2.74,ABA,1971,Eastern,5,No
+Carolina Cougars,CAR,84,34,50,0.405,21,-3.88,ABA,1971,Eastern,6,No
+Indiana Pacers,INA,84,58,26,0.69,0,5.63,ABA,1971,Western,1,Yes
+Utah Stars,UTS,84,57,27,0.679,1,6.6,ABA,1971,Western,2,Yes
+Memphis Pros,MMP,84,41,43,0.488,17,-0.36,ABA,1971,Western,3,Yes
+Texas Chaparrals,TEX,84,30,54,0.357,28,-2.21,ABA,1971,Western,4,Yes
+Denver Rockets,DNR,84,30,54,0.357,28,-3.15,ABA,1971,Western,5,Yes
+Kentucky Colonels,KEN,84,68,16,0.81,0,7.99,ABA,1972,Eastern,1,Yes
+Virginia Squires,VIR,84,45,39,0.536,23,0.56,ABA,1972,Eastern,2,Yes
+New York Nets,NYA,84,44,40,0.524,24,0.21,ABA,1972,Eastern,3,Yes
+The Floridians,FLO,84,36,48,0.429,32,-1.67,ABA,1972,Eastern,4,Yes
+Carolina Cougars,CAR,84,35,49,0.417,33,-3.03,ABA,1972,Eastern,5,No
+Pittsburgh Condors,PTC,84,25,59,0.298,43,-6.54,ABA,1972,Eastern,6,No
+Utah Stars,UTS,84,60,24,0.714,0,5.16,ABA,1972,Western,1,Yes
+Indiana Pacers,INA,84,47,37,0.56,13,2.72,ABA,1972,Western,2,Yes
+Dallas Chaparrals,DLC,84,42,42,0.5,18,0.26,ABA,1972,Western,3,Yes
+Denver Rockets,DNR,84,34,50,0.405,26,-0.93,ABA,1972,Western,4,Yes
+Memphis Pros,MMP,84,26,58,0.31,34,-4.73,ABA,1972,Western,5,No
+Carolina Cougars,CAR,84,57,27,0.679,0,4.26,ABA,1973,Eastern,1,Yes
+Kentucky Colonels,KEN,84,56,28,0.667,1,5.63,ABA,1973,Eastern,2,Yes
+Virginia Squires,VIR,84,42,42,0.5,15,-0.38,ABA,1973,Eastern,3,Yes
+New York Nets,NYA,84,30,54,0.357,27,-5.8,ABA,1973,Eastern,4,Yes
+Memphis Tams,MMT,84,24,60,0.286,33,-5.96,ABA,1973,Eastern,5,No
+Utah Stars,UTS,84,55,29,0.655,0,5.04,ABA,1973,Western,1,Yes
+Indiana Pacers,INA,84,51,33,0.607,4,1.97,ABA,1973,Western,2,Yes
+Denver Rockets,DNR,84,47,37,0.56,8,2.8,ABA,1973,Western,3,Yes
+San Diego Conquistadors,SDA,84,30,54,0.357,25,-3.71,ABA,1973,Western,4,Yes
+Dallas Chaparrals,DLC,84,28,56,0.333,27,-3.79,ABA,1973,Western,5,No
+New York Nets,NYA,84,55,29,0.655,0,4.8,ABA,1974,Eastern,1,Yes
+Kentucky Colonels,KEN,84,53,31,0.631,2,3.71,ABA,1974,Eastern,2,Yes
+Carolina Cougars,CAR,84,47,37,0.56,8,3.1,ABA,1974,Eastern,3,Yes
+Virginia Squires,VIR,84,28,56,0.333,27,-4.38,ABA,1974,Eastern,4,Yes
+Memphis Tams,MMT,84,21,63,0.25,34,-6.17,ABA,1974,Eastern,5,No
+Utah Stars,UTS,84,51,33,0.607,0,0.28,ABA,1974,Western,1,Yes
+Indiana Pacers,INA,84,46,38,0.548,5,0.68,ABA,1974,Western,2,Yes
+San Antonio Spurs,SAA,84,45,39,0.536,6,0.74,ABA,1974,Western,3,Yes
+San Diego Conquistadors,SDA,84,37,47,0.44,14,-2.28,ABA,1974,Western,4,Yes
+Denver Rockets,DNR,84,37,47,0.44,14,-0.49,ABA,1974,Western,5,Yes
+Kentucky Colonels,KEN,84,58,26,0.69,0,6.24,ABA,1975,Eastern,1,Yes
+New York Nets,NYA,84,58,26,0.69,0,6.58,ABA,1975,Eastern,2,Yes
+Spirits of St. Louis,SSL,84,32,52,0.381,26,-4.02,ABA,1975,Eastern,3,Yes
+Memphis Sounds,MMS,84,27,57,0.321,31,-4.92,ABA,1975,Eastern,4,Yes
+Virginia Squires,VIR,84,15,69,0.179,43,-9.46,ABA,1975,Eastern,5,No
+Denver Nuggets,DNA,84,65,19,0.774,0,6.63,ABA,1975,Western,1,Yes
+San Antonio Spurs,SAA,84,51,33,0.607,14,3.89,ABA,1975,Western,2,Yes
+Indiana Pacers,INA,84,45,39,0.536,20,1.14,ABA,1975,Western,3,Yes
+Utah Stars,UTS,84,38,46,0.452,27,-1.24,ABA,1975,Western,4,Yes
+San Diego Conquistadors,SDA,84,31,53,0.369,34,-4.74,ABA,1975,Western,5,No
+Denver Nuggets,DNA,84,60,24,0.714,0,5.45,ABA,1976,ABA,1,Yes
+New York Nets,NYA,84,55,29,0.655,5,2.56,ABA,1976,ABA,2,Yes
+San Antonio Spurs,SAA,84,50,34,0.595,10,3.82,ABA,1976,ABA,3,Yes
+Kentucky Colonels,KEN,84,46,38,0.548,14,0.5,ABA,1976,ABA,4,Yes
+Indiana Pacers,INA,84,39,45,0.464,21,0.29,ABA,1976,ABA,5,Yes
+Spirits of St. Louis,SSL,84,35,49,0.417,25,-3.1,ABA,1976,ABA,6,No
+Virginia Squires,VIR,83,15,68,0.181,44.5,-8.62,ABA,1976,ABA,7,No
+San Diego Sails,SDS,11,3,8,0.273,20.5,-5.34,ABA,1976,ABA,8,No
+Utah Stars,UTS,16,4,12,0.25,22,-1.96,ABA,1976,ABA,9,No

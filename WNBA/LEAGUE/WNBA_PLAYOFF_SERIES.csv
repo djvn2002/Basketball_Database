@@ -1,0 +1,341 @@
+﻿Team Name,Team Abbr.,League,Season,Conference,Conference Rank,First Round Wins,First Round Losses,First Round Opp.,Won First Round,Second Round Wins,Second Round Losses,Second Round Opp.,Won Second Round,Semifinals Wins,Semifinals Losses,Semifinals Opp.,Won Semifinals,Finals Wins,Finals Losses,Finals Opp.,Won Finals
+Houston Comets,HOU,WNBA,1997,Eastern,1,NA,NA,NA,NA,NA,NA,NA,NA,1,0,Charlotte Sting,Yes,1,0,New York Liberty,Yes
+New York Liberty,NYL,WNBA,1997,Eastern,2,NA,NA,NA,NA,NA,NA,NA,NA,1,0,Phoenix Mercury,Yes,0,1,Houston Comets,No
+Charlotte Sting,CHA,WNBA,1997,Eastern,3,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Houston Comets,No,NA,NA,NA,NA
+Cleveland Rockers,CLE,WNBA,1997,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,1997,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,0,1,New York Liberty,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,1997,Western,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,1997,Western,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,WNBA,1997,Western,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,WNBA,1998,Eastern,1,NA,NA,NA,NA,NA,NA,NA,NA,1,2,Phoenix Mercury,No,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,1998,Eastern,2,NA,NA,NA,NA,NA,NA,NA,NA,0,2,Houston Comets,No,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,1998,Eastern,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,1998,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,1998,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,1998,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,2,0,Charlotte Sting,Yes,2,1,Phoenix Mercury,Yes
+Phoenix Mercury,PHO,WNBA,1998,Western,2,NA,NA,NA,NA,NA,NA,NA,NA,2,1,Cleveland Rockers,Yes,1,2,Houston Comets,No
+Los Angeles Sparks,LAS,WNBA,1998,Western,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,1998,Western,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,WNBA,1998,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,1999,Eastern,1,NA,NA,NA,NA,NA,NA,NA,NA,2,1,Charlotte Sting,Yes,1,2,Houston Comets,No
+Charlotte Sting,CHA,WNBA,1999,Eastern,2,1,0,Detroit Shock,Yes,NA,NA,NA,NA,1,2,New York Liberty,No,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,1999,Eastern,3,0,1,Charlotte Sting,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Orlando Miracle,ORL,WNBA,1999,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,1999,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,WNBA,1999,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,1999,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,2,1,New York Liberty,Yes
+Los Angeles Sparks,LAS,WNBA,1999,Western,2,1,0,Sacramento Monarchs,Yes,NA,NA,NA,NA,0,2,Houston Comets,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,1999,Western,3,0,1,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,1999,Western,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,1999,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,WNBA,1999,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2000,Eastern,1,2,0,Washington Mystics,Yes,NA,NA,NA,NA,2,1,Cleveland Rockers,Yes,0,2,Houston Comets,No
+Cleveland Rockers,CLE,WNBA,2000,Eastern,2,2,1,Orlando Miracle,Yes,NA,NA,NA,NA,1,2,New York Liberty,No,NA,NA,NA,NA
+Orlando Miracle,ORL,WNBA,2000,Eastern,3,1,2,Cleveland Rockers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2000,Eastern,4,0,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2000,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Miami Sol,MIA,WNBA,2000,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2000,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,2000,Eastern,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2000,Western,1,2,0,Phoenix Mercury,Yes,NA,NA,NA,NA,0,2,Houston Comets,No,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,2000,Western,2,2,0,Sacramento Monarchs,Yes,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,2,0,New York Liberty,Yes
+Sacramento Monarchs,SAC,WNBA,2000,Western,3,0,2,Houston Comets,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2000,Western,4,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,WNBA,2000,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2000,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portland Fire,POR,WNBA,2000,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2000,Western,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,WNBA,2001,Eastern,1,1,2,Charlotte Sting,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2001,Eastern,2,2,1,Miami Sol,Yes,NA,NA,NA,NA,1,2,Charlotte Sting,No,NA,NA,NA,NA
+Miami Sol,MIA,WNBA,2001,Eastern,3,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,2001,Eastern,4,2,1,Cleveland Rockers,Yes,NA,NA,NA,NA,2,1,New York Liberty,Yes,0,2,Los Angeles Sparks,No
+Orlando Miracle,ORL,WNBA,2001,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2001,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2001,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2001,Eastern,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2001,Western,1,2,0,Houston Comets,Yes,NA,NA,NA,NA,2,1,Sacramento Monarchs,Yes,2,0,Charlotte Sting,Yes
+Sacramento Monarchs,SAC,WNBA,2001,Western,2,2,0,Utah Starzz,Yes,NA,NA,NA,NA,1,2,Los Angeles Sparks,No,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,2001,Western,3,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,WNBA,2001,Western,4,0,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2001,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2001,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portland Fire,POR,WNBA,2001,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2001,Western,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,2002,Eastern,1,0,2,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2002,Eastern,2,2,1,Indiana Fever,Yes,NA,NA,NA,NA,2,1,Washington Mystics,Yes,0,2,Los Angeles Sparks,No
+Washington Mystics,WAS,WNBA,2002,Eastern,3,2,0,Charlotte Sting,Yes,NA,NA,NA,NA,1,2,New York Liberty,No,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2002,Eastern,4,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Orlando Miracle,ORL,WNBA,2002,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Miami Sol,MIA,WNBA,2002,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Rockers,CLE,WNBA,2002,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2002,Eastern,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2002,Western,1,2,0,Seattle Storm,Yes,NA,NA,NA,NA,2,0,Utah Starzz,Yes,2,0,New York Liberty,Yes
+Houston Comets,HOU,WNBA,2002,Western,2,1,2,Utah Starzz,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Starzz,UTA,WNBA,2002,Western,3,2,1,Houston Comets,Yes,NA,NA,NA,NA,0,2,Los Angeles Sparks,No,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2002,Western,4,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portland Fire,POR,WNBA,2002,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2002,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2002,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2002,Western,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2003,Eastern,1,2,1,Cleveland Rockers,Yes,NA,NA,NA,NA,2,0,Connecticut Sun,Yes,2,1,Los Angeles Sparks,Yes
+Charlotte Sting,CHA,WNBA,2003,Eastern,2,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2003,Eastern,3,2,0,Charlotte Sting,Yes,NA,NA,NA,NA,0,2,Detroit Shock,No,NA,NA,NA,NA
+Cleveland Rockers,CLE,WNBA,2003,Eastern,4,1,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2003,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2003,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2003,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2003,Western,1,2,1,Minnesota Lynx,Yes,NA,NA,NA,NA,2,1,Sacramento Monarchs,Yes,1,2,Detroit Shock,No
+Houston Comets,HOU,WNBA,2003,Western,2,1,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2003,Western,3,2,1,Houston Comets,Yes,NA,NA,NA,NA,1,2,Los Angeles Sparks,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2003,Western,4,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2003,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2003,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2003,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2004,Eastern,1,2,1,Washington Mystics,Yes,NA,NA,NA,NA,2,0,New York Liberty,Yes,1,2,Seattle Storm,No
+New York Liberty,NYL,WNBA,2004,Eastern,2,2,1,Detroit Shock,Yes,NA,NA,NA,NA,0,2,Connecticut Sun,No,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2004,Eastern,3,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2004,Eastern,4,1,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,2004,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2004,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2004,Western,1,1,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2004,Western,2,2,0,Minnesota Lynx,Yes,NA,NA,NA,NA,2,1,Sacramento Monarchs,Yes,2,1,Connecticut Sun,Yes
+Minnesota Lynx,MIN,WNBA,2004,Western,3,0,2,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2004,Western,4,2,1,Los Angeles Sparks,Yes,NA,NA,NA,NA,1,2,Seattle Storm,No,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2004,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,2004,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2004,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2005,Eastern,1,2,0,Detroit Shock,Yes,NA,NA,NA,NA,2,0,Indiana Fever,Yes,1,3,Sacramento Monarchs,No
+Indiana Fever,IND,WNBA,2005,Eastern,2,2,0,New York Liberty,Yes,NA,NA,NA,NA,0,2,Connecticut Sun,No,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2005,Eastern,3,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2005,Eastern,4,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2005,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,2005,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2005,Western,1,2,0,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,0,Houston Comets,Yes,3,1,Connecticut Sun,Yes
+Seattle Storm,SEA,WNBA,2005,Western,2,1,2,Houston Comets,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,2005,Western,3,2,1,Seattle Storm,Yes,NA,NA,NA,NA,0,2,Sacramento Monarchs,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2005,Western,4,0,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2005,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2005,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2005,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2006,Eastern,1,2,0,Washington Mystics,Yes,NA,NA,NA,NA,1,2,Detroit Shock,No,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2006,Eastern,2,2,0,Indiana Fever,Yes,NA,NA,NA,NA,2,1,Connecticut Sun,Yes,3,2,Sacramento Monarchs,Yes
+Indiana Fever,IND,WNBA,2006,Eastern,3,0,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2006,Eastern,4,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Charlotte Sting,CHA,WNBA,2006,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2006,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2006,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2006,Western,1,2,1,Seattle Storm,Yes,NA,NA,NA,NA,0,2,Sacramento Monarchs,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2006,Western,2,2,0,Houston Comets,Yes,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,2,3,Detroit Shock,No
+Houston Comets,HOU,WNBA,2006,Western,3,0,2,Sacramento Monarchs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2006,Western,4,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2006,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2006,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2006,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2007,Eastern,1,2,1,New York Liberty,Yes,NA,NA,NA,NA,2,1,Indiana Fever,Yes,2,3,Phoenix Mercury,No
+Indiana Fever,IND,WNBA,2007,Eastern,2,2,1,Connecticut Sun,Yes,NA,NA,NA,NA,1,2,Detroit Shock,No,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2007,Eastern,3,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2007,Eastern,4,1,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2007,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2007,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2007,Western,1,2,0,Seattle Storm,Yes,NA,NA,NA,NA,2,0,San Antonio Silver Stars,Yes,3,2,Detroit Shock,Yes
+San Antonio Silver Stars,SAS,WNBA,2007,Western,2,2,1,Sacramento Monarchs,Yes,NA,NA,NA,NA,0,2,Phoenix Mercury,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2007,Western,3,1,2,San Antonio Silver Stars,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2007,Western,4,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,2007,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2007,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2007,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2008,Eastern,1,2,1,Indiana Fever,Yes,NA,NA,NA,NA,2,1,New York Liberty,Yes,3,0,San Antonio Silver Stars,Yes
+Connecticut Sun,CON,WNBA,2008,Eastern,2,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2008,Eastern,3,2,1,Connecticut Sun,Yes,NA,NA,NA,NA,1,2,Detroit Shock,No,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2008,Eastern,4,1,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2008,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2008,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2008,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2008,Western,1,2,1,Sacramento Monarchs,Yes,NA,NA,NA,NA,2,1,Los Angeles Sparks,Yes,0,3,Detroit Shock,No
+Seattle Storm,SEA,WNBA,2008,Western,2,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2008,Western,3,2,1,Seattle Storm,Yes,NA,NA,NA,NA,1,2,San Antonio Silver Stars,No,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2008,Western,4,1,2,San Antonio Silver Stars,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Houston Comets,HOU,WNBA,2008,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2008,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2008,Western,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2009,Eastern,1,2,0,Washington Mystics,Yes,NA,NA,NA,NA,2,1,Detroit Shock,Yes,2,3,Phoenix Mercury,No
+Atlanta Dream,ATL,WNBA,2009,Eastern,2,0,2,Detroit Shock,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Detroit Shock,DET,WNBA,2009,Eastern,3,2,0,Atlanta Dream,Yes,NA,NA,NA,NA,1,2,Indiana Fever,No,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2009,Eastern,4,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2009,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2009,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2009,Eastern,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2009,Western,1,2,1,San Antonio Silver Stars,Yes,NA,NA,NA,NA,2,1,Los Angeles Sparks,Yes,3,2,Indiana Fever,Yes
+Seattle Storm,SEA,WNBA,2009,Western,2,1,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2009,Western,3,2,1,Seattle Storm,Yes,NA,NA,NA,NA,1,2,Phoenix Mercury,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2009,Western,4,1,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2009,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sacramento Monarchs,SAC,WNBA,2009,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2010,Eastern,1,2,1,Indiana Fever,Yes,NA,NA,NA,NA,0,2,Atlanta Dream,No,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2010,Eastern,2,0,2,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2010,Eastern,3,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2010,Eastern,4,2,0,Washington Mystics,Yes,NA,NA,NA,NA,2,0,New York Liberty,Yes,0,3,Seattle Storm,No
+Connecticut Sun,CON,WNBA,2010,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2010,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2010,Western,1,2,0,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,0,Atlanta Dream,Yes
+Phoenix Mercury,PHO,WNBA,2010,Western,2,2,0,San Antonio Silver Stars,Yes,NA,NA,NA,NA,0,2,Seattle Storm,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2010,Western,3,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2010,Western,4,0,2,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2010,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,WNBA,2010,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2011,Eastern,1,0,2,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2011,Eastern,2,2,1,New York Liberty,Yes,NA,NA,NA,NA,1,2,Atlanta Dream,No,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2011,Eastern,3,2,0,Connecticut Sun,Yes,NA,NA,NA,NA,2,1,Indiana Fever,Yes,0,3,Minnesota Lynx,No
+New York Liberty,NYL,WNBA,2011,Eastern,4,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2011,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2011,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2011,Western,1,2,1,San Antonio Silver Stars,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,0,Atlanta Dream,Yes
+Seattle Storm,SEA,WNBA,2011,Western,2,1,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2011,Western,3,2,1,Seattle Storm,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2011,Western,4,1,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2011,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,WNBA,2011,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2012,Eastern,1,2,0,New York Liberty,Yes,NA,NA,NA,NA,1,2,Indiana Fever,No,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2012,Eastern,2,2,1,Atlanta Dream,Yes,NA,NA,NA,NA,2,1,Connecticut Sun,Yes,3,1,Minnesota Lynx,Yes
+Atlanta Dream,ATL,WNBA,2012,Eastern,3,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2012,Eastern,4,0,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2012,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2012,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2012,Western,1,2,1,Seattle Storm,Yes,NA,NA,NA,NA,2,0,Los Angeles Sparks,Yes,1,3,Indiana Fever,No
+Los Angeles Sparks,LAS,WNBA,2012,Western,2,2,0,San Antonio Silver Stars,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2012,Western,3,0,2,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2012,Western,4,1,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,WNBA,2012,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2012,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2013,Eastern,1,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2013,Eastern,2,2,1,Washington Mystics,Yes,NA,NA,NA,NA,2,0,Indiana Fever,Yes,0,3,Minnesota Lynx,No
+Washington Mystics,WAS,WNBA,2013,Eastern,3,1,2,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2013,Eastern,4,2,0,Chicago Sky,Yes,NA,NA,NA,NA,0,2,Atlanta Dream,No,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2013,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2013,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2013,Western,1,2,0,Seattle Storm,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,0,Atlanta Dream,Yes
+Los Angeles Sparks,LAS,WNBA,2013,Western,2,1,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2013,Western,3,2,1,Los Angeles Sparks,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2013,Western,4,0,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Silver Stars,SAS,WNBA,2013,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,WNBA,2013,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2014,Eastern,1,1,2,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2014,Eastern,2,2,0,Washington Mystics,Yes,NA,NA,NA,NA,1,2,Chicago Sky,No,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2014,Eastern,3,0,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2014,Eastern,4,2,1,Atlanta Dream,Yes,NA,NA,NA,NA,2,1,Indiana Fever,Yes,0,3,Phoenix Mercury,No
+New York Liberty,NYL,WNBA,2014,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2014,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2014,Western,1,2,0,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,1,Minnesota Lynx,Yes,3,0,Chicago Sky,Yes
+Minnesota Lynx,MIN,WNBA,2014,Western,2,2,0,San Antonio Stars,Yes,NA,NA,NA,NA,1,2,Phoenix Mercury,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2014,Western,3,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,WNBA,2014,Western,4,0,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2014,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa Shock,TUL,WNBA,2014,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2015,Eastern,1,2,1,Washington Mystics,Yes,NA,NA,NA,NA,1,2,Indiana Fever,No,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2015,Eastern,2,1,2,Indiana Fever,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2015,Eastern,3,2,1,Chicago Sky,Yes,NA,NA,NA,NA,2,1,New York Liberty,Yes,2,3,Minnesota Lynx,No
+Washington Mystics,WAS,WNBA,2015,Eastern,4,1,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2015,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2015,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2015,Western,1,2,1,Los Angeles Sparks,Yes,NA,NA,NA,NA,2,0,Phoenix Mercury,Yes,3,2,Indiana Fever,Yes
+Phoenix Mercury,PHO,WNBA,2015,Western,2,2,0,Tulsa Shock,Yes,NA,NA,NA,NA,0,2,Minnesota Lynx,No,NA,NA,NA,NA
+Tulsa Shock,TUL,WNBA,2015,Western,3,0,2,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2015,Western,4,1,2,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2015,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,WNBA,2015,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2016,Eastern,1,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2016,Eastern,2,NA,NA,NA,NA,1,0,Atlanta Dream,Yes,1,3,Los Angeles Sparks,No,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2016,Eastern,3,1,0,Seattle Storm,Yes,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2016,Eastern,4,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2016,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2016,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2016,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Phoenix Mercury,Yes,2,3,Los Angeles Sparks,No
+Los Angeles Sparks,LAS,WNBA,2016,Western,2,NA,NA,NA,NA,NA,NA,NA,NA,3,1,Chicago Sky,Yes,3,2,Minnesota Lynx,Yes
+Phoenix Mercury,PHO,WNBA,2016,Western,3,1,0,Indiana Fever,Yes,1,0,New York Liberty,Yes,0,3,Minnesota Lynx,No,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2016,Western,4,0,1,Atlanta Dream,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,WNBA,2016,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,WNBA,2016,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2017,Eastern,1,NA,NA,NA,NA,0,1,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2017,Eastern,2,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2017,Eastern,3,1,0,Dallas Wings,Yes,1,0,New York Liberty,Yes,0,3,Minnesota Lynx,No,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2017,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2017,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2017,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2017,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Washington Mystics,Yes,3,2,Los Angeles Sparks,Yes
+Los Angeles Sparks,LAS,WNBA,2017,Western,2,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Phoenix Mercury,Yes,2,3,Minnesota Lynx,No
+Phoenix Mercury,PHO,WNBA,2017,Western,3,1,0,Seattle Storm,Yes,1,0,Connecticut Sun,Yes,0,3,Minnesota Lynx,No,NA,NA,NA,NA
+Dallas Wings,DAL,WNBA,2017,Western,4,0,1,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2017,Western,5,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+San Antonio Stars,SAS,WNBA,2017,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2018,Eastern,1,NA,NA,NA,NA,NA,NA,NA,NA,2,3,Washington Mystics,No,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2018,Eastern,2,NA,NA,NA,NA,1,0,Los Angeles Sparks,Yes,3,2,Atlanta Dream,Yes,0,3,Seattle Storm,No
+Connecticut Sun,CON,WNBA,2018,Eastern,3,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2018,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2018,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2018,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2018,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,3,2,Phoenix Mercury,Yes,3,0,Washington Mystics,Yes
+Phoenix Mercury,PHO,WNBA,2018,Western,2,1,0,Dallas Wings,Yes,1,0,Connecticut Sun,Yes,2,3,Seattle Storm,No,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2018,Western,3,1,0,Minnesota Lynx,Yes,0,1,Washington Mystics,No,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2018,Western,4,0,1,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,WNBA,2018,Western,5,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,WNBA,2018,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2019,Eastern,1,NA,NA,NA,NA,NA,NA,NA,NA,3,1,Las Vegas Aces,Yes,3,2,Connecticut Sun,Yes
+Connecticut Sun,CON,WNBA,2019,Eastern,2,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Los Angeles Sparks,Yes,2,3,Washington Mystics,No
+Chicago Sky,CHI,WNBA,2019,Eastern,3,1,0,Phoenix Mercury,Yes,0,1,Las Vegas Aces,No,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2019,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2019,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2019,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2019,Western,1,NA,NA,NA,NA,1,0,Seattle Storm,Yes,0,3,Connecticut Sun,No,NA,NA,NA,NA
+Las Vegas Aces,LVA,WNBA,2019,Western,2,NA,NA,NA,NA,1,0,Chicago Sky,Yes,1,3,Washington Mystics,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2019,Western,3,0,1,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2019,Western,4,1,0,Minnesota Lynx,Yes,0,1,Los Angeles Sparks,No,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2019,Western,5,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,WNBA,2019,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2020,Eastern,1,0,1,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2020,Eastern,2,1,0,Chicago Sky,Yes,1,0,Los Angeles Sparks,Yes,2,3,Las Vegas Aces,No,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2020,Eastern,3,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2020,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2020,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2020,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,WNBA,2020,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,3,2,Connecticut Sun,Yes,0,3,Seattle Storm,No
+Seattle Storm,SEA,WNBA,2020,Western,2,NA,NA,NA,NA,NA,NA,NA,NA,3,0,Minnesota Lynx,Yes,3,0,Las Vegas Aces,Yes
+Los Angeles Sparks,LAS,WNBA,2020,Western,3,NA,NA,NA,NA,0,1,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2020,Western,4,NA,NA,NA,NA,1,0,Phoenix Mercury,Yes,0,3,Seattle Storm,No,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2020,Western,5,1,0,Washington Mystics,Yes,0,1,Minnesota Lynx,No,NA,NA,NA,NA,NA,NA,NA,NA
+Dallas Wings,DAL,WNBA,2020,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2021,Eastern,1,NA,NA,NA,NA,NA,NA,NA,NA,1,3,Chicago Sky,No,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2021,Eastern,2,1,0,Dallas Wings,Yes,1,0,Minnesota Lynx,Yes,3,1,Connecticut Sun,Yes,3,1,Phoenix Mercury,Yes
+New York Liberty,NYL,WNBA,2021,Eastern,3,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2021,Eastern,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2021,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2021,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,WNBA,2021,Western,1,NA,NA,NA,NA,NA,NA,NA,NA,2,3,Phoenix Mercury,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2021,Western,2,NA,NA,NA,NA,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2021,Western,3,NA,NA,NA,NA,0,1,Phoenix Mercury,No,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2021,Western,4,1,0,New York Liberty,Yes,1,0,Seattle Storm,Yes,3,2,Las Vegas Aces,Yes,1,3,Chicago Sky,No
+Dallas Wings,DAL,WNBA,2021,Western,5,0,1,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2021,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2022,Eastern,1,2,1,New York Liberty,Yes,NA,NA,NA,NA,2,3,Connecticut Sun,No,NA,NA,NA,NA
+Connecticut Sun,CON,WNBA,2022,Eastern,2,2,1,Dallas Wings,Yes,NA,NA,NA,NA,3,2,Chicago Sky,Yes,1,3,Las Vegas Aces,No
+Washington Mystics,WAS,WNBA,2022,Eastern,3,0,2,Seattle Storm,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2022,Eastern,4,1,2,Chicago Sky,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2022,Eastern,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2022,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,WNBA,2022,Western,1,2,0,Phoenix Mercury,Yes,NA,NA,NA,NA,3,1,Seattle Storm,Yes,3,1,Connecticut Sun,Yes
+Seattle Storm,SEA,WNBA,2022,Western,2,2,0,Washington Mystics,Yes,NA,NA,NA,NA,1,3,Las Vegas Aces,No,NA,NA,NA,NA
+Dallas Wings,DAL,WNBA,2022,Western,3,1,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2022,Western,4,0,2,Las Vegas Aces,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2022,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2022,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New York Liberty,NYL,WNBA,2023,Eastern,1,2,0,Washington Mystics,Yes,NA,NA,NA,NA,3,1,Connecticut Sun,Yes,1,3,Las Vegas Aces,No
+Connecticut Sun,CON,WNBA,2023,Eastern,2,2,1,Minnesota Lynx,Yes,NA,NA,NA,NA,1,3,New York Liberty,No,NA,NA,NA,NA
+Atlanta Dream,ATL,WNBA,2023,Eastern,3,0,2,Dallas Wings,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Washington Mystics,WAS,WNBA,2023,Eastern,4,0,2,New York Liberty,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Chicago Sky,CHI,WNBA,2023,Eastern,5,0,2,Las Vegas Aces,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indiana Fever,IND,WNBA,2023,Eastern,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Las Vegas Aces,LVA,WNBA,2023,Western,1,2,0,Chicago Sky,Yes,NA,NA,NA,NA,3,0,Dallas Wings,Yes,3,1,New York Liberty,Yes
+Dallas Wings,DAL,WNBA,2023,Western,2,2,0,Atlanta Dream,Yes,NA,NA,NA,NA,0,3,Las Vegas Aces,No,NA,NA,NA,NA
+Minnesota Lynx,MIN,WNBA,2023,Western,3,1,2,Connecticut Sun,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles Sparks,LAS,WNBA,2023,Western,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Seattle Storm,SEA,WNBA,2023,Western,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Phoenix Mercury,PHO,WNBA,2023,Western,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

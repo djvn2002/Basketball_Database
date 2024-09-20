@@ -1,0 +1,407 @@
+﻿Team Name,Team Abbr.,League,Season,Division,Division Rank,Conference,Conference Rank,Made Playoffs,First Round Wins,First Round Losses,First Round Opp.,Won First Round,Semifinals Wins,Semifinals Losses,Semifinals Opp.,Won Semifinals,Conf. Finals Wins,Conf. Finals Losses,Conf. Finals Opp.,Won Conf. Finals,Finals Wins,Finals Losses,Finals Opp.,Won Finals
+Greenville Groove,GRE,G League,2002,NA,NA,NA,NA,Yes,NA,NA,NA,NA,2,1,Columbus Riverdragons,Yes,NA,NA,NA,NA,2,0,North Charleston Lowgators,Yes
+North Charleston Lowgators,NCH,G League,2002,NA,NA,NA,NA,Yes,NA,NA,NA,NA,2,1,Mobile Revelers,Yes,NA,NA,NA,NA,0,2,Greenville Groove,No
+Columbus Riverdragons,CLB,G League,2002,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,2,Greenville Groove,No,NA,NA,NA,NA,NA,NA,NA,NA
+Mobile Revelers,MOB,G League,2002,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,2,North Charleston Lowgators,No,NA,NA,NA,NA,NA,NA,NA,NA
+Asheville Altitude,ASH,G League,2002,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Huntsville Flight,HUN,G League,2002,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fayetteville Patriots,FAY,G League,2002,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Roanoke Dazzle,ROA,G League,2002,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fayetteville Patriots,FAY,G League,2003,NA,NA,NA,NA,Yes,NA,NA,NA,NA,2,0,Roanoke Dazzle,Yes,NA,NA,NA,NA,1,2,Mobile Revelers,No
+Mobile Revelers,MOB,G League,2003,NA,NA,NA,NA,Yes,NA,NA,NA,NA,2,0,North Charleston Lowgators,Yes,NA,NA,NA,NA,2,1,Fayetteville Patriots,Yes
+North Charleston Lowgators,NCH,G League,2003,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,2,Mobile Revelers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Roanoke Dazzle,ROA,G League,2003,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,2,Fayetteville Patriots,No,NA,NA,NA,NA,NA,NA,NA,NA
+Asheville Altitude,ASH,G League,2003,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Columbus Riverdragons,CLB,G League,2003,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greenville Groove,GRE,G League,2003,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Huntsville Flight,HUN,G League,2003,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Asheville Altitude,ASH,G League,2004,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,0,Fayetteville Patriots,Yes,NA,NA,NA,NA,1,0,Huntsville Flight,Yes
+Charleston Lowgators,CHS,G League,2004,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,1,Huntsville Flight,No,NA,NA,NA,NA,NA,NA,NA,NA
+Huntsville Flight,HUN,G League,2004,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,0,Charleston Lowgators,Yes,NA,NA,NA,NA,0,1,Asheville Altitude,No
+Fayetteville Patriots,FAY,G League,2004,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,1,Asheville Altitude,No,NA,NA,NA,NA,NA,NA,NA,NA
+Roanoke Dazzle,ROA,G League,2004,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Columbus Riverdragons,CLB,G League,2004,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Columbus Riverdragons,CLB,G League,2005,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,0,Roanoke Dazzle,Yes,NA,NA,NA,NA,0,1,Asheville Altitude,No
+Asheville Altitude,ASH,G League,2005,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,0,Huntsville Flight,Yes,NA,NA,NA,NA,1,0,Columbus Riverdragons,Yes
+Huntsville Flight,HUN,G League,2005,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,1,Asheville Altitude,No,NA,NA,NA,NA,NA,NA,NA,NA
+Roanoke Dazzle,ROA,G League,2005,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,1,Columbus Riverdragons,No,NA,NA,NA,NA,NA,NA,NA,NA
+Fayetteville Patriots,FAY,G League,2005,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Florida Flame,FLO,G League,2005,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Worth Flyers,FTW,G League,2006,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,0,Roanoke Dazzle,Yes,NA,NA,NA,NA,0,1,Albuquerque Thunderbirds,No
+Albuquerque Thunderbirds,ABQ,G League,2006,NA,NA,NA,NA,Yes,NA,NA,NA,NA,1,0,Florida Flame,Yes,NA,NA,NA,NA,1,0,Fort Worth Flyers,Yes
+Florida Flame,FLO,G League,2006,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,1,Albuquerque Thunderbirds,No,NA,NA,NA,NA,NA,NA,NA,NA
+Roanoke Dazzle,ROA,G League,2006,NA,NA,NA,NA,Yes,NA,NA,NA,NA,0,1,Fort Worth Flyers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Arkansas RimRockers,ARK,G League,2006,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Toros,AST,G League,2006,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2006,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fayetteville Patriots,FAY,G League,2006,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dakota Wizards,DAK,G League,2007,Eastern,1,NA,NA,Yes,NA,NA,NA,NA,1,0,Sioux Falls Skyforce,Yes,NA,NA,NA,NA,1,0,Colorado 14ers,Yes
+Sioux Falls Skyforce,SXF,G League,2007,Eastern,2,NA,NA,Yes,1,0,Fort Worth Flyers,Yes,0,1,Dakota Wizards,No,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Worth Flyers,FTW,G League,2007,Eastern,3,NA,NA,Yes,0,1,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Toros,AST,G League,2007,Eastern,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2007,Eastern,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Arkansas RimRockers,ARK,G League,2007,Eastern,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2007,Western,1,NA,NA,Yes,NA,NA,NA,NA,0,1,Colorado 14ers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Colorado 14ers,COL,G League,2007,Western,2,NA,NA,Yes,1,0,Albuquerque Thunderbirds,Yes,1,0,Idaho Stampede,Yes,NA,NA,NA,NA,0,1,Dakota Wizards,No
+Albuquerque Thunderbirds,ABQ,G League,2007,Western,3,NA,NA,Yes,0,1,Colorado 14ers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Anaheim Arsenal,ANA,G League,2007,Western,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2007,Western,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2007,Western,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dakota Wizards,DAK,G League,2008,Central,1,NA,NA,Yes,0,1,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2008,Central,2,NA,NA,Yes,1,0,Dakota Wizards,Yes,0,1,Austin Toros,No,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2008,Central,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2008,Central,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Toros,AST,G League,2008,Southwest,1,NA,NA,Yes,NA,NA,NA,NA,1,0,Sioux Falls Skyforce,Yes,NA,NA,NA,NA,1,2,Idaho Stampede,No
+Colorado 14ers,COL,G League,2008,Southwest,2,NA,NA,Yes,0,1,Los Angeles D-Fenders,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2008,Southwest,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Albuquerque Thunderbirds,ABQ,G League,2008,Southwest,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2008,Southwest,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2008,West,1,NA,NA,Yes,NA,NA,NA,NA,1,0,Los Angeles D-Fenders,Yes,NA,NA,NA,NA,2,1,Austin Toros,Yes
+Los Angeles D-Fenders,LOS,G League,2008,West,2,NA,NA,Yes,1,0,Colorado 14ers,Yes,0,1,Idaho Stampede,No,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Flash,UTA,G League,2008,West,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Anaheim Arsenal,ANA,G League,2008,West,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2008,West,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2009,Central,1,NA,NA,Yes,0,1,Dakota Wizards,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dakota Wizards,DAK,G League,2009,Central,2,NA,NA,Yes,1,0,Iowa Energy,Yes,0,1,Utah Flash,No,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2009,Central,3,NA,NA,Yes,0,1,Colorado 14ers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2009,Central,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2009,Central,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Colorado 14ers,COL,G League,2009,Southwest,1,NA,NA,Yes,1,0,Erie BayHawks,Yes,1,0,Austin Toros,Yes,NA,NA,NA,NA,2,0,Utah Flash,Yes
+Austin Toros,AST,G League,2009,Southwest,2,NA,NA,Yes,1,0,Idaho Stampede,Yes,0,1,Colorado 14ers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Albuquerque Thunderbirds,ABQ,G League,2009,Southwest,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2009,Southwest,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2009,Southwest,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Flash,UTA,G League,2009,West,1,NA,NA,Yes,1,0,Bakersfield Jam,Yes,1,0,Dakota Wizards,Yes,NA,NA,NA,NA,0,2,Colorado 14ers,No
+Idaho Stampede,IDA,G League,2009,West,2,NA,NA,Yes,0,1,Austin Toros,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2009,West,3,NA,NA,Yes,0,1,Utah Flash,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2009,West,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2009,West,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Anaheim Arsenal,ANA,G League,2009,West,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2010,Eastern,1,NA,NA,Yes,2,1,Utah Flash,Yes,1,2,Tulsa 66ers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2010,Eastern,2,NA,NA,Yes,1,2,Tulsa 66ers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dakota Wizards,DAK,G League,2010,Eastern,3,NA,NA,Yes,1,2,Austin Toros,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2010,Eastern,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2010,Eastern,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2010,Eastern,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Springfield Armor,SPR,G League,2010,Eastern,7,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2010,Western,1,NA,NA,Yes,2,1,Reno Bighorns,Yes,2,1,Austin Toros,Yes,NA,NA,NA,NA,2,0,Tulsa 66ers,Yes
+Austin Toros,AST,G League,2010,Western,2,NA,NA,Yes,2,1,Dakota Wizards,Yes,1,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2010,Western,3,NA,NA,Yes,1,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Flash,UTA,G League,2010,Western,4,NA,NA,Yes,1,2,Iowa Energy,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2010,Western,5,NA,NA,Yes,2,1,Sioux Falls Skyforce,Yes,2,1,Iowa Energy,Yes,NA,NA,NA,NA,0,2,Rio Grande Valley Vipers,No
+Idaho Stampede,IDA,G League,2010,Western,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Albuquerque Thunderbirds,ABQ,G League,2010,Western,7,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2010,Western,8,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2010,Western,9,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2011,Eastern,1,NA,NA,Yes,2,1,Utah Flash,Yes,2,0,Tulsa 66ers,Yes,NA,NA,NA,NA,2,1,Rio Grande Valley Vipers,Yes
+Erie BayHawks,ERI,G League,2011,Eastern,2,NA,NA,Yes,1,2,Reno Bighorns,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2011,Eastern,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dakota Wizards,DAK,G League,2011,Eastern,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2011,Eastern,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Springfield Armor,SPR,G League,2011,Eastern,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2011,Eastern,7,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2011,Western,1,NA,NA,Yes,2,1,Erie BayHawks,Yes,0,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2011,Western,2,NA,NA,Yes,2,1,Bakersfield Jam,Yes,2,0,Reno Bighorns,Yes,NA,NA,NA,NA,1,2,Iowa Energy,No
+Tulsa 66ers,TUL,G League,2011,Western,3,NA,NA,Yes,2,0,Texas Legends,Yes,0,2,Iowa Energy,No,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2011,Western,4,NA,NA,Yes,1,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Utah Flash,UTA,G League,2011,Western,5,NA,NA,Yes,1,2,Iowa Energy,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2011,Western,6,NA,NA,Yes,0,2,Tulsa 66ers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2011,Western,7,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Toros,AST,G League,2011,Western,8,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+New Mexico Thunderbirds,NMX,G League,2011,Western,9,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dakota Wizards,DAK,G League,2012,Eastern,1,NA,NA,Yes,0,2,Bakersfield Jam,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Springfield Armor,SPR,G League,2012,Eastern,2,NA,NA,Yes,1,2,Canton Charge,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2012,Eastern,3,NA,NA,Yes,1,2,Austin Toros,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2012,Eastern,4,NA,NA,Yes,2,1,Springfield Armor,Yes,1,2,Austin Toros,No,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2012,Eastern,5,NA,NA,Yes,0,2,Los Angeles D-Fenders,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2012,Eastern,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2012,Eastern,7,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2012,Eastern,8,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2012,Western,1,NA,NA,Yes,2,0,Iowa Energy,Yes,2,0,Bakersfield Jam,Yes,NA,NA,NA,NA,1,2,Austin Toros,No
+Austin Toros,AST,G League,2012,Western,2,NA,NA,Yes,2,1,Erie BayHawks,Yes,2,1,Canton Charge,Yes,NA,NA,NA,NA,2,1,Los Angeles D-Fenders,Yes
+Bakersfield Jam,BAK,G League,2012,Western,3,NA,NA,Yes,2,0,Dakota Wizards,Yes,0,2,Los Angeles D-Fenders,No,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2012,Western,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2012,Western,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2012,Western,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2012,Western,7,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2012,Western,8,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2013,Central,1,NA,NA,Yes,2,0,Maine Red Claws,Yes,2,0,Tulsa 66ers,Yes,NA,NA,NA,NA,2,0,Santa Cruz Warriors,Yes
+Austin Toros,AST,G League,2013,Central,2,NA,NA,Yes,2,0,Bakersfield Jam,Yes,0,2,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2013,Central,3,NA,NA,Yes,2,1,Canton Charge,Yes,0,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2013,Central,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2013,Central,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2013,Central,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2013,East,1,NA,NA,Yes,1,2,Tulsa 66ers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2013,East,2,NA,NA,Yes,0,2,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2013,East,3,NA,NA,Yes,0,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2013,East,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Springfield Armor,SPR,G League,2013,East,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2013,West,1,NA,NA,Yes,0,2,Austin Toros,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2013,West,2,NA,NA,Yes,2,0,Fort Wayne Mad Ants,Yes,2,0,Austin Toros,Yes,NA,NA,NA,NA,0,2,Rio Grande Valley Vipers,No
+Los Angeles D-Fenders,LOS,G League,2013,West,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2013,West,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2013,West,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2014,Central,2,NA,NA,Yes,2,1,Canton Charge,Yes,0,2,Fort Wayne Mad Ants,No,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2014,Central,1,NA,NA,Yes,1,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2014,Central,3,NA,NA,Yes,2,1,Iowa Energy,Yes,1,2,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA
+Tulsa 66ers,TUL,G League,2014,Central,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2014,Central,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Toros,AST,G League,2014,Central,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2014,East,1,NA,NA,Yes,2,0,Reno Bighorns,Yes,2,0,Sioux Falls Skyforce,Yes,NA,NA,NA,NA,2,0,Santa Cruz Warriors,Yes
+Canton Charge,CAN,G League,2014,East,2,NA,NA,Yes,1,2,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Springfield Armor,SPR,G League,2014,East,3,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2014,East,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2014,East,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware 87ers,DLW,G League,2014,East,6,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2014,West,1,NA,NA,Yes,0,2,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2014,West,2,NA,NA,Yes,2,0,Los Angeles D-Fenders,Yes,2,1,Rio Grande Valley Vipers,Yes,NA,NA,NA,NA,0,2,Fort Wayne Mad Ants,No
+Reno Bighorns,REN,G League,2014,West,3,NA,NA,Yes,0,2,Fort Wayne Mad Ants,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2014,West,4,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2014,West,5,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2015,Atlantic,1,Eastern,1,Yes,0,2,Fort Wayne Mad Ants,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2015,Central,1,Eastern,2,Yes,1,2,Canton Charge,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2015,Atlantic,2,Eastern,3,Yes,2,1,Sioux Falls Skyforce,Yes,0,2,Fort Wayne Mad Ants,No,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2015,Central,2,Eastern,4,Yes,2,0,Maine Red Claws,Yes,2,0,Canton Charge,Yes,NA,NA,NA,NA,0,2,Santa Cruz Warriors,No
+Iowa Energy,IWE,G League,2015,Central,3,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2015,Atlantic,3,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Drive,GRR,G League,2015,Central,4,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware 87ers,DLW,G League,2015,Atlantic,4,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2015,Atlantic,5,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2015,West,1,Western,1,Yes,2,0,Oklahoma City Blue,Yes,2,1,Austin Spurs,Yes,NA,NA,NA,NA,2,0,Fort Wayne Mad Ants,Yes
+Austin Spurs,AUS,G League,2015,Southwest,1,Western,2,Yes,2,1,Bakersfield Jam,Yes,1,2,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2015,West,2,Western,2,Yes,1,2,Austin Spurs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2015,Southwest,2,Western,4,Yes,0,2,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2015,Southwest,3,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2015,Southwest,4,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2015,West,3,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2015,West,4,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2015,West,5,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2016,Central,1,Eastern,1,Yes,2,0,Westchester Knicks,Yes,2,0,Canton Charge,Yes,NA,NA,NA,NA,2,1,Los Angeles D-Fenders,Yes
+Maine Red Claws,MAI,G League,2016,Atlantic,1,Eastern,2,Yes,0,2,Canton Charge,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2016,Central,2,Eastern,3,Yes,2,0,Maine Red Claws,Yes,0,2,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2016,Atlantic,2,Eastern,4,Yes,0,2,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2016,Central,3,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2016,Atlantic,3,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Drive,GRR,G League,2016,Central,4,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware 87ers,DLW,G League,2016,Atlantic,4,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2016,Central,5,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2016,Atlantic,5,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2016,Pacific,1,Western,1,Yes,1,2,Los Angeles D-Fenders,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2016,Southwest,1,Western,2,Yes,2,1,Rio Grande Valley Vipers,Yes,1,2,Los Angeles D-Fenders,No,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2016,Southwest,2,Western,3,Yes,1,2,Austin Spurs,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2016,Pacific,2,Western,4,Yes,2,1,Reno Bighorns,Yes,2,1,Austin Spurs,Yes,NA,NA,NA,NA,1,2,Sioux Falls Skyforce,No
+Texas Legends,TEX,G League,2016,Southwest,3,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bakersfield Jam,BAK,G League,2016,Pacific,3,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Idaho Stampede,IDA,G League,2016,Pacific,4,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2016,Southwest,4,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2016,Pacific,5,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2017,Central,1,Eastern,1,Yes,2,0,Canton Charge,Yes,2,0,Maine Red Claws,Yes,NA,NA,NA,NA,2,1,Rio Grande Valley Vipers,Yes
+Maine Red Claws,MAI,G League,2017,Atlantic,1,Eastern,2,Yes,2,1,Fort Wayne Mad Ants,Yes,0,2,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2017,Central,2,Eastern,3,Yes,1,2,Maine Red Claws,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2017,Central,3,Eastern,4,Yes,0,2,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Drive,GRR,G League,2017,Central,4,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware 87ers,DLW,G League,2017,Atlantic,2,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2017,Central,5,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2017,Atlantic,3,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2017,Atlantic,4,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2017,Atlantic,5,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,ERI,G League,2017,Atlantic,6,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2017,Southwest,1,Western,1,Yes,2,1,Santa Cruz Warriors,Yes,1,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Los Angeles D-Fenders,LOS,G League,2017,Pacific,1,Western,2,Yes,1,2,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2017,Southwest,2,Western,3,Yes,2,1,Los Angeles D-Fenders,Yes,2,1,Oklahoma City Blue,Yes,NA,NA,NA,NA,1,2,Raptors 905,No
+Santa Cruz Warriors,SCW,G League,2017,Pacific,2,Western,4,Yes,1,2,Oklahoma City Blue,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2017,Southwest,3,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2017,Southwest,4,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2017,Southwest,5,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Northern Arizona Suns,NAS,G League,2017,Pacific,3,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Reno Bighorns,REN,G League,2017,Pacific,4,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2017,Pacific,5,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Energy,IWE,G League,2017,Southwest,6,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2018,Atlantic,1,Eastern,1,Yes,NA,NA,NA,NA,0,1,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Drive,GRR,G League,2018,Central,1,Eastern,2,Yes,0,1,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,HAW,G League,2018,Southeast,1,Eastern,3,Yes,1,0,Lakeland Magic,Yes,1,0,Fort Wayne Mad Ants,Yes,0,1,Raptors 905,No,NA,NA,NA,NA
+Raptors 905,RAP,G League,2018,Atlantic,2,Eastern,4,Yes,1,0,Grand Rapids Drive,Yes,1,0,Westchester Knicks,Yes,1,0,Erie BayHawks,Yes,0,2,Austin Spurs,No
+Fort Wayne Mad Ants,FWN,G League,2018,Central,2,Eastern,5,Yes,NA,NA,NA,NA,0,1,Erie BayHawks,No,NA,NA,NA,NA,NA,NA,NA,NA
+Lakeland Magic,LAK,G League,2018,Southeast,2,Eastern,6,Yes,0,1,Erie BayHawks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2018,Atlantic,3,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2018,Central,3,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2018,Central,4,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wisconsin Herd,WIS,G League,2018,Central,5,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2018,Atlantic,4,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2018,Southeast,3,Eastern,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware 87ers,DLW,G League,2018,Southeast,4,Eastern,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2018,Southwest,1,Western,1,Yes,NA,NA,NA,NA,1,0,Rio Grande Valley Vipers,Yes,1,0,South Bay Lakers,Yes,2,0,Raptors 905,Yes
+Reno Bighorns,REN,G League,2018,Pacific,1,Western,2,Yes,NA,NA,NA,NA,0,1,South Bay Lakers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2018,Midwest,1,Western,3,Yes,0,1,South Bay Lakers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2018,Southwest,2,Western,4,Yes,1,0,Texas Legends,Yes,0,1,Austin Spurs,No,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2018,Southwest,3,Western,5,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+South Bay Lakers,SBL,G League,2018,Pacific,2,Western,6,Yes,1,0,Oklahoma City Blue,Yes,1,0,Reno Bighorns,Yes,0,1,Austin Spurs,No,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2018,Midwest,2,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2018,Midwest,3,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2018,Pacific,3,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Northern Arizona Suns,NAS,G League,2018,Pacific,4,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Agua Caliente Clippers,ACC,G League,2018,Pacific,5,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2018,Midwest,4,Western,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2018,Southwest,4,Western,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2019,Atlantic,1,Eastern,1,Yes,NA,NA,NA,NA,1,0,Raptors 905,Yes,1,0,Lakeland Magic,Yes,1,2,Rio Grande Valley Vipers,No
+Lakeland Magic,LAK,G League,2019,Southeast,1,Eastern,2,Yes,NA,NA,NA,NA,1,0,Westchester Knicks,Yes,0,1,Long Island Nets,No,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2019,Atlantic,2,Eastern,3,Yes,1,0,Windy City Bulls,Yes,0,1,Lakeland Magic,No,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2019,Atlantic,3,Eastern,4,Yes,1,0,Grand Rapids Drive,Yes,0,1,Long Island Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Drive,GRR,G League,2019,Central,1,Eastern,5,Yes,0,1,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2019,Central,2,Eastern,6,Yes,0,1,Westchester Knicks,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Capital City Go-Go,CCG,G League,2019,Southeast,2,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,HAW,G League,2019,Southeast,3,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2019,Southeast,4,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2019,Central,3,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2019,Central,4,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware Blue Coats,DEL,G League,2019,Atlantic,4,Eastern,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2019,Atlantic,5,Eastern,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wisconsin Herd,WIS,G League,2019,Central,5,Eastern,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2019,Southwest,1,Western,1,Yes,NA,NA,NA,NA,1,0,Memphis Hustle,Yes,1,0,Santa Cruz Warriors,Yes,2,1,Long Island Nets,Yes
+Santa Cruz Warriors,SCW,G League,2019,Pacific,1,Western,2,Yes,NA,NA,NA,NA,1,0,Oklahoma City Blue,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2019,Midwest,1,Western,3,Yes,1,0,Salt Lake City Stars,Yes,0,1,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA
+Stockton Kings,STO,G League,2019,Pacific,2,Western,4,Yes,0,1,Memphis Hustle,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2019,Midwest,2,Western,5,Yes,1,0,Stockton Kings,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2019,Southwest,2,Western,6,Yes,0,1,Oklahoma City Blue,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Agua Caliente Clippers,ACC,G League,2019,Pacific,3,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2019,Midwest,3,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+South Bay Lakers,SBL,G League,2019,Pacific,4,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2019,Southwest,3,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2019,Midwest,4,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2019,Southwest,4,Western,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Northern Arizona Suns,NAS,G League,2019,Pacific,5,Western,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wisconsin Herd,WIS,G League,2020,NA,NA,Eastern,1,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2020,NA,NA,Eastern,2,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Red Claws,MAI,G League,2020,NA,NA,Eastern,3,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lakeland Magic,LAK,G League,2020,NA,NA,Eastern,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Drive,GRR,G League,2020,NA,NA,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware Blue Coats,DEL,G League,2020,NA,NA,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Capital City Go-Go,CCG,G League,2020,NA,NA,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2020,NA,NA,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2020,NA,NA,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+College Park Skyhawks,CPS,G League,2020,NA,NA,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2020,NA,NA,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2020,NA,NA,Eastern,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2020,NA,NA,Eastern,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,EBH,G League,2020,NA,NA,Eastern,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2020,NA,NA,Eastern,15,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2020,NA,NA,Western,1,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2020,NA,NA,Western,2,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2020,NA,NA,Western,3,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Stockton Kings,STO,G League,2020,NA,NA,Western,4,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2020,NA,NA,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2020,NA,NA,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2020,NA,NA,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Agua Caliente Clippers,ACC,G League,2020,NA,NA,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2020,NA,NA,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2020,NA,NA,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+South Bay Lakers,SBL,G League,2020,NA,NA,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2020,NA,NA,Western,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Northern Arizona Suns,NAS,G League,2020,NA,NA,Western,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2021,NA,NA,Eastern,1,Yes,1,0,G League Ignite,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA,NA,NA,NA,NA
+Erie BayHawks,EBH,G League,2021,NA,NA,Eastern,2,Yes,0,1,Lakeland Magic,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware Blue Coats,DEL,G League,2021,NA,NA,Eastern,3,Yes,1,0,Austin Spurs,Yes,1,0,Raptors 905,Yes,NA,NA,NA,NA,0,1,Lakeland Magic,No
+Lakeland Magic,LAK,G League,2021,NA,NA,Eastern,4,Yes,1,0,Erie BayHawks,Yes,1,0,Santa Cruz Warriors,Yes,NA,NA,NA,NA,1,0,Delaware Blue Coats,Yes
+Long Island Nets,LIN,G League,2021,NA,NA,Eastern,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2021,NA,NA,Eastern,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2021,NA,NA,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Canton Charge,CAN,G League,2021,NA,NA,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2021,NA,NA,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2021,NA,NA,Western,1,Yes,1,0,Rio Grande Valley Vipers,Yes,0,1,Lakeland Magic,No,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2021,NA,NA,Western,2,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2021,NA,NA,Western,3,Yes,0,1,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+G League Ignite,GLI,G League,2021,NA,NA,Western,4,Yes,0,1,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2021,NA,NA,Western,5,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2021,NA,NA,Western,6,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Agua Caliente Clippers,ACC,G League,2021,NA,NA,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2021,NA,NA,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2021,NA,NA,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2022,NA,NA,Eastern,1,Yes,NA,NA,NA,NA,1,0,Capital City Go-Go,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA
+Motor City Cruise,MCC,G League,2022,NA,NA,Eastern,2,Yes,NA,NA,NA,NA,0,1,Delaware Blue Coats,No,NA,NA,NA,NA,NA,NA,NA,NA
+Delaware Blue Coats,DEL,G League,2022,NA,NA,Eastern,3,Yes,1,0,Long Island Nets,Yes,1,0,Motor City Cruise,Yes,1,0,Raptors 905,Yes,0,2,Rio Grande Valley Vipers,No
+Capital City Go-Go,CCG,G League,2022,NA,NA,Eastern,4,Yes,1,0,College Park Skyhawks,Yes,0,1,Raptors 905,No,NA,NA,NA,NA,NA,NA,NA,NA
+College Park Skyhawks,CPS,G League,2022,NA,NA,Eastern,5,Yes,0,1,Capital City Go-Go,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2022,NA,NA,Eastern,6,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Gold,GRG,G League,2022,NA,NA,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2022,NA,NA,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Celtics,MNE,G League,2022,NA,NA,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2022,NA,NA,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2022,NA,NA,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lakeland Magic,LAK,G League,2022,NA,NA,Eastern,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2022,NA,NA,Eastern,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wisconsin Herd,WIS,G League,2022,NA,NA,Eastern,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Charge,CLC,G League,2022,NA,NA,Eastern,15,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2022,NA,NA,Western,1,Yes,NA,NA,NA,NA,1,0,Texas Legends,Yes,1,0,Agua Caliente Clippers,Yes,2,0,Delaware Blue Coats,Yes
+Agua Caliente Clippers,ACC,G League,2022,NA,NA,Western,2,Yes,NA,NA,NA,NA,1,0,South Bay Lakers,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA
+South Bay Lakers,SBL,G League,2022,NA,NA,Western,3,Yes,1,0,Santa Cruz Warriors,Yes,0,1,Agua Caliente Clippers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Birmingham Squadron,BIR,G League,2022,NA,NA,Western,4,Yes,0,1,Texas Legends,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2022,NA,NA,Western,5,Yes,1,0,Birmingham Squadron,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+Santa Cruz Warriors,SCW,G League,2022,NA,NA,Western,6,Yes,0,1,South Bay Lakers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2022,NA,NA,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Stockton Kings,STO,G League,2022,NA,NA,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2022,NA,NA,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2022,NA,NA,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2022,NA,NA,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2022,NA,NA,Western,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2022,NA,NA,Western,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2023,NA,NA,Eastern,1,Yes,NA,NA,NA,NA,1,0,Cleveland Charge,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA
+Delaware Blue Coats,DEL,G League,2023,NA,NA,Eastern,2,Yes,NA,NA,NA,NA,1,0,Capital City Go-Go,Yes,1,0,Long Island Nets,Yes,2,0,Rio Grande Valley Vipers,Yes
+Capital City Go-Go,CCG,G League,2023,NA,NA,Eastern,3,Yes,1,0,Fort Wayne Mad Ants,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Celtics,MNE,G League,2023,NA,NA,Eastern,4,Yes,0,1,Cleveland Charge,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Charge,CLC,G League,2023,NA,NA,Eastern,5,Yes,1,0,Maine Celtics,Yes,0,1,Long Island Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
+Fort Wayne Mad Ants,FWN,G League,2023,NA,NA,Eastern,6,Yes,0,1,Capital City Go-Go,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2023,NA,NA,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lakeland Magic,LAK,G League,2023,NA,NA,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Motor City Cruise,MCC,G League,2023,NA,NA,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2023,NA,NA,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+College Park Skyhawks,CPS,G League,2023,NA,NA,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2023,NA,NA,Eastern,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wisconsin Herd,WIS,G League,2023,NA,NA,Eastern,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Gold,GRG,G League,2023,NA,NA,Eastern,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2023,NA,NA,Eastern,15,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Stockton Kings,STO,G League,2023,NA,NA,Western,1,Yes,NA,NA,NA,NA,0,1,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2023,NA,NA,Western,2,Yes,NA,NA,NA,NA,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA
+South Bay Lakers,SBL,G League,2023,NA,NA,Western,3,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2023,NA,NA,Western,4,Yes,0,1,Sioux Falls Skyforce,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2023,NA,NA,Western,5,Yes,1,0,Salt Lake City Stars,Yes,1,0,Stockton Kings,Yes,0,1,Rio Grande Valley Vipers,No,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2023,NA,NA,Western,6,Yes,1,0,South Bay Lakers,Yes,1,0,Memphis Hustle,Yes,1,0,Sioux Falls Skyforce,Yes,0,2,Delaware Blue Coats,No
+Santa Cruz Warriors,SCW,G League,2023,NA,NA,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Mexico City Capitanes,MXC,G League,2023,NA,NA,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ontario Clippers,ONT,G League,2023,NA,NA,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2023,NA,NA,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Birmingham Squadron,BIR,G League,2023,NA,NA,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+G League Ignite,GLI,G League,2023,NA,NA,Western,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2023,NA,NA,Western,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2023,NA,NA,Western,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2023,NA,NA,Western,15,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Osceola Magic,OSC,G League,2024,NA,NA,Eastern,1,Yes,NA,NA,NA,NA,0,1,Long Island Nets,No,NA,NA,NA,NA,NA,NA,NA,NA
+Maine Celtics,MNE,G League,2024,NA,NA,Eastern,2,Yes,NA,NA,NA,NA,1,0,Delaware Blue Coats,Yes,1,0,Long Island Nets,Yes,1,2,Oklahoma City Blue,No
+Indiana Mad Ants,IND,G League,2024,NA,NA,Eastern,3,Yes,0,1,Delaware Blue Coats,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Capital City Go-Go,CCG,G League,2024,NA,NA,Eastern,4,Yes,0,1,Long Island Nets,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Long Island Nets,LIN,G League,2024,NA,NA,Eastern,5,Yes,1,0,Capital City Go-Go,Yes,1,0,Osceola Magic,Yes,0,1,Maine Celtics,No,NA,NA,NA,NA
+Delaware Blue Coats,DEL,G League,2024,NA,NA,Eastern,6,Yes,1,0,Indiana Mad Ants,Yes,0,1,Maine Celtics,No,NA,NA,NA,NA,NA,NA,NA,NA
+Wisconsin Herd,WIS,G League,2024,NA,NA,Eastern,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+College Park Skyhawks,CPS,G League,2024,NA,NA,Eastern,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Motor City Cruise,MCC,G League,2024,NA,NA,Eastern,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Birmingham Squadron,BIR,G League,2024,NA,NA,Eastern,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cleveland Charge,CLC,G League,2024,NA,NA,Eastern,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Greensboro Swarm,GBO,G League,2024,NA,NA,Eastern,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Windy City Bulls,WCB,G League,2024,NA,NA,Eastern,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Raptors 905,RAP,G League,2024,NA,NA,Eastern,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Westchester Knicks,WES,G League,2024,NA,NA,Eastern,15,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Grand Rapids Gold,GRG,G League,2024,NA,NA,Eastern,16,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Stockton Kings,STO,G League,2024,NA,NA,Western,1,Yes,NA,NA,NA,NA,1,0,Santa Cruz Warriors,Yes,0,1,Oklahoma City Blue,No,NA,NA,NA,NA
+Sioux Falls Skyforce,SXF,G League,2024,NA,NA,Western,2,Yes,NA,NA,NA,NA,0,1,Oklahoma City Blue,No,NA,NA,NA,NA,NA,NA,NA,NA
+Oklahoma City Blue,OKL,G League,2024,NA,NA,Western,3,Yes,1,0,Rio Grande Valley Vipers,Yes,1,0,Sioux Falls Skyforce,Yes,1,0,Stockton Kings,Yes,2,1,Maine Celtics,Yes
+Santa Cruz Warriors,SCW,G League,2024,NA,NA,Western,4,Yes,1,0,Salt Lake City Stars,Yes,0,1,Stockton Kings,No,NA,NA,NA,NA,NA,NA,NA,NA
+Salt Lake City Stars,SLC,G League,2024,NA,NA,Western,5,Yes,0,1,Santa Cruz Warriors,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rio Grande Valley Vipers,RGV,G League,2024,NA,NA,Western,6,Yes,0,1,Oklahoma City Blue,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Austin Spurs,AUS,G League,2024,NA,NA,Western,7,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Mexico City Capitanes,MXC,G League,2024,NA,NA,Western,8,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Texas Legends,TEX,G League,2024,NA,NA,Western,9,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rip City Remix,RIP,G League,2024,NA,NA,Western,10,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+South Bay Lakers,SBL,G League,2024,NA,NA,Western,11,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Memphis Hustle,MHU,G League,2024,NA,NA,Western,12,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ontario Clippers,ONT,G League,2024,NA,NA,Western,13,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Iowa Wolves,IWA,G League,2024,NA,NA,Western,14,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+G League Ignite,GLI,G League,2024,NA,NA,Western,15,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

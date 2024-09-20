@@ -339,3 +339,15 @@ Minnesota Lynx,MIN,40,19,21,0.475,15,12,28,WNBA,2023,Western,3,Yes
 Los Angeles Sparks,LAS,40,17,23,0.425,17,17,23,WNBA,2023,Western,4,No
 Seattle Storm,SEA,40,11,29,0.275,23,11,29,WNBA,2023,Western,5,No
 Phoenix Mercury,PHO,40,9,31,0.225,25,8,32,WNBA,2023,Western,6,No
+New York Liberty,NYL,40,32,8,0.8,0,33,7,WNBA,2024,Eastern,1,Yes
+Connecticut Sun,CON,40,28,12,0.7,4,31,9,WNBA,2024,Eastern,2,Yes
+Indiana Fever,IND,40,20,20,0.5,12,16,24,WNBA,2024,Eastern,3,Yes
+Atlanta Dream,ATL,40,15,25,0.375,17,15,25,WNBA,2024,Eastern,4,Yes
+Washington Mystics,WAS,40,14,26,0.35,18,15,25,WNBA,2024,Eastern,5,No
+Chicago Sky,CHI,40,13,27,0.325,19,12,28,WNBA,2024,Eastern,6,No
+Minnesota Lynx,MIN,40,30,10,0.75,0,30,10,WNBA,2024,Western,1,Yes
+Las Vegas Aces,LVA,40,27,13,0.675,3,29,11,WNBA,2024,Western,2,Yes
+Seattle Storm,SEA,40,25,15,0.625,5,27,13,WNBA,2024,Western,3,Yes
+Phoenix Mercury,PHO,40,19,21,0.475,11,15,25,WNBA,2024,Western,4,Yes
+Dallas Wings,DAL,40,9,31,0.225,21,9,31,WNBA,2024,Western,5,No
+Los Angeles Sparks,LAS,40,8,32,0.2,22,9,31,WNBA,2024,Western,6,No

@@ -1,8 +1,8 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/7/2024
-# Latest Update: 9/7/2024
+# Date Made: 9/12/2024
+# Latest Update: 9/12/2024
 
-# This file will contain scrape code for player total traditional stats throughout NBA history
+# This file will contain scrape code for player advanced stats throughout NBA history
 
 # Library and install necessary packages
 
@@ -19,7 +19,6 @@ player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database
 nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_PLAYOFFS_URLS.csv") %>%
   filter(URL != 'https://www.basketball-reference.com/teams/WSC/1948.html' & 
            URL != 'https://www.basketball-reference.com/teams/NYK/1956.html')
-# Lost in tiebreaker so no playoff stats but qualifies as playoff team, weird
 
 # Function to clean column names and ensure specific column types are consistent
 clean_colnames <- function(df) {
@@ -49,7 +48,7 @@ scrape_table <- function(url) {
       
       # Extract the table with ID #div_totals
       table <- webpage %>%
-        html_node("#div_playoffs_totals") %>%
+        html_node("#div_playoffs_advanced") %>%
         html_table()
       
       # Clean column names and ensure specific column types are consistent
@@ -127,7 +126,7 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
     }
     
     # Save progress after each batch
-    write_csv(bind_rows(results), file.path(player_fp,"NBA_PLAYER_PLAYOFF_TOTAL_partial.csv"))
+    write_csv(bind_rows(results), file.path(player_fp,"NBA_PLAYER_PLAYOFF_ADVANCED_partial.csv"))
     
     # Pause before the next batch
     Sys.sleep(120)  # Wait for 2 minutes before the next batch
@@ -144,41 +143,65 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 }
 
 # Scrape data in batches of 30 URLs
-nba_playoff_total <- scrape_data_in_batches(nba_urls)
+nba_playoff_advanced <- scrape_data_in_batches(nba_urls)
 
-# Filter out rows where Rk column is NA
-nba_playoff_total <- nba_playoff_total %>%
+# Filter out Rk and then drop unnecessary columns
+nba_playoff_advanced <- nba_playoff_advanced %>%
   filter(!is.na(Rk)) %>%
-  select(-Rk, -URL)
+  select(-Rk, -URL, -V18, -V23)
 
-# Load the NBA regular season total player data and league info
+# Load the NBA roster data and league info
 load(file.path(player_fp, "NBA_PLAYER_PLAYOFF_ROSTER.rda"))
 
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
-nba_playoff_total <- nba_playoff_total %>%
+nba_playoff_advanced <- nba_playoff_advanced %>%
   rename(`Team Abbr.` = Team) %>%
   left_join(nba_playoff_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
             by = c("Player", "Team Abbr.", "Season"))
 
+# Handling duplicate players that have played on the same team in the same season
+player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
+  rename(College = Colleges)
+
+nba_duplicates <- nba_playoff_advanced %>%
+  group_by(Player, `Team Abbr.`, Season) %>%
+  filter(n() > 1)
+
+nba_duplicates <- nba_duplicates %>%
+  left_join(player_index %>% select(`Player ID`,`Birth Date`, Player),
+            by = c("Player", "Player ID")) %>%
+  mutate(`Birth Date` = as.Date(`Birth Date`, format = "%B %d, %Y"),
+         Season_End_Year = as.numeric(str_sub(Season, 6, 9)),
+         Calculated_Age = Season_End_Year - year(as.Date(`Birth Date`, "%B %d, %Y")))
+
+nba_duplicates_filtered <- nba_duplicates %>%
+  filter(abs(Age - Calculated_Age) <= 1) %>%
+  distinct() %>%
+  select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
+
+nba_playoff_advanced <- nba_playoff_advanced %>%
+  anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
+  bind_rows(nba_duplicates_filtered)
+
 # Assigning Franchise IDs to teams
-nba_playoff_total <- nba_playoff_total %>%
+nba_playoff_advanced <- nba_playoff_advanced %>%
   left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
             by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
   distinct()
 
-# Rearrange columns for final data frame
-nba_playoff_total <- nba_playoff_total %>%
+# Arranging columns and dropping URL
+nba_playoff_advanced <- nba_playoff_advanced %>%
   select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
   arrange(`Team Name`,desc(Season), Player)
 
-# Save the final nba_playoff_total table to a RDA file
-save(nba_playoff_total,file = file.path(player_fp,"NBA_PLAYER_PLAYOFF_TOTAL.rda"))
+# Save the final nba_playoff_advanced table to a RDA file
+save(nba_playoff_advanced,file = file.path(player_fp,"NBA_PLAYER_PLAYOFF_ADVANCED.rda"))
 
 # Display message to confirm save
-print("nba_playoff_total table has been saved to NBA_PLAYER_PLAYOFF_TOTAL.rda")
+print("nba_playoff_advanced table has been saved to NBA_PLAYER_PLAYOFF_ADVANCED.rda")
 
 # Delete the partial RDA file
-file.remove(file.path(player_fp,"NBA_PLAYER_PLAYOFF_TOTAL_partial.csv"))
+file.remove(file.path(player_fp,"NBA_PLAYER_PLAYOFF_ADVANCED_partial.csv"))

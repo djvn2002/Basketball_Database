@@ -1,8 +1,8 @@
 # Author: David Vialpando-Nielsen
-# Date Made: 9/11/2024
-# Latest Update: 9/11/2024
+# Date Made: 9/21/2024
+# Latest Update: 9/21/2024
 
-# This file will contain scrape code for player stats based by 100 possessions
+# This file will contain scrape code for player stats based by shooting statistics
 
 # Library and install necessary packages
 
@@ -17,11 +17,12 @@ library(readr)
 library(rvest)
 library(progressr)
 
-# Directory for the saved CSV file
-player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/REGULAR SEASON/"
+# Directory of where the rda file will reside in
+player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/PLAYOFFS/"
 
 # Load the valid URLs from the CSV file
-nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_TEAM_URLS.csv")
+nba_urls <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/NBA URLS/NBA_PLAYOFFS_URLS.csv") %>%
+  filter(Season >= 1997)
 
 # Function to clean column names and ensure specific column types are consistent
 clean_colnames <- function(df) {
@@ -51,7 +52,7 @@ scrape_table_selenium <- function(remDr, url, max_retries = 3) {
       Sys.sleep(3)  # Wait for the page to load
       
       # Find the table element
-      webElem <- remDr$findElement(using = "css", "#div_per_poss")
+      webElem <- remDr$findElement(using = "css", "#div_playoffs_shooting")
       table_html <- webElem$getElementAttribute("outerHTML")[[1]]
       
       # Parse the HTML table using rvest
@@ -127,7 +128,7 @@ scrape_all_urls_selenium <- function(nba_urls, remDr, batch_size = 100, restart_
   }
   
   # Save the final result after scraping all URLs
-  write_csv(bind_rows(results), file.path(player_fp, "NBA_PLAYER_REG_PER_100_POSS_partial.csv"))
+  write_csv(bind_rows(results), file.path(player_fp, "NBA_PLAYER_PLAYOFF_SHOOTING_partial.csv"))
   
   return(results)
 }
@@ -144,7 +145,7 @@ handlers(global = TRUE)  # Enable global progress handlers
 start_time <- Sys.time()
 
 # Run the scraping function with progress bar and batch processing
-nba_reg_per_100_parallel <- with_progress({
+nba_playoff_shooting_parallel <- with_progress({
   scrape_all_urls_selenium(nba_urls, remDr)
 })
 
@@ -162,7 +163,7 @@ rs_driver_object$server$stop()
 
 convert_to_numeric <- function(df) {
   # Specify columns to keep as character
-  character_cols <- c("Player", "URL", "Team", "Season")
+  character_cols <- c("Var.2", "URL", "Team", "Season")
   
   # Convert all other columns to numeric, leaving the specified columns as character
   df <- df %>% 
@@ -172,19 +173,50 @@ convert_to_numeric <- function(df) {
 }
 
 # Cleaning up tables
-nba_reg_per_100_poss <- convert_to_numeric(nba_reg_per_100_parallel) %>%
-  filter(Rk != "Rk") %>%
+nba_playoff_shooting <- convert_to_numeric(nba_playoff_shooting_parallel) %>%
+  select(-Var.8, -Var.15, -Var.22, -Var.25, -Var.28, -Var.31)
+
+# Rename the columns and drop Rk
+nba_playoff_shooting <- nba_playoff_shooting %>%
+  rename(Rk = Var.1,
+         Player = Var.2,
+         Age = Var.3,
+         G = Var.4,
+         MP = Var.5,
+         `FG%` = Var.6,
+         `Avg. Distance` = Var.7,
+         `% of FGA by Distance: 2P` = X..of.FGA.by.Distance,
+         `% of FGA by Distance: 0-3ft` = X..of.FGA.by.Distance.1,
+         `% of FGA by Distance: 3-10ft` = X..of.FGA.by.Distance.2,
+         `% of FGA by Distance: 10-16ft` = X..of.FGA.by.Distance.3,
+         `% of FGA by Distance: 16ft-3P` = X..of.FGA.by.Distance.4,
+         `% of FGA by Distance: 3P` = X..of.FGA.by.Distance.5,
+         `FG% by Distance: 2P` = FG..by.Distance,
+         `FG% by Distance: 0-3ft` = FG..by.Distance.1,
+         `FG% by Distance: 3-10ft` = FG..by.Distance.2,
+         `FG% by Distance: 10-16ft` = FG..by.Distance.3,
+         `FG% by Distance: 16ft-3P` = FG..by.Distance.4,
+         `FG% by Distance: 3P` = FG..by.Distance.5,
+         `% of FG Ast'd: 2P` = X..of.FG.Ast.d,
+         `% of FG Ast'd: 3P` = X..of.FG.Ast.d.1,
+         `%FGA of Dunks` = Dunks,
+         `Made Dunk Attempts` = Dunks.1,
+         `%3PA Corner 3s` = Corner.3s,
+         `3P% Corner 3s` = Corner.3s.1,
+         `Heaves Attempted` = Heaves,
+         `Heaves Made` = Heaves.1) %>%
+  filter(!is.na(Rk)) %>%
   select(-Rk)
 
 # Load in player reg roster and league info for ids
-load(file.path(player_fp, "NBA_PLAYER_REG_ROSTER.rda"))
+load(file.path(player_fp, "NBA_PLAYER_PLAYOFF_ROSTER.rda"))
 
 league_info <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/LEAGUE/NBA_LEAGUE_INFO.csv")
 
 # Assigning Player IDs to players
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+nba_playoff_shooting <- nba_playoff_shooting %>%
   rename(`Team Abbr.` = Team) %>%
-  left_join(nba_reg_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
+  left_join(nba_playoff_roster %>% select(`Player ID`, Player, `Team Abbr.`, Season),
             by = c("Player", "Team Abbr.", "Season"),
             relationship = "many-to-many")
 
@@ -192,7 +224,7 @@ nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
 player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_ABA_PLAYER_INDEX.csv") %>%
   rename(College = Colleges)
 
-nba_duplicates <- nba_reg_per_100_poss %>%
+nba_duplicates <- nba_playoff_shooting %>%
   group_by(Player, `Team Abbr.`, Season) %>%
   filter(n() > 1)
 
@@ -208,30 +240,28 @@ nba_duplicates_filtered <- nba_duplicates %>%
   distinct() %>%
   select(-`Birth Date`, -Season_End_Year, -Calculated_Age)
 
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+nba_playoff_shooting <- nba_playoff_shooting %>%
   anti_join(nba_duplicates, by = c("Player", "Team Abbr.", "Season")) %>%
   bind_rows(nba_duplicates_filtered)
 
 # Assigning Franchise IDs to teams
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+nba_playoff_shooting <- nba_playoff_shooting %>%
   left_join(league_info %>% select(`Franchise ID`, Team, `Team Name`),
             by = c("Team Abbr." = "Team"), relationship = "many-to-many") %>%
   distinct()
 
 # Arranging columns and dropping URL for final data frame
-nba_reg_per_100_poss <- nba_reg_per_100_poss %>%
+nba_playoff_shooting <- nba_playoff_shooting %>%
   select(`Player ID`, Player,`Franchise ID`,`Team Abbr.`, `Team Name`, 
          Season, everything()) %>%
-  select(-URL, -`Var.28`) %>%
-  arrange(`Team Name`,desc(Season), Player) %>%
-  rename(`FG%` = FG.,`3P` = `X3P`,`3PA` = `X3PA`,`3P%` = `X3P.`,`2P` = `X2P`,
-         `2PA` = `X2PA`,`2P%` = `X2P.`,`FT%` = FT.)
+  select(-URL) %>%
+  arrange(`Team Name`,desc(Season), Player)
 
-# Save the final nba_reg_per_100_poss table to a RDA file
-save(nba_reg_per_100_poss,file = file.path(player_fp,"NBA_PLAYER_REG_PER_100_POSS.rda"))
+# Save the final nba_playoff_shooting table to a RDA file
+save(nba_playoff_shooting,file = file.path(player_fp,"NBA_PLAYER_PLAYOFF_SHOOTING.rda"))
 
 # Display message to confirm save
-print("nba_reg_per_100_poss table has been saved to NBA_PLAYER_REG_PER_100_POSS.rda")
+print("nba_playoff_shooting table has been saved to NBA_PLAYER_PLAYOFF_SHOOTING.rda")
 
 # Delete the partial RDA file
-file.remove(file.path(player_fp,"NBA_PLAYER_REG_PER_100_POSS_partial.csv"))
+file.remove(file.path(player_fp,"NBA_PLAYER_PLAYOFF_SHOOTING_partial.csv"))

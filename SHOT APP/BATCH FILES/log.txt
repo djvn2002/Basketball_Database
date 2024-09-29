@@ -23,7 +23,7 @@ Joining with `by = join_by(team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at  6:10:43.98 on Fri 09/27/2024 
+WNBA Shots Script completed at 21:34:15.40 on Sat 09/28/2024 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -48,7 +48,7 @@ Joining with `by = join_by(team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at  7:59:09.31 on Fri 09/27/2024 
+NBA Shots Script completed at 21:42:05.73 on Sat 09/28/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -62,7 +62,6 @@ Running MNCAA Shots Script
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
-There were 14 warnings (use warnings() to see them)
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
 Joining with `by = join_by(athlete_id)`
@@ -71,7 +70,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at  8:11:41.26 on Fri 09/27/2024 
+MNCAA Shots Script completed at 21:43:18.28 on Sat 09/28/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -85,19 +84,6 @@ Running WNCAA Shots Script
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
-Warning messages:
-1: In readRDS(con) :
-  URL 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/609614414/ed69d00c-fc06-45a6-8648-8d2347018a4c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240927T141522Z&X-Amz-Expires=300&X-Amz-Signature=0869d9e64f1e0ade76a77233f6745e906cebf8529bc685d83a66fa32f0dc4b5a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dplay_by_play_2021.rds&response-content-type=application%2Foctet-stream': Timeout of 60 seconds was reached
-2: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_pbp/play_by_play_2021.rds> 
-3: In readRDS(con) :
-  URL 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/609614414/d153b8de-142f-44cf-a7cd-3e5fb7d90a99?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240927T141622Z&X-Amz-Expires=300&X-Amz-Signature=940b10279ae8480118483d30ea6f21787d1fa51ccb7f744bae3bd4f340056517&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dplay_by_play_2022.rds&response-content-type=application%2Foctet-stream': Timeout of 60 seconds was reached
-4: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_pbp/play_by_play_2022.rds> 
-5: In readRDS(con) :
-  URL 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/609614414/6c1283f0-3cb2-4794-b271-8706dc444682?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240927T141722Z&X-Amz-Expires=300&X-Amz-Signature=13548ade0b31602a62a1aee89bd236d9130b151c2415c640a2d544879f59d891&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dplay_by_play_2023.rds&response-content-type=application%2Foctet-stream': Timeout of 60 seconds was reached
-6: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_pbp/play_by_play_2023.rds> 
-7: In readRDS(con) :
-  URL 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/609614414/00c745e3-bf02-402b-92da-41f0e008b45e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240927T141822Z&X-Amz-Expires=300&X-Amz-Signature=a3ba362060726a2c275123cd4c7328df8cd496bfd50dbd3008ba7d94cd01a1f4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dplay_by_play_2024.rds&response-content-type=application%2Foctet-stream': Timeout of 60 seconds was reached
-8: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_pbp/play_by_play_2024.rds> 
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
 Joining with `by = join_by(athlete_id)`
@@ -106,5 +92,5 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at  8:20:08.93 on Fri 09/27/2024 
-All scripts have completed successfully at  8:20:08.93 on Fri 09/27/2024 
+WNCAA Shots Script completed at 21:44:06.25 on Sat 09/28/2024 
+All scripts have completed successfully at 21:44:06.25 on Sat 09/28/2024 

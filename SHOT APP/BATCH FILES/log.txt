@@ -23,7 +23,7 @@ Joining with `by = join_by(team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 21:34:15.40 on Sat 09/28/2024 
+WNBA Shots Script completed at  6:01:13.88 on Sun 09/29/2024 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -48,7 +48,7 @@ Joining with `by = join_by(team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 21:42:05.73 on Sat 09/28/2024 
+NBA Shots Script completed at  6:09:08.79 on Sun 09/29/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -70,7 +70,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 21:43:18.28 on Sat 09/28/2024 
+MNCAA Shots Script completed at  6:10:25.57 on Sun 09/29/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -92,5 +92,5 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at 21:44:06.25 on Sat 09/28/2024 
-All scripts have completed successfully at 21:44:06.25 on Sat 09/28/2024 
+WNCAA Shots Script completed at  6:11:15.31 on Sun 09/29/2024 
+All scripts have completed successfully at  6:11:15.31 on Sun 09/29/2024 

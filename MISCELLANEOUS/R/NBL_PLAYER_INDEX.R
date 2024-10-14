@@ -241,5 +241,46 @@ duplicates <- nbl_player_index %>%
 nbl_player_index <- nbl_player_index %>%
   anti_join(duplicates)
 
+# Modify the position column in nbl_player_index using mutate
+nbl_player_index <- nbl_player_index %>%
+  mutate(Pos = case_when(
+    Pos == "Guard-Forward" ~ "G-F",
+    Pos == "Forward-Guard" ~ "F-G",
+    Pos == "Forward-Center" ~ "F-C",
+    Pos == "Center-Forward" ~ "C-F",
+    Pos == "Guard" ~ "G",
+    Pos == "Forward" ~ "F",
+    Pos == "Center" ~ "C",
+    TRUE ~ Pos  # Keep other positions as is
+  ))
+
+# Perform a left join on NBA ID
+merged_df <- merge(nbl_player_index, nba_index, by.x = "NBA ID", by.y = "Player ID", all.x = TRUE, suffixes = c("_nbl", "_nba"))
+
+# Use mutate and coalesce to only replace NA values in NBL with NBA data
+updated_nbl_player_index <- merged_df %>%
+  mutate(
+    Pos_nbl = coalesce(Pos_nbl, Pos_nba),
+    Ht_nbl = coalesce(Ht_nbl, Ht_nba),
+    Wt_nbl = coalesce(Wt_nbl, Wt_nba),
+    Birth_Date_nbl = coalesce(`Birth Date_nbl`, `Birth Date_nba`)
+  )
+
+# Drop the extra NBA columns if you don't need them anymore and rename columns for clarity
+nbl_player_index <- updated_nbl_player_index %>%
+  select(`NBL ID`, `NBA ID`, Player_nbl, From_nbl, To_nbl, Pos_nbl, Ht_nbl, Wt_nbl, Birth_Date_nbl) %>%
+  rename(
+    `NBL ID` = `NBL ID`,
+    `NBA ID` = `NBA ID`,
+    Player = Player_nbl,
+    From = From_nbl,
+    To = To_nbl,
+    Pos = Pos_nbl,
+    Ht = Ht_nbl,
+    Wt = Wt_nbl,
+    `Birth Date` = Birth_Date_nbl
+  ) %>%
+  arrange(`NBL ID`)
+
 # Write to a csv for NBL Player Index
-write_csv(nbl_player_index,"C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBL_PLAYER_INDEX.csv")            
+write_csv(nbl_player_index,"C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBL_PLAYER_INDEX.csv")

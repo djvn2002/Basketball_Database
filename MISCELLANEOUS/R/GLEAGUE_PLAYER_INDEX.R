@@ -26,17 +26,24 @@ clear_cache_and_cookies <- function(remDr) {
   remDr$executeScript("window.sessionStorage.clear();")
 }
 
-# Function to extract 'From' and 'To' years properly with improved logic
-extract_from_to <- function(seasons) {
-  clean_season <- gsub("[^0-9to-]", "", seasons)
+# Function to extract 'From' and 'To' years with improved logic, and handle player names with hyphens
+extract_from_to <- function(seasons, player_name) {
+  # Remove the player's name from the season string to avoid confusion with hyphens or other characters
+  clean_season <- str_replace_all(seasons, fixed(player_name), "")
+  clean_season <- gsub("[^0-9to-]", "", clean_season)  # Keep only relevant characters
+  
   from <- to <- NA
+  
+  # Handle cases with "to" (e.g., "2010-11 to 2016-17")
   if (str_count(clean_season, "-") > 2 || grepl("\\bto\\b", clean_season, ignore.case = FALSE)) {
     years <- str_extract_all(clean_season, "\\d{4}")[[1]]
     if (length(years) >= 2) {
       from <- as.numeric(years[1]) + 1
       to <- as.numeric(years[length(years)]) + 1
     }
-  } else if (grepl("-", clean_season)) {
+  }
+  # Handle cases with two years (e.g., "2010-11")
+  else if (grepl("-", clean_season)) {
     years <- str_extract_all(clean_season, "\\d{4}")[[1]]
     if (length(years) == 2) {
       from <- as.numeric(years[1]) + 1
@@ -45,13 +52,16 @@ extract_from_to <- function(seasons) {
       from <- as.numeric(years[1]) + 1
       to <- from
     }
-  } else {
+  }
+  # Handle single-year cases (e.g., "2024")
+  else {
     single_year <- as.numeric(clean_season)
     if (!is.na(single_year)) {
       from <- single_year + 1
       to <- from
     }
   }
+  
   return(c(from, to))
 }
 
@@ -449,7 +459,10 @@ gleague_nba <- player_data %>%
          `Birth Date` = ifelse(Player == "Elfrid Payton", "February 22, 1994", `Birth Date`),
          `Birth Date` = ifelse(Player == "Jeremy Richardson", "March 1, 1984", `Birth Date`),
          `Birth Date` = ifelse(Player == "Gabe Vincent", "June 14, 1996", `Birth Date`),
-         `Birth Date` = ifelse(Player == "Greg Whittington", "February 7, 1993", `Birth Date`))
+         `Birth Date` = ifelse(Player == "Greg Whittington", "February 7, 1993", `Birth Date`),
+         NBA = ifelse(Player == "Sheldon Mac", "yes", NBA),
+         From = ifelse(Player == "Sheldon Mac", 2017, From),
+         Pos = ifelse(Player == "Sheldon Mac", "G", From))
 
 
 # IMPORTANT!! This portion of code is specifically made for separating the player data
@@ -563,5 +576,5 @@ gleague_dupes <- gleague_player_index %>%
   group_by(`NBA ID`) %>%
   filter(n() > 1 & !is.na(`NBA ID`))
 
-# Write to a csv for NBL Player Index
+# Write to a csv for G League Player Index
 write_csv(gleague_player_index,"C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/GLEAGUE_PLAYER_INDEX.csv")

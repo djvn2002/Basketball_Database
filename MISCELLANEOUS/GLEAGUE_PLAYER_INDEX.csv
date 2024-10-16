@@ -3004,7 +3004,7 @@ GLEAGUE ID,NBA ID,Player,From,To,Pos,Ht,Wt,Birth Date,Active
 4003,NA,Shannon Bogues,2020,2022,NA,6-3,195,"February 20, 1997",No
 4004,5911,Shaq Buchanan,2020,2022,G,6-3,190,"January 30, 1997",No
 4005,NA,Shawn Occeus,2020,2024,NA,NA,NA,NA,Yes
-4006,NA,Sheldon Mac,2020,2022,NA,6-6,201,"December 21, 1992",No
+4006,5422,Sheldon Mac,2017,2022,NA,6-6,201,"December 21, 1992",No
 4007,NA,Shizz Alston Jr.,2020,2020,NA,6-4,175,"September 21, 1996",No
 4008,NA,Simisola Shittu,2020,2023,F,6-10,240,"November 7, 1999",No
 4009,NA,Skyler Flatten,2020,2020,NA,6-6,210,NA,No
@@ -3744,10 +3744,10 @@ GLEAGUE ID,NBA ID,Player,From,To,Pos,Ht,Wt,Birth Date,Active
 4743,6156,Trey Jemison,2024,2024,C,6-11,260,"November 28, 1999",Yes
 4744,NA,Tyler Smith,2024,2024,F,6-11,224,"November 2, 2004",Yes
 4745,NA,Vance Jackson Jr.,2024,2024,F,6-9,238,"August 20, 1997",Yes
-4746,NA,Walter Ellis,2024,2024,G,6-5,200,"November 29, 1999",Yes
-4747,NA,Will Richardson,2024,2024,G,6-5,180,"September 3, 1999",Yes
-4748,NA,Xavier Pinson,2024,2024,G,6-3,174,"June 23, 2000",Yes
-4749,NA,Yauhen Massalski,2024,2024,F,6-9,240,"March 25, 1999",Yes
-4750,NA,Yor Anei,2024,2024,C,6-10,228,"December 7, 1999",Yes
-4751,NA,Yuri Collins,2024,2024,G,6-0,190,"March 7, 2001",Yes
-4752,NA,Vincent Valerio-Bodon,NA,NA,F,6-9,200,"May 2, 2001",NA
+4746,NA,Vincent Valerio-Bodon,2024,2024,F,6-9,200,"May 2, 2001",Yes
+4747,NA,Walter Ellis,2024,2024,G,6-5,200,"November 29, 1999",Yes
+4748,NA,Will Richardson,2024,2024,G,6-5,180,"September 3, 1999",Yes
+4749,NA,Xavier Pinson,2024,2024,G,6-3,174,"June 23, 2000",Yes
+4750,NA,Yauhen Massalski,2024,2024,F,6-9,240,"March 25, 1999",Yes
+4751,NA,Yor Anei,2024,2024,C,6-10,228,"December 7, 1999",Yes
+4752,NA,Yuri Collins,2024,2024,G,6-0,190,"March 7, 2001",Yes

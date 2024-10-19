@@ -319,3 +319,11 @@ final_wnba_player_index <- bind_rows(updated_wnba_data, new_players) %>%
 
 # Write the final WNBA Player Index back to a CSV
 write_csv(final_wnba_player_index, "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/WNBA_PLAYER_INDEX.csv")
+
+# Delete the partial CSV file after successful processing
+if (file.exists(partial_csv_file)) {
+  file.remove(partial_csv_file)
+  message("Partial CSV file has been deleted.")
+} else {
+  message("No partial CSV file found to delete.")
+}

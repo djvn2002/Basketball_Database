@@ -578,3 +578,12 @@ gleague_dupes <- gleague_player_index %>%
 
 # Write to a csv for G League Player Index
 write_csv(gleague_player_index,"C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/GLEAGUE_PLAYER_INDEX.csv")
+
+# Delete partial file for reruns
+# Delete the partial CSV file after successful processing
+if (file.exists(partial_csv_file)) {
+  file.remove(partial_csv_file)
+  message("Partial CSV file has been deleted.")
+} else {
+  message("No partial CSV file found to delete.")
+}

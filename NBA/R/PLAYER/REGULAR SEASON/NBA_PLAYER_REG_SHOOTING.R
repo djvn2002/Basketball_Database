@@ -91,7 +91,7 @@ restart_selenium <- function() {
   remDr$close()
   rs_driver_object$server$stop()
   Sys.sleep(3)  # Allow the system to close processes
-  rs_driver_object <<- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port(), chromever = "128.0.6613.119")
+  rs_driver_object <<- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
   remDr <<- rs_driver_object$client
 }
 
@@ -135,7 +135,7 @@ scrape_all_urls_selenium <- function(nba_urls, remDr, batch_size = 100, restart_
 
 # RSelenium setup with headless browsing enabled
 eCaps <- list(chromeOptions = list(args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
-rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port(), chromever = "128.0.6613.119")
+rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
 remDr <- rs_driver_object$client
 
 # Start progress handling

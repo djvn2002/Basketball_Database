@@ -19,7 +19,7 @@ handlers(global = TRUE)
 
 # RSelenium Setup
 eCaps <- list(chromeOptions = list(args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
-rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port(), chromever = "128.0.6613.119")
+rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
 remDr <- rs_driver_object$client
 
 # Function to Clear Cache and Cookies
@@ -267,7 +267,7 @@ for (letter in letters_to_scrape) {
   Sys.sleep(10)
   
   # Restart RSelenium session after reset
-  rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port(), chromever = "128.0.6613.119")
+  rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
   remDr <- rs_driver_object$client
 }
 

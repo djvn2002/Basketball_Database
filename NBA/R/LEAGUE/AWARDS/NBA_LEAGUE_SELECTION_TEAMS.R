@@ -83,7 +83,7 @@ scrape_team_rosters_with_captions <- function(remDr, url, element_prefix, max_te
 
 # Set up RSelenium with headless browsing and increased timeout
 eCaps <- list(chromeOptions = list(args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
-rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port(), chromever = "128.0.6613.119")
+rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
 remDr <- rs_driver_object$client
 
 # Set script, page load, and implicit timeouts to 5 minutes (300,000 milliseconds)

@@ -94,7 +94,7 @@ scrape_all_star_rosters <- function(remDr, url, max_retries = 3) {
 
 # Set up RSelenium with headless browsing
 eCaps <- list(chromeOptions = list(args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
-rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port(), chromever = "128.0.6613.119")
+rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
 remDr <- rs_driver_object$client
 
 # Loop through all the URLs in `league_urls` and scrape All-Star rosters

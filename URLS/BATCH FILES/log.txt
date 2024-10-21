@@ -26,7 +26,7 @@ dbl (9): G, W, L, W/L%, GB, SRS, Season, Division Rank, Conference Rank
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-NBA URL Scraping Script completed at  0:00:34.04 on Sat 10/19/2024 
+NBA URL Scraping Script completed at  0:00:58.52 on Mon 10/21/2024 
 Running ABA URL Scraping Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -54,7 +54,7 @@ dbl (8): G, W, L, W/L%, GB, SRS, Season, Division Rank
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-ABA URL Scraping Script completed at  0:00:40.12 on Sat 10/19/2024 
+ABA URL Scraping Script completed at  0:01:01.65 on Mon 10/21/2024 
 Running WNBA URL Scraping Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -82,5 +82,5 @@ dbl (9): G, W, L, W/L%, GB, PW, PL, Season, Conference Rank
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-WNBA URL Scraping Script completed at  0:00:54.40 on Sat 10/19/2024 
-All scripts have completed successfully at  0:00:54.40 on Sat 10/19/2024 
+WNBA URL Scraping Script completed at  0:01:21.53 on Mon 10/21/2024 
+All scripts have completed successfully at  0:01:21.53 on Mon 10/21/2024 

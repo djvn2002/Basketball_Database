@@ -2,41 +2,69 @@
 # Date Made: 9/28/2024
 # Latest Update: 9/28/2024
 
-# This an update file to this RDA file: WNBA_Shots.RDA
+# This is an update file to the WNBA_Shots.RDA file
 
 library(tidyverse)
 library(wehoop)
 
-# Data Collection of WNBA Data from most recent season
-wnba_shots <- load_wnba_pbp(seasons = most_recent_wnba_season()) %>%
-  filter(shooting_play == T,
-         coordinate_x <= 47.5 & coordinate_x >= -47.5,
-         coordinate_y <= 25 & coordinate_y >= -25) %>%
-  mutate(
-    team_name = if_else(team_id == home_team_id, home_team_name, away_team_name),
-    team_mascot = if_else(team_id == home_team_id, home_team_mascot, away_team_mascot),
-    team_name = paste0(team_name, " ", team_mascot),
-    team_abbreviation = if_else(team_id == home_team_id, home_team_abbrev, away_team_abbrev),
-    team_id = case_when(
-      team_name == "Detroit Shock" ~ 7,
-      team_name == "Tulsa Shock" ~ 10,
-      team_name == "San Antonio Silver Stars" ~ 12,
-      team_name == "San Antonio Stars" ~ 15,
-      TRUE ~ team_id
-    ),
-    home_team_id = case_when(
-      home_team_abbrev == "DET" &team_name == "Detroit Shock" ~ 7,
-      home_team_abbrev == "TUL" &team_name == "Tulsa Shock" ~ 10,
-      home_team_abbrev == "SAS" & team_name == "San Antonio Silver Stars" ~ 12,
-      home_team_abbrev == "SA" & team_name == "San Antonio Stars" ~ 15,
-      TRUE ~ home_team_id
-    ),
-    away_team_id = case_when(
-      away_team_abbrev == "DET" &team_name == "Detroit Shock" ~ 7,
-      away_team_abbrev == "TUL" &team_name == "Tulsa Shock" ~ 10,
-      away_team_abbrev == "SAS" & team_name == "San Antonio Silver Stars" ~ 12,
-      away_team_abbrev == "SA" & team_name == "San Antonio Stars" ~ 15,
-      TRUE ~ away_team_id))
+# Function to log messages
+log_message <- function(message) {
+  write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt", append = TRUE)
+}
+
+# Attempt to load WNBA shot data for the most recent season
+wnba_shots <- tryCatch({
+  suppressWarnings({
+  # Load the most recent season's data
+  load_wnba_pbp(seasons = most_recent_wnba_season()) %>%
+    filter(shooting_play == TRUE,
+           coordinate_x <= 47.5 & coordinate_x >= -47.5,
+           coordinate_y <= 25 & coordinate_y >= -25)
+  })
+}, error = function(e) {
+  # Log the error message if the data is unavailable (e.g., 404 Not Found)
+  log_message("Shot data for the most recent WNBA season was not available, skipping this season.")
+  return(NULL)  # Return NULL to continue processing without stopping
+})
+
+# Check if data was successfully loaded or not
+if (!is.null(wnba_shots)) {
+  # If data was loaded, process it as usual
+  wnba_shots <- wnba_shots %>%
+    mutate(
+      team_name = if_else(team_id == home_team_id, home_team_name, away_team_name),
+      team_mascot = if_else(team_id == home_team_id, home_team_mascot, away_team_mascot),
+      team_name = paste0(team_name, " ", team_mascot),
+      team_abbreviation = if_else(team_id == home_team_id, home_team_abbrev, away_team_abbrev),
+      team_id = case_when(
+        team_name == "Detroit Shock" ~ 7,
+        team_name == "Tulsa Shock" ~ 10,
+        team_name == "San Antonio Silver Stars" ~ 12,
+        team_name == "San Antonio Stars" ~ 15,
+        TRUE ~ team_id
+      ),
+      home_team_id = case_when(
+        home_team_abbrev == "DET" & team_name == "Detroit Shock" ~ 7,
+        home_team_abbrev == "TUL" & team_name == "Tulsa Shock" ~ 10,
+        home_team_abbrev == "SAS" & team_name == "San Antonio Silver Stars" ~ 12,
+        home_team_abbrev == "SA" & team_name == "San Antonio Stars" ~ 15,
+        TRUE ~ home_team_id
+      ),
+      away_team_id = case_when(
+        away_team_abbrev == "DET" & team_name == "Detroit Shock" ~ 7,
+        away_team_abbrev == "TUL" & team_name == "Tulsa Shock" ~ 10,
+        away_team_abbrev == "SAS" & team_name == "San Antonio Silver Stars" ~ 12,
+        away_team_abbrev == "SA" & team_name == "San Antonio Stars" ~ 15,
+        TRUE ~ away_team_id
+      )
+    )
+  
+  # Log that the data was successfully processed
+  log_message("Shot data successfully processed for the most recent WNBA season.")
+} else {
+  # Log that shot data was skipped
+  log_message("No shot data processed for the most recent WNBA season.")
+}
 
 # Creating Shot Type for wnba_shots to track attempts
 type_shots <- wnba_shots %>%

@@ -1,18 +1,29 @@
+# Author: David Vialpando-Nielsen
+# Date Made: 9/28/2024
+# Latest Update: 9/28/2024
+
+# This is an update file to the NBA_Shots.RDA file
+
+library(tidyverse)
+library(hoopR)
+
 # Function to log messages
 log_message <- function(message) {
   write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt", append = TRUE)
 }
 
-# Attempt to load NBA shot data for the most recent season
+# Attempt to load NBA shot data for the most recent season, suppress warnings
 nba_shots <- tryCatch({
-  # Load the most recent season's data
-  load_nba_pbp(seasons = most_recent_nba_season()) %>%
-    filter(shooting_play == TRUE,
-           coordinate_x <= 47.5 & coordinate_x >= -47.5,
-           coordinate_y <= 25 & coordinate_y >= -25)
+  suppressWarnings({
+    # Load the most recent season's data
+    load_nba_pbp(seasons = most_recent_nba_season()) %>%
+      filter(shooting_play == TRUE,
+             coordinate_x <= 47.5 & coordinate_x >= -47.5,
+             coordinate_y <= 25 & coordinate_y >= -25)
+  })
 }, error = function(e) {
   # Log the error message if the data is unavailable (e.g., 404 Not Found)
-  log_message("Shot data for the most recent season was not available, skipping this season.")
+  log_message("Shot data for the most recent NBA season was not available, skipping this season.")
   return(NULL)  # Return NULL to continue processing without stopping
 })
 
@@ -48,10 +59,10 @@ if (!is.null(nba_shots)) {
     )
   
   # Log that the data was successfully processed
-  log_message("Shot data successfully processed for the most recent season.")
+  log_message("Shot data successfully processed for the most recent NBA season.")
 } else {
   # Log that shot data was skipped
-  log_message("No shot data processed for the most recent season.")
+  log_message("No shot data processed for the most recent NBA season.")
 }
 
 # Creating Shot Type for nba_shots to track attempts

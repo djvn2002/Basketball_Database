@@ -1,41 +1,58 @@
-# Author: David Vialpando-Nielsen
-# Date Made: 9/28/2024
-# Latest Update: 9/28/2024
+# Function to log messages
+log_message <- function(message) {
+  write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt", append = TRUE)
+}
 
-# This an update file to this RDA file: WNBA_Shots.RDA
+# Attempt to load NBA shot data for the most recent season
+nba_shots <- tryCatch({
+  # Load the most recent season's data
+  load_nba_pbp(seasons = most_recent_nba_season()) %>%
+    filter(shooting_play == TRUE,
+           coordinate_x <= 47.5 & coordinate_x >= -47.5,
+           coordinate_y <= 25 & coordinate_y >= -25)
+}, error = function(e) {
+  # Log the error message if the data is unavailable (e.g., 404 Not Found)
+  log_message("Shot data for the most recent season was not available, skipping this season.")
+  return(NULL)  # Return NULL to continue processing without stopping
+})
 
-library(tidyverse)
-library(hoopR)
-
-# Data Collection of WNBA Data from most recent season
-nba_shots <- load_nba_pbp(seasons = most_recent_nba_season()) %>%
-  filter(shooting_play == T,
-         coordinate_x <= 47.5 & coordinate_x >= -47.5,
-         coordinate_y <= 25 & coordinate_y >= -25) %>%
-  mutate(
-    team_name = if_else(team_id == home_team_id, home_team_name, away_team_name),
-    team_mascot = if_else(team_id == home_team_id, home_team_mascot, away_team_mascot),
-    team_name = paste0(team_name, " ", team_mascot),
-    team_abbreviation = if_else(team_id == home_team_id, home_team_abbrev, away_team_abbrev),
-    team_id = case_when(
-      team_name == "Charlotte Bobcats" ~ 33,
-      TRUE ~ team_id
-    ),
-    home_team_id = case_when(
-      home_team_abbrev == "CHA" & team_name == "Charlotte Bobcats" ~ 33,
-      TRUE ~ home_team_id
-    ),
-    away_team_id = case_when(
-      away_team_abbrev == "CHA" & team_name == "Charlotte Bobcats" ~ 33,
-      TRUE ~ away_team_id
-    ),
-    home_team_abbrev = case_when(
-      team_name == "Charlotte Bobcats" ~ "CHB",
-      TRUE ~ home_team_abbrev
-    ),
-    away_team_abbrev = case_when(
-      team_name == "Charlotte Bobcats" ~ "CHB",
-      TRUE ~ away_team_abbrev))
+# Check if data was successfully loaded or not
+if (!is.null(nba_shots)) {
+  # If data was loaded, process it as usual
+  nba_shots <- nba_shots %>%
+    mutate(
+      team_name = if_else(team_id == home_team_id, home_team_name, away_team_name),
+      team_mascot = if_else(team_id == home_team_id, home_team_mascot, away_team_mascot),
+      team_name = paste0(team_name, " ", team_mascot),
+      team_abbreviation = if_else(team_id == home_team_id, home_team_abbrev, away_team_abbrev),
+      team_id = case_when(
+        team_name == "Charlotte Bobcats" ~ 33,
+        TRUE ~ team_id
+      ),
+      home_team_id = case_when(
+        home_team_abbrev == "CHA" & team_name == "Charlotte Bobcats" ~ 33,
+        TRUE ~ home_team_id
+      ),
+      away_team_id = case_when(
+        away_team_abbrev == "CHA" & team_name == "Charlotte Bobcats" ~ 33,
+        TRUE ~ away_team_id
+      ),
+      home_team_abbrev = case_when(
+        team_name == "Charlotte Bobcats" ~ "CHB",
+        TRUE ~ home_team_abbrev
+      ),
+      away_team_abbrev = case_when(
+        team_name == "Charlotte Bobcats" ~ "CHB",
+        TRUE ~ away_team_abbrev
+      )
+    )
+  
+  # Log that the data was successfully processed
+  log_message("Shot data successfully processed for the most recent season.")
+} else {
+  # Log that shot data was skipped
+  log_message("No shot data processed for the most recent season.")
+}
 
 # Creating Shot Type for nba_shots to track attempts
 type_shots <- nba_shots %>%

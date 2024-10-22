@@ -23,32 +23,16 @@ Joining with `by = join_by(team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 11:48:46.05 on Mon 09/30/2024 
+WNBA Shots Script completed at 16:48:51.94 on Tue 10/22/2024 
 Running NBA Shots Script 
-── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
-override using the `.groups` argument.
-`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
-override using the `.groups` argument.
-Joining with `by = join_by(team_name)`
-`summarise()` has grouped output by 'season'. You can override using the
-`.groups` argument.
-Joining with `by = join_by(team_id)`
-`summarise()` has grouped output by 'season'. You can override using the
-`.groups` argument.
-Joining with `by = join_by(athlete_id)`
-Joining with `by = join_by(athlete_id)`
-Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 11:57:09.76 on Mon 09/30/2024 
+Error in file(file, ifelse(append, "a", "w")) : 
+  cannot open the connection
+Calls: tryCatch ... tryCatchOne -> <Anonymous> -> log_message -> write -> cat -> file
+In addition: Warning message:
+In file(file, ifelse(append, "a", "w")) :
+  cannot open file 'C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt': Permission denied
+Execution halted
+NBA Shots Script failed or data was skipped at 16:48:52.26 on Tue 10/22/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -70,7 +54,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 11:58:27.43 on Mon 09/30/2024 
+MNCAA Shots Script completed at 16:50:01.19 on Tue 10/22/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -82,15 +66,31 @@ Running WNCAA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Joining with `by = join_by(team_display_name, team_abbreviation)`
-Joining with `by = join_by(team_display_name, team_abbreviation)`
-`summarise()` has grouped output by 'season'. You can override using the
-`.groups` argument.
-Joining with `by = join_by(athlete_id)`
-`summarise()` has grouped output by 'season'. You can override using the
-`.groups` argument.
-Joining with `by = join_by(season, team_id)`
-Joining with `by = join_by(athlete_id)`
-Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at 11:59:18.56 on Mon 09/30/2024 
-All scripts have completed successfully at 11:59:18.56 on Mon 09/30/2024 
+Error in `mutate()`:
+ℹ In argument: `team_abbreviation = if_else(...)`.
+Caused by error:
+! object 'team_id' not found
+Backtrace:
+     ▆
+  1. ├─... %>% ...
+  2. ├─dplyr::filter(., team_abbreviation %in% women_valid_teams_abbrev)
+  3. ├─dplyr::mutate(...)
+  4. ├─dplyr:::mutate.data.frame(...)
+  5. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  6. │   ├─base::withCallingHandlers(...)
+  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  8. │     └─mask$eval_all_mutate(quo)
+  9. │       └─dplyr (local) eval()
+ 10. ├─dplyr::if_else(...)
+ 11. │ └─dplyr:::check_logical(condition)
+ 12. │   └─rlang::is_logical(x)
+ 13. └─base::.handleSimpleError(...)
+ 14.   └─dplyr (local) h(simpleError(msg, call))
+ 15.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Warning messages:
+1: In readRDS(con) :
+  cannot open URL 'https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_player_boxscores/player_box_2025.rds': HTTP status was '404 Not Found'
+2: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_player_boxscores/player_box_2025.rds> 
+Execution halted
+WNCAA Shots Script failed or data was skipped at 16:50:04.41 on Tue 10/22/2024 
+All scripts have completed successfully at 16:50:04.41 on Tue 10/22/2024 

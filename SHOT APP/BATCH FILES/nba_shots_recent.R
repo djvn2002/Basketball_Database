@@ -7,9 +7,9 @@
 library(tidyverse)
 library(hoopR)
 
-# Function to log messages
+# Function to log messages (test by writing to a different directory)
 log_message <- function(message) {
-  write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt", append = TRUE)
+  write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/Documents/log.txt", append = TRUE)
 }
 
 # Attempt to load NBA shot data for the most recent season, suppress warnings

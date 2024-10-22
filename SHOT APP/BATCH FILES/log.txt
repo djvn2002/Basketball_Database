@@ -10,14 +10,20 @@ Running WNBA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Error in file(file, ifelse(append, "a", "w")) : 
-  cannot open the connection
-Calls: log_message -> write -> cat -> file
-In addition: Warning message:
-In file(file, ifelse(append, "a", "w")) :
-  cannot open file 'C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt': Permission denied
-Execution halted
-WNBA Shots Script failed or data was skipped at 17:00:50.73 on Tue 10/22/2024 
+`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
+override using the `.groups` argument.
+`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
+override using the `.groups` argument.
+Joining with `by = join_by(team_name)`
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(team_id)`
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(team_id)`
+WNBA Shots Script completed at 17:07:00.06 on Tue 10/22/2024 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -29,14 +35,11 @@ Running NBA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Error in file(file, ifelse(append, "a", "w")) : 
-  cannot open the connection
-Calls: tryCatch ... tryCatchOne -> <Anonymous> -> log_message -> write -> cat -> file
-In addition: Warning message:
-In file(file, ifelse(append, "a", "w")) :
-  cannot open file 'C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/SHOT APP/BATCH FILES/log.txt': Permission denied
+Error in UseMethod("group_by") : 
+  no applicable method for 'group_by' applied to an object of class "NULL"
+Calls: %>% -> distinct -> group_by
 Execution halted
-NBA Shots Script failed or data was skipped at 17:00:52.80 on Tue 10/22/2024 
+NBA Shots Script failed or data was skipped at 17:07:04.24 on Tue 10/22/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -58,7 +61,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 17:02:10.01 on Tue 10/22/2024 
+MNCAA Shots Script completed at 17:08:22.18 on Tue 10/22/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -96,5 +99,5 @@ Warning messages:
   cannot open URL 'https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_player_boxscores/player_box_2025.rds': HTTP status was '404 Not Found'
 2: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_player_boxscores/player_box_2025.rds> 
 Execution halted
-WNCAA Shots Script failed or data was skipped at 17:02:13.26 on Tue 10/22/2024 
-All scripts have completed successfully at 17:02:13.26 on Tue 10/22/2024 
+WNCAA Shots Script failed or data was skipped at 17:08:25.64 on Tue 10/22/2024 
+All scripts have completed successfully at 17:08:25.64 on Tue 10/22/2024 

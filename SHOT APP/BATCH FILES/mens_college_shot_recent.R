@@ -23,55 +23,113 @@ men_valid_teams_abbrev <- mncaa_conf %>%
   distinct() %>%
   pull()
 
-# Loading data to establish ids to teams and players
-men_identity <- load_mbb_player_box(seasons = most_recent_mbb_season()) %>%
-  mutate(team_abbreviation = if_else(team_id == 275 & team_abbreviation == "WISC",
-                                     "WIS", team_abbreviation),
-         team_abbreviation = if_else(team_id == 152 & team_abbreviation == "NCSU", 
-                                     "NCST", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2429 & team_abbreviation == "CLT", 
-                                     "CHAR", team_abbreviation),
-         team_abbreviation = if_else(team_id == 292 & team_abbreviation == "UTRGV", 
-                                     "RGV", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2241 & team_abbreviation == "WEBB", 
-                                     "GWEB", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2506 & team_abbreviation == "PRES", 
-                                     "PRE", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2272 & team_abbreviation == "HP", 
-                                     "HPU", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2097 & team_abbreviation == "CAM", 
-                                     "CAMP", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2113 & team_abbreviation == "CENT", 
-                                     "CENTLA", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2571 & team_abbreviation == "SDSU", 
-                                     "SDST", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2597 & team_abbreviation == "SFBK", 
-                                     "SFNY", team_abbreviation),
-         team_display_name = if_else(team_id == 45 & season <= 2022, 
-                                     "George Washington Revolutionaries", 
-                                     team_display_name),
-         team_display_name = if_else(team_id == 113 & season <= 2022, 
-                                     "Massachusetts Minutemen", 
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2110,
-                                     "Central Arkansas Sugar Bears",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2113, 
-                                     "Centenary (LA) Gentlemen",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2900, 
-                                     "St. Thomas - Minnesota Tommies",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 399, 
-                                     "Albany Great Danes",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2597, 
-                                     "St. Francis Brooklyn Terriers",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 193, 
-                                     "Miami (OH) RedHawks",
-                                     team_display_name)) %>%
-  filter(team_abbreviation %in% men_valid_teams_abbrev)
+# Function to load men's college basketball player identity data with a fallback season
+load_mbb_identity_with_fallback <- function(first_season, fallback_season) {
+  men_identity <- NULL
+  
+  # Try to load the most recent season
+  men_identity <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load men's college basketball player identity data for season:", first_season))
+      load_mbb_player_box(seasons = first_season)
+    })
+  }, error = function(e) {
+    message(paste("Men's college basketball player identity data not available for season:", first_season))
+    return(NULL)
+  })
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(men_identity) || nrow(men_identity) == 0) {
+    message(paste("Trying to load men's college basketball player identity data for fallback season:", fallback_season))
+    men_identity <- tryCatch({
+      suppressWarnings({
+        load_mbb_player_box(seasons = fallback_season)
+      })
+    }, error = function(e) {
+      message(paste("Men's college basketball player identity data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  return(men_identity)
+}
+
+# Function to load men's college basketball play-by-play data with a fallback season
+load_mbb_pbp_with_fallback <- function(first_season, fallback_season) {
+  mens_college <- NULL
+  
+  # Try to load the most recent season
+  mens_college <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load men's college basketball play-by-play data for season:", first_season))
+      load_mbb_pbp(seasons = first_season) %>%
+        filter(shooting_play == TRUE) %>%
+        mutate(shot_type = ifelse(score_value == 1, "FTA", ifelse(score_value == 2, "2PA", "3PA")),
+               coordinate_x = ifelse(shot_type == "FTA", -28.00, coordinate_x),
+               coordinate_y = ifelse(shot_type == "FTA", 0, coordinate_y),
+               season_type = if_else(season_type == 3, "Postseason", "Regular Season"))
+    })
+  }, error = function(e) {
+    message(paste("Men's college basketball play-by-play data not available for season:", first_season))
+    return(NULL)
+  })
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(mens_college) || nrow(mens_college) == 0) {
+    message(paste("Trying to load men's college basketball play-by-play data for fallback season:", fallback_season))
+    mens_college <- tryCatch({
+      suppressWarnings({
+        load_mbb_pbp(seasons = fallback_season) %>%
+          filter(shooting_play == TRUE) %>%
+          mutate(shot_type = ifelse(score_value == 1, "FTA", ifelse(score_value == 2, "2PA", "3PA")),
+                 coordinate_x = ifelse(shot_type == "FTA", -28.00, coordinate_x),
+                 coordinate_y = ifelse(shot_type == "FTA", 0, coordinate_y),
+                 season_type = if_else(season_type == 3, "Postseason", "Regular Season"))
+      })
+    }, error = function(e) {
+      message(paste("Men's college basketball play-by-play data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  return(mens_college)
+}
+
+# Define the most recent season and a fallback season
+first_season <- most_recent_mbb_season()
+fallback_season <- first_season - 1  # Example fallback season: the previous year
+
+# Load men's college basketball player identity data with fallback mechanism
+men_identity <- load_mbb_identity_with_fallback(first_season, fallback_season)
+
+# Apply the mutations outside the function
+if (!is.null(men_identity)) {
+  men_identity <- men_identity %>%
+    mutate(team_abbreviation = if_else(team_id == 275 & team_abbreviation == "WISC", "WIS", team_abbreviation),
+           team_abbreviation = if_else(team_id == 152 & team_abbreviation == "NCSU", "NCST", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2429 & team_abbreviation == "CLT", "CHAR", team_abbreviation),
+           team_abbreviation = if_else(team_id == 292 & team_abbreviation == "UTRGV", "RGV", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2241 & team_abbreviation == "WEBB", "GWEB", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2506 & team_abbreviation == "PRES", "PRE", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2272 & team_abbreviation == "HP", "HPU", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2097 & team_abbreviation == "CAM", "CAMP", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2113 & team_abbreviation == "CENT", "CENTLA", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2571 & team_abbreviation == "SDSU", "SDST", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2597 & team_abbreviation == "SFBK", "SFNY", team_abbreviation),
+           team_display_name = if_else(team_id == 45 & season <= 2022, "George Washington Revolutionaries", team_display_name),
+           team_display_name = if_else(team_id == 113 & season <= 2022, "Massachusetts Minutemen", team_display_name),
+           team_display_name = if_else(team_id == 2110, "Central Arkansas Sugar Bears", team_display_name),
+           team_display_name = if_else(team_id == 2113, "Centenary (LA) Gentlemen", team_display_name),
+           team_display_name = if_else(team_id == 2900, "St. Thomas - Minnesota Tommies", team_display_name),
+           team_display_name = if_else(team_id == 399, "Albany Great Danes", team_display_name),
+           team_display_name = if_else(team_id == 2597, "St. Francis Brooklyn Terriers", team_display_name),
+           team_display_name = if_else(team_id == 193, "Miami (OH) RedHawks", team_display_name)) %>%
+    filter(team_abbreviation %in% men_valid_teams_abbrev)
+  
+  message("Player identity data successfully processed for men's college basketball.")
+} else {
+  message("No player identity data processed for either the most recent or fallback season.")
+}
 
 # Identification for teams
 men_teams <- men_identity %>%
@@ -130,17 +188,19 @@ players_duplicates <- men_players %>%
 men_players <- men_players %>%
   distinct(athlete_id, .keep_all = TRUE)
 
-# Load in college from 2014 and onwards
-mens_college <- load_mbb_pbp(seasons = most_recent_mbb_season()) %>%
-  filter(shooting_play == T) %>%
-  mutate(shot_type = ifelse(score_value == 1, "FTA",
-                            ifelse(score_value == 2, "2PA", "3PA")),
-         coordinate_x = ifelse(shot_type == "FTA", -28.00, coordinate_x),
-         coordinate_y = ifelse(shot_type == "FTA", 0, coordinate_y),
-         season_type = if_else(season_type == 3, "Postseason", "Regular Season")) %>%
-  inner_join(men_teams %>% select(team_id, season), by = c("team_id", "season")) %>%
-  select(id, season, season_type, team_id, athlete_id_1, coordinate_x, coordinate_y, shooting_play,
-         scoring_play, score_value, shot_type)
+# Load men's college basketball play-by-play data with fallback mechanism
+mens_college <- load_mbb_pbp_with_fallback(first_season, fallback_season)
+
+# Check if play-by-play data was successfully loaded or not
+if (!is.null(mens_college)) {
+  mens_college <- mens_college %>%
+    inner_join(men_teams %>% select(team_id, season), by = c("team_id", "season")) %>%
+    select(id, season, season_type, team_id, athlete_id_1, coordinate_x, coordinate_y, shooting_play, scoring_play, score_value, shot_type)
+  
+  message("Play-by-play data successfully processed for men's college basketball.")
+} else {
+  message("No play-by-play data processed for either the most recent or fallback season.")
+}
 
 # Player Aggregation
 player_agg_mens <- mens_college %>%
@@ -201,7 +261,8 @@ if (!dir.exists(dir_path)) {
 load(file.path(dir_path,"MNCAA_Shots.rda"))
 
 mncaa_shots <- mncaa_shots %>%
-  filter(season != most_recent_mbb_season())
+  filter(season != most_recent_mbb_season() &
+           season != max(mncaa_shots$season))
 
 mncaa_shots <- bind_rows(mncaa_shots,recent_mncaa_shots) %>%
   arrange(desc(season))

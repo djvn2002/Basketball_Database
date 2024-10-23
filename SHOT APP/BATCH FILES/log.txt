@@ -10,6 +10,8 @@ Running WNBA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Trying to load WNBA shot data for season: 2024
+Shot data successfully processed for the most recent WNBA season.
 `summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
 override using the `.groups` argument.
 `summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
@@ -18,12 +20,14 @@ Joining with `by = join_by(team_name)`
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
 Joining with `by = join_by(team_id)`
+Trying to load WNBA player data for season: 2024
+Player data successfully processed for the most recent WNBA season.
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 17:07:00.06 on Tue 10/22/2024 
+WNBA Shots Script completed at 18:21:35.02 on Tue 10/22/2024 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -35,11 +39,25 @@ Running NBA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Error in UseMethod("group_by") : 
-  no applicable method for 'group_by' applied to an object of class "NULL"
-Calls: %>% -> distinct -> group_by
-Execution halted
-NBA Shots Script failed or data was skipped at 17:07:04.24 on Tue 10/22/2024 
+Data not available for season: 2025 . Retrying with season: 2024
+Shot data successfully processed.
+`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
+override using the `.groups` argument.
+`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
+override using the `.groups` argument.
+Joining with `by = join_by(team_name)`
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(team_id)`
+Trying to load player data for season: 2025
+Trying to load player data for fallback season: 2024
+Player data successfully processed.
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(team_id)`
+NBA Shots Script completed at 18:29:39.35 on Tue 10/22/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -51,8 +69,12 @@ Running MNCAA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Trying to load men's college basketball player identity data for season: 2024
+Player identity data successfully processed for men's college basketball.
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
+Trying to load men's college basketball play-by-play data for season: 2024
+Play-by-play data successfully processed for men's college basketball.
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
 Joining with `by = join_by(athlete_id)`
@@ -61,7 +83,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 17:08:22.18 on Tue 10/22/2024 
+MNCAA Shots Script completed at 18:31:10.74 on Tue 10/22/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -73,31 +95,22 @@ Running WNCAA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Error in `mutate()`:
-ℹ In argument: `team_abbreviation = if_else(...)`.
-Caused by error:
-! object 'team_id' not found
-Backtrace:
-     ▆
-  1. ├─... %>% ...
-  2. ├─dplyr::filter(., team_abbreviation %in% women_valid_teams_abbrev)
-  3. ├─dplyr::mutate(...)
-  4. ├─dplyr:::mutate.data.frame(...)
-  5. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
-  6. │   ├─base::withCallingHandlers(...)
-  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
-  8. │     └─mask$eval_all_mutate(quo)
-  9. │       └─dplyr (local) eval()
- 10. ├─dplyr::if_else(...)
- 11. │ └─dplyr:::check_logical(condition)
- 12. │   └─rlang::is_logical(x)
- 13. └─base::.handleSimpleError(...)
- 14.   └─dplyr (local) h(simpleError(msg, call))
- 15.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
-Warning messages:
-1: In readRDS(con) :
-  cannot open URL 'https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_player_boxscores/player_box_2025.rds': HTTP status was '404 Not Found'
-2: Failed to readRDS from <https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_womens_college_basketball_player_boxscores/player_box_2025.rds> 
-Execution halted
-WNCAA Shots Script failed or data was skipped at 17:08:25.64 on Tue 10/22/2024 
-All scripts have completed successfully at 17:08:25.64 on Tue 10/22/2024 
+Trying to load women's college basketball player identity data for season: 2025
+Trying to load women's college basketball player identity data for fallback season: 2024
+Player identity data successfully processed for women's college basketball.
+Joining with `by = join_by(team_display_name, team_abbreviation)`
+Joining with `by = join_by(team_display_name, team_abbreviation)`
+Trying to load women's college basketball play-by-play data for season: 2025
+Women's college basketball play-by-play data not available for season: 2025
+Trying to load women's college basketball play-by-play data for fallback season: 2024
+Play-by-play data successfully processed for women's college basketball.
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(athlete_id)`
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(season, team_id)`
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(season, team_id)`
+WNCAA Shots Script completed at 18:32:03.31 on Tue 10/22/2024 
+All scripts have completed successfully at 18:32:03.31 on Tue 10/22/2024 

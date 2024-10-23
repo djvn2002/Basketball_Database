@@ -23,48 +23,114 @@ women_valid_teams_abbrev <- wncaa_conf %>%
   distinct() %>%
   pull()
 
-women_identity <- load_wbb_player_box(seasons = most_recent_wbb_season()) %>%
-  mutate(team_abbreviation = if_else(team_id == 275 & team_abbreviation == "WISC",
-                                     "WIS", team_abbreviation),
-         team_abbreviation = if_else(team_id == 152 & team_abbreviation == "NCSU", 
-                                     "NCST", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2429 & team_abbreviation == "CLT", 
-                                     "CHAR", team_abbreviation),
-         team_abbreviation = if_else(team_id == 292 & team_abbreviation == "UTRGV", 
-                                     "RGV", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2241 & team_abbreviation == "WEBB", 
-                                     "GWEB", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2908 & team_abbreviation == "SCUP",
-                                     "UPST", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2097 & team_abbreviation == "CAM", 
-                                     "CAMP", team_abbreviation),
-         team_abbreviation = if_else(team_id == 2113 & team_abbreviation == "CENT", 
-                                     "CENTLA", team_abbreviation),
-         team_abbreviation = if_else(team_id == 311 & team_abbreviation == "MAINE", 
-                                     "ME", team_abbreviation),
-         team_display_name = if_else(team_id == 45,"George Washington Revolutionaries", 
-                                     team_display_name),
-         team_display_name = if_else(team_id == 113,"Massachusetts Minutewomen", 
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2572,"Southern Miss Lady Eagles", 
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2193, "East Tennessee State Buccaneers",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2110, "Central Arkansas Sugar Bears",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2113, "Centenary (LA) Ladies",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2900, "St. Thomas - Minnesota Tommies",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 399, "Albany Great Danes",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2379, "Maryland-Eastern Shore Lady Hawks",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 2169, "Delaware State Lady Hornets",
-                                     team_display_name),
-         team_display_name = if_else(team_id == 193, "Miami (OH) RedHawks",
-                                     team_display_name)) %>%
-  filter(team_abbreviation %in% women_valid_teams_abbrev)
+# Function to load women's college basketball player identity data with a fallback season
+load_wbb_identity_with_fallback <- function(first_season, fallback_season) {
+  women_identity <- NULL
+  
+  # Try to load the most recent season
+  women_identity <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load women's college basketball player identity data for season:", first_season))
+      load_wbb_player_box(seasons = first_season)
+    })
+  }, error = function(e) {
+    message(paste("Women's college basketball player identity data not available for season:", first_season))
+    return(NULL)
+  })
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(women_identity) || nrow(women_identity) == 0) {
+    message(paste("Trying to load women's college basketball player identity data for fallback season:", fallback_season))
+    women_identity <- tryCatch({
+      suppressWarnings({
+        load_wbb_player_box(seasons = fallback_season)
+      })
+    }, error = function(e) {
+      message(paste("Women's college basketball player identity data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  return(women_identity)
+}
+
+# Function to load women's college basketball play-by-play data with a fallback season
+load_wbb_pbp_with_fallback <- function(first_season, fallback_season) {
+  womens_college <- NULL
+  
+  # Try to load the most recent season
+  womens_college <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load women's college basketball play-by-play data for season:", first_season))
+      load_wbb_pbp(seasons = first_season) %>%
+        filter(shooting_play == TRUE) %>%
+        mutate(shot_type = ifelse(score_value == 1, "FTA", ifelse(score_value == 2, "2PA", "3PA")),
+               coordinate_x = ifelse(shot_type == "FTA", -28.00, coordinate_x),
+               coordinate_y = ifelse(shot_type == "FTA", 0, coordinate_y),
+               season_type = if_else(season_type == 3, "Postseason", "Regular Season"))
+    })
+  }, error = function(e) {
+    message(paste("Women's college basketball play-by-play data not available for season:", first_season))
+    return(NULL)
+  })
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(womens_college) || nrow(womens_college) == 0) {
+    message(paste("Trying to load women's college basketball play-by-play data for fallback season:", fallback_season))
+    womens_college <- tryCatch({
+      suppressWarnings({
+        load_wbb_pbp(seasons = fallback_season) %>%
+          filter(shooting_play == TRUE) %>%
+          mutate(shot_type = ifelse(score_value == 1, "FTA", ifelse(score_value == 2, "2PA", "3PA")),
+                 coordinate_x = ifelse(shot_type == "FTA", -28.00, coordinate_x),
+                 coordinate_y = ifelse(shot_type == "FTA", 0, coordinate_y),
+                 season_type = if_else(season_type == 3, "Postseason", "Regular Season"))
+      })
+    }, error = function(e) {
+      message(paste("Women's college basketball play-by-play data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  return(womens_college)
+}
+
+# Define the most recent season and a fallback season
+first_season <- most_recent_wbb_season()
+fallback_season <- first_season - 1  # Example fallback season: the previous year
+
+# Load women's college basketball player identity data with fallback mechanism
+women_identity <- load_wbb_identity_with_fallback(first_season, fallback_season)
+
+# Apply the mutations outside the function
+if (!is.null(women_identity)) {
+  women_identity <- women_identity %>%
+    mutate(team_abbreviation = if_else(team_id == 275 & team_abbreviation == "WISC", "WIS", team_abbreviation),
+           team_abbreviation = if_else(team_id == 152 & team_abbreviation == "NCSU", "NCST", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2429 & team_abbreviation == "CLT", "CHAR", team_abbreviation),
+           team_abbreviation = if_else(team_id == 292 & team_abbreviation == "UTRGV", "RGV", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2241 & team_abbreviation == "WEBB", "GWEB", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2908 & team_abbreviation == "SCUP", "UPST", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2097 & team_abbreviation == "CAM", "CAMP", team_abbreviation),
+           team_abbreviation = if_else(team_id == 2113 & team_abbreviation == "CENT", "CENTLA", team_abbreviation),
+           team_abbreviation = if_else(team_id == 311 & team_abbreviation == "MAINE", "ME", team_abbreviation),
+           team_display_name = if_else(team_id == 45, "George Washington Revolutionaries", team_display_name),
+           team_display_name = if_else(team_id == 113, "Massachusetts Minutewomen", team_display_name),
+           team_display_name = if_else(team_id == 2572, "Southern Miss Lady Eagles", team_display_name),
+           team_display_name = if_else(team_id == 2193, "East Tennessee State Buccaneers", team_display_name),
+           team_display_name = if_else(team_id == 2110, "Central Arkansas Sugar Bears", team_display_name),
+           team_display_name = if_else(team_id == 2113, "Centenary (LA) Ladies", team_display_name),
+           team_display_name = if_else(team_id == 2900, "St. Thomas - Minnesota Tommies", team_display_name),
+           team_display_name = if_else(team_id == 399, "Albany Great Danes", team_display_name),
+           team_display_name = if_else(team_id == 2379, "Maryland-Eastern Shore Lady Hawks", team_display_name),
+           team_display_name = if_else(team_id == 2169, "Delaware State Lady Hornets", team_display_name),
+           team_display_name = if_else(team_id == 193, "Miami (OH) RedHawks", team_display_name)) %>%
+    filter(team_abbreviation %in% women_valid_teams_abbrev)
+  
+  message("Player identity data successfully processed for women's college basketball.")
+} else {
+  message("No player identity data processed for either the most recent or fallback season.")
+}
 
 # Identification for teams
 women_teams <- women_identity %>%
@@ -123,17 +189,19 @@ players_duplicates <- women_players %>%
 women_players <- women_players %>%
   distinct(athlete_id, .keep_all = TRUE)
 
-# Load in college from 2014 and onwards
-womens_college <- load_wbb_pbp(seasons = most_recent_wbb_season()) %>%
-  filter(shooting_play == T) %>%
-  mutate(shot_type = ifelse(score_value == 1, "FTA",
-                            ifelse(score_value == 2, "2PA", "3PA")),
-         coordinate_x = ifelse(shot_type == "FTA", -28.00, coordinate_x),
-         coordinate_y = ifelse(shot_type == "FTA", 0, coordinate_y),
-         season_type = if_else(season_type == 3, "Postseason", "Regular Season")) %>%
-  inner_join(women_teams %>% select(team_id, season), by = c("team_id", "season")) %>%
-  select(id, season, season_type,team_id, athlete_id_1, coordinate_x, coordinate_y, shooting_play,
-         scoring_play, score_value, shot_type)
+# Load women's college basketball play-by-play data with fallback mechanism
+womens_college <- load_wbb_pbp_with_fallback(first_season, fallback_season)
+
+# Check if play-by-play data was successfully loaded or not
+if (!is.null(womens_college)) {
+  womens_college <- womens_college %>%
+    inner_join(women_teams %>% select(team_id, season), by = c("team_id", "season")) %>%
+    select(id, season, season_type, team_id, athlete_id_1, coordinate_x, coordinate_y, shooting_play, scoring_play, score_value, shot_type)
+  
+  message("Play-by-play data successfully processed for women's college basketball.")
+} else {
+  message("No play-by-play data processed for either the most recent or fallback season.")
+}
 
 # Player Aggregation
 player_agg_womens <- womens_college %>%
@@ -194,7 +262,8 @@ if (!dir.exists(dir_path)) {
 load(file.path(dir_path,"WNCAA_Shots.rda"))
 
 wncaa_shots <- wncaa_shots %>%
-  filter(season != most_recent_wbb_season())
+  filter(season != most_recent_wbb_season() &
+           season != max(wncaa_shots$season))
 
 wncaa_shots <- bind_rows(wncaa_shots,recent_wncaa_shots) %>%
   arrange(desc(season))

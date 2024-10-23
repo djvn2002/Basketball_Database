@@ -7,25 +7,83 @@
 library(tidyverse)
 library(hoopR)
 
-# Function to log messages (test by writing to a different directory)
-log_message <- function(message) {
-  write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/Documents/log.txt", append = TRUE)
+# Function to try loading data and fall back if the first attempt fails
+load_shot_data_with_fallback <- function(first_season, fallback_season) {
+  # Try to load the most recent season
+  nba_shots <- tryCatch({
+    suppressWarnings({
+      load_nba_pbp(seasons = first_season) %>%
+        filter(shooting_play == TRUE,
+               coordinate_x <= 47.5 & coordinate_x >= -47.5,
+               coordinate_y <= 25 & coordinate_y >= -25)
+    })
+  }, error = function(e) {
+    # If an error occurs (e.g., 404 Not Found), try the fallback season
+    message(paste("Data not available for season:", first_season, ". Retrying with season:", fallback_season))
+    
+    tryCatch({
+      suppressWarnings({
+        load_nba_pbp(seasons = fallback_season) %>%
+          filter(shooting_play == TRUE,
+                 coordinate_x <= 47.5 & coordinate_x >= -47.5,
+                 coordinate_y <= 25 & coordinate_y >= -25)
+      })
+    }, error = function(e) {
+      # If the fallback season also fails, return NULL
+      message("Data not available for fallback season:", fallback_season)
+      return(NULL)
+    })
+  })
+  
+  return(nba_shots)
 }
 
-# Attempt to load NBA shot data for the most recent season, suppress warnings
-nba_shots <- tryCatch({
-  suppressWarnings({
-    # Load the most recent season's data
-    load_nba_pbp(seasons = most_recent_nba_season()) %>%
-      filter(shooting_play == TRUE,
-             coordinate_x <= 47.5 & coordinate_x >= -47.5,
-             coordinate_y <= 25 & coordinate_y >= -25)
+# Function to try loading player data and fall back if the first attempt fails
+load_player_data_with_fallback <- function(first_season, fallback_season) {
+  players <- NULL
+  
+  # Try to load the most recent season
+  players <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load player data for season:", first_season))
+      hoopR::load_nba_player_box(seasons = first_season)
+    })
+  }, error = function(e) {
+    message(paste("Player data not available for season:", first_season))
+    return(NULL)  # Return NULL if error occurs
   })
-}, error = function(e) {
-  # Log the error message if the data is unavailable (e.g., 404 Not Found)
-  log_message("Shot data for the most recent NBA season was not available, skipping this season.")
-  return(NULL)  # Return NULL to continue processing without stopping
-})
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(players) || nrow(players) == 0) {
+    message(paste("Trying to load player data for fallback season:", fallback_season))
+    players <- tryCatch({
+      suppressWarnings({
+        hoopR::load_nba_player_box(seasons = fallback_season)
+      })
+    }, error = function(e) {
+      message(paste("Player data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  # Check if the result is either NULL or has 0 rows
+  if (is.null(players)) {
+    message("Player data is NULL after both attempts.")
+    return(NULL)
+  } else if (nrow(players) == 0) {
+    message("Player data has 0 rows after both attempts.")
+    return(NULL)
+  } else {
+    return(players)
+  }
+}
+
+# Define the most recent season and a fallback season
+first_season <- most_recent_nba_season()
+fallback_season <- first_season - 1  # Example fallback season: the previous year
+
+# Load NBA shot data with fallback mechanism
+nba_shots <- load_shot_data_with_fallback(first_season, fallback_season)
 
 # Check if data was successfully loaded or not
 if (!is.null(nba_shots)) {
@@ -58,11 +116,9 @@ if (!is.null(nba_shots)) {
       )
     )
   
-  # Log that the data was successfully processed
-  log_message("Shot data successfully processed for the most recent NBA season.")
+  message("Shot data successfully processed.")
 } else {
-  # Log that shot data was skipped
-  log_message("No shot data processed for the most recent NBA season.")
+  message("No shot data was processed for either the first or fallback season.")
 }
 
 # Creating Shot Type for nba_shots to track attempts
@@ -254,12 +310,20 @@ nba_season_team <- nba_shots %>%
             shots_attempted = sum(`2PA` + `3PA`, na.rm = TRUE)) %>%
   right_join(team_identity)
 
-# Player Season Aggregation
-players <- hoopR::load_nba_player_box(seasons = most_recent_nba_season())
+# Load player data with fallback mechanism
+players <- load_player_data_with_fallback(first_season, fallback_season)
 
-players <- players %>%
-  select(athlete_id, athlete_display_name) %>%
-  distinct()
+# Check if player data was successfully loaded or not
+if (!is.null(players)) {
+  # If player data was loaded, process it as usual
+  players <- players %>%
+    select(athlete_id, athlete_display_name) %>%
+    distinct()
+  
+  message("Player data successfully processed.")
+} else {
+  message("No player data was processed for either the first or fallback season.")
+}
 
 # Check for duplicates in the players dataset
 players_duplicates <- players %>%
@@ -315,7 +379,8 @@ if (!dir.exists(dir_path)) {
 load(file.path(dir_path,"NBA_Shots.rda"))
 
 nba_shots <- nba_shots %>%
-  filter(season != most_recent_nba_season())
+  filter(season != most_recent_nba_season() &
+           season != max(nba_shots$season))
 
 nba_shots <- bind_rows(nba_shots,recent_nba_shots) %>%
   arrange(desc(season))

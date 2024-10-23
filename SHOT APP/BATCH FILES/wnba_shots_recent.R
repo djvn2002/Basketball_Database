@@ -7,27 +7,82 @@
 library(tidyverse)
 library(wehoop)
 
-# Function to log messages (test by writing to a different directory)
-log_message <- function(message) {
-  write(paste(Sys.time(), "-", message), file = "C:/Users/djvia/Documents/log.txt", append = TRUE)
+# Function to load WNBA shot data with a fallback season
+load_wnba_shots_with_fallback <- function(first_season, fallback_season) {
+  wnba_shots <- NULL
+  
+  # Try to load the most recent season
+  wnba_shots <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load WNBA shot data for season:", first_season))
+      load_wnba_pbp(seasons = first_season) %>%
+        filter(shooting_play == TRUE,
+               coordinate_x <= 47.5 & coordinate_x >= -47.5,
+               coordinate_y <= 25 & coordinate_y >= -25)
+    })
+  }, error = function(e) {
+    message(paste("WNBA shot data not available for season:", first_season))
+    return(NULL)
+  })
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(wnba_shots) || nrow(wnba_shots) == 0) {
+    message(paste("Trying to load WNBA shot data for fallback season:", fallback_season))
+    wnba_shots <- tryCatch({
+      suppressWarnings({
+        load_wnba_pbp(seasons = fallback_season) %>%
+          filter(shooting_play == TRUE,
+                 coordinate_x <= 47.5 & coordinate_x >= -47.5,
+                 coordinate_y <= 25 & coordinate_y >= -25)
+      })
+    }, error = function(e) {
+      message(paste("WNBA shot data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  return(wnba_shots)
 }
 
-# Attempt to load WNBA shot data for the most recent season
-wnba_shots <- tryCatch({
-  suppressWarnings({
-  # Load the most recent season's data
-  load_wnba_pbp(seasons = most_recent_wnba_season()) %>%
-    filter(shooting_play == TRUE,
-           coordinate_x <= 47.5 & coordinate_x >= -47.5,
-           coordinate_y <= 25 & coordinate_y >= -25)
+# Function to load WNBA player data with a fallback season
+load_wnba_player_data_with_fallback <- function(first_season, fallback_season) {
+  players <- NULL
+  
+  # Try to load player data for the most recent season
+  players <- tryCatch({
+    suppressWarnings({
+      message(paste("Trying to load WNBA player data for season:", first_season))
+      wehoop::load_wnba_player_box(seasons = first_season)
+    })
+  }, error = function(e) {
+    message(paste("WNBA player data not available for season:", first_season))
+    return(NULL)
   })
-}, error = function(e) {
-  # Log the error message if the data is unavailable (e.g., 404 Not Found)
-  log_message("Shot data for the most recent WNBA season was not available, skipping this season.")
-  return(NULL)  # Return NULL to continue processing without stopping
-})
+  
+  # If the first season is NULL or has 0 rows, try the fallback season
+  if (is.null(players) || nrow(players) == 0) {
+    message(paste("Trying to load WNBA player data for fallback season:", fallback_season))
+    players <- tryCatch({
+      suppressWarnings({
+        wehoop::load_wnba_player_box(seasons = fallback_season)
+      })
+    }, error = function(e) {
+      message(paste("WNBA player data not available for fallback season:", fallback_season))
+      return(NULL)
+    })
+  }
+  
+  return(players)
+}
 
-# Check if data was successfully loaded or not
+# Define the most recent season and a fallback season
+first_season <- most_recent_wnba_season()
+fallback_season <- first_season - 1  # Example fallback season: the previous year
+
+# Load WNBA shot data with fallback mechanism
+wnba_shots <- load_wnba_shots_with_fallback(first_season, fallback_season)
+
+# Check if shot data was successfully loaded or not
 if (!is.null(wnba_shots)) {
   # If data was loaded, process it as usual
   wnba_shots <- wnba_shots %>%
@@ -59,18 +114,15 @@ if (!is.null(wnba_shots)) {
       )
     )
   
-  # Log that the data was successfully processed
-  log_message("Shot data successfully processed for the most recent WNBA season.")
+  message("Shot data successfully processed for the most recent WNBA season.")
 } else {
-  # Log that shot data was skipped
-  log_message("No shot data processed for the most recent WNBA season.")
+  message("No shot data processed for either the most recent or fallback WNBA season.")
 }
 
 # Creating Shot Type for wnba_shots to track attempts
 type_shots <- wnba_shots %>%
   group_by(type_text,score_value) %>%
   distinct(type_text)
-
 
 # Separate shots into home and away teams
 home_wnba_shots <- wnba_shots %>%
@@ -262,13 +314,20 @@ wnba_season_team <- wnba_shots %>%
             shots_attempted = sum(`2PA` + `3PA`, na.rm = TRUE)) %>%
   right_join(team_identity)
 
-# Moving onto aggregating scoring based by player and season
+# Load WNBA player data with fallback mechanism
+players <- load_wnba_player_data_with_fallback(first_season, fallback_season)
 
-players <- wehoop::load_wnba_player_box(most_recent_wnba_season())
-
-players <- players %>%
-  select(athlete_id, athlete_display_name) %>%
-  distinct()
+# Check if player data was successfully loaded or not
+if (!is.null(players)) {
+  # If player data was loaded, process it as usual
+  players <- players %>%
+    select(athlete_id, athlete_display_name) %>%
+    distinct()
+  
+  message("Player data successfully processed for the most recent WNBA season.")
+} else {
+  message("No player data processed for either the most recent or fallback WNBA season.")
+}
 
 # Check for duplicates in the players dataset
 players_duplicates <- players %>%
@@ -324,7 +383,8 @@ if (!dir.exists(dir_path)) {
 load(file.path(dir_path,"WNBA_Shots.rda"))
 
 wnba_shots <- wnba_shots %>%
-  filter(season != most_recent_wnba_season())
+  filter(season != most_recent_wnba_season() &
+           season != max(wnba_shots$season))
 
 wnba_shots <- bind_rows(wnba_shots,recent_wnba_shots) %>%
   arrange(desc(season))

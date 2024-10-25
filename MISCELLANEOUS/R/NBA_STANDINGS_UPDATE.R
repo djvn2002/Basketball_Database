@@ -190,13 +190,13 @@ scrape_data_in_batches <- function(nba_urls, batch_size = 30) {
 # Scrape data in batches of 30 URLs
 nba_standings <- scrape_data_in_batches(nba_urls)
 
-# Create a new column 'Made Playoffs'
 nba_standings <- nba_standings %>%
   mutate(`Made Playoffs` = ifelse(str_detect(`Team Name`, "\\*"), "Yes", "No"),
-         `Team Name` = str_replace(`Team Name`, "\\*", ""),
+         `Team Name` = str_replace_all(`Team Name`, "\\s*\\(\\d+\\)", ""),
+         `Team Name` = str_trim(`Team Name`),  # Ensure no extra spaces are left
          League = "NBA") %>%
   filter(!str_detect(`Team Name`, "Division")) %>%
-  select(-`PS/G`,-`PA/G`, -URL)
+  select(-`PS/G`, -`PA/G`, -URL)
 
 # Ensure numeric conversion for W, L, W/L%, GB, and SRS
 nba_standings <- nba_standings %>%

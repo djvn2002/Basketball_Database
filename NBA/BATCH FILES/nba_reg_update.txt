@@ -17,7 +17,7 @@ The following object is masked from 'package:readr':
 
     guess_encoding
 
-Rows: 1664 Columns: 5
+Rows: 1694 Columns: 5
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: ","
 chr (4): Team Name, Team Abbr., League, URL
@@ -25,6 +25,24 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-09-13 22:28:26
-Rate limited. Retrying in 30.8478284440935 seconds... (Attempt 1 of 5 )
+Processing batch 1 of 1 at 2024-10-21 00:05:22
+Rate limited. Retrying in 35.3094413713552 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 33.9993816066999 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 41.763429462444 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 34.5251903333701 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 41.5871897677425 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/POR/2025.html
+Rate limited. Retrying in 41.509638276184 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 41.0185598465614 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 42.8050790447742 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 33.4821252082475 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 37.3366093751974 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/SAC/2025.html
+Rate limited. Retrying in 44.7995085152797 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 34.3099815084133 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 36.0355585953221 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 33.0426687723957 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 40.894733578898 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/SAS/2025.html
+Rate limited. Retrying in 43.5911751352251 seconds... (Attempt 1 of 5 )
 ^C

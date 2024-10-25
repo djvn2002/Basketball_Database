@@ -249,7 +249,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 348,Danny Ainge,1997,2000,"March 17, 1959",BYU,No,No
 349,Darrell Walker,1997,2000,"March 9, 1961",Arkansas,No,No
 350,Eddie Jordan,1997,2010,"January 29, 1955",Rutgers University,No,No
-351,Gregg Popovich,1997,2025,"January 28, 1949",Air Force,Yes,Yes
+351,Gregg Popovich,1997,2025,"January 28, 1949",Air Force,Yes,No
 352,Jim Cleamons,1997,1998,"September 13, 1949",Ohio State,No,No
 353,John Calipari,1997,1999,"February 10, 1959",Clarion University of Pennsylvania,Yes,No
 354,Johnny Davis,1997,2009,"October 21, 1955",Dayton,No,No
@@ -260,7 +260,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 359,Kurt Rambis,1999,2016,"February 25, 1958",Santa Clara,No,No
 360,Mike D'Antoni,1999,2020,"May 8, 1951",Marshall,No,No
 361,Tim Floyd,1999,2004,"February 25, 1954",NA,No,No
-362,Doc Rivers,2000,2025,"October 13, 1961",Marquette,No,Yes
+362,Doc Rivers,2000,2025,"October 13, 1961",Marquette,No,No
 363,Jim Todd,2000,2000,NA,Fitchburg State University,No,No
 364,Lionel Hollins,2000,2016,"October 19, 1953",Arizona State,No,No
 365,Randy Wittman,2000,2016,"October 28, 1959",Indiana,No,No
@@ -276,7 +276,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 375,Frank Johnson,2002,2004,"November 23, 1958",Wake Forest,No,No
 376,Maurice Cheeks,2002,2014,"September 8, 1956",West Texas A&M University,Yes,No
 377,Mike Evans,2002,2002,"April 19, 1955",Kansas State,No,No
-378,Rick Carlisle,2002,2025,"October 27, 1959",Virginia,No,Yes
+378,Rick Carlisle,2002,2025,"October 27, 1959",Virginia,No,No
 379,Dennis Johnson,2003,2003,"September 18, 1954",Pepperdine,Yes,No
 380,Eric Musselman,2003,2007,"November 19, 1964",University of San Diego,No,No
 381,Jeff Bzdelik,2003,2005,"December 1, 1952",University of Illinois at Chicago,No,No
@@ -299,7 +299,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 398,Mike Woodson,2005,2014,"March 24, 1958",Indiana,No,No
 399,Sam Mitchell,2005,2016,"September 2, 1963",Mercer University,No,No
 400,Dwane Casey,2006,2023,"April 17, 1957",Kentucky,No,No
-401,Mike Brown,2006,2025,"March 5, 1970",University of San Diego,No,Yes
+401,Mike Brown,2006,2025,"March 5, 1970",University of San Diego,No,No
 402,Larry Krystkowiak,2007,2008,"September 23, 1964",Montana,No,No
 403,Tony Barone,2007,2007,"July 20, 1946",Duke,No,No
 404,Jim Boylan,2008,2013,"April 28, 1955",Marquette,No,No
@@ -307,7 +307,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 406,Reggie Theus,2008,2009,"October 13, 1957",UNLV,No,No
 407,Sam Vincent,2008,2008,"May 18, 1963",Michigan State,No,No
 408,Ed Tapscott,2009,2009,"June 11, 1953",Tufts University,No,No
-409,Erik Spoelstra,2009,2025,"November 1, 1970",University of Portland,No,Yes
+409,Erik Spoelstra,2009,2025,"November 1, 1970",University of Portland,No,No
 410,Jay Triano,2009,2018,"September 21, 1958",NA,No,No
 411,Kenny Natt,2009,2009,"October 5, 1958",Louisiana-Monroe,No,No
 412,Michael Curry,2009,2009,"August 22, 1968",Georgia Southern University,No,No
@@ -322,7 +322,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 421,Frank Vogel,2011,2024,"June 21, 1973",Kentucky,No,No
 422,Larry Drew,2011,2019,"April 2, 1958",Missouri,No,No
 423,Monty Williams,2011,2024,"October 8, 1971",Notre Dame,No,No
-424,Tom Thibodeau,2011,2025,"January 17, 1958",Salem State University,No,Yes
+424,Tom Thibodeau,2011,2025,"January 17, 1958",Salem State University,No,No
 425,Tyrone Corbin,2011,2015,"December 31, 1962",DePaul,No,No
 426,Kaleb Canales,2012,2012,"July 7, 1978",UT Arlington,No,No
 427,Mark Jackson,2012,2014,"April 1, 1965",St. John's,No,No
@@ -333,53 +333,53 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 432,Brett Brown,2014,2020,"February 16, 1961",Boston University,No,No
 433,Brian Shaw,2014,2015,"March 22, 1966",UC Santa Barbara,No,No
 434,Dave Joerger,2014,2019,"February 21, 1974",Minnesota State University Moorhead,No,No
-435,Jason Kidd,2014,2025,"March 23, 1973",California,Yes,Yes
+435,Jason Kidd,2014,2025,"March 23, 1973",California,Yes,No
 436,Jeff Hornacek,2014,2018,"May 3, 1963",Iowa State,No,No
 437,John Loyer,2014,2014,"December 29, 1964",University of Akron,No,No
-438,Michael Malone,2014,2025,"September 15, 1971",Loyola (MD),No,Yes
-439,Mike Budenholzer,2014,2025,"August 6, 1969",Pomona College,No,Yes
+438,Michael Malone,2014,2025,"September 15, 1971",Loyola (MD),No,No
+439,Mike Budenholzer,2014,2025,"August 6, 1969",Pomona College,No,No
 440,Steve Clifford,2014,2024,"September 17, 1961",University of Maine at Farmington,No,No
 441,David Blatt,2015,2016,"May 22, 1959",Princeton,No,No
 442,Derek Fisher,2015,2016,"August 9, 1974",Little Rock,No,No
 443,James Borrego,2015,2022,"November 12, 1977",University of San Diego,No,No
 444,Melvin Hunt,2015,2015,"December 15, 1969",Baylor,No,No
-445,Quin Snyder,2015,2025,"October 30, 1966",Duke,No,Yes
-446,Steve Kerr,2015,2025,"September 27, 1965",Arizona,No,Yes
-447,Billy Donovan,2016,2025,"May 30, 1965",Providence,No,Yes
+445,Quin Snyder,2015,2025,"October 30, 1966",Duke,No,No
+446,Steve Kerr,2015,2025,"September 27, 1965",Arizona,No,No
+447,Billy Donovan,2016,2025,"May 30, 1965",Providence,No,No
 448,Earl Watson,2016,2018,"June 12, 1979",UCLA,No,No
 449,Fred Hoiberg,2016,2019,"October 15, 1972",Iowa State,No,No
-450,J.B. Bickerstaff,2016,2025,"March 10, 1979",Minnesota,No,Yes
+450,J.B. Bickerstaff,2016,2025,"March 10, 1979",Minnesota,No,No
 451,Tony Brown,2016,2016,"July 29, 1960",Arkansas,No,No
-452,Tyronn Lue,2016,2025,"May 3, 1977",Nebraska,No,Yes
+452,Tyronn Lue,2016,2025,"May 3, 1977",Nebraska,No,No
 453,David Fizdale,2017,2020,"June 16, 1974",University of San Diego,No,No
-454,Kenny Atkinson,2017,2025,"June 2, 1967",Richmond,No,Yes
+454,Kenny Atkinson,2017,2025,"June 2, 1967",Richmond,No,No
 455,Luke Walton,2017,2022,"March 28, 1980",Arizona,No,No
 456,Joe Prunty,2018,2024,"February 12, 1969",Cal Poly,No,No
 457,Igor Kokoskov,2019,2019,"December 17, 1971",NA,No,No
 458,Jim Boylen,2019,2020,"April 18, 1965",University of Maine,No,No
 459,Lloyd Pierce,2019,2021,"May 11, 1976",Santa Clara,No,No
-460,Nick Nurse,2019,2025,"July 24, 1967",University of Northern Iowa,No,Yes
+460,Nick Nurse,2019,2025,"July 24, 1967",University of Northern Iowa,No,No
 461,Ryan Saunders,2019,2021,"April 28, 1986",Minnesota,No,No
 462,John Beilein,2020,2020,"February 5, 1953",Niagara University,No,No
 463,Mike Miller,2020,2020,"August 14, 1964",NA,No,No
-464,Taylor Jenkins,2020,2025,"September 12, 1984",Penn,No,Yes
-465,Chris Finch,2021,2025,"November 6, 1969",NA,No,Yes
-466,Mark Daigneault,2021,2025,"February 23, 1985",NA,No,Yes
+464,Taylor Jenkins,2020,2025,"September 12, 1984",Penn,No,No
+465,Chris Finch,2021,2025,"November 6, 1969",NA,No,No
+466,Mark Daigneault,2021,2025,"February 23, 1985",NA,No,No
 467,Nate Bjorkgren,2021,2021,"June 20, 1975",NA,No,No
 468,Stephen Silas,2021,2023,"August 6, 1973",NA,No,No
 469,Steve Nash,2021,2023,"February 7, 1974",NA,Yes,No
-470,Chauncey Billups,2022,2025,"September 25, 1976",NA,Yes,Yes
-471,Ime Udoka,2022,2025,"August 9, 1977",Portland State,No,Yes
-472,Jamahl Mosley,2022,2025,"October 6, 1978",NA,No,Yes
+470,Chauncey Billups,2022,2025,"September 25, 1976",NA,Yes,No
+471,Ime Udoka,2022,2025,"August 9, 1977",Portland State,No,No
+472,Jamahl Mosley,2022,2025,"October 6, 1978",NA,No,No
 473,Wes Unseld,2022,2024,"September 20, 1975",NA,No,No
-474,Willie Green,2022,2025,"July 28, 1981",NA,No,Yes
+474,Willie Green,2022,2025,"July 28, 1981",NA,No,No
 475,Darvin Ham,2023,2024,"July 23, 1973",Texas Tech,No,No
-476,Joe Mazzulla,2023,2025,"June 30, 1988",NA,No,Yes
-477,Will Hardy,2023,2025,"January 21, 1988",NA,No,Yes
+476,Joe Mazzulla,2023,2025,"June 30, 1988",NA,No,No
+477,Will Hardy,2023,2025,"January 21, 1988",NA,No,No
 478,Adrian Griffin,2024,2024,"July 4, 1974",Seton Hall,No,No
-479,Brian Keefe,2024,2025,"April 7, 1976",NA,No,Yes
-480,Darko Rajakovic,2024,2025,"February 22, 1979",NA,No,Yes
+479,Brian Keefe,2024,2025,"April 7, 1976",NA,No,No
+480,Darko Rajakovic,2024,2025,"February 22, 1979",NA,No,No
 481,Kevin Ollie,2024,2024,"December 27, 1972",NA,No,No
-482,Charles Lee,2025,2025,"November 11, 1984",NA,No,Yes
-483,JJ Redick,2025,2025,"June 24, 1984",NA,No,Yes
-484,Jordi Fernández Torres,2025,2025,"December 27, 1982",NA,No,Yes
+482,Charles Lee,2025,2025,"November 11, 1984",NA,No,No
+483,JJ Redick,2025,2025,"June 24, 1984",NA,No,No
+484,Jordi Fernández Torres,2025,2025,"December 27, 1982",NA,No,No

@@ -1,6 +1,6 @@
 Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1001,Adrienne Johnson,1997,2003,G,5-10,154,"February 5, 1974",Ohio State,No
-1002,Andrea Congreaves,1997,1999,F-C,6-2,183,"June 3, 1970",Mercer University,No
+1002,Andrea Congreaves,1997,1999,F,6-2,183,"June 3, 1970",Mercer University,No
 1003,Andrea Stinson,1997,2005,G,5-10,158,"November 25, 1967",NC State,No
 1004,Anita Maxwell,1997,1997,F,NA,NA,"April 7, 1974",New Mexico State,No
 1005,Bridget Pettis,1997,2006,G,5-9,150,"January 1, 1971",Florida,No
@@ -10,26 +10,26 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1009,Chantel Tremitiere,1997,2000,G,5-6,142,"October 20, 1969",Auburn,No
 1010,Corissa Yasen,1997,1997,G,6-0,160,"December 5, 1973",Purdue,No
 1011,Cynthia Cooper,1997,2003,G,5-10,150,"April 14, 1963",USC,No
-1012,Daedra Charles,1997,1997,F-C,6-3,225,"November 22, 1968",Tennessee,No
+1012,Daedra Charles,1997,1997,F,6-3,225,"November 22, 1968",Tennessee,No
 1013,Danielle Viglione,1997,1997,G,5-10,157,"March 7, 1975",Texas,No
-1014,Deborah Carter,1997,1998,G-F,6-1,185,"January 3, 1972",Georgia,No
+1014,Deborah Carter,1997,1998,G,6-1,185,"January 3, 1972",Georgia,No
 1015,Debra Williams,1997,1997,G,5-8,NA,"September 23, 1972",Louisiana Tech,No
 1016,Dena Head,1997,2000,G,5-10,175,"August 16, 1970",Tennessee,No
 1017,Denique Graves,1997,1997,C,6-3,212,"September 16, 1975",Howard University,No
 1018,Elena Baranova,1997,2005,F,6-5,182,"January 28, 1972",NA,No
 1019,Eva Nemcova,1997,2001,F,6-3,178,"December 3, 1972",NA,No
-1020,Fran Harris,1997,1998,G-F,6-0,153,"March 12, 1965",Texas,No
+1020,Fran Harris,1997,1998,G,6-0,153,"March 12, 1965",Texas,No
 1021,Greta Koss,1997,1997,F,6-1,145,"June 12, 1974",Montana,No
 1022,Haixia Zheng,1997,1998,C,6-8,254,"March 7, 1967",NA,No
-1023,Heidi Burge,1997,1998,F-C,6-5,185,"November 12, 1971",Virginia,No
-1024,Isabelle Fijalkowski,1997,1998,F-C,6-5,200,"May 23, 1972",Colorado,No
+1023,Heidi Burge,1997,1998,F,6-5,185,"November 12, 1971",Virginia,No
+1024,Isabelle Fijalkowski,1997,1998,F,6-5,200,"May 23, 1972",Colorado,No
 1025,Jamila Wideman,1997,2000,G,5-6,135,"October 16, 1975",Stanford,No
 1026,Janeth Arcain,1997,2005,G,5-11,147,"April 11, 1969",NA,No
 1027,Janice Braxton,1997,1999,F,6-3,178,"June 7, 1962",Louisiana Tech,No
-1028,Jasmina Perazic-Gipe,1997,1997,G-F,6-0,NA,"December 6, 1960",Maryland,No
-1029,Jennifer Gillom,1997,2003,F-C,6-3,180,"June 13, 1964",Ole Miss,No
+1028,Jasmina Perazic-Gipe,1997,1997,G,6-0,NA,"December 6, 1960",Maryland,No
+1029,Jennifer Gillom,1997,2003,F,6-3,180,"June 13, 1964",Ole Miss,No
 1030,Jenny Boucek,1997,1997,G,5-8,130,"December 20, 1973",Virginia,No
-1031,Jessie Hicks,1997,2004,C-F,6-4,188,"December 2, 1971",Maryland,No
+1031,Jessie Hicks,1997,2004,C,6-4,188,"December 2, 1971",Maryland,No
 1032,Judy Mosley-McAfee,1997,1997,F,6-1,NA,"March 17, 1968",Hawaii,No
 1033,Karen Booker,1997,1998,C,6-1,170,"April 10, 1965",Vanderbilt,No
 1034,Katasha Artis,1997,1997,F,6-1,155,"July 8, 1973","Virginia, Northeastern University",No
@@ -37,16 +37,16 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1036,Kim Gessig,1997,1997,F,6-3,NA,"December 29, 1970",USC,No
 1037,Kim Perrot,1997,1998,G,5-5,130,"January 18, 1967",Louisiana,No
 1038,Kim Williams,1997,1998,G,5-6,136,"October 14, 1974",DePaul,No
-1039,Kisha Ford,1997,2001,G-F,5-10,153,"April 4, 1975",Georgia Tech,No
+1039,Kisha Ford,1997,2001,G,5-10,153,"April 4, 1975",Georgia Tech,No
 1040,Kym Hampton,1997,1999,C,6-2,210,"November 3, 1962",Arizona State,No
 1041,Lady Grooms,1997,2004,F,5-10,160,"September 12, 1970",Georgia,No
-1042,Latasha Byears,1997,2008,G-F,5-11,206,"August 12, 1973",DePaul,No
+1042,Latasha Byears,1997,2008,G,5-11,206,"August 12, 1973",DePaul,No
 1043,Laure Savasta,1997,1997,G,5-8,135,"March 18, 1974",Washington,No
 1044,Linda Burgess,1997,2000,F,6-1,173,"July 27, 1969",Alabama,No
 1045,Lisa Leslie,1997,2009,C,6-5,170,"July 7, 1972",USC,No
 1046,Lynette Woodard,1997,1998,G,6-0,160,"August 12, 1959",Kansas,No
 1047,Marcie Alberts,1997,1997,G,5-4,NA,"April 12, 1975",Ohio State,No
-1048,Margold Clark,1997,1997,F-C,6-3,NA,"January 1, 1971",Arizona,No
+1048,Margold Clark,1997,1997,F,6-3,NA,"January 1, 1971",Arizona,No
 1049,Marlies Askamp,1997,2002,C,6-5,198,"July 8, 1970",NA,No
 1050,Megan Compain,1997,1997,G,5-9,NA,"September 18, 1975",Saint Joseph's,No
 1051,Merlakia Jones,1997,2004,G,5-10,147,"June 21, 1973",Florida,No
@@ -59,42 +59,42 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1058,Mwadi Mabika,1997,2008,G,5-11,165,"July 27, 1976",NA,No
 1059,Nancy Lieberman,1997,2008,G,5-10,150,"July 1, 1958",Old Dominion,No
 1060,Nicole Levesque,1997,1997,G,5-3,115,"April 11, 1972",Wake Forest,No
-1061,Pamela McGee,1997,1998,F-C,6-3,180,"December 1, 1962",USC,No
+1061,Pamela McGee,1997,1998,F,6-3,180,"December 1, 1962",USC,No
 1062,Penny Moore,1997,1999,F,6-0,NA,"January 25, 1969",Cal State Long Beach,No
 1063,Penny Toler,1997,1999,G,5-8,132,"March 24, 1966","San Diego State, Cal State Long Beach",No
-1064,Pietra Gay,1997,1997,G-F,5-11,NA,"August 21, 1974",LSU,No
-1065,Raegan Pebley,1997,1998,F-C,6-3,169,"August 12, 1975",Colorado,No
+1064,Pietra Gay,1997,1997,G,5-11,NA,"August 21, 1974",LSU,No
+1065,Raegan Pebley,1997,1998,F,6-3,169,"August 12, 1975",Colorado,No
 1066,Rebecca Lobo,1997,2003,C,6-4,185,"October 6, 1973",UConn,No
 1067,Rhonda Blades,1997,1998,G,5-7,138,"October 29, 1972",Vanderbilt,No
 1068,Rhonda Mapp,1997,2003,C,6-2,190,"October 13, 1969",NC State,No
 1069,Rushia Brown,1997,2003,F,6-2,175,"May 5, 1972",Furman University,No
 1070,Ruthie Bolton,1997,2004,G,5-9,150,"May 27, 1967",Auburn,No
 1071,Ryneldi Becenti,1997,1997,G,5-6,NA,"August 11, 1971","Scottsdale Community College, Arizona State",No
-1072,Sharon Manning,1997,2000,F-C,6-3,186,"March 20, 1969",NC State,No
-1073,Sheryl Swoopes,1997,2011,F-G,6-0,145,"March 25, 1971",Texas Tech,No
+1072,Sharon Manning,1997,2000,F,6-3,186,"March 20, 1969",NC State,No
+1073,Sheryl Swoopes,1997,2011,F,6-0,145,"March 25, 1971",Texas Tech,No
 1074,Sophia Witherspoon,1997,2003,G,5-10,145,"July 6, 1969",Florida,No
 1075,Sue Wicks,1997,2002,F,6-3,174,"November 26, 1966",Rutgers University,No
 1076,Susie Hopson-Shelton,1997,1997,F,6-2,175,"June 21, 1974",Mars Hill University,No
 1077,Tajama Abraham,1997,1998,C,6-2,190,"September 27, 1975",George Washington,No
 1078,Tamecka Dixon,1997,2009,G,5-9,148,"December 14, 1975",Kansas,No
 1079,Tammi Reiss,1997,1998,G,5-6,129,"April 2, 1970",Virginia,No
-1080,Tammy Jackson,1997,2002,F-C,6-2,190,"December 3, 1962",Florida,No
+1080,Tammy Jackson,1997,2002,F,6-2,190,"December 3, 1962",Florida,No
 1081,Tara Williams,1997,2000,G,5-11,170,"July 23, 1974",Auburn,No
 1082,Teresa Weatherspoon,1997,2004,G,5-8,161,"December 8, 1965",Louisiana Tech,No
 1083,Tia Jackson,1997,1997,F,6-0,148,"April 21, 1972",Iowa,No
 1084,Tiffany Woosley,1997,1998,G,5-7,132,"April 26, 1973",Tennessee,No
 1085,Tina Nicholson,1997,1997,G,5-2,146,"September 27, 1973",Penn State,No
 1086,Tina Thompson,1997,2013,F,6-2,178,"February 10, 1975",USC,No
-1087,Toni Foster,1997,1999,F-C,6-1,175,"October 16, 1971",Iowa,No
+1087,Toni Foster,1997,1999,F,6-1,175,"October 16, 1971",Iowa,No
 1088,Tora Suber,1997,1999,G,5-7,137,"November 23, 1974",Virginia,No
 1089,Travesa Gant,1997,1997,C,NA,NA,"October 10, 1971",Lamar,No
-1090,Trena Trice,1997,1998,F-C,6-2,180,"August 4, 1965",NC State,No
-1091,Umeki Webb,1997,2000,G-F,5-10,162,"June 26, 1975",NC State,No
-1092,Vickie Johnson,1997,2009,G-F,5-9,150,"April 15, 1972",Louisiana Tech,No
+1090,Trena Trice,1997,1998,F,6-2,180,"August 4, 1965",NC State,No
+1091,Umeki Webb,1997,2000,G,5-10,162,"June 26, 1975",NC State,No
+1092,Vickie Johnson,1997,2009,G,5-9,150,"April 15, 1972",Louisiana Tech,No
 1093,Vicky Bullett,1997,2002,F,6-3,185,"October 4, 1967",Maryland,No
 1094,Wanda Guyton,1997,1999,C,6-1,178,"October 14, 1968",South Florida,No
 1095,Wendy Palmer,1997,2007,F,6-2,165,"August 12, 1974",Virginia,No
-1096,Yolanda Moore,1997,1999,F-C,6-0,175,"July 1, 1974",Ole Miss,No
+1096,Yolanda Moore,1997,1999,F,6-0,175,"July 1, 1974",Ole Miss,No
 1097,Yvette Angel,1997,1997,G,5-8,NA,"October 14, 1963",Ohio State,No
 1098,Adia Barnes,1998,2004,F,5-11,165,"February 3, 1977",Arizona,No
 1099,Adrienne Shuler,1998,1998,G,5-6,NA,"April 24, 1969",Georgia,No
@@ -103,10 +103,10 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1102,Alicia Thompson,1998,2005,F,6-1,180,"June 30, 1976",Texas Tech,No
 1103,Allison Feaster,1998,2008,F,5-11,168,"February 11, 1976",Harvard University,No
 1104,Amaya Valdemoro,1998,2000,F,6-1,NA,"August 18, 1976",NA,No
-1105,Andrea Kuklova,1998,1999,G-F,6-0,150,"July 16, 1971",NA,No
+1105,Andrea Kuklova,1998,1999,G,6-0,150,"July 16, 1971",NA,No
 1106,Aneta Kausaite,1998,1998,F,6-0,155,"November 30, 1970",Emporia State University,No
 1107,Angela Jackson,1998,1998,C,6-4,NA,"March 30, 1976",Texas,No
-1108,Angie Hamblin,1998,1998,G-F,5-10,170,"September 30, 1976",Iowa,No
+1108,Angie Hamblin,1998,1998,G,5-10,170,"September 30, 1976",Iowa,No
 1109,Brandy Reed,1998,2002,F,6-1,168,"February 17, 1977",Southern Miss,No
 1110,Carla Boyd,1998,2001,F,6-1,172,"October 31, 1975",NA,No
 1111,Christy Smith,1998,1999,G,5-7,141,"August 14, 1975",Arkansas,No
@@ -131,7 +131,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1130,Maria Stepanova,1998,2005,C,6-8,187,"January 23, 1979",NA,No
 1131,Mfon Udoka,1998,2004,F,6-0,187,"June 16, 1976",DePaul,No
 1132,Michelle Brogan,1998,2000,F,6-1,177,"February 8, 1973",NA,No
-1133,Michelle Reed,1998,1998,G-F,5-10,165,"May 24, 1973",Western Kentucky,No
+1133,Michelle Reed,1998,1998,G,5-10,165,"May 24, 1973",Western Kentucky,No
 1134,Monica Lamb,1998,2000,C,6-5,206,"October 11, 1964",USC,No
 1135,Murriel Page,1998,2008,F,6-2,160,"September 18, 1975",Florida,No
 1136,Nadine Domond,1998,1998,G,5-7,148,"September 28, 1975",Iowa,No
@@ -139,14 +139,14 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1138,Nyree Roberts,1998,1999,C,6-3,209,"March 10, 1976",Old Dominion,No
 1139,Octavia Blue,1998,2004,F,6-1,163,"April 18, 1976",Miami (FL),No
 1140,Olympia Scott,1998,2008,C,6-2,175,"May 5, 1976",Stanford,No
-1141,Pauline Jordan,1998,1998,F-C,6-3,205,"April 27, 1968",UNLV,No
+1141,Pauline Jordan,1998,1998,F,6-3,205,"April 27, 1968",UNLV,No
 1142,Pollyanna Johns Kimbrough,1998,2004,C,6-3,165,"November 6, 1975",Michigan,No
 1143,Quacy Barnes,1998,2002,C,6-5,185,"September 26, 1976",Indiana,No
 1144,Rachael Sporn,1998,2001,F,6-1,175,"May 26, 1968",NA,No
 1145,Razija Brcaninovic,1998,1998,C,6-8,198,"April 15, 1967",NA,No
 1146,Rehema Stephens,1998,1998,G,5-11,NA,"December 28, 1969",UCLA,No
 1147,Rita Williams,1998,2003,G,5-6,135,"January 14, 1976",UConn,No
-1148,Sandra Van Embricqs,1998,1998,F-C,6-3,175,"April 14, 1968",UCLA,No
+1148,Sandra Van Embricqs,1998,1998,F,6-3,175,"April 14, 1968",UCLA,No
 1149,Sandy Brondello,1998,2003,G,5-7,136,"August 20, 1968",NA,No
 1150,Sonia Chase,1998,1999,G,5-9,150,"March 9, 1976",Maryland,No
 1151,Suzie McConnell Serio,1998,2000,G,NA,NA,"July 29, 1966",Penn State,No
@@ -171,12 +171,12 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1170,Becky Hammon,1999,2014,G,5-6,136,"March 11, 1977",Colorado State,No
 1171,Carla McGhee,1999,2002,F,6-1,173,"March 6, 1968",Tennessee,No
 1172,Cass Bauer-Bilodeau,1999,2002,C,6-4,180,"June 27, 1972",Montana State,No
-1173,Chamique Holdsclaw,1999,2010,F,6-2,172,"August 9, 1977",Tennesse,No
+1173,Chamique Holdsclaw,1999,2010,F,6-2,172,"August 9, 1977",Tennessee,No
 1174,Charlotte Smith,1999,2006,F,6-0,148,"August 23, 1973",UNC,No
 1175,Charmin Smith,1999,2003,G,5-10,145,"May 2, 1975",Stanford,No
-1176,Chasity Melvin,1999,2010,C-F,6-3,185,"May 3, 1976",NC State,No
+1176,Chasity Melvin,1999,2010,C,6-3,185,"May 3, 1976",NC State,No
 1177,Clarissa Davis-Wrightsil,1999,1999,F,NA,NA,"June 4, 1967",Texas,No
-1178,Clarisse Machanguana,1999,2002,C-F,6-5,180,"October 4, 1976",Old Dominion,No
+1178,Clarisse Machanguana,1999,2002,C,6-5,180,"October 4, 1976",Old Dominion,No
 1179,Claudia Neves,1999,2002,G,5-8,136,"February 17, 1975",NA,No
 1180,Crystal Robinson,1999,2007,F,5-11,155,"January 22, 1974",Southeastern Oklahoma State University,No
 1181,Dalma Ivanyi,1999,2006,G,5-10,135,"March 13, 1976",Florida International University,No
@@ -189,13 +189,13 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1188,Elena Tornikidou,1999,2001,F,6-1,160,"May 27, 1965",NA,No
 1189,Gordana Grubin,1999,2005,G,5-11,165,"August 20, 1972",NA,No
 1190,Heather Burge,1999,1999,C,6-5,195,"November 12, 1971",Virginia,No
-1191,Heather Owen,1999,2000,F-C,6-5,212,"May 6, 1976",Stanford,No
+1191,Heather Owen,1999,2000,F,6-5,212,"May 6, 1976",Stanford,No
 1192,Jennifer Azzi,1999,2003,G,5-8,143,"August 31, 1968",Stanford,No
 1193,Jennifer Howard,1999,1999,G,5-6,NA,"January 21, 1975",NC State,No
 1194,Jennifer Rizzotti,1999,2003,G,5-6,146,"May 15, 1974",UConn,No
 1195,Jennifer Whittle,1999,2001,C,6-5,NA,"September 5, 1973",NA,No
 1196,Kara Wolters,1999,2002,C,6-7,227,"August 15, 1975",UConn,No
-1197,Kate Starbird,1999,2004,F-G,6-1,153,"July 30, 1975",Stanford,No
+1197,Kate Starbird,1999,2004,F,6-1,153,"July 30, 1975",Stanford,No
 1198,Katie Smith,1999,2013,G,5-11,175,"June 4, 1974",Ohio State,No
 1199,Kedra Holland-Corn,1999,2006,G,5-8,129,"November 2, 1974",Georgia,No
 1200,Kellie Jolly Harper,1999,1999,G,5-10,NA,"May 3, 1977",Tennessee,No
@@ -205,7 +205,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1204,Lesley Brown,1999,1999,F,6-0,165,"June 3, 1977",Virginia,No
 1205,Lisa Harrison,1999,2005,F,6-1,164,"January 2, 1971",Tennessee,No
 1206,Markita Aldridge,1999,2001,G,5-11,NA,"September 15, 1973",UNC Charlotte,No
-1207,MerleLynn Lange-Harris,1999,1999,F-C,6-6,NA,"April 28, 1969",UNLV,No
+1207,MerleLynn Lange-Harris,1999,1999,F,6-6,NA,"April 28, 1969",UNLV,No
 1208,Mery Andrade,1999,2004,F,6-0,169,"December 31, 1975",Old Dominion,No
 1209,Michele Van Gorp,1999,2004,C,6-6,187,"May 10, 1977",Duke,No
 1210,Michelle Campbell,1999,2000,C,6-5,170,"February 20, 1974",USC,No
@@ -214,44 +214,44 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1213,Natalie Williams,1999,2005,C,6-2,210,"November 30, 1970",UCLA,No
 1214,Niesa Johnson,1999,2000,G,5-9,146,"February 7, 1973",Alabama,No
 1215,Nina Bjedov,1999,1999,C,6-4,190,"May 18, 1972",NA,No
-1216,Nykesha Sales,1999,2007,F-G,6-0,184,"May 10, 1976",UConn,No
+1216,Nykesha Sales,1999,2007,F,6-0,184,"May 10, 1976",UConn,No
 1217,Polina Tzekova,1999,1999,C,6-4,189,"April 30, 1968",NA,No
-1218,Shalonda Enis,1999,2003,F-C,6-1,185,"December 3, 1974",Alabama,No
+1218,Shalonda Enis,1999,2003,F,6-1,185,"December 3, 1974",Alabama,No
 1219,Shannon Johnson,1999,2009,G,5-7,152,"August 18, 1974",South Carolina,No
-1220,Sheri Sam,1999,2008,G-F,6-0,160,"May 5, 1974",Vanderbilt,No
+1220,Sheri Sam,1999,2008,G,6-0,160,"May 5, 1974",Vanderbilt,No
 1221,Sonja Henning,1999,2003,G,5-7,143,"October 4, 1969",Stanford,No
 1222,Sonja Tate,1999,2000,G,5-6,157,"September 7, 1971",Arkansas State University,No
-1223,Stephanie White,1999,2004,G-F,5-9,NA,"June 20, 1977",Purdue,No
-1224,Taj McWilliams-Franklin,1999,2012,F-C,6-2,195,"October 20, 1970","Georgia State University, St. Edward's University",No
+1223,Stephanie White,1999,2004,G,5-9,NA,"June 20, 1977",Purdue,No
+1224,Taj McWilliams-Franklin,1999,2012,F,6-2,195,"October 20, 1970","Georgia State University, St. Edward's University",No
 1225,Tamika Whitmore,1999,2009,F,6-2,215,"June 5, 1977",Memphis,No
-1226,Tari Phillips,1999,2007,F-C,6-2,200,"March 6, 1970","Georgia, Central Florida",No
+1226,Tari Phillips,1999,2007,F,6-2,200,"March 6, 1970","Georgia, Central Florida",No
 1227,Tonya Edwards,1999,2002,G,5-10,160,"March 13, 1968",Tennessee,No
 1228,Tracy Henderson,1999,2003,C,6-3,200,"December 31, 1974",Georgia,No
-1229,Trisha Fallon,1999,2001,G-F,6-3,165,"July 23, 1972",NA,No
+1229,Trisha Fallon,1999,2001,G,6-3,165,"July 23, 1972",NA,No
 1230,Ukari Figgs,1999,2003,G,5-9,142,"March 31, 1977",Purdue,No
-1231,Val Whiting-Raymond,1999,2002,C-F,6-2,199,"April 9, 1972",Stanford,No
+1231,Val Whiting-Raymond,1999,2002,C,6-2,199,"April 9, 1972",Stanford,No
 1232,Valerie Still,1999,1999,F,6-1,155,"May 14, 1961",Kentucky,No
 1233,Vanessa Nygaard,1999,2003,F,6-1,175,"March 13, 1975",Stanford,No
 1234,Venus Lacy,1999,2000,C,6-3,234,"February 9, 1967",Louisiana Tech,No
-1235,Yolanda Griffith,1999,2009,C-F,6-4,175,"March 1, 1970",Florida Atlantic University,No
-1236,Adrian Williams-Strong,2000,2008,C-F,6-5,170,"February 15, 1977",USC,No
+1235,Yolanda Griffith,1999,2009,C,6-4,175,"March 1, 1970",Florida Atlantic University,No
+1236,Adrian Williams-Strong,2000,2008,C,6-5,170,"February 15, 1977",USC,No
 1237,Amy Herrig,2000,2002,C,6-3,193,"June 16, 1977",Iowa,No
-1238,Andrea Garner,2000,2000,F-C,6-3,160,"January 5, 1979",Penn State,No
+1238,Andrea Garner,2000,2000,F,6-3,160,"January 5, 1979",Penn State,No
 1239,Ann Wauters,2000,2016,C,6-4,193,"October 12, 1980",NA,No
 1240,Anna DeForge,2000,2009,G,5-10,160,"April 14, 1976",Nebraska,No
-1241,Barbara Farris,2000,2009,F-C,6-3,200,"September 10, 1976",Tulane,No
+1241,Barbara Farris,2000,2009,F,6-3,200,"September 10, 1976",Tulane,No
 1242,Beth Cunningham,2000,2000,G,6-0,150,"June 5, 1975",Notre Dame,No
 1243,Betty Lennox,2000,2011,G,5-8,143,"December 4, 1976",Louisiana Tech,No
 1244,Beverly Williams,2000,2000,G,5-9,NA,"November 9, 1965",Texas,No
 1245,Charisse Sampson,2000,2000,G,5-11,NA,"September 1, 1974",Kansas,No
 1246,Cintia dos Santos,2000,2002,C,6-5,187,"January 31, 1975",NA,No
 1247,Cornelia Gayden,2000,2000,G,5-9,NA,"May 11, 1971",LSU,No
-1248,Danielle McCulley,2000,2003,C-F,6-3,175,"January 18, 1975","Purdue, Western Kentucky",No
+1248,Danielle McCulley,2000,2003,C,6-3,175,"January 18, 1975","Purdue, Western Kentucky",No
 1249,DeMya Walker,2000,2012,F,6-3,191,"November 28, 1977",Virginia,No
 1250,Desiree Francis,2000,2000,F,5-10,193,"August 24, 1975",Iowa State,No
 1251,Donna Harrington,2000,2000,F,6-3,NA,"September 29, 1966",Old Dominion,No
 1252,E.C. Hill,2000,2001,G,5-8,140,"July 6, 1971",Northern Illinois,No
-1253,Edwina Brown,2000,2006,G-F,5-9,163,"July 1, 1978",Texas,No
+1253,Edwina Brown,2000,2006,G,5-9,163,"July 1, 1978",Texas,No
 1254,Elena Shakirova,2000,2002,C,6-3,190,"June 2, 1970",NA,No
 1255,Grace Daley,2000,2003,G,5-8,147,"June 26, 1978",Tulane,No
 1256,Helen Darling,2000,2010,G,5-6,164,"August 29, 1978",Penn State,No
@@ -262,23 +262,23 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1261,Jessica Bibby,2000,2000,G,5-7,139,"August 23, 1979",NA,No
 1262,Joy Holmes-Harris,2000,2000,F,5-10,170,"March 31, 1969",Purdue,No
 1263,Jurgita Streimikyte,2000,2005,F,6-2,165,"May 14, 1972",NA,No
-1264,Kamila Vodichkova,2000,2006,F-C,6-4,190,"December 19, 1972",NA,No
+1264,Kamila Vodichkova,2000,2006,F,6-4,190,"December 19, 1972",NA,No
 1265,Kate Paye,2000,2002,G,5-8,150,"March 6, 1974",Stanford,No
-1266,Katrina Hibbert,2000,2000,G-F,5-10,172,"September 29, 1977",LSU,No
+1266,Katrina Hibbert,2000,2000,G,5-10,172,"September 29, 1977",LSU,No
 1267,Katryna Gaither,2000,2002,C,6-3,170,"August 13, 1975",Notre Dame,No
 1268,Katy Steding,2000,2001,F,6-0,173,"December 11, 1967",Stanford,No
 1269,Keisha Anderson,2000,2002,G,5-7,125,"May 8, 1974",Wisconsin,No
 1270,Keitha Dickerson,2000,2001,F,5-11,165,"April 20, 1978",Texas Tech,No
-1271,Kelley Gibson,2000,2003,F-G,5-9,137,"November 7, 1976",Maryland,No
+1271,Kelley Gibson,2000,2003,F,5-9,137,"November 7, 1976",Maryland,No
 1272,Kristen Rasmussen,2000,2008,F,6-4,172,"November 1, 1978",Michigan State,No
 1273,Kym Hope,2000,2000,C,6-2,165,"November 23, 1977",Miami (FL),No
 1274,LaCharlotte Smith,2000,2000,G,6-0,150,"February 6, 1974",Mississippi State,No
-1275,Larecha Jones,2000,2000,G-F,6-1,180,"July 24, 1977",Ohio State,No
-1276,Lynn Pride,2000,2003,G-F,6-2,180,"October 16, 1978",Kansas,No
+1275,Larecha Jones,2000,2000,G,6-1,180,"July 24, 1977",Ohio State,No
+1276,Lynn Pride,2000,2003,G,6-2,180,"October 16, 1978",Kansas,No
 1277,Madinah Slaise,2000,2000,G,5-8,NA,"August 23, 1973",Cincinnati,No
 1278,Marina Ferragut,2000,2000,F,6-3,190,"February 11, 1972",NA,No
 1279,Marla Brumfield,2000,2003,G,5-8,133,"June 6, 1978",Rice University,No
-1280,Maylana Martin,2000,2001,C-F,6-2,174,"April 17, 1978",UCLA,No
+1280,Maylana Martin,2000,2001,C,6-2,174,"April 17, 1978",UCLA,No
 1281,Michelle Cleary,2000,2001,G,5-6,NA,"July 16, 1974",NA,No
 1282,Michelle Marciniak,2000,2002,G,5-10,154,"October 29, 1973",Tennessee,No
 1283,Milena Flores,2000,2000,G,5-6,125,"October 10, 1977",Stanford,No
@@ -314,7 +314,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1313,Vicki Hall,2000,2002,F,6-1,180,"October 3, 1969",Texas,No
 1314,Adriana Moises,2001,2007,G,5-6,140,"December 6, 1978",NA,No
 1315,Amanda Lassiter,2001,2006,F,6-1,160,"June 9, 1979",Missouri,No
-1316,Angelina Wolvert,2001,2001,F-C,6-3,NA,"December 8, 1978",Oregon,No
+1316,Angelina Wolvert,2001,2001,F,6-3,NA,"December 8, 1978",Oregon,No
 1317,Audrey Sauret,2001,2002,G,5-11,NA,"October 31, 1976",NA,No
 1318,Brooke Wyckoff,2001,2009,F,6-1,183,"March 30, 1980",Florida State,No
 1319,Camille Cooper,2001,2002,C,6-4,NA,"February 5, 1979",Purdue,No
@@ -322,9 +322,9 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1321,Carolyn Young,2001,2002,G,5-9,175,"July 28, 1969",Auburn,No
 1322,Coco Miller,2001,2012,G,5-9,140,"September 6, 1978",Georgia,No
 1323,Dana Wynne,2001,2001,F,6-2,NA,"February 2, 1975",Seton Hall,No
-1324,Deanna Nolan,2001,2009,G-F,5-9,147,"August 25, 1979",Georgia,No
+1324,Deanna Nolan,2001,2009,G,5-9,147,"August 25, 1979",Georgia,No
 1325,Erin Perperoglou,2001,2009,F,6-3,181,"June 5, 1979",Master's College,No
-1326,Georgia Schweitzer,2001,2003,G-F,6-0,NA,"January 31, 1979",Duke,No
+1326,Georgia Schweitzer,2001,2003,G,6-0,NA,"January 31, 1979",Duke,No
 1327,Hajdana Radunovic,2001,2001,C,6-3,187,"January 10, 1978",NA,No
 1328,Helen Luz,2001,2003,G,5-8,144,"November 23, 1972",NA,No
 1329,Ilona Korstine,2001,2001,G,6-0,160,"May 30, 1980",NA,No
@@ -335,13 +335,13 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1334,Jaynetta Saunders,2001,2002,F,5-11,145,"August 21, 1979",Texas A&M,No
 1335,Jenny Mowe,2001,2003,C,6-5,NA,"February 25, 1978",Oregon,No
 1336,Katarina Lazic,2001,2001,G,5-10,147,"May 25, 1980",NA,No
-1337,Katie Douglas,2001,2014,G-F,6-0,165,"May 7, 1979",Purdue,No
+1337,Katie Douglas,2001,2014,G,6-0,165,"May 7, 1979",Purdue,No
 1338,Kelly Miller,2001,2012,G,5-10,140,"September 6, 1978",Georgia,No
 1339,Kelly Santos,2001,2008,F,6-3,188,"November 10, 1979",NA,No
 1340,Kelly Schumacher,2001,2009,C,6-5,183,"October 14, 1977",UConn,No
 1341,Kristen Veal,2001,2002,G,5-10,150,"July 24, 1981",NA,No
 1342,LaQuanda Barksdale,2001,2003,G,5-10,NA,"October 3, 1979",UNC,No
-1343,Lauren Jackson,2001,2012,F-C,6-6,187,"May 11, 1981",NA,No
+1343,Lauren Jackson,2001,2012,F,6-6,187,"May 11, 1981",NA,No
 1344,Levys Torres,2001,2001,C,6-2,NA,"April 6, 1978","Chipola College, Florida State",No
 1345,Mactabene Amachree,2001,2005,F,6-1,175,"January 30, 1978",NA,No
 1346,Maren Walseth,2001,2002,F,6-2,NA,"October 28, 1978",Penn State,No
@@ -359,37 +359,37 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1358,Slobodanka Tuvic,2001,2004,C,6-4,194,"September 19, 1977",NA,No
 1359,Stacey Ford,2001,2002,F,6-2,NA,"January 14, 1969",Georgia,No
 1360,Svetlana Abrosimova,2001,2012,F,6-2,169,"July 9, 1980",UConn,No
-1361,Tamara Stocks,2001,2001,F-C,6-3,NA,"January 29, 1979",Florida,No
+1361,Tamara Stocks,2001,2001,F,6-3,NA,"January 29, 1979",Florida,No
 1362,Tammy Sutton-Brown,2001,2012,C,6-4,199,"January 27, 1978",Rutgers University,No
-1363,Tawona Alhaleem,2001,2001,F-G,6-0,NA,"October 17, 1974",DePaul,No
+1363,Tawona Alhaleem,2001,2001,F,6-0,NA,"October 17, 1974",DePaul,No
 1364,Trisha Stafford-Odom,2001,2002,F,6-0,160,"November 11, 1970",California,No
 1365,Tynesha Lewis,2001,2006,G,5-10,152,"May 8, 1979",NC State,No
 1366,Wendi Willits,2001,2001,G,5-7,NA,"November 18, 1978",Arkansas,No
 1367,Amber Hall,2002,2002,F,6-0,186,"December 29, 1977",Washington,No
-1368,Andrea Gardner,2002,2008,F-C,6-3,190,"December 23, 1979",Howard University,No
+1368,Andrea Gardner,2002,2008,F,6-3,190,"December 23, 1979",Howard University,No
 1369,Asjha Jones,2002,2015,F,6-2,187,"August 1, 1980",UConn,No
 1370,Ayana Walker,2002,2007,F,6-3,143,"September 10, 1979",Louisiana Tech,No
 1371,Begona Garcia,2002,2002,G,5-5,NA,"September 3, 1976",NA,No
 1372,Bernadette Ngoyisa,2002,2008,C,6-4,195,"August 26, 1982",NA,No
 1373,Brandi McCain,2002,2002,G,5-3,135,"September 21, 1979",Florida,No
-1374,Carolyn Moos,2002,2002,F-C,6-6,NA,"May 23, 1978",Stanford,No
+1374,Carolyn Moos,2002,2002,F,6-6,NA,"May 23, 1978",Stanford,No
 1375,Danielle Crockrom,2002,2002,F,6-1,NA,"February 11, 1981",Baylor,No
 1376,Davalyn Cunningham,2002,2002,F,6-0,NA,"January 27, 1980",Rutgers University,No
 1377,Deanna Jackson,2002,2006,F,6-2,155,"December 15, 1979",UAB,No
 1378,Elisa Aguilar,2002,2002,G,5-8,NA,"October 15, 1976",George Washington,No
-1379,Erika de Souza,2002,2017,F-C,6-5,190,"March 9, 1982",NA,No
+1379,Erika de Souza,2002,2017,F,6-5,190,"March 9, 1982",NA,No
 1380,Felicia Ragland,2002,2005,G,5-9,135,"February 3, 1980",Oregon State,No
 1381,Hamchetou Maiga-Ba,2002,2010,F,6-2,167,"April 25, 1978",Old Dominion,No
-1382,Iziane Castro Marques,2002,2013,F-G,6-0,140,"March 13, 1982",NA,No
+1382,Iziane Castro Marques,2002,2013,F,6-0,140,"March 13, 1982",NA,No
 1383,Jackie Moore,2002,2002,C,6-2,NA,"November 6, 1979",Cal State Long Beach,No
 1384,Jill Chapman-Daily,2002,2002,C,6-4,NA,"November 4, 1979",Indiana,No
 1385,Kayte Christensen,2002,2007,F,6-2,171,"November 16, 1980",UC Santa Barbara,No
 1386,Kiesha Brown,2002,2010,G,5-10,134,"January 13, 1979",Georgia,No
 1387,LaNeishea Caufield,2002,2002,G,5-9,NA,"May 25, 1980",Oklahoma,No
-1388,Lenae Williams,2002,2002,G-F,5-11,155,"July 14, 1979",DePaul,No
-1389,Linda Frohlich,2002,2007,F-C,6-2,185,"June 23, 1979",UNLV,No
-1390,Lindsey Yamasaki,2002,2003,G-F,6-1,185,"June 2, 1980",Stanford,No
-1391,Lucienne Berthieu,2002,2004,F-C,6-2,188,"March 31, 1978",Old Dominion,No
+1388,Lenae Williams,2002,2002,G,5-11,155,"July 14, 1979",DePaul,No
+1389,Linda Frohlich,2002,2007,F,6-2,185,"June 23, 1979",UNLV,No
+1390,Lindsey Yamasaki,2002,2003,G,6-1,185,"June 2, 1980",Stanford,No
+1391,Lucienne Berthieu,2002,2004,F,6-2,188,"March 31, 1978",Old Dominion,No
 1392,Michelle Snow,2002,2015,C,6-5,145,"March 20, 1980",Tennessee,No
 1393,Nikki Teasley,2002,2009,G,6-0,169,"March 22, 1979",UNC,No
 1394,Shaunzinski Gortman,2002,2006,G,5-10,158,"December 7, 1979",South Carolina,No
@@ -398,13 +398,13 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1397,Sue Bird,2002,2022,G,5-9,150,"October 16, 1980",UConn,No
 1398,Susanna Bonfiglio,2002,2002,G,5-8,NA,"September 8, 1974",NA,No
 1399,Swin Cash,2002,2016,F,6-1,171,"September 22, 1979",UConn,No
-1400,Takeisha Lewis,2002,2002,F-C,6-2,NA,"July 10, 1979",Louisiana Tech,No
+1400,Takeisha Lewis,2002,2002,F,6-2,NA,"July 10, 1979",Louisiana Tech,No
 1401,Tamara Moore,2002,2007,G,5-10,176,"April 11, 1980",Wisconsin,No
 1402,Tamika Catchings,2002,2016,F,6-1,167,"July 21, 1979",Tennessee,No
 1403,Tamika Williams,2002,2008,F,6-2,195,"April 12, 1980",UConn,No
 1404,Zuzi Klimesova,2002,2003,F,6-2,NA,"January 21, 1979",Vanderbilt,No
 1405,Aiysha Smith,2003,2004,F,6-2,173,"July 18, 1980",LSU,No
-1406,Bethany Donaphin,2003,2004,F-C,6-2,195,"August 27, 1980",Stanford,No
+1406,Bethany Donaphin,2003,2004,F,6-2,195,"August 27, 1980",Stanford,No
 1407,Chandra Johnson,2003,2003,C,6-3,NA,"March 19, 1981",Green Bay,No
 1408,Chantelle Anderson,2003,2007,C,6-6,190,"January 22, 1981",Vanderbilt,No
 1409,Cheryl Ford,2003,2009,F,6-3,195,"June 6, 1981",Louisiana Tech,No
@@ -422,7 +422,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1421,Kara Lawson,2003,2015,G,5-9,150,"February 14, 1981",Tennessee,No
 1422,LaToya Thomas,2003,2008,F,6-2,165,"July 6, 1981",Mississippi State,No
 1423,Leigh Aziz,2003,2003,F,6-3,177,"February 28, 1979",Syracuse,No
-1424,Nakia Sanford,2003,2013,C-F,6-4,190,"May 10, 1976",Kansas,No
+1424,Nakia Sanford,2003,2013,C,6-4,190,"May 10, 1976",Kansas,No
 1425,Nevriye Yilmaz,2003,2004,C,6-4,190,"June 16, 1980",NA,No
 1426,Petra Ujhelyi,2003,2003,C,6-4,200,"December 17, 1980",South Carolina,No
 1427,Plenette Pierson,2003,2017,F,6-2,195,"August 31, 1981",Texas Tech,No
@@ -430,23 +430,23 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1429,Sonja Mallory,2003,2003,C,6-5,NA,"September 2, 1981",Georgia Tech,No
 1430,Tai Dillard,2003,2005,G,5-9,154,"May 6, 1981",Texas,No
 1431,Teana Miller,2003,2007,C,6-3,220,"October 5, 1980",Tulane,No
-1432,Teresa Edwards,2003,2004,G-F,5-11,NA,"July 9, 1964",Georgia,No
+1432,Teresa Edwards,2003,2004,G,5-11,NA,"July 9, 1964",Georgia,No
 1433,Zuzana Zirkova,2003,2003,G,5-9,145,"June 6, 1980",NA,No
-1434,Agnieszka Bibrzycka,2004,2006,G-F,6-2,168,"October 21, 1982",NA,No
-1435,Alana Beard,2004,2019,G-F,5-11,160,"May 14, 1982",Duke,No
+1434,Agnieszka Bibrzycka,2004,2006,G,6-2,168,"October 21, 1982",NA,No
+1435,Alana Beard,2004,2019,G,5-11,160,"May 14, 1982",Duke,No
 1436,Amber Jacobs,2004,2008,G,5-8,152,"June 29, 1982",Boston College,No
 1437,Amisha Carter,2004,2005,F,6-2,179,"June 21, 1982",Louisiana Tech,No
 1438,Ashley Robinson,2004,2013,C,6-4,180,"August 12, 1982",Tennessee,No
 1439,Candace Futrell,2004,2004,G,5-10,154,"July 10, 1982",Duquesne,No
 1440,Chandi Jones,2004,2006,G,5-9,150,"March 25, 1982",Houston,No
-1441,Christi Thomas,2004,2010,F-C,6-4,198,"August 14, 1982",Georgia,No
+1441,Christi Thomas,2004,2010,F,6-4,198,"August 14, 1982",Georgia,No
 1442,DeTrina White,2004,2005,F,5-11,180,"April 3, 1980",LSU,No
-1443,Diana Taurasi,2004,2024,Guard,6-0,163,"June 11, 1982",UConn,Yes
+1443,Diana Taurasi,2004,2024,G,6-0,163,"June 11, 1982",UConn,Yes
 1444,Doneeka Lewis,2004,2011,G,5-9,160,"July 19, 1982",LSU,No
 1445,Ebony Hoffman,2004,2014,F,6-2,215,"August 27, 1982",USC,No
 1446,Giuliana Mendiola,2004,2004,G,5-11,174,"January 9, 1982",Washington,No
 1447,Gwen Slaughter,2004,2004,F,6-3,181,"July 1, 1980",Tulane,No
-1448,Iciss Tillis,2004,2007,F-C,6-5,165,"December 6, 1981",Duke,No
+1448,Iciss Tillis,2004,2007,F,6-5,165,"December 6, 1981",Duke,No
 1449,Isabel Sanchez,2004,2004,G,5-10,152,"November 28, 1976",NA,No
 1450,Jennifer Derevjanik,2004,2008,G,5-10,140,"March 29, 1982",George Mason,No
 1451,Jessica Brungo,2004,2006,F,6-1,165,"April 16, 1982",Penn State,No
@@ -457,10 +457,10 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1456,Le'coe Willingham,2004,2013,F,6-0,200,"February 10, 1981",Auburn,No
 1457,Lindsay Taylor,2004,2004,C,6-8,200,"May 20, 1981",UC Santa Barbara,No
 1458,Lindsay Whalen,2004,2018,G,5-9,170,"May 9, 1982",Minnesota,No
-1459,Mandisa Stevenson,2004,2006,F-C,6-3,166,"February 4, 1982",Auburn,No
+1459,Mandisa Stevenson,2004,2006,F,6-3,166,"February 4, 1982",Auburn,No
 1460,Michelle Greco,2004,2004,G,5-9,145,"March 24, 1980",UCLA,No
-1461,Monique Coker,2004,2004,F-C,6-2,180,"November 28, 1982",Old Dominion,No
-1462,Nicole Ohlde,2004,2010,F-C,6-5,189,"March 13, 1982",Kansas State,No
+1461,Monique Coker,2004,2004,F,6-2,180,"November 28, 1982",Old Dominion,No
+1462,Nicole Ohlde,2004,2010,F,6-5,189,"March 13, 1982",Kansas State,No
 1463,Nicole Powell,2004,2014,F,6-2,170,"June 22, 1982",Stanford,No
 1464,Raffaella Masciadri,2004,2008,F,6-0,169,"September 30, 1980",NA,No
 1465,Rebekkah Brunson,2004,2018,F,6-2,181,"December 11, 1981",Georgetown,No
@@ -482,11 +482,11 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1481,Francesca Zara,2005,2005,G,5-10,146,"December 8, 1976",NA,No
 1482,Jacqueline Batteast,2005,2006,F,6-1,163,"March 26, 1983",Notre Dame,No
 1483,Jamie Carey,2005,2008,G,5-6,135,"March 12, 1981",Texas,No
-1484,Janel McCarville,2005,2016,F-C,6-2,225,"November 3, 1982",Minnesota,No
+1484,Janel McCarville,2005,2016,F,6-2,225,"November 3, 1982",Minnesota,No
 1485,Jenni Benningfield,2005,2005,F,6-3,185,"October 6, 1981",Vanderbilt,No
 1486,Jennifer Smith,2005,2005,C,6-3,198,"April 10, 1982",Michigan,No
-1487,Jessica Moore,2005,2013,F-C,6-3,175,"July 9, 1982",UConn,No
-1488,Kara Braxton,2005,2014,C-F,6-6,225,"February 18, 1983",Georgia,No
+1487,Jessica Moore,2005,2013,F,6-3,175,"July 9, 1982",UConn,No
+1488,Kara Braxton,2005,2014,C,6-6,225,"February 18, 1983",Georgia,No
 1489,Katie Mattera,2005,2009,C,6-8,240,"November 17, 1982",Liberty,No
 1490,Kendra Wecker,2005,2008,F,5-11,172,"December 16, 1982",Kansas State,No
 1491,Kristen Mann,2005,2010,F,6-2,180,"August 10, 1983",UC Santa Barbara,No
@@ -511,8 +511,8 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1510,Yolanda Paige,2005,2005,G,5-6,147,"September 18, 1983",West Virginia,No
 1511,Ambrosia Anderson,2006,2006,F,6-0,167,"March 14, 1984",BYU,No
 1512,Anastasia Kostaki,2006,2006,G,5-7,137,"March 26, 1978",NA,No
-1513,Ann Strother,2006,2008,G-F,6-3,166,"December 11, 1983",UConn,No
-1514,Barbara Turner,2006,2009,G-F,5-10,182,"June 8, 1984",UConn,No
+1513,Ann Strother,2006,2008,G,6-3,166,"December 11, 1983",UConn,No
+1514,Barbara Turner,2006,2009,G,5-10,182,"June 8, 1984",UConn,No
 1515,Brandi Davis,2006,2006,G,6-0,172,"January 1, 1983",Oregon,No
 1516,Brittany Wilkins,2006,2008,C,6-3,185,"June 15, 1983",Iowa State,No
 1517,Brooke Queenan,2006,2008,F,6-2,185,"April 10, 1984",Boston College,No
@@ -521,16 +521,16 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1520,Christelle N'Garsanet,2006,2006,C,6-3,168,"June 23, 1983",Missouri,No
 1521,Cisti Greenwalt,2006,2006,C,6-5,183,"April 4, 1983",Texas Tech,No
 1522,Crystal Smith,2006,2008,G,5-6,121,"March 12, 1984",Iowa,No
-1523,Daliborka Vilipic,2006,2006,F-C,6-4,NA,"March 30, 1975",NA,No
+1523,Daliborka Vilipic,2006,2006,F,6-4,NA,"March 30, 1975",NA,No
 1524,Emilie Gomis,2006,2006,G,5-9,135,"October 18, 1983",NA,No
 1525,Emmeline Ndongue,2006,2006,C,6-2,170,"April 25, 1983",NA,No
 1526,Erin Phillips,2006,2016,G,5-8,165,"May 19, 1985",NA,No
 1527,Irina Osipova,2006,2006,C,6-5,190,"June 25, 1981",NA,No
 1528,Jennifer Lacy,2006,2015,F,6-3,175,"March 21, 1983",Pepperdine,No
-1529,Kasha Terry,2006,2008,C-F,6-3,185,"October 21, 1983",Georgia Tech,No
-1530,Katie Cronin,2006,2006,G-F,6-0,155,"September 8, 1977",Colorado State,No
+1529,Kasha Terry,2006,2008,C,6-3,185,"October 21, 1983",Georgia Tech,No
+1530,Katie Cronin,2006,2006,G,6-0,155,"September 8, 1977",Colorado State,No
 1531,Kim Smith,2006,2008,F,6-0,158,"May 7, 1984",Utah,No
-1532,La'Tangela Atkinson,2006,2009,G-F,6-1,164,"March 22, 1984",UNC,No
+1532,La'Tangela Atkinson,2006,2009,G,6-1,164,"March 22, 1984",UNC,No
 1533,LaToya Bond,2006,2008,G,5-7,132,"February 13, 1984",Missouri,No
 1534,Lisa Willis,2006,2009,G,6-1,170,"June 13, 1984",UCLA,No
 1535,Liz Moeggenberg,2006,2007,F,6-1,195,"May 25, 1984",Michigan State,No
@@ -541,13 +541,13 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1540,Nikki Blue,2006,2010,G,5-8,163,"April 29, 1984",UCLA,No
 1541,Sabrina Palie,2006,2006,G,5-7,159,"July 23, 1981",NA,No
 1542,Scholanda Dorrell,2006,2012,G,5-11,162,"January 9, 1983",LSU,No
-1543,Seimone Augustus,2006,2020,G-F,6-0,174,"April 30, 1984",LSU,No
+1543,Seimone Augustus,2006,2020,G,6-0,174,"April 30, 1984",LSU,No
 1544,Shanna Zolman,2006,2010,G,5-10,155,"September 7, 1983",Tennessee,No
 1545,Sherill Baker,2006,2009,G,5-8,125,"December 3, 1982",Georgia,No
 1546,Shona Thorburn,2006,2007,G,5-9,149,"August 7, 1982",Utah,No
 1547,Sophia Young-Malcolm,2006,2015,F,6-1,165,"December 15, 1983",Baylor,No
-1548,Tamara James,2006,2007,G-F,5-10,158,"June 13, 1984",Miami (FL),No
-1549,Tiffany Stansbury,2006,2010,F-C,6-3,183,"January 16, 1983",NC State,No
+1548,Tamara James,2006,2007,G,5-10,158,"June 13, 1984",Miami (FL),No
+1549,Tiffany Stansbury,2006,2010,F,6-3,183,"January 16, 1983",NC State,No
 1550,Tye'sha Fluker,2006,2008,C,6-5,209,"December 27, 1984",Tennessee,No
 1551,Yelena Leuchanka,2006,2012,C,6-5,195,"April 30, 1983",West Virginia,No
 1552,Zane Tamane,2006,2012,C,6-7,176,"September 24, 1983",Western Illinois University,No
@@ -558,18 +558,18 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1557,Bernice Mosby,2007,2009,F,6-1,140,"February 14, 1984",Baylor,No
 1558,Camille Smith,2007,2019,F,6-2,180,"January 18, 1985",UNC,No
 1559,Carla Thomas,2007,2007,F,6-3,200,"October 31, 1985",Vanderbilt,No
-1560,Cathy Joens,2007,2008,G-F,5-11,165,"February 12, 1981",George Washington,No
+1560,Cathy Joens,2007,2008,G,5-11,165,"February 12, 1981",George Washington,No
 1561,Claire Coggins,2007,2007,G,5-11,170,"May 19, 1985",Kansas State,No
 1562,Cori Chambers,2007,2007,G,5-9,160,"July 6, 1985",Georgia,No
 1563,Dee Davis,2007,2007,G,5-7,138,"November 8, 1984",Vanderbilt,No
 1564,Erin Grant,2007,2007,G,5-8,125,"June 13, 1984",Texas Tech,No
-1565,Evanthia Maltsi,2007,2007,G-F,5-11,165,"December 20, 1978",NA,No
+1565,Evanthia Maltsi,2007,2007,G,5-11,165,"December 20, 1978",NA,No
 1566,Gillian Goring,2007,2007,C,6-7,225,"June 7, 1983",NC State,No
 1567,Ivory Latta,2007,2017,G,5-6,138,"September 25, 1984",UNC,No
 1568,Jessica Davenport,2007,2012,C,6-5,215,"June 24, 1985",Ohio State,No
 1569,Kamesha Hairston,2007,2007,F,6-0,146,"August 18, 1985",Temple,No
 1570,Kathrin Ress,2007,2007,F,6-4,NA,"June 26, 1985",Boston College,No
-1571,Katie Gearlds,2007,2009,G-F,6-1,184,"October 26, 1984",Purdue,No
+1571,Katie Gearlds,2007,2009,G,6-1,184,"October 26, 1984",Purdue,No
 1572,Lindsay Bowen,2007,2007,G,5-7,145,"October 25, 1983",Michigan State,No
 1573,Lindsey Harding,2007,2016,G,5-8,139,"June 12, 1984",Duke,No
 1574,Marta Fernandez,2007,2007,G,5-11,138,"December 21, 1981",NA,No
@@ -587,15 +587,15 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1586,Alexis Hornbuckle,2008,2013,G,5-10,164,"October 16, 1985",Tennessee,No
 1587,Allie Quigley,2008,2022,G,5-10,142,"June 20, 1986",DePaul,No
 1588,Amber Holt,2008,2012,F,6-0,170,"June 7, 1985",Middle Tennessee,No
-1589,Brooke Smith,2008,2010,F-C,6-3,188,"April 30, 1984",Stanford,No
-1590,Candace Parker,2008,2023,F-C,6-4,184,"April 19, 1986",Tennessee,No
+1589,Brooke Smith,2008,2010,F,6-3,188,"April 30, 1984",Stanford,No
+1590,Candace Parker,2008,2023,F,6-4,184,"April 19, 1986",Tennessee,No
 1591,Candice Wiggins,2008,2015,G,5-11,147,"February 14, 1987",Stanford,No
 1592,Charde Houston,2008,2014,F,6-0,180,"April 10, 1986",UConn,No
 1593,Charel Allen,2008,2008,G,5-11,135,"July 23, 1986",Notre Dame,No
 1594,Chioma Nnamaka,2008,2008,G,6-0,NA,"June 15, 1985",Georgia Tech,No
 1595,Chrissy Givens,2008,2008,G,5-11,NA,"July 26, 1985",Middle Tennessee,No
 1596,Crystal Kelly,2008,2010,F,6-2,201,"September 15, 1986",Western Kentucky,No
-1597,Crystal Langhorne,2008,2020,F-C,6-2,185,"October 27, 1986",Maryland,No
+1597,Crystal Langhorne,2008,2020,F,6-2,185,"October 27, 1986",Maryland,No
 1598,Danielle Page,2008,2008,F,6-2,189,"November 14, 1986",Nebraska,No
 1599,Erica White,2008,2009,G,5-3,135,"August 26, 1986",LSU,No
 1600,Erlana Larkins,2008,2018,F,6-1,205,"April 2, 1986",UNC,No
@@ -607,19 +607,19 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1606,Ketia Swanier,2008,2012,G,5-7,150,"August 10, 1986",UConn,No
 1607,Khadijah Whittington,2008,2009,F,6-1,185,"August 5, 1986",NC State,No
 1608,Kimberly Beck,2008,2008,G,5-8,125,"December 27, 1985",George Washington,No
-1609,Kristen O'Neill,2008,2008,G-F,6-1,158,"April 12, 1983",Washington,No
+1609,Kristen O'Neill,2008,2008,G,6-1,158,"April 12, 1983",Washington,No
 1610,Krystal Vaughn,2008,2008,F,6-1,160,"September 8, 1986",VCU,No
-1611,LaToya Sanders,2008,2019,F-C,6-2,170,"September 11, 1986",UNC,No
-1612,Laura Harper,2008,2009,F-C,6-5,186,"April 11, 1986",Maryland,No
+1611,LaToya Sanders,2008,2019,F,6-2,170,"September 11, 1986",UNC,No
+1612,Laura Harper,2008,2009,F,6-5,186,"April 11, 1986",Maryland,No
 1613,Leah Rush,2008,2008,F,6-1,175,"October 25, 1984",Oklahoma,No
 1614,Leilani Mitchell,2008,2021,G,5-5,138,"June 15, 1985",Utah,No
 1615,Marcedes Walker,2008,2008,C,6-3,253,"October 17, 1986",Pitt,No
 1616,Matee Ajavon,2008,2017,G,5-8,160,"May 7, 1986",Rutgers University,No
-1617,Morenike Atunrase,2008,2008,G-F,5-10,143,"April 14, 1986",Texas A&M,No
-1618,Nicky Anosike,2008,2012,F-C,6-3,210,"February 27, 1986",Tennessee,No
-1619,Olayinka Sanni,2008,2011,F-C,6-2,200,"August 21, 1985",West Virginia,No
+1617,Morenike Atunrase,2008,2008,G,5-10,143,"April 14, 1986",Texas A&M,No
+1618,Nicky Anosike,2008,2012,F,6-3,210,"February 27, 1986",Tennessee,No
+1619,Olayinka Sanni,2008,2011,F,6-2,200,"August 21, 1985",West Virginia,No
 1620,Quianna Chaney,2008,2008,G,5-11,160,"April 14, 1986",LSU,No
-1621,Sandrine Gruda,2008,2017,F-C,6-4,185,"June 25, 1987",NA,No
+1621,Sandrine Gruda,2008,2017,F,6-4,185,"June 25, 1987",NA,No
 1622,Sequoia Holmes,2008,2018,G,6-1,155,"June 13, 1986",UNLV,No
 1623,Shannon Bobbitt,2008,2012,G,5-2,130,"December 6, 1985",Tennessee,No
 1624,Sharnee Zoll,2008,2013,G,5-7,NA,"July 11, 1986",Virginia,No
@@ -631,22 +631,22 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1630,Willnett Crockett,2008,2008,F,6-2,215,"July 5, 1984",UConn,No
 1631,Yuko Oga,2008,2008,G,5-6,140,"October 17, 1982",NA,No
 1632,Anete Jekabsone-Zogota,2009,2014,G,5-9,167,"August 12, 1983",NA,No
-1633,Angel McCoughtry,2009,2022,F-G,6-1,173,"September 10, 1986",Louisville,No
+1633,Angel McCoughtry,2009,2022,F,6-1,173,"September 10, 1986",Louisville,No
 1634,Anna Montanana,2009,2009,F,6-1,190,"October 24, 1980",George Washington,No
-1635,Ashley Walker,2009,2019,F-C,6-1,200,"February 24, 1987",California,No
+1635,Ashley Walker,2009,2019,F,6-1,200,"February 24, 1987",California,No
 1636,Briann January,2009,2022,G,5-8,148,"January 11, 1987",Arizona State,No
 1637,Britany Miller,2009,2009,C,6-4,NA,"August 10, 1987",Florida State,No
 1638,Chante Black,2009,2013,C,6-5,188,"November 12, 1985",Duke,No
 1639,Chen Nan,2009,2009,C,6-6,180,"January 6, 1983",NA,No
 1640,Christina Wirth,2009,2009,F,6-1,172,"April 18, 1987",Vanderbilt,No
 1641,Courtney Paris,2009,2019,C,6-4,250,"September 21, 1987",Oklahoma,No
-1642,DeWanna Bonner,2009,2024,Forward-Guard,6-4,140,"August 21, 1987",Auburn,Yes
+1642,DeWanna Bonner,2009,2024,F,6-4,140,"August 21, 1987",Auburn,Yes
 1643,Kia Vaughn,2009,2022,C,6-4,205,"January 24, 1987",Rutgers University,No
 1644,Kristi Cirone,2009,2009,G,5-8,136,"May 19, 1987",Illinois State,No
 1645,Kristi Toliver,2009,2023,G,5-7,130,"January 27, 1987",Maryland,No
 1646,Lauren Ervin,2009,2009,F,6-3,171,"March 24, 1985",Arkansas,No
 1647,Lindsay Wisdom-Hylton,2009,2012,F,6-2,186,"May 26, 1986",Purdue,No
-1648,Marissa Coleman,2009,2018,G-F,6-1,160,"January 4, 1987",Maryland,No
+1648,Marissa Coleman,2009,2018,G,6-1,160,"January 4, 1987",Maryland,No
 1649,Megan Frazee,2009,2010,F,6-3,191,"March 29, 1987",Liberty,No
 1650,Quanitra Hollingsworth,2009,2015,C,6-5,200,"November 15, 1988",VCU,No
 1651,Rashanda McCants,2009,2010,F,6-1,163,"November 17, 1986",UNC,No
@@ -678,15 +678,15 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1677,Monica Wright,2010,2016,G,5-10,182,"July 15, 1988",Virginia,No
 1678,Natasha Lacy,2010,2014,G,5-10,165,"July 8, 1985",Texas-El Paso,No
 1679,Taylor Lilley,2010,2010,G,5-6,130,"February 29, 1988",Oregon,No
-1680,Tina Charles,2010,2024,Center,6-4,192,"December 5, 1988",UConn,Yes
-1681,Alex Montgomery,2011,2018,G-F,6-1,185,"November 12, 1988",Georgia Tech,No
+1680,Tina Charles,2010,2024,C,6-4,192,"December 5, 1988",UConn,Yes
+1681,Alex Montgomery,2011,2018,G,6-1,185,"November 12, 1988",Georgia Tech,No
 1682,Alexis Gray-Lawson,2011,2012,G,5-8,180,"April 21, 1987",California,No
 1683,Amber Harris,2011,2018,F,6-5,193,"January 16, 1988",Xavier,No
 1684,Angie Bjorklund,2011,2011,F,6-0,NA,"July 14, 1989",Tennessee,No
 1685,Carolyn Swords,2011,2020,C,6-6,215,"July 19, 1989",Boston College,No
 1686,Chastity Reed,2011,2011,F,6-1,155,"March 28, 1989",Little Rock,No
-1687,Courtney Vandersloot,2011,2024,Guard,5-8,137,"February 8, 1989",Gonzaga,Yes
-1688,Danielle Adams,2011,2017,F-C,6-1,239,"February 19, 1989",Texas A&M,No
+1687,Courtney Vandersloot,2011,2024,G,5-8,137,"February 8, 1989",Gonzaga,Yes
+1688,Danielle Adams,2011,2017,F,6-1,239,"February 19, 1989",Texas A&M,No
 1689,Danielle McCray,2011,2014,F,5-11,170,"October 8, 1987",Kansas,No
 1690,Danielle Robinson,2011,2023,G,5-9,137,"May 10, 1989",Oklahoma,No
 1691,Ewelina Kobryn,2011,2014,C,6-4,210,"May 7, 1982",NA,No
@@ -697,19 +697,19 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1696,Jeanette Pohlen-Mavunga,2011,2017,G,6-0,171,"May 2, 1989",Stanford,No
 1697,Jenna O'Hea,2011,2016,F,6-1,174,"June 6, 1987",NA,No
 1698,Jessica Breland,2011,2021,F,6-2,166,"February 23, 1988",UNC,No
-1699,Karima Christmas-Kelly,2011,2020,F-G,6-0,209,"September 11, 1989",Duke,No
+1699,Karima Christmas-Kelly,2011,2020,F,6-0,209,"September 11, 1989",Duke,No
 1700,Kayla Pedersen,2011,2017,F,6-4,190,"April 14, 1989",Stanford,No
 1701,Krystal Thomas,2011,2018,C,6-5,210,"June 10, 1989",Duke,No
 1702,Liz Cambage,2011,2022,C,6-8,216,"August 18, 1991",NA,No
 1703,Maya Moore,2011,2018,F,6-0,175,"June 11, 1989",UConn,No
 1704,Miranda Ayim,2011,2011,F,6-3,170,"May 6, 1988",Pepperdine,No
 1705,Porsha Phillips,2011,2011,F,6-2,173,"January 13, 1988",Georgia,No
-1706,Sydney Colson,2011,2024,Guard,5-8,140,"August 6, 1989",Texas A&M,Yes
+1706,Sydney Colson,2011,2024,G,5-8,140,"August 6, 1989",Texas A&M,Yes
 1707,Ta'Shia Phillips,2011,2011,C,6-6,NA,"January 24, 1989",Xavier,No
 1708,Victoria Dunlap,2011,2012,F,6-1,167,"September 19, 1989",Kentucky,No
-1709,Alysha Clark,2012,2024,Forward,5-11,167,"July 7, 1987",Middle Tennessee,Yes
-1710,Aneika Henry-Morello,2012,2017,F-C,6-4,192,"February 13, 1986",Florida,No
-1711,April Sykes,2012,2012,G-F,6-0,183,"July 30, 1990",Rutgers University,No
+1709,Alysha Clark,2012,2024,F,5-11,167,"July 7, 1987",Middle Tennessee,Yes
+1710,Aneika Henry-Morello,2012,2017,F,6-4,192,"February 13, 1986",Florida,No
+1711,April Sykes,2012,2012,G,6-0,183,"July 30, 1990",Rutgers University,No
 1712,Avery Warley-Talbert,2012,2020,C,6-3,202,"May 17, 1987",Liberty,No
 1713,Briana Gilbreath-Butler,2012,2015,G,6-0,150,"August 16, 1990",USC,No
 1714,Chay Shegog,2012,2012,C,6-5,202,"February 22, 1990",UNC,No
@@ -717,12 +717,12 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1716,Devereaux Peters,2012,2018,F,6-2,174,"October 8, 1989",Notre Dame,No
 1717,Dymond Simon,2012,2012,G,5-5,137,"September 29, 1989",Arizona State,No
 1718,Glory Johnson,2012,2020,F,6-3,170,"July 27, 1990",Tennessee,No
-1719,Julie Wojta,2012,2013,G-F,6-0,NA,"April 9, 1989",Green Bay,No
-1720,Katelan Redmon,2012,2012,G-F,6-1,NA,"October 11, 1988",Gonzaga,No
+1719,Julie Wojta,2012,2013,G,6-0,NA,"April 9, 1989",Green Bay,No
+1720,Katelan Redmon,2012,2012,G,6-1,NA,"October 11, 1988",Gonzaga,No
 1721,Kelley Cain,2012,2014,C,6-6,220,"May 16, 1989",Tennessee,No
 1722,Lynetta Kizer,2012,2018,F,6-4,243,"April 4, 1990",Maryland,No
 1723,Natalie Novosel,2012,2012,G,5-11,165,"November 22, 1989",Notre Dame,No
-1724,Nneka Ogwumike,2012,2024,Forward,6-2,190,"July 2, 1990",Stanford,Yes
+1724,Nneka Ogwumike,2012,2024,F,6-2,190,"July 2, 1990",Stanford,Yes
 1725,Riquna Williams,2012,2022,G,5-7,165,"May 28, 1990",Miami (FL),No
 1726,Samantha Prahalis,2012,2014,G,5-7,142,"January 23, 1990",Ohio State,No
 1727,Sasha Goodlett,2012,2015,C,6-5,239,"August 9, 1990",Georgia Tech,No
@@ -730,20 +730,20 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1729,Shenise Johnson,2012,2020,G,5-11,172,"December 8, 1990",Miami (FL),No
 1730,Sonja Petrovic,2012,2016,F,6-2,169,"February 18, 1989",NA,No
 1731,Sydney Carter,2012,2015,G,5-6,133,"November 18, 1990",Texas A&M,No
-1732,Tiffany Hayes,2012,2024,Guard,5-10,155,"September 20, 1989",UConn,Yes
+1732,Tiffany Hayes,2012,2024,G,5-10,155,"September 20, 1989",UConn,Yes
 1733,Ziomara Morrison,2012,2012,C,6-4,214,"February 15, 1989",NA,No
 1734,A'dia Mathies,2013,2013,G,5-9,NA,"May 18, 1991",Kentucky,No
 1735,Alex Bentley,2013,2019,G,5-7,152,"October 27, 1990",Penn State,No
 1736,Angel Goodrich,2013,2015,G,5-4,127,"February 24, 1990",Kansas,No
-1737,Anne Marie Armstrong,2013,2013,G-F,6-3,NA,"January 24, 1991",Georgia,No
-1738,Brittney Griner,2013,2024,Center,6-9,205,"October 18, 1990",Baylor,Yes
+1737,Anne Marie Armstrong,2013,2013,G,6-3,NA,"January 24, 1991",Georgia,No
+1738,Brittney Griner,2013,2024,C,6-9,205,"October 18, 1990",Baylor,Yes
 1739,Chelsea Hopkins,2013,2018,G,5-8,139,"July 2, 1990","Duke, San Diego State",No
 1740,Chelsea Poppens,2013,2013,F,6-2,NA,"February 19, 1991",Iowa State,No
 1741,Chucky Jeffery,2013,2014,G,5-10,NA,"May 8, 1991",Colorado,No
 1742,Cierra Bravard,2013,2013,F,6-4,NA,"October 14, 1989",Florida State,No
 1743,Courtney Clements,2013,2015,G,6-0,157,"November 12, 1989",San Diego State,No
 1744,Davellyn Whyte,2013,2014,G,5-11,159,"May 14, 1991",Arizona,No
-1745,Elena Delle Donne,2013,2023,F-G,6-5,187,"September 5, 1989",University of Delaware,No
+1745,Elena Delle Donne,2013,2023,F,6-5,187,"September 5, 1989",University of Delaware,No
 1746,Emma Meesseman,2013,2022,F,6-4,191,"May 13, 1993",NA,No
 1747,Farhiya Abdi,2013,2015,F,6-2,180,"May 31, 1992",NA,No
 1748,Jasmine Hassell,2013,2014,F,6-2,205,"April 9, 1991",Georgia,No
@@ -753,82 +753,82 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1752,Kayla Alexander,2013,2020,C,6-4,195,"January 5, 1991",Syracuse,No
 1753,Kelly Faris,2013,2016,G,5-11,154,"January 16, 1991",UConn,No
 1754,Kelsey Bone,2013,2018,C,6-4,220,"December 31, 1991",Texas A&M,No
-1755,Layshia Clarendon,2013,2024,Guard,5-9,158,"May 2, 1991",California,Yes
+1755,Layshia Clarendon,2013,2024,G,5-9,158,"May 2, 1991",California,Yes
 1756,Lindsey Moore,2013,2014,G,5-8,148,"June 3, 1991",Nebraska,No
 1757,Michelle Campbell,2013,2013,F,6-2,183,"May 12, 1984",Rutgers University,No
 1758,Nadirah McKenith,2013,2014,G,5-7,155,"September 6, 1991",St. John's,No
 1759,Rachel Jarry,2013,2013,F,6-1,176,"December 6, 1991",NA,No
-1760,Skylar Diggins-Smith,2013,2024,Guard,5-9,140,"August 2, 1990",Notre Dame,Yes
+1760,Skylar Diggins-Smith,2013,2024,G,5-9,140,"August 2, 1990",Notre Dame,Yes
 1761,Sugar Rodgers,2013,2020,G,5-9,161,"December 8, 1989",Georgetown,No
 1762,Tayler Hill,2013,2019,G,5-9,145,"October 23, 1990",Ohio State,No
 1763,Tianna Hawkins,2013,2023,F,6-3,186,"March 2, 1991",Maryland,No
 1764,Tierra Ruffin-Pratt,2013,2020,G,5-11,180,"April 11, 1991",UNC,No
 1765,Toni Young,2013,2014,F,6-0,158,"January 11, 1991",Oklahoma State,No
 1766,Aaryn Ellenberg,2014,2014,G,5-7,122,"July 19, 1992",Oklahoma,No
-1767,Alyssa Thomas,2014,2024,Forward,6-2,203,"April 12, 1992",Maryland,Yes
-1768,Angel Robinson,2014,2018,F-C,6-6,193,"April 20, 1987",Georgia,No
+1767,Alyssa Thomas,2014,2024,F,6-2,203,"April 12, 1992",Maryland,Yes
+1768,Angel Robinson,2014,2018,F,6-6,193,"April 20, 1987",Georgia,No
 1769,Anna Cruz,2014,2016,G,5-9,136,"October 27, 1986",NA,No
 1770,Asia Taylor,2014,2019,F,6-1,167,"August 22, 1991",Louisville,No
-1771,Astou Ndour-Fall,2014,2024,Center-Forward,6-5,173,"August 22, 1994",NA,Yes
+1771,Astou Ndour-Fall,2014,2024,C,6-5,173,"August 22, 1994",NA,Yes
 1772,Bria Hartley,2014,2022,G,5-9,148,"September 30, 1992",UConn,No
 1773,Celine Dumerc,2014,2014,G,5-7,132,"July 9, 1982",NA,No
-1774,Chiney Ogwumike,2014,2023,F-C,6-3,183,"March 21, 1992",Stanford,No
-1775,Damiris Dantas,2014,2024,Forward,6-3,214,"November 17, 1992",NA,Yes
+1774,Chiney Ogwumike,2014,2023,F,6-3,183,"March 21, 1992",Stanford,No
+1775,Damiris Dantas,2014,2024,F,6-3,214,"November 17, 1992",NA,Yes
 1776,Darxia Morris,2014,2017,G,5-8,155,"October 9, 1989",UCLA,No
 1777,Gennifer Brandon,2014,2014,F,6-2,164,"November 23, 1990",California,No
 1778,Heather Butler,2014,2014,G,5-5,128,"November 7, 1991",University of Tennessee at Martin,No
 1779,Inga Orekhova,2014,2015,G,6-2,160,"November 10, 1989",South Florida,No
 1780,Jamierra Faulkner,2014,2019,G,5-6,138,"March 9, 1992",Southern Miss,No
-1781,Jelena Milovanovic,2014,2014,F-C,6-3,175,"April 28, 1989",NA,No
+1781,Jelena Milovanovic,2014,2014,F,6-3,175,"April 28, 1989",NA,No
 1782,Jordan Hooper,2014,2017,F,6-2,185,"February 20, 1992",Nebraska,No
-1783,Kayla McBride,2014,2024,Guard,5-11,179,"June 25, 1992",Notre Dame,Yes
+1783,Kayla McBride,2014,2024,G,5-11,179,"June 25, 1992",Notre Dame,Yes
 1784,Maggie Lucas,2014,2018,G,5-10,158,"November 29, 1991",Penn State,No
 1785,Markeisha Gatling,2014,2016,C,6-5,195,"July 14, 1992",NC State,No
 1786,Nadia Colhado,2014,2017,C,6-4,196,"February 25, 1989",NA,No
-1787,Natasha Howard,2014,2024,Forward,6-2,165,"September 2, 1991",Florida State,Yes
-1788,Nikki Greene,2014,2015,F-C,6-4,192,"September 6, 1990",Penn State,No
-1789,Odyssey Sims,2014,2024,Guard,5-8,155,"July 13, 1992",Baylor,Yes
-1790,Shanece McKinney,2014,2014,C-F,6-4,215,"August 25, 1992",LSU,No
+1787,Natasha Howard,2014,2024,F,6-2,165,"September 2, 1991",Florida State,Yes
+1788,Nikki Greene,2014,2015,F,6-4,192,"September 6, 1990",Penn State,No
+1789,Odyssey Sims,2014,2024,G,5-8,155,"July 13, 1992",Baylor,Yes
+1790,Shanece McKinney,2014,2014,C,6-4,215,"August 25, 1992",LSU,No
 1791,Shoni Schimmel,2014,2018,G,5-9,161,"May 4, 1992",Louisville,No
-1792,Stefanie Dolson,2014,2024,Center,6-5,235,"January 8, 1992",UConn,Yes
+1792,Stefanie Dolson,2014,2024,C,6-5,235,"January 8, 1992",UConn,Yes
 1793,Theresa Plaisance,2014,2022,F,6-5,200,"May 18, 1992",LSU,No
 1794,Tiffany Bias,2014,2019,G,5-7,135,"May 22, 1992",Oklahoma State,No
 1795,Tricia Liston,2014,2015,F,6-0,185,"February 20, 1992",Duke,No
-1796,Vicki Baugh,2014,2016,F-C,6-4,190,"May 21, 1989",Tennessee,No
+1796,Vicki Baugh,2014,2016,F,6-4,190,"May 21, 1989",Tennessee,No
 1797,Waltiea Rolle,2014,2014,C,6-6,199,"September 11, 1990",UNC,No
 1798,Alex Harden,2015,2016,G,6-0,173,"March 27, 1993",Wichita State,No
 1799,Ally Malott,2015,2016,F,6-4,183,"October 31, 1992",Dayton,No
 1800,Amanda Zahui B.,2015,2023,C,6-5,184,"September 8, 1993",Minnesota,No
 1801,Ana Dabovic,2015,2016,G,6-0,157,"August 18, 1989",NA,No
 1802,Andrea Hoover,2015,2015,G,5-9,155,"September 9, 1992",Dayton,No
-1803,Betnijah Laney,2015,2024,G-F,6-0,166,"October 29, 1993",Rutgers University,Yes
+1803,Betnijah Laney,2015,2024,G,6-0,166,"October 29, 1993",Rutgers University,Yes
 1804,Brianna Kiesel,2015,2017,G,5-7,125,"July 8, 1993",Pitt,No
 1805,Brittany Boyd,2015,2021,G,5-9,156,"June 11, 1993",California,No
 1806,Brittany Hrynko,2015,2015,G,5-8,152,"April 24, 1993",DePaul,No
 1807,Carla Cortijo,2015,2016,G,5-8,135,"July 21, 1987",Texas,No
-1808,Cayla George,2015,2023,C-F,6-4,192,"May 1, 1989",NA,No
-1809,Chelsea Gray,2015,2024,Guard,5-11,170,"October 8, 1992",Duke,Yes
-1810,Cheyenne Parker,2015,2024,Forward,6-4,193,"August 22, 1992",Middle Tennessee,Yes
+1808,Cayla George,2015,2023,C,6-4,192,"May 1, 1989",NA,No
+1809,Chelsea Gray,2015,2024,G,5-11,170,"October 8, 1992",Duke,Yes
+1810,Cheyenne Parker,2015,2024,F,6-4,193,"August 22, 1992",Middle Tennessee,Yes
 1811,Cierra Burdick,2015,2021,F,6-2,172,"September 30, 1993",Tennessee,No
 1812,Clarissa Dos Santos,2015,2016,C,6-1,196,"March 10, 1988",NA,No
 1813,Crystal Bradford,2015,2021,F,6-0,170,"November 1, 1993",Central Michigan University,No
-1814,Dearica Hamby,2015,2024,Forward,6-3,189,"November 6, 1993",Wake Forest,Yes
-1815,Elizabeth Williams,2015,2024,Center-Forward,6-3,200,"June 23, 1993",Duke,Yes
-1816,Erica Wheeler,2015,2024,Guard,5-7,143,"May 2, 1991",Rutgers University,Yes
+1814,Dearica Hamby,2015,2024,F,6-3,189,"November 6, 1993",Wake Forest,Yes
+1815,Elizabeth Williams,2015,2024,C,6-3,200,"June 23, 1993",Duke,Yes
+1816,Erica Wheeler,2015,2024,G,5-7,143,"May 2, 1991",Rutgers University,Yes
 1817,Jacki Gemelos,2015,2020,G,6-0,165,"November 22, 1988",USC,No
 1818,Jasmine Lister,2015,2015,G,5-4,135,"September 12, 1992",Vanderbilt,No
 1819,Jennifer Hamson,2015,2017,C,6-7,210,"January 23, 1992",BYU,No
 1820,Jennifer O'Neill,2015,2015,G,5-5,141,"April 19, 1990",Kentucky,No
-1821,Jewell Loyd,2015,2024,Guard,5-11,175,"October 5, 1993",Notre Dame,Yes
+1821,Jewell Loyd,2015,2024,G,5-11,175,"October 5, 1993",Notre Dame,Yes
 1822,Kaleena Mosqueda-Lewis,2015,2020,F,5-11,180,"November 3, 1993",UConn,No
-1823,Kayla Thornton,2015,2024,Forward,6-1,190,"October 20, 1992",Texas-El Paso,Yes
-1824,Kiah Stokes,2015,2024,Center,6-3,191,"March 30, 1993",UConn,Yes
+1823,Kayla Thornton,2015,2024,F,6-1,190,"October 20, 1992",Texas-El Paso,Yes
+1824,Kiah Stokes,2015,2024,C,6-3,191,"March 30, 1993",UConn,Yes
 1825,Marianna Tolo,2015,2015,C,6-5,190,"July 2, 1989",NA,No
 1826,Marta Xargay,2015,2016,G,5-11,160,"December 20, 1990",NA,No
 1827,Natalie Achonwa,2015,2022,F,6-3,198,"November 22, 1992",Notre Dame,No
-1828,Natasha Cloud,2015,2024,Guard,5-10,160,"February 22, 1992","Maryland, Saint Joseph's",Yes
+1828,Natasha Cloud,2015,2024,G,5-10,160,"February 22, 1992","Maryland, Saint Joseph's",Yes
 1829,Ramu Tokashiki,2015,2017,F,6-3,176,"June 11, 1991",NA,No
-1830,Rebecca Allen,2015,2024,Forward-Guard,6-2,162,"November 6, 1992",NA,Yes
+1830,Rebecca Allen,2015,2024,F,6-2,162,"November 6, 1992",NA,Yes
 1831,Reshanda Gray,2015,2022,F,6-2,192,"June 1, 1993",California,No
 1832,Samantha Logic,2015,2015,G,5-9,177,"October 22, 1992",Iowa,No
 1833,Shae Kelley,2015,2015,F,6-1,166,"September 29, 1991",Minnesota,No
@@ -836,135 +836,135 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1835,Valeriane Ayayi,2015,2015,F,6-1,NA,"April 29, 1994",NA,No
 1836,Victoria Macaulay,2015,2019,F,6-4,165,"August 7, 1990",Temple,No
 1837,Adut Bulgak,2016,2017,C,6-4,156,"December 20, 1992",Florida State,No
-1838,Aerial Powers,2016,2024,Guard,5-11,170,"January 17, 1994",Michigan State,Yes
+1838,Aerial Powers,2016,2024,G,5-11,170,"January 17, 1994",Michigan State,Yes
 1839,Ameryst Alston,2016,2017,G,5-9,NA,"June 20, 1994",Ohio State,No
 1840,Bashaara Graves,2016,2017,F,6-2,200,"March 17, 1994",Tennessee,No
 1841,Blake Dietrick,2016,2021,G,5-10,159,"July 19, 1993",Princeton,No
-1842,Breanna Stewart,2016,2024,Forward,6-4,170,"August 27, 1994",UConn,Yes
+1842,Breanna Stewart,2016,2024,F,6-4,170,"August 27, 1994",UConn,Yes
 1843,Brene Moseley,2016,2016,G,5-7,NA,"November 25, 1993",Maryland,No
 1844,Bria Holmes,2016,2021,G,6-3,170,"April 19, 1994",West Virginia,No
-1845,Courtney Williams,2016,2024,Guard,5-8,142,"May 11, 1994",South Florida,Yes
+1845,Courtney Williams,2016,2024,G,5-8,142,"May 11, 1994",South Florida,Yes
 1846,Evgeniya Belyakova,2016,2016,F,6-0,150,"June 27, 1986",NA,No
 1847,Frida Eldebrink,2016,2016,G,5-9,NA,"January 4, 1988",NA,No
 1848,Haley Peters,2016,2019,F,6-3,178,"September 17, 1992",Duke,No
 1849,Imani McGee-Stafford,2016,2019,C,6-7,215,"October 11, 1994",Texas,No
-1850,Isabelle Harrison,2016,2024,Forward,6-3,183,"September 27, 1993",Tennessee,Yes
+1850,Isabelle Harrison,2016,2024,F,6-3,183,"September 27, 1993",Tennessee,Yes
 1851,Jamie Weisner,2016,2016,G,5-10,NA,"August 9, 1994",Oregon State,No
 1852,Jazmon Gwathmey,2016,2018,G,6-2,158,"January 24, 1993",James Madison University,No
 1853,Jelena Dubljevic,2016,2016,F,6-3,179,"May 7, 1987",NA,No
-1854,Jonquel Jones,2016,2024,Center,6-6,215,"January 5, 1994","Clemson, George Washington",Yes
-1855,Kahleah Copper,2016,2024,Guard-Forward,6-1,165,"August 28, 1994",Rutgers University,Yes
+1854,Jonquel Jones,2016,2024,C,6-6,215,"January 5, 1994","Clemson, George Washington",Yes
+1855,Kahleah Copper,2016,2024,G,6-1,165,"August 28, 1994",Rutgers University,Yes
 1856,Keisha Hampton,2016,2017,F,6-1,171,"February 22, 1990",DePaul,No
 1857,Meighan Simmons,2016,2017,G,5-9,140,"January 25, 1992",Tennessee,No
 1858,Morgan Tuck,2016,2020,F,6-2,207,"April 30, 1994",UConn,No
-1859,Moriah Jefferson,2016,2024,Guard,5-6,130,"March 8, 1994",UConn,Yes
+1859,Moriah Jefferson,2016,2024,G,5-6,130,"March 8, 1994",UConn,Yes
 1860,Nirra Fields,2016,2016,G,5-9,158,"December 3, 1993",UCLA,No
-1861,Rachel Banham,2016,2024,Guard,5-10,181,"July 15, 1993",Minnesota,Yes
+1861,Rachel Banham,2016,2024,G,5-10,181,"July 15, 1993",Minnesota,Yes
 1862,Rachel Hollivay,2016,2017,C,6-4,210,"October 24, 1993",Rutgers University,No
 1863,Ruth Hamblin,2016,2016,C,6-6,227,"June 24, 1994",Oregon State,No
-1864,Tiffany Mitchell,2016,2024,Guard,5-9,169,"September 23, 1994",South Carolina,Yes
+1864,Tiffany Mitchell,2016,2024,G,5-9,169,"September 23, 1994",South Carolina,Yes
 1865,Whitney Knight,2016,2016,G,6-3,156,"January 9, 1993",Florida Gulf Coast,No
 1866,Zoi Dimitrakou,2016,2016,F,6-2,NA,"May 25, 1987",NA,No
 1867,Alexis Jones,2017,2020,G,5-9,167,"May 8, 1994","Duke, Baylor",No
 1868,Alexis Peterson,2017,2017,G,5-7,139,"June 20, 1995",Syracuse,No
 1869,Alexis Prince,2017,2020,F,6-2,178,"February 5, 1994",Baylor,No
-1870,Allisha Gray,2017,2024,Guard,6-0,167,"January 12, 1995","UNC, South Carolina",Yes
+1870,Allisha Gray,2017,2024,G,6-0,167,"January 12, 1995","UNC, South Carolina",Yes
 1871,Breanna Lewis,2017,2018,C,6-5,205,"June 22, 1994",Kansas State,No
-1872,Brionna Jones,2017,2024,Forward,6-3,215,"December 18, 1995",Maryland,Yes
-1873,Brittney Sykes,2017,2024,Guard,5-9,154,"February 7, 1994",Syracuse,Yes
-1874,Cecilia Zandalasini,2017,2024,Forward,6-2,175,"March 16, 1996",NA,Yes
-1875,Emma Cannon,2017,2024,Forward,6-2,190,"June 1, 1989",Florida Southern College,Yes
+1872,Brionna Jones,2017,2024,F,6-3,215,"December 18, 1995",Maryland,Yes
+1873,Brittney Sykes,2017,2024,G,5-9,154,"February 7, 1994",Syracuse,Yes
+1874,Cecilia Zandalasini,2017,2024,F,6-2,175,"March 16, 1996",NA,Yes
+1875,Emma Cannon,2017,2024,F,6-2,190,"June 1, 1989",Florida Southern College,Yes
 1876,Erica McCall,2017,2021,F,6-2,184,"August 21, 1995",Stanford,No
 1877,Evelyn Akhator,2017,2017,F,6-3,180,"February 3, 1995",Kentucky,No
 1878,Feyonda Fitzgerald,2017,2017,G,5-7,140,"April 15, 1995",Temple,No
 1879,Jennie Simms,2017,2023,G,6-0,165,"April 21, 1994",Old Dominion,No
-1880,Kaela Davis,2017,2024,Forward,6-2,170,"March 15, 1995","Georgia Tech, South Carolina",Yes
-1881,Kelsey Plum,2017,2024,Guard,5-8,145,"August 24, 1994",Washington,Yes
+1880,Kaela Davis,2017,2024,F,6-2,170,"March 15, 1995","Georgia Tech, South Carolina",Yes
+1881,Kelsey Plum,2017,2024,G,5-8,145,"August 24, 1994",Washington,Yes
 1882,Lanay Montgomery,2017,2017,C,6-5,212,"September 17, 1993",West Virginia,No
-1883,Lindsay Allen,2017,2024,Guard,5-8,145,"March 20, 1995",Notre Dame,Yes
+1883,Lindsay Allen,2017,2024,G,5-8,145,"March 20, 1995",Notre Dame,Yes
 1884,Maimouna Diarra,2017,2017,C,6-6,NA,"January 30, 1991",NA,No
 1885,Makayla Epps,2017,2017,G,5-10,NA,"June 6, 1995",Kentucky,No
 1886,Nayo Raincock-Ekunwe,2017,2019,F,6-2,175,"August 29, 1991",Simon Fraser University,No
-1887,Nia Coffey,2017,2024,Forward,6-1,182,"June 11, 1995",Northwestern,Yes
-1888,Sami Whitcomb,2017,2024,Guard,5-10,149,"July 20, 1988",Washington,Yes
+1887,Nia Coffey,2017,2024,F,6-1,182,"June 11, 1995",Northwestern,Yes
+1888,Sami Whitcomb,2017,2024,G,5-10,149,"July 20, 1988",Washington,Yes
 1889,Saniya Chong,2017,2018,G,5-8,140,"June 27, 1994",UConn,No
-1890,Shatori Walker-Kimbrough,2017,2024,Guard,5-9,140,"May 18, 1995",Maryland,Yes
+1890,Shatori Walker-Kimbrough,2017,2024,G,5-9,140,"May 18, 1995",Maryland,Yes
 1891,Sophie Brunner,2017,2017,F,6-1,NA,"August 30, 1995",Arizona State,No
-1892,Stephanie Talbot,2017,2024,Forward,6-2,192,"June 15, 1994",NA,Yes
+1892,Stephanie Talbot,2017,2024,F,6-2,192,"June 15, 1994",NA,Yes
 1893,Sydney Wiese,2017,2021,G,6-0,165,"June 16, 1995",Oregon State,No
-1894,Temi Fagbenle,2017,2024,Center,6-4,180,"September 8, 1992","Harvard University, USC",Yes
+1894,Temi Fagbenle,2017,2024,C,6-4,180,"September 8, 1992","Harvard University, USC",Yes
 1895,Yvonne Turner,2017,2023,G,5-10,127,"October 13, 1987",Nebraska,No
-1896,A'ja Wilson,2018,2024,Center,6-4,195,"August 8, 1996",South Carolina,Yes
+1896,A'ja Wilson,2018,2024,C,6-4,195,"August 8, 1996",South Carolina,Yes
 1897,Adaora Elonu,2018,2018,F,6-1,NA,"April 28, 1990",Texas A&M,No
 1898,Alaina Coates,2018,2023,C,6-4,225,"April 7, 1995",South Carolina,No
-1899,Ariel Atkins,2018,2024,Guard,5-10,167,"July 30, 1996",Texas,Yes
-1900,Azura Stevens,2018,2024,Forward-Center,6-6,180,"February 1, 1996","Duke, UConn",Yes
-1901,Diamond DeShields,2018,2024,Guard,6-1,172,"March 5, 1995",Tennessee,Yes
+1899,Ariel Atkins,2018,2024,G,5-10,167,"July 30, 1996",Texas,Yes
+1900,Azura Stevens,2018,2024,F,6-6,180,"February 1, 1996","Duke, UConn",Yes
+1901,Diamond DeShields,2018,2024,G,6-1,172,"March 5, 1995",Tennessee,Yes
 1902,Endy Miyem,2018,2018,F,6-3,204,"May 15, 1988",NA,No
-1903,Gabby Williams,2018,2024,Forward,5-11,172,"September 9, 1996",UConn,Yes
+1903,Gabby Williams,2018,2024,F,5-11,172,"September 9, 1996",UConn,Yes
 1904,Hind Ben Abdelkader,2018,2018,G,5-8,NA,"July 21, 1995",NA,No
 1905,Imani Wright,2018,2018,G,5-9,NA,"February 5, 1995",Florida State,No
-1906,Jaime Nared,2018,2019,G-F,6-2,160,"September 14, 1995",Tennessee,No
+1906,Jaime Nared,2018,2019,G,6-2,160,"September 14, 1995",Tennessee,No
 1907,JiSu Park,2018,2021,C,6-5,206,"December 6, 1998",NA,No
-1908,Jordin Canada,2018,2024,Guard,5-6,135,"August 11, 1995",UCLA,Yes
-1909,Karlie Samuelson,2018,2024,Guard,6-0,160,"May 10, 1995",Stanford,Yes
-1910,Kelsey Mitchell,2018,2024,Guard,5-8,160,"November 12, 1995",Ohio State,Yes
-1911,Kia Nurse,2018,2024,Guard,6-0,181,"February 22, 1996",UConn,Yes
+1908,Jordin Canada,2018,2024,G,5-6,135,"August 11, 1995",UCLA,Yes
+1909,Karlie Samuelson,2018,2024,G,6-0,160,"May 10, 1995",Stanford,Yes
+1910,Kelsey Mitchell,2018,2024,G,5-8,160,"November 12, 1995",Ohio State,Yes
+1911,Kia Nurse,2018,2024,G,6-0,181,"February 22, 1996",UConn,Yes
 1912,Leticia Romero,2018,2018,G,5-8,143,"May 28, 1995",Florida State,No
-1913,Lexie Brown,2018,2024,Guard,5-9,162,"October 27, 1994","Maryland, Duke",Yes
+1913,Lexie Brown,2018,2024,G,5-9,162,"October 27, 1994","Maryland, Duke",Yes
 1914,Linnae Harper,2018,2023,G,5-7,160,"January 31, 1995","Kentucky, Ohio State",No
 1915,Maria Vadeeva,2018,2019,C,6-4,185,"July 16, 1998",NA,No
 1916,Marie Gulich,2018,2020,C,6-5,205,"May 28, 1994",Oregon State,No
-1917,Mercedes Russell,2018,2024,Center,6-6,195,"July 27, 1995",Tennessee,Yes
-1918,Monique Billings,2018,2024,Forward,6-4,192,"May 2, 1996",UCLA,Yes
-1919,Myisha Hines-Allen,2018,2024,Forward,6-1,200,"May 30, 1995",Louisville,Yes
+1917,Mercedes Russell,2018,2024,C,6-6,195,"July 27, 1995",Tennessee,Yes
+1918,Monique Billings,2018,2024,F,6-4,192,"May 2, 1996",UCLA,Yes
+1919,Myisha Hines-Allen,2018,2024,F,6-1,200,"May 30, 1995",Louisville,Yes
 1920,Raigyne Louis,2018,2018,G,5-9,NA,"September 3, 1994",LSU,No
 1921,Stephanie Mavunga,2018,2020,F,6-3,205,"February 24, 1995",Ohio State,No
 1922,Teana Muldrow,2018,2018,F,6-1,186,"December 16, 1995",West Virginia,No
-1923,Victoria Vivians,2018,2024,Guard-Forward,6-1,197,"November 17, 1994",Mississippi State,Yes
+1923,Victoria Vivians,2018,2024,G,6-1,197,"November 17, 1994",Mississippi State,Yes
 1924,AD Durr,2019,2023,G,5-10,151,"April 5, 1997",Louisville,No
-1925,Alanna Smith,2019,2024,Forward,6-4,183,"September 10, 1996",Stanford,Yes
+1925,Alanna Smith,2019,2024,F,6-4,183,"September 10, 1996",Stanford,Yes
 1926,Anriel Howard,2019,2019,F,5-11,NA,"May 6, 1997",Mississippi State,No
 1927,Arica Carter,2019,2019,G,5-7,NA,"July 19, 1996",Louisville,No
-1928,Arike Ogunbowale,2019,2024,Guard,5-8,165,"March 2, 1997",Notre Dame,Yes
-1929,Brianna Turner,2019,2024,Forward,6-3,170,"July 5, 1996",Notre Dame,Yes
-1930,Bridget Carleton,2019,2024,Forward,6-1,177,"May 22, 1997",Iowa State,Yes
+1928,Arike Ogunbowale,2019,2024,G,5-8,165,"March 2, 1997",Notre Dame,Yes
+1929,Brianna Turner,2019,2024,F,6-3,170,"July 5, 1996",Notre Dame,Yes
+1930,Bridget Carleton,2019,2024,F,6-1,177,"May 22, 1997",Iowa State,Yes
 1931,Brooke McCarty-Williams,2019,2019,G,5-4,NA,"October 2, 1995",Texas,No
 1932,Chloe Jackson,2019,2019,G,5-8,147,"August 21, 1996",Baylor,No
 1933,Han Xu,2019,2023,C,6-10,193,"October 31, 1999",NA,No
-1934,Jackie Young,2019,2024,Guard,6-0,165,"September 16, 1997",Notre Dame,Yes
+1934,Jackie Young,2019,2024,G,6-0,165,"September 16, 1997",Notre Dame,Yes
 1935,Jessica Shepard,2019,2023,F,6-4,186,"September 11, 1996",Notre Dame,No
-1936,Jillian Alleyne,2019,2021,C-F,6-2,193,"September 8, 1994",Oregon,No
-1937,Kalani Brown,2019,2024,Center,6-7,245,"March 21, 1997",Baylor,Yes
-1938,Katie Lou Samuelson,2019,2024,Forward,6-3,163,"June 13, 1997",UConn,Yes
+1936,Jillian Alleyne,2019,2021,C,6-2,193,"September 8, 1994",Oregon,No
+1937,Kalani Brown,2019,2024,C,6-7,245,"March 21, 1997",Baylor,Yes
+1938,Katie Lou Samuelson,2019,2024,F,6-3,163,"June 13, 1997",UConn,Yes
 1939,Kenisha Bell,2019,2019,G,5-10,146,"May 25, 1996",Minnesota,No
-1940,Kennedy Burke,2019,2024,Guard-Forward,6-1,182,"February 14, 1997",UCLA,Yes
+1940,Kennedy Burke,2019,2024,G,6-1,182,"February 14, 1997",UCLA,Yes
 1941,Kim Mestdagh,2019,2019,G,5-10,NA,"March 12, 1990",Colorado State,No
-1942,Kristine Anigwe,2019,2023,F-C,6-4,200,"March 31, 1997",California,No
+1942,Kristine Anigwe,2019,2023,F,6-4,200,"March 31, 1997",California,No
 1943,Maite Cazorla,2019,2019,G,5-10,155,"June 18, 1997",Oregon,No
-1944,Marina Mabrey,2019,2024,Guard,5-11,170,"September 14, 1996",Notre Dame,Yes
+1944,Marina Mabrey,2019,2024,G,5-11,170,"September 14, 1996",Notre Dame,Yes
 1945,Marine Johannes,2019,2023,G,5-10,134,"January 21, 1995",NA,No
-1946,Megan Gustafson,2019,2024,Center,6-4,195,"December 13, 1996",Iowa,Yes
-1947,Napheesa Collier,2019,2024,Forward,6-1,173,"September 23, 1996",UConn,Yes
-1948,Natisha Hiedeman,2019,2024,Guard,5-8,128,"February 10, 1997",Marquette,Yes
+1946,Megan Gustafson,2019,2024,C,6-4,195,"December 13, 1996",Iowa,Yes
+1947,Napheesa Collier,2019,2024,F,6-1,173,"September 23, 1996",UConn,Yes
+1948,Natisha Hiedeman,2019,2024,G,5-8,128,"February 10, 1997",Marquette,Yes
 1949,Paris Kea,2019,2020,G,5-9,142,"April 7, 1996",UNC,No
 1950,Shao Ting,2019,2019,F,6-1,170,"December 10, 1989",NA,No
 1951,Shey Peddy,2019,2023,G,5-7,145,"October 28, 1988",Temple,No
-1952,Sophie Cunningham,2019,2024,Guard,6-1,170,"August 16, 1996",Missouri,Yes
-1953,Teaira McCowan,2019,2024,Center,6-7,239,"September 28, 1996",Mississippi State,Yes
+1952,Sophie Cunningham,2019,2024,G,6-1,170,"August 16, 1996",Missouri,Yes
+1953,Teaira McCowan,2019,2024,C,6-7,239,"September 28, 1996",Mississippi State,Yes
 1954,Alisia Jenkins,2020,2020,F,6-1,NA,"February 21, 1994",South Florida,No
 1955,Beatrice Mompremier,2020,2022,F,6-4,190,"August 8, 1996",Miami (FL),No
-1956,Bella Alarie,2020,2021,C-F,6-4,190,"April 23, 1998",Princeton,No
+1956,Bella Alarie,2020,2021,C,6-4,190,"April 23, 1998",Princeton,No
 1957,Brittany Brewer,2020,2020,F,6-5,182,"November 6, 1997",Texas Tech,No
-1958,Chennedy Carter,2020,2024,Guard,5-9,143,"November 14, 1998",Texas A&M,Yes
-1959,Crystal Dangerfield,2020,2024,Guard,5-5,130,"May 11, 1998",UConn,Yes
-1960,Ezi Magbegor,2020,2024,Forward-Center,6-4,181,"August 13, 1999",NA,Yes
+1958,Chennedy Carter,2020,2024,G,5-9,143,"November 14, 1998",Texas A&M,Yes
+1959,Crystal Dangerfield,2020,2024,G,5-5,130,"May 11, 1998",UConn,Yes
+1960,Ezi Magbegor,2020,2024,F,6-4,181,"August 13, 1999",NA,Yes
 1961,Jaylyn Agnew,2020,2020,F,5-11,149,"July 21, 1997",Creighton,No
 1962,Jazmine Jones,2020,2022,G,6-0,160,"October 15, 1996",Louisville,No
-1963,Jocelyn Willoughby,2020,2023,F-G,6-0,180,"March 25, 1998",Virginia,No
-1964,Joyner Holmes,2020,2024,Forward,6-3,210,"February 22, 1998",Texas,Yes
+1963,Jocelyn Willoughby,2020,2023,F,6-0,180,"March 25, 1998",Virginia,No
+1964,Joyner Holmes,2020,2024,F,6-3,210,"February 22, 1998",Texas,Yes
 1965,Julie Allemand,2020,2022,G,5-8,147,"July 7, 1996",NA,No
-1966,Kaila Charles,2020,2023,G-F,6-1,168,"March 23, 1998",Maryland,No
+1966,Kaila Charles,2020,2023,G,6-1,168,"March 23, 1998",Maryland,No
 1967,Kamiah Smalls,2020,2022,G,5-10,NA,"April 17, 1998",James Madison University,No
 1968,Kathleen Doyle,2020,2020,G,5-9,NA,"June 11, 1998",Iowa,No
 1969,Kiara Leslie,2020,2021,G,6-0,175,"December 6, 1995",NC State,No
@@ -973,16 +973,16 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1972,Leaonna Odom,2020,2021,F,6-2,168,"March 26, 1998",Duke,No
 1973,Megan Huff,2020,2020,F,6-4,NA,"April 17, 1996",Utah,No
 1974,Megan Walker,2020,2022,F,6-1,175,"November 23, 1998",UConn,No
-1975,Mikiah Herbert Harrigan,2020,2024,Forward,6-2,152,"August 21, 1998",South Carolina,Yes
+1975,Mikiah Herbert Harrigan,2020,2024,F,6-2,152,"August 21, 1998",South Carolina,Yes
 1976,Ruthy Hebard,2020,2023,F,6-4,190,"April 28, 1998",Oregon,No
-1977,Sabrina Ionescu,2020,2024,Guard,5-11,165,"December 6, 1997",Oregon,Yes
-1978,Satou Sabally,2020,2024,Forward,6-4,175,"April 25, 1998",Oregon,Yes
+1977,Sabrina Ionescu,2020,2024,G,5-11,165,"December 6, 1997",Oregon,Yes
+1978,Satou Sabally,2020,2024,F,6-4,175,"April 25, 1998",Oregon,Yes
 1979,Stella Johnson,2020,2021,G,5-10,158,"July 11, 1998",Rider University,No
-1980,Sug Sutton,2020,2024,Guard,5-8,140,"December 17, 1998",Texas,Yes
+1980,Sug Sutton,2020,2024,G,5-8,140,"December 17, 1998",Texas,Yes
 1981,Te'a Cooper,2020,2021,G,5-8,160,"April 16, 1997","Tennessee, South Carolina, Baylor",No
-1982,Tyasha Harris,2020,2024,Guard,5-10,152,"May 1, 1998",South Carolina,Yes
+1982,Tyasha Harris,2020,2024,G,5-10,152,"May 1, 1998",South Carolina,Yes
 1983,Aaliyah Wilson,2021,2021,G,5-11,NA,"August 28, 1998","Arkansas, Texas A&M",No
-1984,Aari McDonald,2021,2024,Guard,5-6,141,"August 20, 1998","Washington, Arizona",Yes
+1984,Aari McDonald,2021,2024,G,5-6,141,"August 20, 1998","Washington, Arizona",Yes
 1985,Aleah Goodman,2021,2021,G,5-9,152,"November 24, 1998",Oregon State,No
 1986,Arella Guirantes,2021,2023,G,5-11,176,"October 15, 1997","Texas Tech, Rutgers University",No
 1987,Awak Kuier,2021,2023,F,6-6,168,"August 19, 2001",NA,No
@@ -990,25 +990,25 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 1989,Charli Collier,2021,2022,C,6-5,188,"September 22, 1999",Texas,No
 1990,Chelsea Dungee,2021,2021,G,5-10,165,"May 11, 1997","Oklahoma, Arkansas",No
 1991,Chelsey Perry,2021,2021,F,6-2,164,"June 7, 1999",University of Tennessee at Martin,No
-1992,Dana Evans,2021,2024,Guard,5-6,145,"August 1, 1998",Louisville,Yes
+1992,Dana Evans,2021,2024,G,5-6,145,"August 1, 1998",Louisville,Yes
 1993,Destiny Slocum,2021,2022,G,5-7,157,"September 9, 1997","Maryland, Oregon State, Arkansas",No
-1994,DiDi Richards,2021,2024,Guard-Forward,6-2,164,"February 8, 1999",Baylor,Yes
-1995,DiJonai Carrington,2021,2024,Guard-Forward,5-11,175,"January 8, 1998","Stanford, Baylor",Yes
+1994,DiDi Richards,2021,2024,G,6-2,164,"February 8, 1999",Baylor,Yes
+1995,DiJonai Carrington,2021,2024,G,5-11,175,"January 8, 1998","Stanford, Baylor",Yes
 1996,Haley Gorecki,2021,2021,G,6-0,NA,"November 13, 1996",Duke,No
 1997,Jasmine Walker,2021,2022,F,6-3,182,"February 3, 1998","Florida State, Alabama",No
-1998,Kiana Williams,2021,2024,Guard,5-7,140,"April 9, 1999",Stanford,Yes
-1999,Kysre Gondrezick,2021,2024,Guard,5-9,150,"July 27, 1997","Michigan, West Virginia",Yes
-2000,Michaela Onyenwere,2021,2024,Forward,6-0,178,"August 10, 1999",UCLA,Yes
-2001,Natasha Mack,2021,2024,Forward,6-3,182,"November 3, 1997","Angelina College, Oklahoma State",Yes
+1998,Kiana Williams,2021,2024,G,5-7,140,"April 9, 1999",Stanford,Yes
+1999,Kysre Gondrezick,2021,2024,G,5-9,150,"July 27, 1997","Michigan, West Virginia",Yes
+2000,Michaela Onyenwere,2021,2024,F,6-0,178,"August 10, 1999",UCLA,Yes
+2001,Natasha Mack,2021,2024,F,6-3,182,"November 3, 1997","Angelina College, Oklahoma State",Yes
 2002,Shyla Heal,2021,2021,G,5-6,NA,"September 19, 2001",NA,No
 2003,Stephanie Jones,2021,2022,F,6-2,185,"July 10, 1998",Maryland,No
 2004,Stephanie Watts,2021,2021,G,5-11,155,"April 12, 1997","USC, UNC",No
 2005,Aisha Sheppard,2022,2022,G,5-9,145,"November 13, 1998",Virginia Tech,No
-2006,Amy Atwell,2022,2024,Forward,6-0,165,"June 30, 1998",Hawaii,Yes
+2006,Amy Atwell,2022,2024,F,6-0,165,"June 30, 1998",Hawaii,Yes
 2007,Anneli Maley,2022,2022,F,6-1,NA,"September 1, 1998","Oregon, TCU",No
-2008,Destanni Henderson,2022,2024,Guard,5-7,140,"February 2, 1999",South Carolina,Yes
+2008,Destanni Henderson,2022,2024,G,5-7,140,"February 2, 1999",South Carolina,Yes
 2009,Elissa Cunane,2022,2022,C,6-5,190,"September 25, 2000",NC State,No
-2010,Emily Engstler,2022,2024,Forward,6-1,180,"May 1, 2000","Syracuse, Louisville",Yes
+2010,Emily Engstler,2022,2024,F,6-1,180,"May 1, 2000","Syracuse, Louisville",Yes
 2011,Evina Westbrook,2022,2023,G,6-0,158,"September 28, 1998","Tennessee, UConn",No
 2012,Hannah Sjerven,2022,2022,C,6-2,NA,"June 11, 1998","New Mexico, South Dakota",No
 2013,Iliana Rupert,2022,2023,C,6-4,189,"July 12, 2001",NA,No
@@ -1016,82 +1016,82 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,Active
 2015,Katie Benzan,2022,2022,G,5-6,130,"May 16, 1998","Harvard University, Maryland",No
 2016,Khayla Pointer,2022,2022,G,5-7,146,"November 25, 1998",LSU,No
 2017,Kianna Smith,2022,2022,G,6-0,NA,"June 10, 1999","California, Louisville",No
-2018,Kierstan Bell,2022,2024,Forward,6-1,176,"March 16, 2000","Ohio State, Florida Gulf Coast",Yes
-2019,Kristy Wallace,2022,2024,Guard,5-11,157,"January 3, 1996",Baylor,Yes
-2020,Lexie Hull,2022,2024,Guard,6-1,155,"September 13, 1999",Stanford,Yes
-2021,Li Yueru,2022,2024,Center,6-7,NA,"March 28, 1999",NA,Yes
-2022,Lorela Cubaj,2022,2024,Forward-Center,6-4,200,"January 8, 1999",Georgia Tech,Yes
-2023,Maya Caldwell,2022,2024,Guard,5-11,160,"December 15, 1998",Georgia,Yes
-2024,NaLyssa Smith,2022,2024,Forward,6-4,185,"August 8, 2000",Baylor,Yes
-2025,Naz Hillmon,2022,2024,Forward,6-2,190,"April 5, 2000",Michigan,Yes
+2018,Kierstan Bell,2022,2024,F,6-1,176,"March 16, 2000","Ohio State, Florida Gulf Coast",Yes
+2019,Kristy Wallace,2022,2024,G,5-11,157,"January 3, 1996",Baylor,Yes
+2020,Lexie Hull,2022,2024,G,6-1,155,"September 13, 1999",Stanford,Yes
+2021,Li Yueru,2022,2024,C,6-7,NA,"March 28, 1999",NA,Yes
+2022,Lorela Cubaj,2022,2024,F,6-4,200,"January 8, 1999",Georgia Tech,Yes
+2023,Maya Caldwell,2022,2024,G,5-11,160,"December 15, 1998",Georgia,Yes
+2024,NaLyssa Smith,2022,2024,F,6-4,185,"August 8, 2000",Baylor,Yes
+2025,Naz Hillmon,2022,2024,F,6-2,190,"April 5, 2000",Michigan,Yes
 2026,Nia Clouden,2022,2023,G,5-9,139,"May 17, 2000",Michigan State,No
 2027,Nikolina Milic,2022,2023,F,6-3,172,"April 12, 1994",NA,No
-2028,Olivia Nelson-Ododa,2022,2024,Center,6-5,176,"August 17, 2000",UConn,Yes
-2029,Queen Egbo,2022,2024,Forward-Center,6-4,190,"June 29, 2000",Baylor,Yes
-2030,Rae Burrell,2022,2024,Guard-Forward,6-2,168,"June 21, 2000",Tennessee,Yes
+2028,Olivia Nelson-Ododa,2022,2024,C,6-5,176,"August 17, 2000",UConn,Yes
+2029,Queen Egbo,2022,2024,F,6-4,190,"June 29, 2000",Baylor,Yes
+2030,Rae Burrell,2022,2024,G,6-2,168,"June 21, 2000",Tennessee,Yes
 2031,Raina Perez,2022,2022,G,5-4,NA,"July 30, 1998","Northern Arizona University, Cal State Fullerton, NC State",No
 2032,Rebekah Gardner,2022,2023,G,6-1,NA,"July 9, 1990",UCLA,No
-2033,Rennia Davis,2022,2022,G-F,6-1,170,"February 24, 1999",Tennessee,No
-2034,Rhyne Howard,2022,2024,Guard,6-2,175,"April 29, 2000",Kentucky,Yes
+2033,Rennia Davis,2022,2022,G,6-1,170,"February 24, 1999",Tennessee,No
+2034,Rhyne Howard,2022,2024,G,6-2,175,"April 29, 2000",Kentucky,Yes
 2035,Rui Machida,2022,2022,G,5-4,126,"March 8, 1993",NA,No
-2036,Sam Thomas,2022,2023,G-F,6-0,165,"June 14, 1999",Arizona,No
-2037,Shakira Austin,2022,2024,Center-Forward,6-5,190,"July 25, 2000","Maryland, Ole Miss",Yes
+2036,Sam Thomas,2022,2023,G,6-0,165,"June 14, 1999",Arizona,No
+2037,Shakira Austin,2022,2024,C,6-5,190,"July 25, 2000","Maryland, Ole Miss",Yes
 2038,Sparkle Taylor,2022,2022,G,5-10,NA,"July 28, 1995",Texas-El Paso,No
 2039,Tina Krajisnik,2022,2022,C,6-3,NA,"January 12, 1991",NA,No
-2040,Veronica Burton,2022,2024,Guard,5-9,155,"July 12, 2000",Northwestern,Yes
+2040,Veronica Burton,2022,2024,G,5-9,155,"July 12, 2000",Northwestern,Yes
 2041,Yvonne Anderson,2022,2022,G,5-7,148,"March 8, 1990",NA,No
 2042,Abby Meyers,2023,2023,G,6-0,154,"July 14, 1999","Princeton, Maryland",No
-2043,Aliyah Boston,2023,2024,Forward-Center,6-5,220,"December 11, 2001",South Carolina,Yes
+2043,Aliyah Boston,2023,2024,F,6-5,220,"December 11, 2001",South Carolina,Yes
 2044,Ashley Joens,2023,2023,G,6-1,160,"March 16, 2000",Iowa State,No
 2045,Cyesha Goree,2023,2023,F,6-2,185,"August 4, 1993",Michigan,No
-2046,Diamond Miller,2023,2024,Forward,6-3,179,"February 11, 2001",Maryland,Yes
-2047,Dorka Juhász,2023,2024,Forward,6-5,191,"December 18, 1999","Ohio State, UConn",Yes
-2048,Dulcy Fankam Mendjiadeu,2023,2024,Forward-Center,6-3,204,"July 26, 1999","Walters State, Memphis, South Florida",Yes
-2049,Grace Berger,2023,2024,Guard,6-0,160,"June 3, 1999",Indiana,Yes
-2050,Haley Jones,2023,2024,Forward-Guard,6-1,187,"May 23, 2001",Stanford,Yes
-2051,Ivana Dojkić,2023,2024,Guard,5-11,154,"December 24, 1997",NA,Yes
-2052,Jade Melbourne,2023,2024,Guard,5-10,145,"August 18, 2002",NA,Yes
-2053,Jordan Horston,2023,2024,Forward,6-2,165,"May 21, 2001",Tennessee,Yes
+2046,Diamond Miller,2023,2024,F,6-3,179,"February 11, 2001",Maryland,Yes
+2047,Dorka Juhász,2023,2024,F,6-5,191,"December 18, 1999","Ohio State, UConn",Yes
+2048,Dulcy Fankam Mendjiadeu,2023,2024,F,6-3,204,"July 26, 1999","Walters State, Memphis, South Florida",Yes
+2049,Grace Berger,2023,2024,G,6-0,160,"June 3, 1999",Indiana,Yes
+2050,Haley Jones,2023,2024,F,6-1,187,"May 23, 2001",Stanford,Yes
+2051,Ivana Dojkić,2023,2024,G,5-11,154,"December 24, 1997",NA,Yes
+2052,Jade Melbourne,2023,2024,G,5-10,145,"August 18, 2002",NA,Yes
+2053,Jordan Horston,2023,2024,F,6-2,165,"May 21, 2001",Tennessee,Yes
 2054,Kadi Sissoko,2023,2023,F,6-2,NA,"January 25, 1999",USC,No
 2055,Kayana Traylor,2023,2023,G,5-9,155,"September 27, 1999","Purdue, Virginia Tech",No
 2056,Khaalia Hillsman,2023,2023,C,6-5,NA,"August 1, 1996",Texas A&M,No
-2057,Laeticia Amihere,2023,2024,Forward,6-3,185,"July 10, 2001",South Carolina,Yes
+2057,Laeticia Amihere,2023,2024,F,6-3,185,"July 10, 2001",South Carolina,Yes
 2058,Leigha Brown,2023,2023,G,6-1,165,"July 14, 2000","Nebraska, Michigan",No
 2059,Li Meng,2023,2023,G,6-0,198,"January 2, 1995",NA,No
-2060,Liz Dixon,2023,2024,Forward,6-5,195,"September 29, 2000","Georgia Tech, Louisville",Yes
-2061,Maddy Siegrist,2023,2024,Forward,6-2,175,"May 22, 2000",Villanova,Yes
-2062,Madi Williams,2023,2023,G-F,5-10,175,"October 29, 1999",Oklahoma,No
-2063,Morgan Bertsch,2023,2024,Forward,6-4,173,"April 20, 1997",UC-Davis,Yes
-2064,Nyara Sabally,2023,2024,Center,6-5,204,"February 26, 2000",Oregon,Yes
+2060,Liz Dixon,2023,2024,F,6-5,195,"September 29, 2000","Georgia Tech, Louisville",Yes
+2061,Maddy Siegrist,2023,2024,F,6-2,175,"May 22, 2000",Villanova,Yes
+2062,Madi Williams,2023,2023,G,5-10,175,"October 29, 1999",Oklahoma,No
+2063,Morgan Bertsch,2023,2024,F,6-4,173,"April 20, 1997",UC-Davis,Yes
+2064,Nyara Sabally,2023,2024,C,6-5,204,"February 26, 2000",Oregon,Yes
 2065,Robyn Parks,2023,2023,F,6-0,NA,"July 19, 1992",VCU,No
-2066,Sika Koné,2023,2024,Forward,6-3,180,"July 13, 2002",NA,Yes
+2066,Sika Koné,2023,2024,F,6-3,180,"July 13, 2002",NA,Yes
 2067,Taylor Mikesell,2023,2023,G,5-10,150,"September 30, 1999","Maryland, Oregon, Ohio State",No
-2068,Taylor Soule,2023,2024,Forward,5-11,188,"January 5, 2000","Boston College, Virginia Tech",Yes
-2069,Victaria Saxton,2023,2024,Forward,6-2,181,"November 10, 1999",South Carolina,Yes
-2070,Zia Cooke,2023,2024,Guard,5-9,163,"January 9, 2001",South Carolina,Yes
-2071,Aaliyah Edwards,2024,2024,Forward,6-3,NA,"July 9, 2002",UConn,Yes
-2072,Alissa Pili,2024,2024,Forward,6-2,235,"June 8, 2001","USC, Utah",Yes
-2073,Angel Reese,2024,2024,Forward,6-3,165,"May 6, 2002","Maryland, LSU",Yes
-2074,Caitlin Bickle,2024,2024,Forward,6-1,NA,"May 5, 2000",Baylor,Yes
-2075,Caitlin Clark,2024,2024,Guard,6-0,152,"January 22, 2002",Iowa,Yes
-2076,Cameron Brink,2024,2024,Forward,6-4,170,"December 31, 2001",Stanford,Yes
-2077,Celeste Taylor,2024,2024,Guard,5-11,167,"June 20, 2001","Texas, Duke, Ohio State",Yes
-2078,Charisma Osborne,2024,2024,Guard,5-9,166,"July 3, 2001",UCLA,Yes
-2079,Dyaisha Fair,2024,2024,Guard,5-5,130,"August 7, 2001","Buffalo, Syracuse",Yes
+2068,Taylor Soule,2023,2024,F,5-11,188,"January 5, 2000","Boston College, Virginia Tech",Yes
+2069,Victaria Saxton,2023,2024,F,6-2,181,"November 10, 1999",South Carolina,Yes
+2070,Zia Cooke,2023,2024,G,5-9,163,"January 9, 2001",South Carolina,Yes
+2071,Aaliyah Edwards,2024,2024,F,6-3,NA,"July 9, 2002",UConn,Yes
+2072,Alissa Pili,2024,2024,F,6-2,235,"June 8, 2001","USC, Utah",Yes
+2073,Angel Reese,2024,2024,F,6-3,165,"May 6, 2002","Maryland, LSU",Yes
+2074,Caitlin Bickle,2024,2024,F,6-1,NA,"May 5, 2000",Baylor,Yes
+2075,Caitlin Clark,2024,2024,G,6-0,152,"January 22, 2002",Iowa,Yes
+2076,Cameron Brink,2024,2024,F,6-4,170,"December 31, 2001",Stanford,Yes
+2077,Celeste Taylor,2024,2024,G,5-11,167,"June 20, 2001","Texas, Duke, Ohio State",Yes
+2078,Charisma Osborne,2024,2024,G,5-9,166,"July 3, 2001",UCLA,Yes
+2079,Dyaisha Fair,2024,2024,G,5-5,130,"August 7, 2001","Buffalo, Syracuse",Yes
 2080,Ezinne Kalu,2024,2024,G,5-8,NA,"June 26, 1992",Savannah State University,Yes
-2081,Jacy Sheldon,2024,2024,Guard,5-10,140,"August 23, 2000",Ohio State,Yes
-2082,Jaelyn Brown,2024,2024,Guard-Forward,6-1,170,"October 12, 1998",California,Yes
-2083,Jakia Brown-Turner,2024,2024,Guard,6-0,NA,"February 11, 2001","NC State, Maryland",Yes
-2084,Jaylyn Sherrod,2024,2024,Guard,5-7,NA,"October 21, 2001",Colorado,Yes
-2085,Jessika Carter,2024,2024,Center,6-5,NA,"December 7, 1999",Mississippi State,Yes
-2086,Julie Vanloo,2024,2024,Guard,5-8,NA,"February 10, 1993",NA,Yes
-2087,Kamilla Cardoso,2024,2024,Center,6-7,215,"April 30, 2001","Syracuse, South Carolina",Yes
-2088,Kate Martin,2024,2024,Guard,6-0,172,"June 5, 2000",Iowa,Yes
-2089,Leonie Fiebich,2024,2024,Forward,6-4,NA,"January 10, 2000",NA,Yes
-2090,Lou Lopez Sénéchal,2024,2024,Guard,6-1,155,"May 12, 1998","Fairfield, UConn",Yes
-2091,Marquesha Davis,2024,2024,Guard,6-0,NA,"May 29, 2001","Arkansas, Ole Miss",Yes
-2092,Nika Mühl,2024,2024,Guard,6-0,156,"April 9, 2001",UConn,Yes
-2093,Olivia Époupa,2024,2024,Guard,5-5,122,"April 30, 1994",NA,Yes
-2094,Rickea Jackson,2024,2024,Forward,6-2,175,"March 16, 2001","Mississippi State, Tennessee",Yes
-2095,Sevgi Uzun,2024,2024,Guard,5-10,141,"November 25, 1997",NA,Yes
-2096,Stephanie Soares,2024,2024,Center,6-6,196,"April 17, 2000","Master's College, Iowa State",Yes
+2081,Jacy Sheldon,2024,2024,G,5-10,140,"August 23, 2000",Ohio State,Yes
+2082,Jaelyn Brown,2024,2024,G,6-1,170,"October 12, 1998",California,Yes
+2083,Jakia Brown-Turner,2024,2024,G,6-0,NA,"February 11, 2001","NC State, Maryland",Yes
+2084,Jaylyn Sherrod,2024,2024,G,5-7,NA,"October 21, 2001",Colorado,Yes
+2085,Jessika Carter,2024,2024,C,6-5,NA,"December 7, 1999",Mississippi State,Yes
+2086,Julie Vanloo,2024,2024,G,5-8,NA,"February 10, 1993",NA,Yes
+2087,Kamilla Cardoso,2024,2024,C,6-7,215,"April 30, 2001","Syracuse, South Carolina",Yes
+2088,Kate Martin,2024,2024,G,6-0,172,"June 5, 2000",Iowa,Yes
+2089,Leonie Fiebich,2024,2024,F,6-4,NA,"January 10, 2000",NA,Yes
+2090,Lou Lopez Sénéchal,2024,2024,G,6-1,155,"May 12, 1998","Fairfield, UConn",Yes
+2091,Marquesha Davis,2024,2024,G,6-0,NA,"May 29, 2001","Arkansas, Ole Miss",Yes
+2092,Nika Mühl,2024,2024,G,6-0,156,"April 9, 2001",UConn,Yes
+2093,Olivia Époupa,2024,2024,G,5-5,122,"April 30, 1994",NA,Yes
+2094,Rickea Jackson,2024,2024,F,6-2,175,"March 16, 2001","Mississippi State, Tennessee",Yes
+2095,Sevgi Uzun,2024,2024,G,5-10,141,"November 25, 1997",NA,Yes
+2096,Stephanie Soares,2024,2024,C,6-6,196,"April 17, 2000","Master's College, Iowa State",Yes

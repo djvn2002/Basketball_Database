@@ -15,11 +15,9 @@ library(hoopR)
 handlers(global = TRUE)
 
 # RSelenium Setup
-# RSelenium Setup with extended timeout
 eCaps <- list(chromeOptions = list(args = c('--headless', '--disable-gpu', '--window-size=1280,800')))
 rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
 remDr <- rs_driver_object$client
-
 
 # Function to Clear Cache and Cookies
 clear_cache_and_cookies <- function(remDr) {
@@ -74,8 +72,8 @@ extract_from_to <- function(seasons, player_name) {
   return(c(from, to))
 }
 
-# Scrape player info and NBA stats link with consistent Weight data type
-scrape_player_info <- function(remDr, url) {
+# Function to scrape player info along with College Stats
+scrape_player_info_with_college <- function(remDr, url) {
   remDr$navigate(url)
   Sys.sleep(3)  # Allow page to load
   
@@ -96,9 +94,7 @@ scrape_player_info <- function(remDr, url) {
   birth_date <- str_extract(info_text, "(?<=Born:\\s)[A-Za-z]+\\s\\d{1,2},\\s\\d{4}")  # Extract birth date
   position <- str_extract(info_text, "(?<=Position:\\s)\\w+")  # Extract position
   height <- str_extract(info_text, "\\d+-\\d+")  # Extract height
-  
-  # Extract weight and ensure it's numeric, replacing invalid values with NA
-  weight <- str_extract(info_text, "(?<=\\d{1,2}-\\d{1,2}\\D{1,3})\\d{1,3}")
+  weight <- str_extract(info_text, "(?<=\\d{1,2}-\\d{1,2}\\D{1,3})\\d{1,3}")  # Extract weight
   weight <- as.numeric(weight)  # Convert weight to numeric
   
   # Check if NBA Stats link exists (use tryCatch to avoid interruption, and suppress the error message)
@@ -106,9 +102,38 @@ scrape_player_info <- function(remDr, url) {
     suppressMessages({
       remDr$findElement(using = "link text", "NBA Stats")$getElementAttribute("href")[[1]]
     })
-  }, error = function(e) {
-    NA  # Return NA if the link is not found
-  })
+  }, error = function(e) { NA })
+  
+  # Check for College Stats link
+  college_stats <- tryCatch({
+    suppressMessages({
+      remDr$findElement(using = "link text", "College Stats")$getElementAttribute("href")[[1]]
+    })
+  }, error = function(e) { NA })
+  
+  college_info <- NA
+  if (!is.na(college_stats)) {
+    # Navigate to the College Stats page
+    remDr$navigate(college_stats)
+    Sys.sleep(3)
+    
+    # Extract college info based on both "School" and "Schools" cases
+    college_info <- tryCatch({
+      page_source <- remDr$getPageSource()[[1]]
+      page_html <- read_html(page_source)
+      
+      # Check for both 'School' and 'Schools' cases in the page source
+      college_schools <- page_html %>%
+        html_nodes(xpath = "//p[strong[contains(text(),'Schools:') or contains(text(),'School:')]]/a") %>%
+        html_text(trim = TRUE) %>%
+        paste(collapse = ", ")
+      
+      # Clean up any '(Men)' text and extra spaces around commas
+      college_schools <- gsub("\\(Men\\)", "", college_schools)
+      college_schools <- str_squish(gsub("\\s*,\\s*", ", ", college_schools))  # Ensure correct comma spacing
+      college_schools
+    }, error = function(e) { NA })
+  }
   
   # Determine if player has NBA stats
   nba_presence <- if (!is.na(nba_stats)) "Yes" else "No"
@@ -122,6 +147,7 @@ scrape_player_info <- function(remDr, url) {
     Weight = weight,  # Ensure Weight is numeric
     NBA = nba_presence,
     NBA_Stats_Link = nba_stats,
+    College_Schools = college_info,
     stringsAsFactors = FALSE
   ))
 }
@@ -209,9 +235,10 @@ scrape_players_by_letter <- function(letter, remDr) {
            To = map_int(From_To, 2)) %>%
     select(-From_To, -Seasons)  # Remove intermediate columns
   
-  # Filter players for the most recent WNBA season using the wehoop function
+  # Filter players for the most recent season using the hoopr function
   player_data <- player_data %>%
-    filter(To == most_recent_mbb_season())
+    filter(To == most_recent_nba_season() | 
+             To == max(player_data$To, na.rm = TRUE))
   
   return(player_data)
 }
@@ -262,53 +289,70 @@ letters_to_scrape <- setdiff(letters, completed_letters)
 for (letter in letters_to_scrape) {
   message(paste("Starting to scrape players from letter:", letter))
   
-  # Scrape player URLs and seasons for the current letter
-  player_urls <- scrape_players_by_letter(letter, remDr)
-  
-  # If no players found, move to the next letter
-  if (nrow(player_urls) == 0) next
-  
-  # Initialize an empty dataframe to store data for the current letter
-  letter_data <- data.frame()
-  
-  # Scrape info for each player
-  for (i in 1:nrow(player_urls)) {
-    player_link <- player_urls$Player_Link[i]
+  # Suppress warnings for scraping process
+  suppressWarnings({
+    # Scrape player URLs and seasons for the current letter
+    player_urls <- scrape_players_by_letter(letter, remDr)
     
-    # Scrape player info with NBA stats check
-    player_data <- retry(with_progress({ scrape_player_info(remDr, player_link) }))
+    # If no players found, move to the next letter
+    if (nrow(player_urls) == 0) {
+      message(paste("No players found for letter:", letter))
+      next  # Skip to the next letter if no players are found
+    }
     
-    # Scrape NBA info if NBA Stats Link is available
-    nba_info <- scrape_nba_info_from_source(player_data$NBA_Stats_Link)
+    # Initialize an empty dataframe to store data for the current letter
+    letter_data <- data.frame()
     
-    # Combine player info and NBA info
-    full_player_data <- bind_cols(player_data, nba_info)
+    # Scrape info for each player
+    for (i in 1:nrow(player_urls)) {
+      player_link <- player_urls$Player_Link[i]
+      
+      # Scrape player info with NBA stats and College info check
+      player_data <- retry(with_progress({ scrape_player_info_with_college(remDr, player_link) }))
+      
+      # Scrape NBA info if NBA Stats Link is available
+      nba_info <- scrape_nba_info_from_source(player_data$NBA_Stats_Link)
+      
+      # Combine player info and NBA info
+      full_player_data <- bind_cols(player_data, nba_info)
+      
+      # Add the 'From' and 'To' columns to player_data before combining
+      full_player_data <- full_player_data %>%
+        mutate(From = player_urls$From[i], To = player_urls$To[i], Letter = letter)
+      
+      # Add player data to the dataframe for the current letter
+      letter_data <- bind_rows(letter_data, full_player_data)
+      
+      message(paste("Finished scraping player:", player_urls$Player_Name[i]))
+      
+      # Periodically refresh the Selenium session to keep it alive (every 25 players)
+      if (i %% 25 == 0) {
+        message("Refreshing session...")
+        remDr$refresh()
+        Sys.sleep(3)  # Give the page time to reload after the refresh
+      }
+    }
     
-    # Add the 'From' and 'To' columns to player_data before combining
-    full_player_data <- full_player_data %>%
-      mutate(From = player_urls$From[i], To = player_urls$To[i], Letter = letter)
+    # Save all data for the current letter to the partial CSV
+    write_or_append_partial_csv(letter_data, partial_csv_file)
     
-    # Add player data to the dataframe for the current letter
-    letter_data <- bind_rows(letter_data, full_player_data)
+    # Combine with overall data after writing the letter's data
+    all_player_data_combined <- bind_rows(all_player_data_combined, letter_data)
     
-    message(paste("Finished scraping player:", player_urls$Player_Name[i]))
-  }
-  
-  # Save all data for the current letter to the partial CSV
-  write_or_append_partial_csv(letter_data, partial_csv_file)
-  
-  # Combine with overall data after writing the letter's data
-  all_player_data_combined <- bind_rows(all_player_data_combined, letter_data)
-  
-  # Reset RSelenium session to prevent memory overload
-  remDr$close()
-  rs_driver_object$server$stop()
-  Sys.sleep(10)
-  
-  # Restart RSelenium session after reset
-  rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
-  remDr <- rs_driver_object$client
+    # Reset RSelenium session to prevent memory overload
+    remDr$close()
+    rs_driver_object$server$stop()
+    Sys.sleep(10)
+    
+    # Restart RSelenium session after reset
+    rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
+    remDr <- rs_driver_object$client
+  }) # End of suppressWarnings
 }
+
+# Final cleanup
+remDr$close()
+rs_driver_object$server$stop()
 
 # Final cleanup
 remDr$close()
@@ -328,7 +372,8 @@ recent_gleague_players <- all_player_data_combined %>%
          Ht = Height, Wt = Weight) %>%
   mutate(`Birth Date` = ifelse(!is.na(NBA_Birth_Date) & NBA_Birth_Date != "", NBA_Birth_Date, `Birth Date`)) %>%
   select(-NBA_Birth_Date) %>%
-  mutate(Active = if_else(To == most_recent_mbb_season(), "Yes", "No"))
+  mutate(Active = if_else(To == most_recent_nba_season() |
+                            To == max(all_player_data_combined$To, na.rm = TRUE), "Yes", "No"))
 
 # Perform a left join on 'NBA_Player_Name' and 'Player', and also 'Birth Date'
 recent_gleague_players <- recent_gleague_players %>%
@@ -374,7 +419,8 @@ new_players <- new_players %>%
 
 # Most updated gleague index
 updated_gleague_index <- bind_rows(gleague_player_index,new_players) %>%
-  arrange(`Player ID`)
+  arrange(From, Player) %>%
+  mutate(`Player ID` = 1000 + row_number())
 
 # Write to a csv for G League Player Index
 write_csv(updated_gleague_index,"C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/GLEAGUE_PLAYER_INDEX.csv")

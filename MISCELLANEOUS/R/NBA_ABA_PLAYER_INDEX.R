@@ -80,7 +80,8 @@ all_players_df <- all_players_df %>%
 all_players_df <- all_players_df %>%
   arrange(as.numeric(From, Player)) %>%
   mutate(`Player ID` = 1000 + row_number()) %>%
-  mutate(Active = if_else(To == most_recent_nba_season(), "Yes", "No")) %>%
+  mutate(Active = if_else(To == most_recent_nba_season() | 
+                            To == max(all_players_df$To, na.rm = TRUE), "Yes", "No")) %>%
   select(`Player ID`, everything(), -Letter)
 
 # View the first few rows of the combined dataframe

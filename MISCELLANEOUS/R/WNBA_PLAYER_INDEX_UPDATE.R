@@ -11,9 +11,6 @@ library(progressr)
 library(stringi)
 library(wehoop)
 
-# Read in the GLEAGUE_PLAYER_INDEX.csv
-wnba_player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/WNBA_PLAYER_INDEX.csv")
-
 # Initialize Progress Handling
 handlers(global = TRUE)
 
@@ -40,11 +37,6 @@ retry <- function(expr, retries = 3, silent = TRUE) {
     Sys.sleep(2)  # Wait before retrying
   }
   return(NA)
-}
-
-# Suppress warnings function
-suppress_warnings <- function(expr) {
-  suppressWarnings(suppressMessages(expr))
 }
 
 # Function to extract 'From' and 'To' years (WNBA case)
@@ -107,64 +99,82 @@ scrape_players_by_letter <- function(letter, remDr) {
            To = map_int(From_To, 2)) %>%
     select(-From_To, -Seasons)  # Remove intermediate columns
   
-  # Filter players for the most recent WNBA season using the wehoop function
+  # Filter players for the most recent season using the wehoop function
   player_data <- player_data %>%
     filter(To == most_recent_wnba_season())
   
   return(player_data)
 }
 
-# Function to scrape player info using individual player links
 scrape_info_section <- function(remDr, url) {
+  # Navigate to the URL
   remDr$navigate(url)
   Sys.sleep(3)  # Allow the page to load
   
-  # Try to grab player name
+  # Initialize all fields as NA
+  player_name <- NA
+  birth_date <- NA
+  position <- NA
+  height <- NA
+  weight <- NA
+  college <- NA
+  
+  # Get page source using rvest
+  page_source <- read_html(remDr$getPageSource()[[1]])
+  
+  # Try to extract player name from the <h1> tag
   player_name <- tryCatch({
-    player_name_element <- remDr$findElement(using = "css selector", "h1")
-    player_name_element$getElementText()[[1]]
-  }, error = function(e) { NA })  # Set to NA if element not found
+    page_source %>%
+      html_element("h1 span") %>%
+      html_text(trim = TRUE)
+  }, error = function(e) { NA })
   
-  # Try to grab the 'info' section
-  info_text <- tryCatch({
-    info_element <- remDr$findElement(using = "xpath", "//*[(@id = 'info')]")
-    info_element$getElementText()[[1]]
-  }, error = function(e) { NA })  # Set to NA if element not found
+  # Try to extract birth date
+  birth_date <- tryCatch({
+    page_source %>%
+      html_element("span#necro-birth") %>%
+      html_text(trim = TRUE)
+  }, error = function(e) { NA })
   
-  if (is.na(info_text)) {
-    return(data.frame(
-      Player_Name = player_name,
-      Birth_Date = NA,
-      Position = NA,
-      Height = NA,
-      Weight = NA,
-      College = NA,
-      stringsAsFactors = FALSE
-    ))
-  }
+  # Try to extract position
+  position <- tryCatch({
+    page_source %>%
+      html_nodes(xpath = "//p[strong[contains(text(), 'Position')]]") %>%
+      html_text(trim = TRUE) %>%
+      str_extract("Position:\\s*([A-Za-z]+)") %>%
+      str_replace("Position:\\s*", "")
+  }, error = function(e) { NA })
   
-  # Extract useful data using regex patterns
-  birth_date <- str_extract(info_text, "Born:\\s[A-Za-z]+\\s\\d{1,2},\\s\\d{4}") %>% 
-    str_replace("Born:\\s", "")  # Remove 'Born: ' part
-  if (is.na(birth_date)) { birth_date <- NA }
+  # Refined height extraction logic to exclude 'Also known as' spans
+  height <- tryCatch({
+    page_source %>%
+      html_elements("p span") %>%  # Target all spans in <p> elements
+      html_text(trim = TRUE) %>%
+      .[str_detect(., "^\\d+-\\d+$|^\\d+-\\d{2}$")] %>%  # Match pattern #-# or #-##
+      .[1]  # Take the first valid match
+  }, error = function(e) { NA })
   
-  position <- str_extract(info_text, "Position:\\s\\S+") %>% str_replace("Position:\\s", "")  
-  if (is.na(position)) { position <- NA }
+  # Try to extract weight and suppress warnings during coercion
+  suppressWarnings({
+    weight <- tryCatch({
+      page_source %>%
+        html_element("p span:nth-child(2)") %>%
+        html_text(trim = TRUE) %>%
+        str_replace("lb", "") %>%
+        as.numeric()
+    }, error = function(e) { NA })
+  })
   
-  height <- str_extract(info_text, "\\d+-\\d+")  
-  if (is.na(height)) { height <- NA }
+  # Try to extract college(s) information, if none found set to NA
+  college <- tryCatch({
+    page_source %>%
+      html_nodes(xpath = "//p[strong[contains(text(), 'College') or contains(text(), 'Colleges')]]/a") %>%
+      html_text(trim = TRUE) %>%
+      paste(collapse = ", ") %>%
+      ifelse(. == "", NA, .)  # Set to NA if the value is blank
+  }, error = function(e) { NA })
   
-  weight <- str_extract(info_text, "\\d+lb") %>% str_replace("lb", "")
-  # Handle missing or empty weight
-  if (is.na(weight) || weight == "") { weight <- NA }
-  weight <- as.numeric(weight)  # Ensure Weight is always numeric
-  
-  college <- str_extract_all(info_text, "Colleges?:\\s.*") %>%
-    str_replace_all("Colleges?:\\s", "") %>%
-    paste(collapse = ", ")
-  # Replace 'character(0)' with NA
-  if (college == "" || college == "character(0)") { college <- NA }
-  
+  # Return the scraped player info as a dataframe
   return(data.frame(
     Player_Name = player_name,
     Birth_Date = birth_date,
@@ -176,6 +186,7 @@ scrape_info_section <- function(remDr, url) {
     stringsAsFactors = FALSE
   ))
 }
+
 
 # Directory to save partial CSV files
 save_directory <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS"
@@ -226,6 +237,7 @@ for (letter in letters_to_scrape) {
     # Scrape player URLs and seasons for the current letter
     player_urls <- scrape_players_by_letter(letter, remDr)
     
+    # If no players found, move to the next letter
     if (nrow(player_urls) == 0) {
       message(paste("No players found for letter:", letter))
       next  # Skip to the next letter if no players are found
@@ -237,6 +249,11 @@ for (letter in letters_to_scrape) {
     # Scrape info for each player
     for (i in 1:nrow(player_urls)) {
       player_link <- player_urls$Player_Link[i]
+      
+      # Check if the player is Ezinne Kalu and update the URL
+      if (player_urls$Player_Name[i] == "Ezinne Kalu") {
+        player_link <- "https://www.basketball-reference.com/wnba/players/k/kaluez01w.html"  # Corrected link
+      }
       
       # Scrape player info
       player_data <- with_progress({
@@ -250,8 +267,14 @@ for (letter in letters_to_scrape) {
       # Add player data to the dataframe for the current letter
       letter_data <- bind_rows(letter_data, player_data)
       
-      # Progress message after each player is scraped
       message(paste("Finished scraping player:", player_urls$Player_Name[i]))
+      
+      # Periodically refresh the Selenium session to keep it alive (every 25 players)
+      if (i %% 25 == 0) {
+        message("Refreshing session...")
+        remDr$refresh()
+        Sys.sleep(3)  # Give the page time to reload after the refresh
+      }
     }
     
     # Save all data for the current letter to the partial CSV
@@ -259,27 +282,62 @@ for (letter in letters_to_scrape) {
     
     # Combine with overall data after writing the letter's data
     all_player_data_combined <- bind_rows(all_player_data_combined, letter_data)
-  })
-  
-  # Reset RSelenium session to prevent memory overload
-  remDr$close()
-  rs_driver_object$server$stop()
-  Sys.sleep(10)
-  
-  # Restart RSelenium session after reset
-  rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
-  remDr <- rs_driver_object$client
+    
+    # Reset RSelenium session to prevent memory overload
+    remDr$close()
+    rs_driver_object$server$stop()
+    Sys.sleep(10)
+    
+    # Restart RSelenium session after reset
+    rs_driver_object <- rsDriver(browser = 'chrome', extraCapabilities = eCaps, verbose = FALSE, port = free_port())
+    remDr <- rs_driver_object$client
+  }) # End of suppressWarnings
 }
 
 # Final cleanup
 remDr$close()
 rs_driver_object$server$stop()
 
+# Function to remove non-breaking spaces from the dataframe
+clean_non_breaking_spaces <- function(df) {
+  df %>%
+    mutate(across(everything(), ~ str_replace_all(., "\\u00A0", " ")))  # Replace non-breaking space with regular space
+}
+
+# Clean the non-breaking spaces in the dataframe
+all_player_data_combined <- clean_non_breaking_spaces(all_player_data_combined)
+
+ensure_double_columns <- function(df, columns_to_convert) {
+  df <- df %>%
+    mutate(across(all_of(columns_to_convert), as.double))  # Convert specified columns to double
+  return(df)
+}
+
+# Usage
+columns_to_convert <- c("To", "From", "Weight")  # List of columns to convert to double
+all_player_data_combined <- ensure_double_columns(all_player_data_combined, columns_to_convert)
+
+# Read in wnba player index csv
+wnba_player_index <- read_csv("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/WNBA_PLAYER_INDEX.csv")
+
 # Reformmating to fit the wnba index
 all_player_data_combined <- all_player_data_combined %>%
   rename(Player = Player_Name,`Birth Date` = Birth_Date, Pos = Position, Ht = Height,
          Wt = Weight, Colleges = College) %>%
   select(Player, From, To, Pos, Ht, Wt, `Birth Date`, Colleges)
+
+# Rework Position so that it fits other player index syntax
+all_player_data_combined <- all_player_data_combined %>%
+  mutate(Pos = case_when(
+    Pos == "Guard-Forward" ~ "G-F",
+    Pos == "Forward-Guard" ~ "F-G",
+    Pos == "Forward-Center" ~ "F-C",
+    Pos == "Center-Forward" ~ "C-F",
+    Pos == "Guard" ~ "G",
+    Pos == "Forward" ~ "F",
+    Pos == "Center" ~ "C",
+    TRUE ~ Pos  # Keep other positions as is
+  ))
 
 # Cross-validation and merging logic between wnba_player_index and all_player_data_combined
 # Merge the data on Player and From columns
@@ -294,7 +352,8 @@ updated_wnba_data <- wnba_player_index %>%
     Wt = coalesce(Wt_combined, Wt_index),
     `Birth Date` = coalesce(`Birth Date_combined`, `Birth Date_index`),
     Colleges = coalesce(Colleges_combined, Colleges_index),
-    Active = if_else(To == most_recent_wnba_season(), "Yes", "No")
+    Active = if_else(To == most_recent_wnba_season() |
+                       To == max(wnba_player_index$To, na.rm = TRUE), "Yes", "No")
   ) %>%
   
   # Select the necessary columns to retain the original structure
@@ -315,7 +374,8 @@ new_players <- new_players %>%
 
 # Combine the updated index with new players
 final_wnba_player_index <- bind_rows(updated_wnba_data, new_players) %>%
-  arrange(`Player ID`)  # Ensure the final table is sorted by From and Player
+  arrange(From, Player) %>%
+  mutate(`Player ID` = 1000 + row_number())
 
 # Write the final WNBA Player Index back to a CSV
 write_csv(final_wnba_player_index, "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/WNBA_PLAYER_INDEX.csv")

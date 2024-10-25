@@ -150,7 +150,8 @@ latest_season_roster <- scrape_data_in_batches(nba_urls)
 # Rename column V7 to Birthplace if it exists
 latest_season_roster <- latest_season_roster %>%
   rename(Birthplace = Birth) %>%
-  mutate(Birthplace = str_sub(Birthplace,1,2))
+  mutate(Birthplace = str_sub(Birthplace, 1, 2),
+         Player = str_trim(gsub("\\s*\\(TW\\)", "", Player)))
 
 # Load the Nationality.txt file and create a tibble
 birthplace_data <- read_lines("C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/MISCELLANEOUS/NBA_Nationality.txt") %>%

@@ -15,8 +15,14 @@ if %ERRORLEVEL% neq 0 (
 )
 echo NBA Standings Update Script completed at %time% on %date% >> %log_file%
 
-:: Optional Git Commands if you need to push the updates
+:: Git Commands for MISCELLANEOUS directory
 cd "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\MISCELLANEOUS"
+git add .
+git commit -m "Standings Data Updated at %date% %time%"
+git push origin main
+
+:: Git Commands for NBA\LEAGUE directory
+cd "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\LEAGUE"
 git add .
 git commit -m "Standings Data Updated at %date% %time%"
 git push origin main

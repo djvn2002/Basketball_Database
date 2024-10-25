@@ -200,6 +200,7 @@ latest_reg_record <- latest_reg_record %>%
   mutate(Coach = case_when(
     Coach == "Honey Russell" ~ "John Russell",
     Coach == "Charley Eckman" ~ "Charles Eckman",
+    Coach == "Jordi Fernandez" ~ "Jordi Fernández Torres",
     TRUE ~ Coach  # Keep other names unchanged
   ))
 

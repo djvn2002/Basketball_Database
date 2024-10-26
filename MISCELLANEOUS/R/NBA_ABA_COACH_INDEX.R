@@ -50,7 +50,7 @@ coaches_index <- coaches_df %>%
 # New columns 'HOF' & 'Active' and drop '*' in Coach column
 coaches_index <- coaches_index %>%
   mutate(HOF = ifelse(str_detect(Coach, "\\*"), "Yes", "No"),
-         Active = ifelse(To == most_recent_nba_season() + 1, "Yes", "No"),
+         Active = ifelse(To == most_recent_nba_season(), "Yes", "No"),
          Coach = str_replace(Coach, "\\*", ""))
 
 # Rearrange rows and add 'Coach ID'

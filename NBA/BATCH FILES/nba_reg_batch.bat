@@ -151,6 +151,18 @@ echo NBA Team Per 100 Possessions Update Script completed at %time% on %date% >>
 :: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak
 
+:: NBA Team Shooting Update Script
+echo Running NBA Team Shooting Update Script >> %log_file%
+"C:\Program Files\R\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\REGULAR SEASON\NBA_REG_TEAM_SHOOTING_UPDATE.R" >> %log_file% 2>&1
+if %ERRORLEVEL% neq 0 (
+    echo NBA Team Shooting Update Script failed at %time% on %date% >> %log_file%
+    exit /b 1
+)
+echo NBA Team Shooting Update Script completed at %time% on %date% >> %log_file%
+
+:: Wait for 2 minutes (120 seconds)
+timeout /t 120 /nobreak
+
 :: NBA Team Advanced Stats Update Script
 echo Running NBA Team Advanced Stats Update Script >> %log_file%
 "C:\Program Files\R\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\REGULAR SEASON\NBA_REG_TEAM_ADVANCED_UPDATE.R" >> %log_file% 2>&1
@@ -159,6 +171,18 @@ if %ERRORLEVEL% neq 0 (
     exit /b 1
 )
 echo NBA Team Advanced Stats Update Script completed at %time% on %date% >> %log_file%
+
+:: Wait for 2 minutes (120 seconds)
+timeout /t 120 /nobreak
+
+:: NBA Team Opponent Total Update Script
+echo Running NBA Team Opponent Total Update Script >> %log_file%
+"C:\Program Files\R\Rscript.exe" "C:\Users\djvia\OneDrive\Documents\Blog Website\Basketball_Database\NBA\BATCH FILES\R\REGULAR SEASON\NBA_REG_TEAM_OPP_TOTAL_UPDATE.R" >> %log_file% 2>&1
+if %ERRORLEVEL% neq 0 (
+    echo NBA Team Opponent Total Update Script failed at %time% on %date% >> %log_file%
+    exit /b 1
+)
+echo NBA Team Opponent Total Update Script completed at %time% on %date% >> %log_file%
 
 :: Wait for 2 minutes (120 seconds)
 timeout /t 120 /nobreak

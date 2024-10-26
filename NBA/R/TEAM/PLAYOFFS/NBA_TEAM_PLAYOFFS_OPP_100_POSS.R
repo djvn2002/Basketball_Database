@@ -234,7 +234,7 @@ nba_team_ply_opp_100_poss <- nba_team_ply_opp_100_poss %>%
                             `Semifinals Losses`, `Finals Losses`), na.rm = TRUE),
          `W/L%` = round(W / (W + L),3))
 
-# Rearrange columns for final dataframe %>%
+# Rearrange columns for final dataframe
 nba_team_ply_opp_100_poss <- nba_team_ply_opp_100_poss %>%
   select(`Franchise ID`,`Team Name`, `Team Abbr.`, Season, G, W, L, `W/L%`,
          Division, `Division Rank`, Conference, `Conference Rank`, everything()) %>%

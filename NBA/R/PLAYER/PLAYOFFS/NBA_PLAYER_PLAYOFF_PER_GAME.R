@@ -10,7 +10,7 @@
 # Library Packages
 library(tidyverse)
 
-# Load NBA_PLAYER_REG_TOTAL
+# Load NBA_PLAYER_PLAYOFF_TOTAL
 player_fp <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/NBA/PLAYER/PLAYOFFS"
 load(file = file.path(player_fp,"NBA_PLAYER_PLAYOFF_TOTAL.rda"))
 

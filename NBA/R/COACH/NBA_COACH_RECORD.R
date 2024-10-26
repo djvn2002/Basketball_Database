@@ -206,6 +206,7 @@ coach_reg <- coach_reg %>%
   mutate(Coach = case_when(
     Coach == "Honey Russell" ~ "John Russell",
     Coach == "Charley Eckman" ~ "Charles Eckman",
+    Coach == "Jordi Fernandez" ~ "Jordi Fernández Torres",
     TRUE ~ Coach  # Keep other names unchanged
   ))
 

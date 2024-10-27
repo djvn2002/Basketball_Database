@@ -1,34 +1,34 @@
 Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 101,Dick Fitzgerald,1947,1947,"November 18, 1920",Fordham,No,No
-102,Dutch Dehnert,1947,1947,"April 5, 1898",NA,No,No
+102,Dutch Dehnert,1947,1947,"April 5, 1898",NA,Yes,No
 103,Ed Sadowski,1947,1947,"July 11, 1915",Seton Hall,No,No
-104,Eddie Gottlieb,1947,1955,"September 15, 1898",Temple,No,No
+104,Eddie Gottlieb,1947,1955,"September 15, 1898",Temple,Yes,No
 105,Glenn Curtis,1947,1947,"March 4, 1894",Indiana State University,No,No
-106,Harold Olsen,1947,1949,"May 12, 1895",Wisconsin,No,No
-107,John Russell,1947,1948,"May 31, 1902",NA,No,No
-108,Ken Loeffler,1947,1949,"April 14, 1902",Penn State,No,No
+106,Harold Olsen,1947,1949,"May 12, 1895",Wisconsin,Yes,No
+107,John Russell,1947,1948,"May 31, 1902",NA,Yes,No
+108,Ken Loeffler,1947,1949,"April 14, 1902",Penn State,Yes,No
 109,Lew Hayman,1947,1947,"September 30, 1908",Syracuse,No,No
 110,Neil Cohalan,1947,1947,"July 31, 1906",NA,No,No
 111,Paul Birch,1947,1954,"January 10, 1910",Duquesne,No,No
 112,Philip Sachs,1947,1947,"April 1, 1902",NA,No,No
-113,Red Auerbach,1947,1966,"September 20, 1917",George Washington,No,No
+113,Red Auerbach,1947,1966,"September 20, 1917",George Washington,Yes,No
 114,Robert Morris,1947,1947,"November 3, 1902",East Stroudsburg University,No,No
 115,Robert Rolfe,1947,1947,"October 17, 1908",Dartmouth College,No,No
 116,Roy Clifford,1947,1947,"June 14, 1900",NA,No,No
 117,Albert Soar,1948,1948,"August 17, 1914",Providence,No,No
-118,Buddy Jeannette,1948,1970,"September 15, 1917",Washington & Jefferson College,No,No
-119,Joe Lapchick,1948,1956,"April 12, 1900",St. John's,No,No
+118,Buddy Jeannette,1948,1970,"September 15, 1917",Washington & Jefferson College,Yes,No
+119,Joe Lapchick,1948,1956,"April 12, 1900",St. John's,Yes,No
 120,Nat Hickey,1948,1948,"January 30, 1902",NA,No,No
-121,Alvin Julian,1949,1950,"April 5, 1901",Bucknell,No,No
+121,Alvin Julian,1949,1950,"April 5, 1901",Bucknell,Yes,No
 122,Bruce Hale,1949,1968,"August 30, 1918",Santa Clara,No,No
 123,Burl Friddle,1949,1949,"May 27, 1900",Franklin College,No,No
 124,Carl Bennett,1949,1949,"December 7, 1915",NA,No,No
 125,Curly Armstrong,1949,1949,"November 1, 1918",Indiana,No,No
 126,Grady Lewis,1949,1950,"March 25, 1917",Oklahoma,No,No
-127,John Kundla,1949,1959,"July 3, 1916",Minnesota,No,No
-128,Les Harrison,1949,1955,"August 20, 1904",NA,No,No
+127,John Kundla,1949,1959,"July 3, 1916",Minnesota,Yes,No
+128,Les Harrison,1949,1955,"August 20, 1904",NA,Yes,No
 129,Philip Brownstein,1949,1950,"May 17, 1906",Illinois,No,No
-130,Al Cervi,1950,1959,"February 12, 1917",NA,No,No
+130,Al Cervi,1950,1959,"February 12, 1917",NA,Yes,No
 131,Bob Feerick,1950,1963,"January 2, 1920",Santa Clara,No,No
 132,Charley Shipp,1950,1950,"December 3, 1913",Catholic University of America,No,No
 133,Cliff Barker,1950,1951,"January 15, 1921",Kentucky,No,No
@@ -50,38 +50,38 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 149,Fred Scolari,1952,1952,"March 1, 1922",San Francisco,No,No
 150,Herm Schaefer,1952,1953,"December 20, 1918",Indiana,No,No
 151,Andrew Levane,1953,1962,"April 11, 1920",St. John's,No,No
-152,Clair Bee,1953,1954,"March 3, 1896",Waynesburg College,No,No
-153,Red Holzman,1954,1982,"August 10, 1920",City College of New York,No,No
+152,Clair Bee,1953,1954,"March 3, 1896",Waynesburg College,Yes,No
+153,Red Holzman,1954,1982,"August 10, 1920",City College of New York,Yes,No
 154,Charles Eckman,1955,1958,"September 10, 1921",NA,No,No
-155,Bobby Wanzer,1956,1959,"June 4, 1921",Seton Hall,No,No
+155,Bobby Wanzer,1956,1959,"June 4, 1921",Seton Hall,Yes,No
 156,George Senesky,1956,1958,"April 4, 1922",Saint Joseph's,No,No
 157,Vince Boryla,1956,1958,"March 11, 1927",Denver,No,No
-158,Alex Hannum,1957,1974,"July 19, 1923",USC,No,No
+158,Alex Hannum,1957,1974,"July 19, 1923",USC,Yes,No
 159,Paul Seymour,1957,1969,"January 30, 1928",Toledo,No,No
-160,Slater Martin,1957,1969,"October 22, 1925",Texas,No,No
-161,George Mikan,1958,1958,"June 18, 1924",DePaul,No,No
+160,Slater Martin,1957,1969,"October 22, 1925",Texas,Yes,No
+161,George Mikan,1958,1958,"June 18, 1924",DePaul,Yes,No
 162,Red Rocha,1958,1960,"September 18, 1923",Oregon State,No,No
-163,Andy Phillip,1959,1959,"March 7, 1922",Illinois,No,No
-164,Ed Macauley,1959,1960,"March 22, 1928",Saint Louis,No,No
+163,Andy Phillip,1959,1959,"March 7, 1922",Illinois,Yes,No
+164,Ed Macauley,1959,1960,"March 22, 1928",Saint Louis,Yes,No
 165,Tom Marshall,1959,1960,"January 6, 1931",Western Kentucky,No,No
-166,Carl Braun,1960,1961,"September 25, 1927",Colgate,No,No
-167,Dick McGuire,1960,1968,"January 25, 1926",St. John's,No,No
-168,Jim Pollard,1960,1970,"July 9, 1922",Stanford,No,No
+166,Carl Braun,1960,1961,"September 25, 1927",Colgate,Yes,No
+167,Dick McGuire,1960,1968,"January 25, 1926",St. John's,Yes,No
+168,Jim Pollard,1960,1970,"July 9, 1922",Stanford,Yes,No
 169,John Castellani,1960,1960,"August 23, 1926",Notre Dame,No,No
-170,Neil Johnston,1960,1961,"February 4, 1929",Ohio State,No,No
+170,Neil Johnston,1960,1961,"February 4, 1929",Ohio State,Yes,No
 171,Charles Wolf,1961,1965,"May 7, 1926",Notre Dame,No,No
 172,Fred Schaus,1961,1967,"June 30, 1925",West Virginia,No,No
-173,Bob Pettit,1962,1962,"December 12, 1932",LSU,No,No
+173,Bob Pettit,1962,1962,"December 12, 1932",LSU,Yes,No
 174,Eddie Donovan,1962,1965,"June 2, 1922",NA,No,No
-175,Frank McGuire,1962,1962,"November 8, 1913",St. John's,No,No
-176,Harry Gallatin,1963,1966,"April 26, 1927",Truman State University,No,No
+175,Frank McGuire,1962,1962,"November 8, 1913",St. John's,Yes,No
+176,Harry Gallatin,1963,1966,"April 26, 1927",Truman State University,Yes,No
 177,Jack McMahon,1963,1972,"December 3, 1928",St. John's,No,No
-178,Slick Leonard,1963,1980,"July 17, 1932",Indiana,No,No
-179,Dolph Schayes,1964,1972,"May 19, 1928",NYU,No,No
-180,Dave DeBusschere,1965,1967,"October 16, 1940",Detroit Mercy,No,No
-181,Richie Guerin,1965,1972,"May 29, 1932",Iona College,No,No
-182,Bill Russell,1967,1988,"February 12, 1934",San Francisco,No,No
-183,Bill Sharman,1967,1976,"May 25, 1926",USC,No,No
+178,Slick Leonard,1963,1980,"July 17, 1932",Indiana,Yes,No
+179,Dolph Schayes,1964,1972,"May 19, 1928",NYU,Yes,No
+180,Dave DeBusschere,1965,1967,"October 16, 1940",Detroit Mercy,Yes,No
+181,Richie Guerin,1965,1972,"May 29, 1932",Iona College,Yes,No
+182,Bill Russell,1967,1988,"February 12, 1934",San Francisco,Yes,No
+183,Bill Sharman,1967,1976,"May 25, 1926",USC,Yes,No
 184,Donnie Butcher,1967,1969,"February 8, 1936",Pikeville College,No,No
 185,Gene Shue,1967,1989,"December 18, 1931",Maryland,No,No
 186,Mike Farmer,1967,1967,"September 26, 1936",San Francisco,No,No
@@ -91,7 +91,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 190,Babe McCarthy,1968,1974,"October 1, 1923",Mississippi State,No,No
 191,Bob Bass,1968,1992,"January 28, 1929",Oklahoma Baptist University,No,No
 192,Butch van Breda Kolff,1968,1977,"October 28, 1922",NYU,No,No
-193,Cliff Hagan,1968,1970,"December 9, 1931",Kentucky,No,No
+193,Cliff Hagan,1968,1970,"December 9, 1931",Kentucky,Yes,No
 194,Ed Jucker,1968,1969,"July 8, 1916",NA,No,No
 195,Gene Rhodes,1968,1971,"September 2, 1927",Western Kentucky,No,No
 196,Harry Dinnel,1968,1968,"October 9, 1940",Pepperdine,No,No
@@ -101,83 +101,83 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 200,Vince Cazzetta,1968,1968,"September 24, 1925",University of Bridgeport,No,No
 201,Dick Motta,1969,1997,"September 3, 1931",Utah State University,No,No
 202,George Lee,1969,1970,"November 23, 1936",Michigan,No,No
-203,Jack Ramsay,1969,1989,"February 21, 1925",Saint Joseph's,No,No
+203,Jack Ramsay,1969,1989,"February 21, 1925",Saint Joseph's,Yes,No
 204,Jim Harding,1969,1969,"February 24, 1924",Iowa,No,No
 205,Jim Weaver,1969,1969,NA,NA,No,No
-206,Larry Costello,1969,1979,"July 2, 1931",Niagara University,No,No
+206,Larry Costello,1969,1979,"July 2, 1931",Niagara University,Yes,No
 207,Verl Young,1969,1969,"February 20, 1910",NA,No,No
-208,Vern Mikkelsen,1969,1969,"October 21, 1928",Hamline University,No,No
-209,Al Attles,1970,1983,"November 7, 1936",North Carolina A&T,No,No
-210,Bob Cousy,1970,1974,"August 9, 1928",Holy Cross,No,No
+208,Vern Mikkelsen,1969,1969,"October 21, 1928",Hamline University,Yes,No
+209,Al Attles,1970,1983,"November 7, 1936",North Carolina A&T,Yes,No
+210,Bob Cousy,1970,1974,"August 9, 1928",Holy Cross,Yes,No
 211,Harold Blitman,1970,1971,"February 12, 1930",West Chester (PA),No,No
-212,Jerry Colangelo,1970,1973,"November 20, 1939",Illinois,No,No
+212,Jerry Colangelo,1970,1973,"November 20, 1939",Illinois,Yes,No
 213,Joe Belmont,1970,1971,"July 12, 1934",Duke,No,No
 214,Joe Mullaney,1970,1977,"November 17, 1924",Holy Cross,No,No
 215,John Clark,1970,1970,"August 26, 1937",Franciscan University of Steubenville,No,No
-216,John McLendon,1970,1970,"April 5, 1915",Kansas,No,No
-217,Lenny Wilkens,1970,2005,"October 28, 1937",Providence,No,No
+216,John McLendon,1970,1970,"April 5, 1915",Kansas,Yes,No
+217,Lenny Wilkens,1970,2005,"October 28, 1937",Providence,Yes,No
 218,Max Williams,1970,1971,"February 28, 1938",SMU,No,No
-219,Tom Heinsohn,1970,1978,"August 26, 1934",Holy Cross,No,No
+219,Tom Heinsohn,1970,1978,"August 26, 1934",Holy Cross,Yes,No
 220,York Larese,1970,1970,"July 18, 1938",UNC,No,No
 221,Alex Groza,1971,1975,"October 7, 1926",Kentucky,No,No
 222,Bill Blakeley,1971,1971,"June 13, 1934",Abilene Christian University,No,No
-223,Bill Fitch,1971,1998,"May 19, 1932",Coe College,No,No
-224,Cotton Fitzsimmons,1971,1997,"October 7, 1931",Midwestern State University,No,No
-225,Frank Ramsey,1971,1971,"July 13, 1931",Kentucky,No,No
+223,Bill Fitch,1971,1998,"May 19, 1932",Coe College,Yes,No
+224,Cotton Fitzsimmons,1971,1997,"October 7, 1931",Midwestern State University,Yes,No
+225,Frank Ramsey,1971,1971,"July 13, 1931",Kentucky,Yes,No
 226,Jerry Steele,1971,1971,"March 10, 1939",Wake Forest,No,No
-227,Lou Carnesecca,1971,1973,"January 5, 1925",St. John's,No,No
+227,Lou Carnesecca,1971,1973,"January 5, 1925",St. John's,Yes,No
 228,Rolland Todd,1971,1972,"April 26, 1934",Fresno State,No,No
 229,Stan Albeck,1971,1986,"May 17, 1931",Bradley,No,No
-230,Earl Lloyd,1972,1973,"April 3, 1928",West Virginia State University,No,No
+230,Earl Lloyd,1972,1973,"April 3, 1928",West Virginia State University,Yes,No
 231,Johnny McCarthy,1972,1972,"April 25, 1934",Canisius,No,No
 232,LaDell Andersen,1972,1973,"October 25, 1929",Utah State University,No,No
 233,Mark Binstein,1972,1972,"March 31, 1934",United States Military Academy,No,No
 234,Stu Inman,1972,1972,"August 2, 1926",San Jose State,No,No
 235,Terry Dischinger,1972,1972,"November 21, 1940",Purdue,No,No
-236,Tex Winter,1972,1973,"February 25, 1922",NA,No,No
+236,Tex Winter,1972,1973,"February 25, 1922",NA,Yes,No
 237,Tom Meschery,1972,1972,"October 26, 1938",Saint Mary's,No,No
 238,Tom Nissalke,1972,1984,"July 7, 1932",Florida State,No,No
 239,Bucky Buckwalter,1973,1975,"November 22, 1933",Utah,No,No
 240,Dave Brown,1973,1973,"February 22, 1933",Wisconsin,No,No
 241,Jack McCloskey,1973,1974,"September 19, 1925",Penn,No,No
 242,Johnny Egan,1973,1976,"January 31, 1939",Providence,No,No
-243,K.C. Jones,1973,1992,"May 25, 1932",San Francisco,No,No
+243,K.C. Jones,1973,1992,"May 25, 1932",San Francisco,Yes,No
 244,Kevin Loughery,1973,1995,"March 28, 1940",St. John's,No,No
-245,Larry Brown,1973,2011,"September 14, 1940",UNC,No,No
+245,Larry Brown,1973,2011,"September 14, 1940",UNC,Yes,No
 246,Ray Scott,1973,1976,"July 12, 1938",University of Portland,No,No
 247,Roy Rubin,1973,1973,"December 9, 1925",Louisville,No,No
 248,Draff Young,1974,1974,"April 9, 1942",NA,No,No
 249,John MacLeod,1974,1991,"October 3, 1937",Bellarmine University,No,No
 250,Phil Johnson,1974,1987,"September 6, 1941",NA,No,No
-251,Wilt Chamberlain,1974,1974,"August 21, 1936",Kansas,No,No
+251,Wilt Chamberlain,1974,1974,"August 21, 1936",Kansas,Yes,No
 252,Beryl Shipley,1975,1975,"August 10, 1926",NA,No,No
 253,Bob MacKinnon,1975,1988,"December 5, 1927",Canisius,No,No
-254,Elgin Baylor,1975,1979,"September 16, 1934",Seattle University,No,No
-255,Hubie Brown,1975,2005,"September 25, 1933",Niagara University,No,No
+254,Elgin Baylor,1975,1979,"September 16, 1934",Seattle University,Yes,No
+255,Hubie Brown,1975,2005,"September 25, 1933",Niagara University,Yes,No
 256,Scotty Robertson,1975,1983,"February 1, 1930",NA,No,No
 257,Bill Musselman,1976,1991,"September 13, 1940",NA,No,No
 258,Gene Tormohlen,1976,1976,"May 12, 1937",Tennessee,No,No
 259,Herb Brown,1976,1978,"March 14, 1936",University of Vermont,No,No
 260,Jack Ankerson,1976,1976,"March 1, 1942",Ripon College,No,No
 261,Mack Calvin,1976,1992,"July 27, 1947",USC,No,No
-262,Rod Thorn,1976,1982,"May 23, 1941",West Virginia,No,No
-263,Zelmo Beaty,1976,1976,"October 25, 1939",Prairie View A&M University,No,No
-264,Don Nelson,1977,2010,"May 15, 1940",Iowa,No,No
+262,Rod Thorn,1976,1982,"May 23, 1941",West Virginia,Yes,No
+263,Zelmo Beaty,1976,1976,"October 25, 1939",Prairie View A&M University,Yes,No
+264,Don Nelson,1977,2010,"May 15, 1940",Iowa,Yes,No
 265,Doug Moe,1977,1993,"September 21, 1938",UNC,No,No
 266,Ed Badger,1977,1978,"November 5, 1932",Iowa,No,No
-267,Jerry West,1977,1979,"May 28, 1938",West Virginia,No,No
+267,Jerry West,1977,1979,"May 28, 1938",West Virginia,Yes,No
 268,Tates Locke,1977,1977,"February 25, 1937",NA,No,No
-269,Billy Cunningham,1978,1985,"June 3, 1943",UNC,No,No
+269,Billy Cunningham,1978,1985,"June 3, 1943",UNC,Yes,No
 270,Bob Hopkins,1978,1978,"November 3, 1934",Grambling State University,No,No
 271,Bob Kauffman,1978,1978,"July 13, 1946",Guilford College,No,No
-272,Tom Sanders,1978,1979,"November 8, 1938",NYU,No,No
-273,Willis Reed,1978,1989,"June 25, 1942",Grambling State University,No,No
-274,Dave Cowens,1979,2002,"October 25, 1948",Florida State,No,No
-275,Dick Vitale,1979,1980,"June 9, 1939",Seton Hall,No,No
+272,Tom Sanders,1978,1979,"November 8, 1938",NYU,Yes,No
+273,Willis Reed,1978,1989,"June 25, 1942",Grambling State University,Yes,No
+274,Dave Cowens,1979,2002,"October 25, 1948",Florida State,Yes,No
+275,Dick Vitale,1979,1980,"June 9, 1939",Seton Hall,Yes,No
 276,Donnie Walsh,1979,1981,"March 1, 1941",UNC,No,No
-277,Del Harris,1980,1999,"June 18, 1937",Milligan College,No,No
+277,Del Harris,1980,1999,"June 18, 1937",Milligan College,Yes,No
 278,Jack McKinney,1980,1985,"July 13, 1935",Saint Joseph's,No,No
-279,Jerry Sloan,1980,2011,"March 28, 1942",University of Evansville,No,No
+279,Jerry Sloan,1980,2011,"March 28, 1942",University of Evansville,Yes,No
 280,Johnny Bach,1980,1986,"July 10, 1924",Fordham,No,No
 281,Paul Westhead,1980,1992,"February 21, 1939",Saint Joseph's,No,No
 282,Richie Adubato,1980,1997,"November 23, 1937",William Paterson University,No,No
@@ -185,15 +185,15 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 284,Mike Fratello,1981,2007,"February 24, 1947",Montclair State College,No,No
 285,Paul Silas,1981,2012,"July 12, 1943",Creighton,No,No
 286,Bob Kloppenburg,1982,1992,"July 28, 1927",Fresno State,No,No
-287,Chuck Daly,1982,1999,"July 20, 1930",Bloomsburg University of Pennsylvania,No,No
+287,Chuck Daly,1982,1999,"July 20, 1930",Bloomsburg University of Pennsylvania,Yes,No
 288,Frank Layden,1982,1989,"January 5, 1932",Niagara University,No,No
-289,Pat Riley,1982,2008,"March 20, 1945",Kentucky,No,No
+289,Pat Riley,1982,2008,"March 20, 1945",Kentucky,Yes,No
 290,Bill Blair,1983,1996,"March 17, 1942",Virginia Military Institute,No,No
 291,Jim Lynam,1984,1997,"September 15, 1941",Saint Joseph's,No,No
 292,Morris McHone,1984,1984,"June 17, 1943",NA,No,No
 293,Don Chaney,1985,2004,"March 22, 1946",Houston,No,No
 294,George Irvine,1985,2001,"February 1, 1948",Washington,No,No
-295,George Karl,1985,2016,"May 12, 1951",UNC,No,No
+295,George Karl,1985,2016,"May 12, 1951",UNC,Yes,No
 296,Bernie Bickerstaff,1986,2013,"February 11, 1944",University of San Diego,No,No
 297,Dave Wohl,1986,1988,"November 2, 1949",Penn,No,No
 298,Gene Littles,1986,1995,"June 29, 1943",High Point University,No,No
@@ -201,43 +201,43 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 300,Bob Hill,1987,2007,"November 24, 1948",Bowling Green,No,No
 301,Bob Weiss,1987,2006,"May 7, 1942",Penn State,No,No
 302,Dick Van Arsdale,1987,1987,"February 22, 1943",Indiana,No,No
-303,Doug Collins,1987,2013,"July 28, 1951",Illinois State,No,No
+303,Doug Collins,1987,2013,"July 28, 1951",Illinois State,Yes,No
 304,Jerry Reynolds,1987,1990,"January 29, 1944",Vincennes University,No,No
 305,Mike Schuler,1987,1992,"September 22, 1940",Ohio University,No,No
 306,Ed Gregory,1988,1988,"October 28, 1931",Pepperdine,No,No
 307,John Wetzel,1988,1988,"October 22, 1944",Virginia Tech,No,No
-308,Rick Pitino,1988,2001,"September 18, 1952",UMass,No,No
-309,Wes Unseld,1988,1994,"March 14, 1946",Louisville,No,No
+308,Rick Pitino,1988,2001,"September 18, 1952",UMass,Yes,No
+309,Wes Unseld,1988,1994,"March 14, 1946",Louisville,Yes,No
 310,Dick Harter,1989,1990,"October 14, 1930",Penn,No,No
 311,Dick Versace,1989,1991,"April 16, 1940",NA,No,No
 312,Don Casey,1989,2000,"June 17, 1937",NA,No,No
 313,Jimmy Rodgers,1989,1993,"March 12, 1943",Iowa,No,No
-314,Mel Daniels,1989,1989,"July 20, 1944",New Mexico,No,No
-315,Rick Adelman,1989,2014,"June 16, 1946",Loyola Marymount,No,No
+314,Mel Daniels,1989,1989,"July 20, 1944",New Mexico,Yes,No
+315,Rick Adelman,1989,2014,"June 16, 1946",Loyola Marymount,Yes,No
 316,Ron Rothstein,1989,1993,"December 27, 1942",NA,No,No
-317,Phil Jackson,1990,2011,"September 17, 1945",University of North Dakota,No,No
+317,Phil Jackson,1990,2011,"September 17, 1945",University of North Dakota,Yes,No
 318,Stu Jackson,1990,1997,"December 11, 1955",Oregon,No,No
 319,Chris Ford,1991,2004,"January 11, 1949",Villanova,No,No
 320,Mike Dunleavy,1991,2010,"March 21, 1954",South Carolina,No,No
 321,Allan Bristow,1992,1996,"August 23, 1951",Virginia Tech,No,No
 322,Frank Hamblen,1992,2005,"April 16, 1947",Syracuse,No,No
 323,Rex Hughes,1992,1993,"September 24, 1938",Pepperdine,No,No
-324,Rudy Tomjanovich,1992,2005,"November 24, 1948",Michigan,No,No
-325,Dan Issel,1993,2002,"October 25, 1948",Kentucky,No,No
+324,Rudy Tomjanovich,1992,2005,"November 24, 1948",Michigan,Yes,No
+325,Dan Issel,1993,2002,"October 25, 1948",Kentucky,Yes,No
 326,Fred Carter,1993,1994,"February 14, 1945",Mount St. Mary's University,No,No
 327,Gar Heard,1993,2000,"May 3, 1948",Oklahoma,No,No
 328,Garry St. Jean,1993,2000,"February 10, 1950",NA,No,No
-329,Jerry Tarkanian,1993,1993,"August 8, 1930",Fresno State,No,No
+329,Jerry Tarkanian,1993,1993,"August 8, 1930",Fresno State,Yes,No
 330,John Lucas,1993,2003,"October 31, 1953",Maryland,No,No
-331,Paul Westphal,1993,2012,"November 30, 1950",USC,No,No
+331,Paul Westphal,1993,2012,"November 30, 1950",USC,Yes,No
 332,Randy Pfund,1993,1994,"December 29, 1951",Wheaton College,No,No
 333,Sidney Lowe,1993,2003,"January 21, 1960",NC State,No,No
 334,Bill Bertka,1994,1999,"August 8, 1927",Kent State University,No,No
 335,Brian Hill,1994,2007,"September 19, 1947",Kennedy College,No,No
-336,Magic Johnson,1994,1994,"August 14, 1959",Michigan State,No,No
+336,Magic Johnson,1994,1994,"August 14, 1959",Michigan State,Yes,No
 337,Quinn Buckner,1994,1994,"August 20, 1954",Indiana,No,No
 338,Alvin Gentry,1995,2022,"November 5, 1954",Appalachian State University,No,No
-339,Bob Lanier,1995,1995,"September 10, 1948",St. Bonaventure,No,No
+339,Bob Lanier,1995,1995,"September 10, 1948",St. Bonaventure,Yes,No
 340,Butch Beard,1995,1996,"May 4, 1947",Louisville,No,No
 341,P.J. Carlesimo,1995,2013,"May 30, 1949",Fordham,No,No
 342,Brendan Malone,1996,2005,"April 21, 1935",Iona College,No,No
@@ -249,13 +249,13 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 348,Danny Ainge,1997,2000,"March 17, 1959",BYU,No,No
 349,Darrell Walker,1997,2000,"March 9, 1961",Arkansas,No,No
 350,Eddie Jordan,1997,2010,"January 29, 1955",Rutgers University,No,No
-351,Gregg Popovich,1997,2025,"January 28, 1949",Air Force,No,Yes
+351,Gregg Popovich,1997,2025,"January 28, 1949",Air Force,Yes,Yes
 352,Jim Cleamons,1997,1998,"September 13, 1949",Ohio State,No,No
-353,John Calipari,1997,1999,"February 10, 1959",Clarion University of Pennsylvania,No,No
+353,John Calipari,1997,1999,"February 10, 1959",Clarion University of Pennsylvania,Yes,No
 354,Johnny Davis,1997,2009,"October 21, 1955",Dayton,No,No
 355,Bill Hanzlik,1998,1998,"December 6, 1957",Notre Dame,No,No
 356,Butch Carter,1998,2000,"June 11, 1958",Indiana,No,No
-357,Larry Bird,1998,2000,"December 7, 1956",Indiana State University,No,No
+357,Larry Bird,1998,2000,"December 7, 1956",Indiana State University,Yes,No
 358,Jim Brovelli,1999,1999,"April 15, 1942",San Francisco,No,No
 359,Kurt Rambis,1999,2016,"February 25, 1958",Santa Clara,No,No
 360,Mike D'Antoni,1999,2020,"May 8, 1951",Marshall,No,No
@@ -266,7 +266,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 365,Randy Wittman,2000,2016,"October 28, 1959",Indiana,No,No
 366,Scott Skiles,2000,2016,"March 5, 1964",Michigan State,No,No
 367,Byron Scott,2001,2016,"March 28, 1961",Arizona State,No,No
-368,Isiah Thomas,2001,2008,"April 30, 1961",Indiana,No,No
+368,Isiah Thomas,2001,2008,"April 30, 1961",Indiana,Yes,No
 369,Jim O'Brien,2001,2011,"February 11, 1952",Saint Joseph's,No,No
 370,Leonard Hamilton,2001,2001,"August 4, 1948",NA,No,No
 371,Lon Kruger,2001,2003,"August 19, 1952",Kansas State,No,No
@@ -274,10 +274,10 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 373,Bill Berry,2002,2002,NA,Michigan State,No,No
 374,Bill Cartwright,2002,2004,"July 30, 1957",San Francisco,No,No
 375,Frank Johnson,2002,2004,"November 23, 1958",Wake Forest,No,No
-376,Maurice Cheeks,2002,2014,"September 8, 1956",West Texas A&M University,No,No
+376,Maurice Cheeks,2002,2014,"September 8, 1956",West Texas A&M University,Yes,No
 377,Mike Evans,2002,2002,"April 19, 1955",Kansas State,No,No
 378,Rick Carlisle,2002,2025,"October 27, 1959",Virginia,No,Yes
-379,Dennis Johnson,2003,2003,"September 18, 1954",Pepperdine,No,No
+379,Dennis Johnson,2003,2003,"September 18, 1954",Pepperdine,Yes,No
 380,Eric Musselman,2003,2007,"November 19, 1964",University of San Diego,No,No
 381,Jeff Bzdelik,2003,2005,"December 1, 1952",University of Illinois at Chicago,No,No
 382,Keith Smart,2003,2013,"September 21, 1964",Indiana,No,No
@@ -292,9 +292,9 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 391,Terry Porter,2004,2009,"April 8, 1963",University of Wisconsin-Stevens Point,No,No
 392,Avery Johnson,2005,2013,"March 25, 1965",Southern University and A&M College,No,No
 393,Chris Jent,2005,2005,"January 11, 1970",Ohio State,No,No
-394,Kevin McHale,2005,2016,"December 19, 1957",Minnesota,No,No
+394,Kevin McHale,2005,2016,"December 19, 1957",Minnesota,Yes,No
 395,Kevin Pritchard,2005,2005,"July 17, 1967",Kansas,No,No
-396,Michael Cooper,2005,2005,"April 15, 1956",New Mexico,No,No
+396,Michael Cooper,2005,2005,"April 15, 1956",New Mexico,Yes,No
 397,Mike Montgomery,2005,2006,"February 27, 1947",Cal State Long Beach,No,No
 398,Mike Woodson,2005,2014,"March 24, 1958",Indiana,No,No
 399,Sam Mitchell,2005,2016,"September 2, 1963",Mercer University,No,No
@@ -333,7 +333,7 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 432,Brett Brown,2014,2020,"February 16, 1961",Boston University,No,No
 433,Brian Shaw,2014,2015,"March 22, 1966",UC Santa Barbara,No,No
 434,Dave Joerger,2014,2019,"February 21, 1974",Minnesota State University Moorhead,No,No
-435,Jason Kidd,2014,2025,"March 23, 1973",California,No,Yes
+435,Jason Kidd,2014,2025,"March 23, 1973",California,Yes,Yes
 436,Jeff Hornacek,2014,2018,"May 3, 1963",Iowa State,No,No
 437,John Loyer,2014,2014,"December 29, 1964",University of Akron,No,No
 438,Michael Malone,2014,2025,"September 15, 1971",Loyola (MD),No,Yes
@@ -367,8 +367,8 @@ Coach ID,Coach,From,To,Birth Date,College,HOF,Active
 466,Mark Daigneault,2021,2025,"February 23, 1985",NA,No,Yes
 467,Nate Bjorkgren,2021,2021,"June 20, 1975",NA,No,No
 468,Stephen Silas,2021,2023,"August 6, 1973",NA,No,No
-469,Steve Nash,2021,2023,"February 7, 1974",NA,No,No
-470,Chauncey Billups,2022,2025,"September 25, 1976",NA,No,Yes
+469,Steve Nash,2021,2023,"February 7, 1974",NA,Yes,No
+470,Chauncey Billups,2022,2025,"September 25, 1976",NA,Yes,Yes
 471,Ime Udoka,2022,2025,"August 9, 1977",Portland State,No,Yes
 472,Jamahl Mosley,2022,2025,"October 6, 1978",NA,No,Yes
 473,Wes Unseld,2022,2024,"September 20, 1975",NA,No,No

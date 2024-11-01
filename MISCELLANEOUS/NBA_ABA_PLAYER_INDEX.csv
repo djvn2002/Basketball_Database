@@ -4487,7 +4487,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 5486,Kyle Collinsworth,2018,2018,G-F,6-6,210,"October 3, 1991",BYU,No,No
 5487,Charles Cooke,2018,2018,G,6-5,196,"July 1, 1994",Dayton,No,No
 5488,Matt Costello,2018,2018,F,6-9,245,"August 5, 1993",Michigan State,No,No
-5489,Torrey Craig,2018,2024,G-F,6-7,221,"December 19, 1990",USC Upstate,No,No
+5489,Torrey Craig,2018,2025,G-F,6-7,221,"December 19, 1990",USC Upstate,No,Yes
 5490,Tyler Dorsey,2018,2023,G,6-5,183,"February 18, 1996",Oregon,No,No
 5491,Damyean Dotson,2018,2022,G,6-5,210,"May 6, 1994","Oregon, Houston",No,No
 5492,Milton Doyle,2018,2018,G,6-4,185,"October 31, 1993",Loyola Chicago,No,No
@@ -4777,7 +4777,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 5776,Kevin Porter Jr.,2020,2025,G,6-4,203,"May 4, 2000",USC,No,Yes
 5777,Michael Porter Jr.,2020,2025,F,6-10,218,"June 29, 1998",Missouri,No,Yes
 5778,Josh Reaves,2020,2020,G,6-4,214,"June 4, 1997",Penn State,No,No
-5779,Cam Reddish,2020,2024,F,6-8,218,"September 1, 1999",Duke,No,No
+5779,Cam Reddish,2020,2025,F,6-8,218,"September 1, 1999",Duke,No,Yes
 5780,Naz Reid,2020,2025,F,6-9,264,"August 26, 1999",LSU,No,Yes
 5781,Justin Robinson,2020,2022,G,6-1,195,"October 12, 1997",Virginia Tech,No,No
 5782,Isaiah Roby,2020,2023,F,6-8,230,"February 3, 1998",Nebraska,No,No
@@ -5071,7 +5071,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6070,Jake LaRavia,2023,2025,F,6-8,235,"November 3, 2001","Indiana State University, Wake Forest",No,Yes
 6071,A.J. Lawson,2023,2024,G,6-6,179,"July 15, 2000",South Carolina,No,No
 6072,Kenneth Lofton Jr.,2023,2024,F,6-7,275,"August 14, 2002",Louisiana Tech,No,No
-6073,Tyrese Martin,2023,2023,G,6-6,215,"March 7, 1999","Rhode Island, UConn",No,No
+6073,Tyrese Martin,2023,2025,G,6-6,215,"March 7, 1999","Rhode Island, UConn",No,Yes
 6074,Bennedict Mathurin,2023,2025,G-F,6-6,210,"June 19, 2002",Arizona,No,Yes
 6075,Bryce McGowens,2023,2024,G-F,6-7,179,"November 8, 2002",Nebraska,No,No
 6076,Justin Minaya,2023,2024,F,6-5,210,"March 26, 1999",NA,No,No
@@ -5123,7 +5123,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6122,D.J. Carton,2024,2025,G,6-2,200,"August 5, 2000","Ohio State, Marquette",No,Yes
 6123,Colin Castleton,2024,2024,F,6-11,250,"May 25, 2000","Michigan, Florida",No,No
 6124,Malcolm Cazalon,2024,2024,G,6-6,212,"August 27, 2001",NA,No,No
-6125,Sidy Cissoko,2024,2024,G,6-8,200,"April 2, 2004",NA,No,No
+6125,Sidy Cissoko,2024,2025,G,6-8,200,"April 2, 2004",NA,No,Yes
 6126,Noah Clowney,2024,2025,F,6-10,210,"July 14, 2004",Alabama,No,Yes
 6127,Bilal Coulibaly,2024,2025,F,6-6,195,"July 26, 2004",NA,No,Yes
 6128,Ricky Council IV,2024,2025,G,6-6,205,"August 3, 2001","Wichita State, Arkansas",No,Yes
@@ -5154,7 +5154,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6153,GG Jackson II,2024,2024,F,6-9,215,"December 17, 2004",South Carolina,No,No
 6154,Trayce Jackson-Davis,2024,2025,F,6-9,245,"February 22, 2000",Indiana,No,Yes
 6155,Jaime Jaquez Jr.,2024,2025,G-F,6-6,225,"February 18, 2001",UCLA,No,Yes
-6156,Trey Jemison,2024,2024,C,6-11,260,"November 28, 1999","Clemson, UAB",No,No
+6156,Trey Jemison,2024,2025,C,6-11,260,"November 28, 1999","Clemson, UAB",No,Yes
 6157,Keyontae Johnson,2024,2024,F,6-5,230,"May 24, 2000","Florida, Kansas State",No,No
 6158,Colby Jones,2024,2025,G,6-6,205,"May 28, 2002",Xavier,No,Yes
 6159,Maxwell Lewis,2024,2024,F,6-7,195,"July 27, 2002",Pepperdine,No,No
@@ -5183,7 +5183,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6182,Duop Reath,2024,2025,C,6-11,245,"June 26, 1996","Lee College, LSU",No,Yes
 6183,Rayan Rupert,2024,2025,G,6-6,205,"May 31, 2004",NA,No,Yes
 6184,Jermaine Samuels,2024,2024,F,6-7,230,"November 13, 1998",Villanova,No,No
-6185,Adama Sanogo,2024,2024,F,6-9,245,"February 12, 2002",UConn,No,No
+6185,Adama Sanogo,2024,2025,F,6-9,245,"February 12, 2002",UConn,No,Yes
 6186,Gui Santos,2024,2025,F,6-8,209,"June 22, 2002",NA,No,Yes
 6187,Marcus Sasser,2024,2025,G,6-2,195,"September 21, 2000",Houston,No,Yes
 6188,Brice Sensabaugh,2024,2025,F,6-6,235,"October 30, 2003",Ohio State,No,Yes

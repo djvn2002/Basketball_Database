@@ -66,7 +66,9 @@ valid_team_urls <- team_urls %>%
   rename(`Team Abbr.` = team,
          Season = season,
          URL = url) %>%
-  select( `Team Name`,`Team Abbr.`,Season, League, URL)
+  select( `Team Name`,`Team Abbr.`,Season, League, URL) %>%
+  filter(!( `Team Abbr.` == "DLC" & Season == 1971),
+         !( `Team Abbr.` == "PTP" & Season == 1969))
 
 # URL path to write CSVs (Change the directory accordingly)
 url_path <- "C:/Users/djvia/OneDrive/Documents/Blog Website/Basketball_Database/URLS/ABA URLS/"

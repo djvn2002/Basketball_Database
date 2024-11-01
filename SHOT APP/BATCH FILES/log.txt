@@ -27,7 +27,7 @@ Player data successfully processed for the most recent WNBA season.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 13:18:12.31 on Thu 10/31/2024 
+WNBA Shots Script completed at 11:21:58.01 on Fri 11/01/2024 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -55,7 +55,7 @@ Player data successfully processed.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 13:19:41.68 on Thu 10/31/2024 
+NBA Shots Script completed at 11:23:14.98 on Fri 11/01/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -67,11 +67,14 @@ Running MNCAA Shots Script
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Trying to load men's college basketball player identity data for season: 2024
+Trying to load men's college basketball player identity data for season: 2025
+Trying to load men's college basketball player identity data for fallback season: 2024
 Player identity data successfully processed for men's college basketball.
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
-Trying to load men's college basketball play-by-play data for season: 2024
+Trying to load men's college basketball play-by-play data for season: 2025
+Men's college basketball play-by-play data not available for season: 2025
+Trying to load men's college basketball play-by-play data for fallback season: 2024
 Play-by-play data successfully processed for men's college basketball.
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
@@ -81,7 +84,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 13:21:34.46 on Thu 10/31/2024 
+MNCAA Shots Script completed at 11:25:10.12 on Fri 11/01/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -110,5 +113,5 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at 13:22:28.17 on Thu 10/31/2024 
-All scripts have completed successfully at 13:22:28.17 on Thu 10/31/2024 
+WNCAA Shots Script completed at 11:26:03.19 on Fri 11/01/2024 
+All scripts have completed successfully at 11:26:03.19 on Fri 11/01/2024 

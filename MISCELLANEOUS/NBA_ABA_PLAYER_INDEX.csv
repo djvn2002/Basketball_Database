@@ -3546,7 +3546,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 4545,Quinton Ross,2005,2011,G,6-6,195,"April 30, 1981",SMU,No,No
 4546,Ha Seung-Jin,2005,2006,C,7-3,305,"August 4, 1985",NA,No,No
 4547,Donta Smith,2005,2006,G-F,6-7,215,"November 27, 1983",Southeastern Illinois College,No,No
-4548,J.R. Smith,2005,2020,G-F,6-6,225,"September 9, 1985",NA,No,No
+4548,J.R. Smith,2005,2020,G-F,6-6,225,"September 9, 1985",North Carolina A&T,No,No
 4549,Josh Smith,2005,2018,F,6-9,225,"December 5, 1985",NA,No,No
 4550,Kirk Snyder,2005,2008,G,6-6,225,"June 5, 1983",Nevada,No,No
 4551,Pape Sow,2005,2007,F,6-10,250,"November 22, 1981",Cal State Fullerton,No,No
@@ -4070,7 +4070,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 5069,Patrick Beverley,2013,2024,G,6-2,180,"July 12, 1988",Arkansas,No,No
 5070,Victor Claver,2013,2015,F,6-9,224,"August 30, 1988",NA,No,No
 5071,Chris Copeland,2013,2016,F,6-9,239,"March 17, 1984",Colorado,No,No
-5072,Jae Crowder,2013,2024,F,6-6,235,"July 6, 1990",Marquette,No,No
+5072,Jae Crowder,2013,2025,F,6-6,235,"July 6, 1990",Marquette,No,Yes
 5073,Jared Cunningham,2013,2016,G,6-4,195,"May 22, 1991",Oregon State,No,No
 5074,Anthony Davis,2013,2025,F-C,6-10,253,"March 11, 1993",Kentucky,No,Yes
 5075,Nando De Colo,2013,2014,G,6-5,200,"June 23, 1987",NA,No,No
@@ -4980,7 +4980,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 5979,Kevin Pangos,2022,2022,G,6-2,179,"January 26, 1993",Gonzaga,No,No
 5980,Jamorko Pickett,2022,2022,G-F,6-9,206,"December 24, 1997",Georgetown,No,No
 5981,Yves Pons,2022,2022,F,6-6,215,"May 7, 1999",Tennessee,No,No
-5982,Micah Potter,2022,2024,C,6-10,248,"April 6, 1998","Ohio State, Wisconsin",No,No
+5982,Micah Potter,2022,2025,C,6-10,248,"April 6, 1998","Ohio State, Wisconsin",No,Yes
 5983,Myles Powell,2022,2022,G,6-2,195,"July 7, 1997",Seton Hall,No,No
 5984,Joshua Primo,2022,2024,G,6-6,190,"December 24, 2002",Alabama,No,No
 5985,Trevelin Queen,2022,2025,G,6-6,190,"February 25, 1997","College of Marin, New Mexico Military Institute, New Mexico State",No,Yes
@@ -5197,7 +5197,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6196,Amen Thompson,2024,2025,G,6-7,209,"January 30, 2003",NA,No,Yes
 6197,Ausar Thompson,2024,2025,G,6-7,215,"January 30, 2003",NA,No,Yes
 6198,Jacob Toppin,2024,2025,F,6-9,205,"May 8, 2000","Rhode Island, Kentucky",No,Yes
-6199,Oscar Tshiebwe,2024,2024,F,6-9,260,"November 27, 1999","West Virginia, Kentucky",No,No
+6199,Oscar Tshiebwe,2024,2025,F,6-9,260,"November 27, 1999","West Virginia, Kentucky",No,Yes
 6200,Hunter Tyson,2024,2025,F,6-8,215,"June 13, 2000",Clemson,No,Yes
 6201,Sasha Vezenkov,2024,2024,F,6-9,225,"August 6, 1995",NA,No,No
 6202,Tristan Vukcevic,2024,2024,F-C,6-10,223,"March 11, 2003",NA,No,No
@@ -5221,7 +5221,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6220,Ulrich Chomche,2025,2025,F-C,6-10,235,"December 30, 2005",NA,No,Yes
 6221,Donovan Clingan,2025,2025,C,7-2,280,"February 23, 2004",UConn,No,Yes
 6222,Isaiah Collier,2025,2025,G,6-3,210,"October 8, 2004",USC,No,Yes
-6223,Yongxi Cui,2025,2025,G,6-6,190,"May 28, 2003",NA,No,Yes
+6223,Cui Yongxi,2025,2025,G,6-6,190,"May 28, 2003",NA,No,Yes
 6224,Tristan Da Silva,2025,2025,F,6-8,217,"May 15, 2001",Colorado,No,Yes
 6225,Pacome Dadiet,2025,2025,F,6-7,210,"July 27, 2005",NA,No,Yes
 6226,Rob Dillingham,2025,2025,G,6-1,176,"January 4, 2005",Kentucky,No,Yes

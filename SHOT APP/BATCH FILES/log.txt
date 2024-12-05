@@ -11,23 +11,15 @@ Running WNBA Shots Script
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 Trying to load WNBA shot data for season: 2024
-Shot data successfully processed for the most recent WNBA season.
-`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
-override using the `.groups` argument.
-`summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
-override using the `.groups` argument.
-Joining with `by = join_by(team_name)`
-`summarise()` has grouped output by 'season'. You can override using the
-`.groups` argument.
-Joining with `by = join_by(team_id)`
-Trying to load WNBA player data for season: 2024
-Player data successfully processed for the most recent WNBA season.
-`summarise()` has grouped output by 'season'. You can override using the
-`.groups` argument.
-Joining with `by = join_by(athlete_id)`
-Joining with `by = join_by(athlete_id)`
-Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 13:20:34.07 on Wed 12/04/2024 
+WNBA shot data not available for season: 2024
+Trying to load WNBA shot data for fallback season: 2023
+WNBA shot data not available for fallback season: 2023
+No shot data processed for either the most recent or fallback WNBA season.
+Error in UseMethod("group_by") : 
+  no applicable method for 'group_by' applied to an object of class "NULL"
+Calls: %>% -> distinct -> group_by
+Execution halted
+WNBA Shots Script failed or data was skipped at  5:08:13.46 on Thu 12/05/2024 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -55,7 +47,7 @@ Player data successfully processed.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 13:23:08.24 on Wed 12/04/2024 
+NBA Shots Script completed at 13:28:33.34 on Thu 12/05/2024 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -81,7 +73,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 13:24:35.59 on Wed 12/04/2024 
+MNCAA Shots Script completed at 13:29:31.11 on Thu 12/05/2024 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -107,5 +99,5 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at 13:25:28.12 on Wed 12/04/2024 
-All scripts have completed successfully at 13:25:28.12 on Wed 12/04/2024 
+WNCAA Shots Script completed at 13:30:05.45 on Thu 12/05/2024 
+All scripts have completed successfully at 13:30:05.45 on Thu 12/05/2024 

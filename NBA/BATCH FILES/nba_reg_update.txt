@@ -25,8 +25,8 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-12-04 23:05:04
-Total processing time: 2.23 minutes
+Processing batch 1 of 1 at 2024-12-05 23:05:04
+Total processing time: 2.19 minutes
 # A tibble: 92 × 2
    Birthplace Country               
    <chr>      <chr>                 
@@ -42,7 +42,7 @@ Total processing time: 2.23 minutes
 10 bs         Bahamas               
 # ℹ 82 more rows
 Joining with `by = join_by(Birthplace)`
-Rows: 5282 Columns: 11
+Rows: 5284 Columns: 11
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: ","
 chr (7): Player, Pos, Ht, Birth Date, Colleges, HOF, Active
@@ -60,7 +60,7 @@ dbl (3): Franchise ID, From, To
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] "nba_reg_roster has been updated and saved to NBA_PLAYER_REG_ROSTER.rda"
 [1] TRUE
-NBA Roster Update Script completed at 23:07:19.90 on Wed 12/04/2024 
+NBA Roster Update Script completed at 23:07:16.13 on Thu 12/05/2024 
 Running NBA Player Total Update Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -87,7 +87,7 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-12-04 23:09:21
+Processing batch 1 of 1 at 2024-12-05 23:09:18
 Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
@@ -124,117 +124,117 @@ Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - n
 Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Exhausted retries for URL: https://www.basketball-reference.com/teams/CLE/2025.html
-Rate limited. Retrying in 30.3954132332001 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 40.1004989608191 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 42.2481620369945 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 30.5420702614356 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 42.9752303101122 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 35.0927152473014 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 42.4984762142412 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 31.6670116328169 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 35.3736178495456 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 44.0219092508778 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/DAL/2025.html
-Rate limited. Retrying in 36.8212343053892 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 38.2560825906694 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 30.0942219339777 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 35.3590805560816 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 42.2915844828822 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 35.4134664754383 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 39.1107945539989 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 34.0691294381395 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 40.0120747054461 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 38.5812566801906 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/DEN/2025.html
-Rate limited. Retrying in 34.8690754501149 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 35.8764100901317 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 43.184178021038 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 37.6569056650624 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 43.79641752108 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 42.6738139218651 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 37.4939493415877 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 36.4224853331689 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 39.366789010819 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 37.681609938154 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/DET/2025.html
-Rate limited. Retrying in 37.2167085309047 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 33.1112303689588 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 33.0323124770075 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 32.5670210283715 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 41.040472764289 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 39.1817858687136 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 42.0051722426433 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 34.5433581364341 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 38.1509209249634 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 32.7480056590866 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/GSW/2025.html
-Rate limited. Retrying in 35.8211992029101 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 34.3999344971962 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 41.5340184315573 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 34.3313099141233 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 31.9058764935471 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 42.516933028819 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 40.934757781215 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 37.1072171267588 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 31.077065540012 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 41.2522355618421 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/HOU/2025.html
-Rate limited. Retrying in 37.7093120478094 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 38.41877567349 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 38.3103854383808 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 34.030643828446 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 31.3602750655264 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 42.8912156028673 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 34.0982894960325 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 33.195120440796 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 39.979760638671 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 43.6233791790437 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/IND/2025.html
-Rate limited. Retrying in 36.9427972391713 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 39.9223400442861 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 32.7282128494699 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 44.9094286223408 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 42.1330201160163 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 35.4422279354185 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 33.7241920642555 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 43.2039795548189 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 31.9090574292932 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 34.0910823654849 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/LAC/2025.html
-Rate limited. Retrying in 34.1172657406423 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 30.0226795754861 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 31.4177817490418 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 37.6365079858806 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 42.5443672912661 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 34.3975138559472 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 36.6859634011053 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 40.0115602381993 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 38.9279474120121 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 43.7450517411344 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/LAL/2025.html
-Rate limited. Retrying in 34.7929386771284 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 40.6652647338342 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 40.6015603838023 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 40.2467624342535 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 40.1254659437109 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 42.3369548656046 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 31.6790538222995 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 34.3856728880201 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 37.3377624177374 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 31.288554368075 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/MEM/2025.html
-Rate limited. Retrying in 34.4315767893568 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 38.6702795431484 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 38.7104557058774 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 31.8817213049624 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 44.0027911879588 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 38.8758381153457 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 41.576825795928 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 37.4955045967363 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 39.7701523359865 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 40.0294868624769 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/MIA/2025.html
-Rate limited. Retrying in 40.629948573187 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 31.9900995120406 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 40.1839296449907 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 33.3974743599538 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 38.7698160402942 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 38.4944213333074 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 40.0753870024346 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 30.4569214198273 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 30.3088602307253 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 42.7741938654799 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/MIL/2025.html
-Rate limited. Retrying in 41.2437169603072 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 33.2243131881114 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 36.8355762062129 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 34.223172229249 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 44.2434940917883 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 34.097002329072 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 39.7620119224302 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 43.8539110869169 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 35.4872100928333 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 31.7427299218252 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/MIN/2025.html
-Rate limited. Retrying in 39.5963290182408 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 37.0471155596897 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 42.9838815517724 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 31.0150653321762 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 35.372277967399 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 34.5473534474149 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 36.8042180221528 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 35.8925749221817 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 35.0612281600479 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 31.720398348989 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/NOP/2025.html
-Rate limited. Retrying in 37.5944563723169 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 33.1196423457004 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 44.0093589713797 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 31.0102856741287 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 41.9569590326864 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 30.0057844701223 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 35.8552215399686 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 44.8139606975019 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 39.0733382210601 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 32.5487493560649 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/NYK/2025.html
-Rate limited. Retrying in 39.7564965463243 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 41.6189175308682 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 30.6477191846352 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 41.3572522904724 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 39.1353020968381 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 36.1144912149757 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 32.6193122577388 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 36.5845664252993 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 33.1814636313356 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 35.7087548123673 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/OKC/2025.html
-Rate limited. Retrying in 42.5910540798213 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 43.9496420917567 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 39.0335146535654 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 42.1981595875695 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 39.4799637270626 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 43.0801171681378 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 42.492138587404 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 37.1140599413775 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 37.5922800356057 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 36.1590359138791 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/ORL/2025.html
-Rate limited. Retrying in 38.7958164175507 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 38.9802774356212 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 44.5993798726704 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 32.6172704959754 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 42.1040258626454 seconds... (Attempt 5 of 5 )
+Rate limited. Retrying in 37.6926380640361 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 34.1246101842262 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 40.8282840054017 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 37.116545510944 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 30.5583316530101 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/PHI/2025.html
-Rate limited. Retrying in 32.6610045181587 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 30.5426648876164 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 39.7805694141425 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 38.672839634819 seconds... (Attempt 4 of 5 )
-Error scraping URL: https://www.basketball-reference.com/teams/PHO/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Rate limited. Retrying in 34.6549081464764 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 42.3401091399137 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 36.249375109328 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 32.5850157556124 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 32.1336082729977 seconds... (Attempt 5 of 5 )
 Exhausted retries for URL: https://www.basketball-reference.com/teams/PHO/2025.html
-Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
-Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
-Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Rate limited. Retrying in 42.0201945933513 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 38.322300107684 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 44.584306179313 seconds... (Attempt 3 of 5 )
 Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Exhausted retries for URL: https://www.basketball-reference.com/teams/POR/2025.html
@@ -266,11 +266,11 @@ Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - n
 Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
-Rate limited. Retrying in 32.9505715251435 seconds... (Attempt 5 of 5 )
+Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
 Exhausted retries for URL: https://www.basketball-reference.com/teams/WAS/2025.html
-Total processing time: 62.9 minutes
+Total processing time: 62.67 minutes
 Error in UseMethod("filter") : 
   no applicable method for 'filter' applied to an object of class "list"
 Calls: %>% -> filter
 Execution halted
-NBA Player Total Update Script failed at  0:12:16.04 on Thu 12/05/2024 
+NBA Player Total Update Script failed at  0:11:58.85 on Fri 12/06/2024 

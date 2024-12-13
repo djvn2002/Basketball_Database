@@ -33,7 +33,7 @@ dbl (9): G, W, L, W/L%, GB, SRS, Season, Division Rank, Conference Rank
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-12-12 03:00:05
+Processing batch 1 of 1 at 2024-12-12 23:02:49
 Total processing time: 2.04 minutes
 Rows: 84 Columns: 6
 ── Column specification ────────────────────────────────────────────────────────
@@ -44,4 +44,4 @@ dbl (3): Franchise ID, From, To
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] TRUE
-NBA Standings Update Script completed at  3:02:08.35 on Thu 12/12/2024 
+NBA Standings Update Script completed at 23:04:51.97 on Thu 12/12/2024 

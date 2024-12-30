@@ -11,7 +11,7 @@ Running NBA ABA Coach Index Script
 ✖ readr::guess_encoding() masks rvest::guess_encoding()
 ✖ dplyr::lag()            masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-NBA ABA Coach Index Script completed at 23:00:45.25 on Sat 12/28/2024 
+NBA ABA Coach Index Script completed at 11:08:37.87 on Mon 12/30/2024 
 Running NBA ABA Player Index Script 
 
 Attaching package: 'lubridate'
@@ -39,5 +39,5 @@ The following objects are masked from 'package:base':
 5        1005 John Ba…  1947  1947 F     6-3     205 August 18, … Penn St… No   
 6        1006 Frankie…  1947  1947 G     5-10    170 October 7, … Ohio Un… No   
 # ℹ 1 more variable: Active <chr>
-NBA ABA Player Index Script completed at 23:02:57.35 on Sat 12/28/2024 
-All scripts have completed successfully at 23:02:57.35 on Sat 12/28/2024 
+NBA ABA Player Index Script completed at 11:10:48.38 on Mon 12/30/2024 
+All scripts have completed successfully at 11:10:48.38 on Mon 12/30/2024 

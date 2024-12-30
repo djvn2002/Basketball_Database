@@ -25,8 +25,8 @@ dbl (1): Season
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2024-12-27 23:13:00
-Total processing time: 2.22 minutes
+Processing batch 1 of 1 at 2024-12-29 23:50:54
+Total processing time: 2.15 minutes
 # A tibble: 92 × 2
    Birthplace Country               
    <chr>      <chr>                 
@@ -60,3 +60,217 @@ dbl (3): Franchise ID, From, To
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 [1] "nba_reg_roster has been updated and saved to NBA_PLAYER_REG_ROSTER.rda"
 [1] TRUE
+NBA Roster Update Script completed at 23:53:04.21 on Sun 12/29/2024 
+Running NBA Player Total Update Script 
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Rows: 1694 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): Team Name, Team Abbr., League, URL
+dbl (1): Season
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Processing batch 1 of 1 at 2024-12-29 23:55:05
+Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/ATL/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Exhausted retries for URL: https://www.basketball-reference.com/teams/ATL/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/BOS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BOS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BOS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BOS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BOS/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Exhausted retries for URL: https://www.basketball-reference.com/teams/BOS/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/BRK/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BRK/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BRK/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BRK/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/BRK/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Exhausted retries for URL: https://www.basketball-reference.com/teams/BRK/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/CHI/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHI/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHI/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHI/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHI/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Exhausted retries for URL: https://www.basketball-reference.com/teams/CHI/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/CHO/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHO/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHO/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHO/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CHO/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Exhausted retries for URL: https://www.basketball-reference.com/teams/CHO/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Error scraping URL: https://www.basketball-reference.com/teams/CLE/2025.html - no applicable method for 'html_table' applied to an object of class "xml_missing"
+Exhausted retries for URL: https://www.basketball-reference.com/teams/CLE/2025.html
+Rate limited. Retrying in 43.3763829362579 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 38.5762658715248 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 39.7300365509 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 43.7033723574132 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 40.0250109366607 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/DAL/2025.html
+Rate limited. Retrying in 43.2450949342456 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 42.6731509168167 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 37.0987378084101 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 39.2893639532849 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 41.0549058322795 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/DEN/2025.html
+Rate limited. Retrying in 30.7619731093291 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 44.9045709846541 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 39.5822704571765 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 31.4747256052215 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 32.4462072341703 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/DET/2025.html
+Rate limited. Retrying in 35.3468495467678 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 38.1081357691437 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 32.0493439107668 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 32.8096402308438 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 33.6773189739324 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/GSW/2025.html
+Rate limited. Retrying in 40.8352543995716 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 44.705676252488 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 30.0175031321123 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 38.0355418869294 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 41.9400937005412 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/HOU/2025.html
+Rate limited. Retrying in 37.9535365663469 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 41.1618748982437 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 34.2390941572376 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 42.4801608757116 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 35.0696170481388 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/IND/2025.html
+Rate limited. Retrying in 39.04960095766 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 38.3197184989695 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 44.1583246167284 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 36.0320543905254 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 36.7876384221017 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/LAC/2025.html
+Rate limited. Retrying in 41.2767549336422 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 44.9112945632078 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 44.4580876606051 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 43.3572955580894 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 38.9086633140687 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/LAL/2025.html
+Rate limited. Retrying in 36.2940720620099 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 38.1714215234388 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 32.2361787955742 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 35.2696690696757 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 43.311164053157 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/MEM/2025.html
+Rate limited. Retrying in 34.5881624543108 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 36.5607845142949 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 39.2224652774166 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 34.5580053236336 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 43.4656799992081 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/MIA/2025.html
+Rate limited. Retrying in 32.5729927048087 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 43.9741435402539 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 31.7741134471726 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 40.8282444952056 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 44.0090237616096 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/MIL/2025.html
+Rate limited. Retrying in 30.1756366482005 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 32.6606859988533 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 34.8522434779443 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 36.7189678468276 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 33.8847984583117 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/MIN/2025.html
+Rate limited. Retrying in 39.581603219267 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 44.2503628937993 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 32.1723760559689 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 37.5194028380793 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 31.5541284286883 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/NOP/2025.html
+Rate limited. Retrying in 33.7732347333804 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 38.8260074146092 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 32.3585105279926 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 44.5663123496342 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 39.4003155548126 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/NYK/2025.html
+Rate limited. Retrying in 40.8582126139663 seconds... (Attempt 1 of 5 )
+Rate limited. Retrying in 33.2759826409165 seconds... (Attempt 2 of 5 )
+Rate limited. Retrying in 37.2890961414669 seconds... (Attempt 3 of 5 )
+Rate limited. Retrying in 37.5638557237107 seconds... (Attempt 4 of 5 )
+Rate limited. Retrying in 37.1551598247606 seconds... (Attempt 5 of 5 )
+Exhausted retries for URL: https://www.basketball-reference.com/teams/OKC/2025.html
+Rate limited. Retrying in 31.0661800077651 seconds... (Attempt 1 of 5 )
+Error scraping URL: https://www.basketball-reference.com/teams/ORL/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/ORL/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/ORL/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/ORL/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/ORL/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/PHI/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHI/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHI/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHI/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHI/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/PHI/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/PHO/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHO/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHO/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHO/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/PHO/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/PHO/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/POR/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/POR/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/SAC/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAC/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAC/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAC/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAC/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/SAC/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/SAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/SAS/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/SAS/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/TOR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/TOR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/TOR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/TOR/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/TOR/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/TOR/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/UTA/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/UTA/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/UTA/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/UTA/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/UTA/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/UTA/2025.html
+Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - Could not resolve host: www.basketball-reference.com
+Error scraping URL: https://www.basketball-reference.com/teams/WAS/2025.html - Could not resolve host: www.basketball-reference.com
+Exhausted retries for URL: https://www.basketball-reference.com/teams/WAS/2025.html
+Total processing time: 50.98 minutes
+Error in UseMethod("filter") : 
+  no applicable method for 'filter' applied to an object of class "list"
+Calls: %>% -> filter
+Execution halted
+NBA Player Total Update Script failed at  0:46:04.84 on Mon 12/30/2024 

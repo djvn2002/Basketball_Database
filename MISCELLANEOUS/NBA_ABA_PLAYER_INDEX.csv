@@ -4597,7 +4597,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 5596,Miles Bridges,2019,2025,G-F,6-7,225,"March 21, 1998",Michigan State,No,Yes
 5597,Isaiah Briscoe,2019,2019,G,6-3,215,"April 13, 1996",Kentucky,No,No
 5598,Ryan Broekhoff,2019,2020,F,6-6,215,"August 23, 1990",Valparaiso,No,No
-5599,Bruce Brown,2019,2024,G-F,6-4,202,"August 15, 1996",Miami (FL),No,No
+5599,Bruce Brown,2019,2025,G-F,6-4,202,"August 15, 1996",Miami (FL),No,Yes
 5600,Troy Brown Jr.,2019,2024,G-F,6-6,215,"July 28, 1999",Oregon,No,No
 5601,Jalen Brunson,2019,2025,G,6-2,190,"August 31, 1996",Villanova,No,Yes
 5602,Deonte Burton,2019,2023,G,6-4,240,"January 31, 1994","Marquette, Iowa State",No,No
@@ -5170,7 +5170,7 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6169,Dariq Whitehead,2024,2025,F,6-7,220,"August 1, 2004",Duke,No,Yes
 6170,Taze Moore,2024,2025,G,6-5,195,"June 29, 1998","Cal State-Bakersfield, Houston",No,Yes
 6171,Kris Murray,2024,2025,F,6-8,220,"August 19, 2000",Iowa,No,Yes
-6172,Pete Nance,2024,2024,F,6-11,230,"February 19, 2000","Northwestern, UNC",No,No
+6172,Pete Nance,2024,2025,F,6-11,230,"February 19, 2000","Northwestern, UNC",No,Yes
 6173,Markquis Nowell,2024,2024,G,5-8,160,"December 25, 1999","Little Rock, Kansas State",No,No
 6174,Mãozinha Pereira,2024,2024,F,6-8,177,"August 28, 2000",NA,No,No
 6175,Drew Peterson,2024,2025,G,6-9,205,"November 9, 1999","Rice University, USC",No,Yes
@@ -5264,24 +5264,25 @@ Player ID,Player,From,To,Pos,Ht,Wt,Birth Date,Colleges,HOF,Active
 6263,Jonathan Mogbo,2025,2025,F,6-9,225,"October 29, 2001","Missouri State, San Francisco",No,Yes
 6264,Tristen Newton,2025,2025,G,6-5,190,"April 26, 2001","East Carolina University, UConn",No,Yes
 6265,Quincy Olivari,2025,2025,G,6-3,198,"May 27, 2001","Rice University, Xavier",No,Yes
-6266,Alex Reese,2025,2025,F,6-9,245,"May 21, 1999",Alabama,No,Yes
-6267,Antonio Reeves,2025,2025,G,6-5,205,"November 20, 2000","Illinois State, Kentucky",No,Yes
-6268,Zaccharie Risacher,2025,2025,F,6-8,200,"April 8, 2005",NA,No,Yes
-6269,Liam Robbins,2025,2025,F,7-0,250,"July 12, 1999","Drake University, Minnesota, Vanderbilt",No,Yes
-6270,Tidjane Salaün,2025,2025,F,6-9,207,"August 10, 2005",NA,No,Yes
-6271,Alex Sarr,2025,2025,F,7-0,205,"April 26, 2005",NA,No,Yes
-6272,Baylor Scheierman,2025,2025,G,6-6,205,"September 26, 2000","South Dakota State, Creighton",No,Yes
-6273,Terrence Shannon Jr.,2025,2025,G,6-6,215,"July 30, 2000","Texas Tech, Illinois",No,Yes
-6274,Jamal Shead,2025,2025,G,6-0,200,"June 24, 2002",Houston,No,Yes
-6275,Reed Sheppard,2025,2025,G,6-2,185,"June 24, 2004",Kentucky,No,Yes
-6276,KJ Simpson,2025,2025,G,6-0,189,"August 8, 2002",Colorado,No,Yes
-6277,Tyler Smith,2025,2025,F,6-11,224,"November 2, 2004",NA,No,Yes
-6278,Cam Spencer,2025,2025,G,6-3,205,"April 6, 2000","Loyola (MD), Rutgers University, UConn",No,Yes
-6279,Armel Traoré,2025,2025,F,6-8,215,"January 23, 2003",NA,No,Yes
-6280,Luke Travers,2025,2025,G,6-8,199,"September 3, 2001",NA,No,Yes
-6281,Jaylon Tyson,2025,2025,G,6-6,215,"December 2, 2002","Texas, Texas Tech, California",No,Yes
-6282,Keaton Wallace,2025,2025,G,6-3,195,"February 26, 1999",Texas-San Antonio,No,Yes
-6283,Ja'Kobe Walter,2025,2025,G,6-5,180,"September 4, 2004",Baylor,No,Yes
-6284,Kel'el Ware,2025,2025,C,7-0,230,"April 20, 2004","Oregon, Indiana",No,Yes
-6285,Jaylen Wells,2025,2025,F,6-7,206,"August 26, 2003","Sonoma State University, Washington State",No,Yes
-6286,Cody Williams,2025,2025,G-F,6-7,190,"November 20, 2004",Colorado,No,Yes
+6266,Quinten Post,2025,2025,F,7-0,238,"March 21, 2000","Mississippi State, Boston College",No,Yes
+6267,Alex Reese,2025,2025,F,6-9,245,"May 21, 1999",Alabama,No,Yes
+6268,Antonio Reeves,2025,2025,G,6-5,205,"November 20, 2000","Illinois State, Kentucky",No,Yes
+6269,Zaccharie Risacher,2025,2025,F,6-8,200,"April 8, 2005",NA,No,Yes
+6270,Liam Robbins,2025,2025,F,7-0,250,"July 12, 1999","Drake University, Minnesota, Vanderbilt",No,Yes
+6271,Tidjane Salaün,2025,2025,F,6-9,207,"August 10, 2005",NA,No,Yes
+6272,Alex Sarr,2025,2025,F,7-0,205,"April 26, 2005",NA,No,Yes
+6273,Baylor Scheierman,2025,2025,G,6-6,205,"September 26, 2000","South Dakota State, Creighton",No,Yes
+6274,Terrence Shannon Jr.,2025,2025,G,6-6,215,"July 30, 2000","Texas Tech, Illinois",No,Yes
+6275,Jamal Shead,2025,2025,G,6-0,200,"June 24, 2002",Houston,No,Yes
+6276,Reed Sheppard,2025,2025,G,6-2,185,"June 24, 2004",Kentucky,No,Yes
+6277,KJ Simpson,2025,2025,G,6-0,189,"August 8, 2002",Colorado,No,Yes
+6278,Tyler Smith,2025,2025,F,6-11,224,"November 2, 2004",NA,No,Yes
+6279,Cam Spencer,2025,2025,G,6-3,205,"April 6, 2000","Loyola (MD), Rutgers University, UConn",No,Yes
+6280,Armel Traoré,2025,2025,F,6-8,215,"January 23, 2003",NA,No,Yes
+6281,Luke Travers,2025,2025,G,6-8,199,"September 3, 2001",NA,No,Yes
+6282,Jaylon Tyson,2025,2025,G,6-6,215,"December 2, 2002","Texas, Texas Tech, California",No,Yes
+6283,Keaton Wallace,2025,2025,G,6-3,195,"February 26, 1999",Texas-San Antonio,No,Yes
+6284,Ja'Kobe Walter,2025,2025,G,6-5,180,"September 4, 2004",Baylor,No,Yes
+6285,Kel'el Ware,2025,2025,C,7-0,230,"April 20, 2004","Oregon, Indiana",No,Yes
+6286,Jaylen Wells,2025,2025,F,6-7,206,"August 26, 2003","Sonoma State University, Washington State",No,Yes
+6287,Cody Williams,2025,2025,G-F,6-7,190,"November 20, 2004",Colorado,No,Yes

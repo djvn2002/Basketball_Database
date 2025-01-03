@@ -33,16 +33,15 @@ dbl (9): G, W, L, W/L%, GB, SRS, Season, Division Rank, Conference Rank
 
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Processing batch 1 of 1 at 2025-01-01 23:19:23
-Rate limited. Retrying in 39.2663798877038 seconds... (Attempt 1 of 5 )
-Rate limited. Retrying in 42.7088510175236 seconds... (Attempt 2 of 5 )
-Rate limited. Retrying in 31.3957917247899 seconds... (Attempt 3 of 5 )
-Rate limited. Retrying in 35.4199442476965 seconds... (Attempt 4 of 5 )
-Rate limited. Retrying in 42.929778797552 seconds... (Attempt 5 of 5 )
-Exhausted retries for URL: https://www.basketball-reference.com/leagues/NBA_2025.html
-Total processing time: 5.33 minutes
-Error in UseMethod("mutate") : 
-  no applicable method for 'mutate' applied to an object of class "list"
-Calls: %>% -> select -> filter -> mutate
-Execution halted
-NBA Standings Update Script failed at 23:24:43.31 on Wed 01/01/2025 
+Processing batch 1 of 1 at 2025-01-03 03:23:45
+Total processing time: 2.06 minutes
+Rows: 84 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): Team, Team Name, League
+dbl (3): Franchise ID, From, To
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] TRUE
+NBA Standings Update Script completed at  3:25:48.92 on Fri 01/03/2025 

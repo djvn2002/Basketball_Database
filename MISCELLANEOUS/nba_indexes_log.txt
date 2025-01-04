@@ -11,33 +11,7 @@ Running NBA ABA Coach Index Script
 ✖ readr::guess_encoding() masks rvest::guess_encoding()
 ✖ dplyr::lag()            masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-NBA ABA Coach Index Script completed at  3:00:12.89 on Fri 01/03/2025 
-Running NBA ABA Player Index Script 
-
-Attaching package: 'lubridate'
-
-The following objects are masked from 'package:base':
-
-    date, intersect, setdiff, union
-
-── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr   1.1.4     ✔ readr   2.1.5
-✔ forcats 1.0.0     ✔ tibble  3.2.1
-✔ ggplot2 3.5.1     ✔ tidyr   1.3.1
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter()         masks stats::filter()
-✖ readr::guess_encoding() masks rvest::guess_encoding()
-✖ dplyr::lag()            masks stats::lag()
-ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-# A tibble: 6 × 11
-  `Player ID` Player    From    To Pos   Ht       Wt `Birth Date` Colleges HOF  
-        <dbl> <chr>    <dbl> <dbl> <chr> <chr> <dbl> <chr>        <chr>    <chr>
-1        1001 John Ab…  1947  1948 F     6-3     195 February 9,… Salem U… No   
-2        1002 Chet Au…  1947  1947 G     5-10    137 May 18, 1916 Michiga… No   
-3        1003 Norm Ba…  1947  1947 G     6-0     180 February 17… <NA>     No   
-4        1004 Hersche…  1947  1947 F     6-4     195 June 21, 19… Penn St… No   
-5        1005 John Ba…  1947  1947 F     6-3     205 August 18, … Penn St… No   
-6        1006 Frankie…  1947  1947 G     5-10    170 October 7, … Ohio Un… No   
-# ℹ 1 more variable: Active <chr>
-NBA ABA Player Index Script completed at  3:02:20.60 on Fri 01/03/2025 
-All scripts have completed successfully at  3:02:20.60 on Fri 01/03/2025 
+Error in open.connection(x, "rb") : HTTP error 429.
+Calls: %>% ... scrape_coach_table -> read_html -> read_html.default
+Execution halted
+NBA ABA Coach Index Script failed at  2:57:44.27 on Sat 01/04/2025 

@@ -1663,33 +1663,33 @@ Utah Jazz,UTA,82,31,51,0.378,26,-4.22,NBA,2024,Northwest,4,Western,12,No
 Memphis Grizzlies,MEM,82,27,55,0.329,23,-6.57,NBA,2024,Southwest,4,Western,13,No
 San Antonio Spurs,SAS,82,22,60,0.268,28,-5.8,NBA,2024,Southwest,5,Western,14,No
 Portland Trail Blazers,POR,82,21,61,0.256,36,-8.29,NBA,2024,Northwest,5,Western,15,No
-Cleveland Cavaliers,CLE,33,29,4,0.879,0,9.74,NBA,2025,Central,1,Eastern,1,No
-Boston Celtics,BOS,34,25,9,0.735,0,9.2,NBA,2025,Atlantic,1,Eastern,2,No
-New York Knicks,NYK,34,24,10,0.706,1,6.03,NBA,2025,Atlantic,2,Eastern,3,No
-Orlando Magic,ORL,35,20,15,0.571,0,1.95,NBA,2025,Southeast,1,Eastern,4,No
-Milwaukee Bucks,MIL,32,17,15,0.531,11.5,0.84,NBA,2025,Central,2,Eastern,5,No
-Miami Heat,MIA,32,17,15,0.531,1.5,1.55,NBA,2025,Southeast,2,Eastern,6,No
-Atlanta Hawks,ATL,34,18,16,0.529,1.5,-1.69,NBA,2025,Southeast,3,Eastern,7,No
-Indiana Pacers,IND,35,17,18,0.486,13,-2.05,NBA,2025,Central,3,Eastern,8,No
-Detroit Pistons,DET,33,15,18,0.455,14,-2.36,NBA,2025,Central,4,Eastern,9,No
-Chicago Bulls,CHI,34,15,19,0.441,14.5,-3.26,NBA,2025,Central,5,Eastern,10,No
-Philadelphia 76ers,PHI,32,13,19,0.406,11,-4.05,NBA,2025,Atlantic,3,Eastern,11,No
-Brooklyn Nets,BRK,34,13,21,0.382,12,-4,NBA,2025,Atlantic,4,Eastern,12,No
-Toronto Raptors,TOR,34,8,26,0.235,17,-5.93,NBA,2025,Atlantic,5,Eastern,13,No
-Charlotte Hornets,CHO,32,7,25,0.219,11.5,-6.01,NBA,2025,Southeast,4,Eastern,14,No
-Washington Wizards,WAS,31,6,25,0.194,12,-9.88,NBA,2025,Southeast,5,Eastern,15,No
-Oklahoma City Thunder,OKC,33,28,5,0.848,0,11.63,NBA,2025,Northwest,1,Western,1,No
-Memphis Grizzlies,MEM,34,23,11,0.676,0,7.24,NBA,2025,Southwest,1,Western,2,No
-Houston Rockets,HOU,33,22,11,0.667,0.5,6.5,NBA,2025,Southwest,2,Western,3,No
-Denver Nuggets,DEN,32,19,13,0.594,8.5,3.31,NBA,2025,Northwest,2,Western,4,No
-Dallas Mavericks,DAL,34,20,14,0.588,3,4.66,NBA,2025,Southwest,3,Western,5,No
-Los Angeles Lakers,LAL,33,19,14,0.576,0,-2.21,NBA,2025,Pacific,1,Western,6,No
-Los Angeles Clippers,LAC,34,19,15,0.559,0.5,1.5,NBA,2025,Pacific,2,Western,7,No
-Minnesota Timberwolves,MIN,33,17,16,0.515,11,2.14,NBA,2025,Northwest,3,Western,8,No
-Golden State Warriors,GSW,33,17,16,0.515,2,3.02,NBA,2025,Pacific,3,Western,9,No
-San Antonio Spurs,SAS,33,17,16,0.515,5.5,-0.56,NBA,2025,Southwest,4,Western,10,No
-Phoenix Suns,PHO,32,15,17,0.469,3.5,-1.77,NBA,2025,Pacific,4,Western,11,No
-Sacramento Kings,SAC,34,15,19,0.441,4.5,-0.2,NBA,2025,Pacific,5,Western,12,No
-Portland Trail Blazers,POR,33,11,22,0.333,17,-8.71,NBA,2025,Northwest,4,Western,13,No
-Utah Jazz,UTA,32,7,25,0.219,20.5,-8.11,NBA,2025,Northwest,5,Western,14,No
-New Orleans Pelicans,NOP,34,5,29,0.147,18,-9.68,NBA,2025,Southwest,5,Western,15,No
+Cleveland Cavaliers,CLE,34,30,4,0.882,0,9.91,NBA,2025,Central,1,Eastern,1,No
+Boston Celtics,BOS,35,26,9,0.743,0,9.68,NBA,2025,Atlantic,1,Eastern,2,No
+New York Knicks,NYK,35,24,11,0.686,2,5.84,NBA,2025,Atlantic,2,Eastern,3,No
+Orlando Magic,ORL,36,21,15,0.583,0,1.97,NBA,2025,Southeast,1,Eastern,4,No
+Milwaukee Bucks,MIL,32,17,15,0.531,12,0.8,NBA,2025,Central,2,Eastern,5,No
+Miami Heat,MIA,32,17,15,0.531,2,1.54,NBA,2025,Southeast,2,Eastern,6,No
+Atlanta Hawks,ATL,35,18,17,0.514,2.5,-2.17,NBA,2025,Southeast,3,Eastern,7,No
+Indiana Pacers,IND,35,17,18,0.486,13.5,-2.04,NBA,2025,Central,3,Eastern,8,No
+Detroit Pistons,DET,34,16,18,0.471,14,-2.34,NBA,2025,Central,4,Eastern,9,No
+Chicago Bulls,CHI,34,15,19,0.441,15,-3.32,NBA,2025,Central,5,Eastern,10,No
+Philadelphia 76ers,PHI,32,13,19,0.406,11.5,-4.05,NBA,2025,Atlantic,3,Eastern,11,No
+Brooklyn Nets,BRK,34,13,21,0.382,12.5,-4.01,NBA,2025,Atlantic,4,Eastern,12,No
+Toronto Raptors,TOR,35,8,27,0.229,18,-5.94,NBA,2025,Atlantic,5,Eastern,13,No
+Charlotte Hornets,CHO,33,7,26,0.212,12.5,-6.08,NBA,2025,Southeast,4,Eastern,14,No
+Washington Wizards,WAS,32,6,26,0.188,13,-10.31,NBA,2025,Southeast,5,Eastern,15,No
+Oklahoma City Thunder,OKC,34,29,5,0.853,0,11.68,NBA,2025,Northwest,1,Western,1,No
+Memphis Grizzlies,MEM,35,23,12,0.657,0,6.89,NBA,2025,Southwest,1,Western,2,No
+Houston Rockets,HOU,34,22,12,0.647,0.5,5.91,NBA,2025,Southwest,2,Western,3,No
+Los Angeles Lakers,LAL,34,20,14,0.588,0,-1.68,NBA,2025,Pacific,1,Western,4,No
+Denver Nuggets,DEN,33,19,14,0.576,9.5,3.08,NBA,2025,Northwest,2,Western,5,No
+Dallas Mavericks,DAL,35,20,15,0.571,3,4.41,NBA,2025,Southwest,3,Western,6,No
+Los Angeles Clippers,LAC,34,19,15,0.559,1,1.45,NBA,2025,Pacific,2,Western,7,No
+San Antonio Spurs,SAS,34,18,16,0.529,4.5,-0.39,NBA,2025,Southwest,4,Western,8,No
+Minnesota Timberwolves,MIN,33,17,16,0.515,11.5,2.18,NBA,2025,Northwest,3,Western,9,No
+Golden State Warriors,GSW,33,17,16,0.515,2.5,2.97,NBA,2025,Pacific,3,Western,10,No
+Phoenix Suns,PHO,32,15,17,0.469,4,-1.74,NBA,2025,Pacific,4,Western,11,No
+Sacramento Kings,SAC,35,16,19,0.457,4.5,0.16,NBA,2025,Pacific,5,Western,12,No
+Portland Trail Blazers,POR,33,11,22,0.333,17.5,-8.72,NBA,2025,Northwest,4,Western,13,No
+Utah Jazz,UTA,32,7,25,0.219,21,-8.09,NBA,2025,Northwest,5,Western,14,No
+New Orleans Pelicans,NOP,35,6,29,0.171,17,-9.43,NBA,2025,Southwest,5,Western,15,No

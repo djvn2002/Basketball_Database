@@ -11,6 +11,8 @@ Running WNBA Shots Script
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 Trying to load WNBA shot data for season: 2024
+WNBA shot data not available for season: 2024
+Trying to load WNBA shot data for fallback season: 2023
 Shot data successfully processed for the most recent WNBA season.
 `summarise()` has grouped output by 'coordinate_x', 'coordinate_y'. You can
 override using the `.groups` argument.
@@ -27,7 +29,7 @@ Player data successfully processed for the most recent WNBA season.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 18:28:45.56 on Sun 01/26/2025 
+WNBA Shots Script completed at 14:19:13.85 on Mon 01/27/2025 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -55,7 +57,7 @@ Player data successfully processed.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 18:34:14.25 on Sun 01/26/2025 
+NBA Shots Script completed at 14:24:17.11 on Mon 01/27/2025 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -81,7 +83,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 18:36:11.86 on Sun 01/26/2025 
+MNCAA Shots Script completed at 14:25:33.71 on Mon 01/27/2025 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -98,8 +100,6 @@ Player identity data successfully processed for women's college basketball.
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Trying to load women's college basketball play-by-play data for season: 2025
-Women's college basketball play-by-play data not available for season: 2025
-Trying to load women's college basketball play-by-play data for fallback season: 2024
 Play-by-play data successfully processed for women's college basketball.
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
@@ -109,5 +109,5 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at 18:38:34.99 on Sun 01/26/2025 
-All scripts have completed successfully at 18:38:35.00 on Sun 01/26/2025 
+WNCAA Shots Script completed at 14:26:36.50 on Mon 01/27/2025 
+All scripts have completed successfully at 14:26:36.50 on Mon 01/27/2025 

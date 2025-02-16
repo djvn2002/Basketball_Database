@@ -27,7 +27,7 @@ Player data successfully processed for the most recent WNBA season.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 13:34:44.22 on Sat 02/15/2025 
+WNBA Shots Script completed at 11:15:36.80 on Sun 02/16/2025 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -55,7 +55,7 @@ Player data successfully processed.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 13:41:04.28 on Sat 02/15/2025 
+NBA Shots Script completed at 11:21:44.71 on Sun 02/16/2025 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -72,15 +72,16 @@ Player identity data successfully processed for men's college basketball.
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Trying to load men's college basketball play-by-play data for season: 2025
-Men's college basketball play-by-play data not available for season: 2025
-Trying to load men's college basketball play-by-play data for fallback season: 2024
-Men's college basketball play-by-play data not available for fallback season: 2024
-No play-by-play data processed for either the most recent or fallback season.
-Error in UseMethod("group_by") : 
-  no applicable method for 'group_by' applied to an object of class "NULL"
-Calls: %>% -> right_join -> summarise -> rename -> group_by
-Execution halted
-MNCAA Shots Script failed or data was skipped at 13:43:26.22 on Sat 02/15/2025 
+Play-by-play data successfully processed for men's college basketball.
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(athlete_id)`
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(season, team_id)`
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(season, team_id)`
+MNCAA Shots Script completed at 11:23:01.73 on Sun 02/16/2025 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -97,13 +98,14 @@ Player identity data successfully processed for women's college basketball.
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Trying to load women's college basketball play-by-play data for season: 2025
-Women's college basketball play-by-play data not available for season: 2025
-Trying to load women's college basketball play-by-play data for fallback season: 2024
-Women's college basketball play-by-play data not available for fallback season: 2024
-No play-by-play data processed for either the most recent or fallback season.
-Error in UseMethod("group_by") : 
-  no applicable method for 'group_by' applied to an object of class "NULL"
-Calls: %>% -> right_join -> summarise -> rename -> group_by
-Execution halted
-WNCAA Shots Script failed or data was skipped at 13:45:39.88 on Sat 02/15/2025 
-All scripts have completed successfully at 13:45:39.88 on Sat 02/15/2025 
+Play-by-play data successfully processed for women's college basketball.
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(athlete_id)`
+`summarise()` has grouped output by 'season'. You can override using the
+`.groups` argument.
+Joining with `by = join_by(season, team_id)`
+Joining with `by = join_by(athlete_id)`
+Joining with `by = join_by(season, team_id)`
+WNCAA Shots Script completed at 11:24:43.31 on Sun 02/16/2025 
+All scripts have completed successfully at 11:24:43.31 on Sun 02/16/2025 

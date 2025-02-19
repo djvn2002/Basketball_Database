@@ -27,7 +27,7 @@ Player data successfully processed for the most recent WNBA season.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-WNBA Shots Script completed at 14:59:25.22 on Mon 02/17/2025 
+WNBA Shots Script completed at 11:59:23.79 on Wed 02/19/2025 
 Running NBA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -55,7 +55,7 @@ Player data successfully processed.
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(team_id)`
-NBA Shots Script completed at 15:05:01.79 on Mon 02/17/2025 
+NBA Shots Script completed at 12:05:43.92 on Wed 02/19/2025 
 Running MNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -81,7 +81,7 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-MNCAA Shots Script completed at 15:06:03.27 on Mon 02/17/2025 
+MNCAA Shots Script completed at 12:07:06.06 on Wed 02/19/2025 
 Running WNCAA Shots Script 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -98,6 +98,8 @@ Player identity data successfully processed for women's college basketball.
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Joining with `by = join_by(team_display_name, team_abbreviation)`
 Trying to load women's college basketball play-by-play data for season: 2025
+Women's college basketball play-by-play data not available for season: 2025
+Trying to load women's college basketball play-by-play data for fallback season: 2024
 Play-by-play data successfully processed for women's college basketball.
 `summarise()` has grouped output by 'season'. You can override using the
 `.groups` argument.
@@ -107,5 +109,5 @@ Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
 Joining with `by = join_by(athlete_id)`
 Joining with `by = join_by(season, team_id)`
-WNCAA Shots Script completed at 15:07:07.82 on Mon 02/17/2025 
-All scripts have completed successfully at 15:07:07.82 on Mon 02/17/2025 
+WNCAA Shots Script completed at 12:09:42.41 on Wed 02/19/2025 
+All scripts have completed successfully at 12:09:42.41 on Wed 02/19/2025 
